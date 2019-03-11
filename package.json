@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "writespeakcode.com",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Website for Write/Speak/Code organization",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Nicola Beuscher <nbeuscher@gmail.com>",
   "dependencies": {
     "gatsby": "^2.1.22",
     "gatsby-image": "^2.0.31",
@@ -19,6 +19,9 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@storybook/react": "^5.0.1",
+    "babel-loader": "^8.0.5",
     "prettier": "^1.16.4"
   },
   "keywords": [
@@ -31,7 +34,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "storybook": "start-storybook"
   },
   "repository": {
     "type": "git",
