@@ -1,6 +1,6 @@
 ---
 name: Enhancement suggestion
-about: A single, discrete feature addition to the application
+about: A single, discrete feature addition to the website
 ---
 
 <!--
