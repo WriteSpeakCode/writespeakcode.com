@@ -8,19 +8,15 @@
   Write Speak Code Website
 </h1>
 
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
-    - [✨ Goals](#-goals)
-    - [💻 How to contribute](#-how-to-contribute)
-    - [💖 Quick start](#-quick-start)
-    	- [Dependencies](#dependencies)
-    	- [Developing](#developing)
-    - [🎭 Staging](#-staging)
-    - [🚀 Deployment](#-deployment)
-    - [📁 What's inside?](#-whats-inside)
-    - [🎓 Learning Gatsby](#-learning-gatsby)
-
-<!-- /TOC -->
+- [✨ Goals](#-goals)
+- [💻 How to contribute](#-how-to-contribute)
+- [💖 Quick start](#-quick-start)
+  - [Dependencies](#dependencies)
+  - [Developing](#developing)
+- [🎭 Staging](#-staging)
+- [🚀 Deployment](#-deployment)
+- [📁 What's inside?](#-whats-inside)
+- [🎓 Learning Gatsby](#-learning-gatsby)
 
 ## ✨ Goals
 
@@ -133,5 +129,3 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-<!-- AUTO-GENERATED-CONTENT:END -->
