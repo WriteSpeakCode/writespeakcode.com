@@ -8,9 +8,53 @@
   Write Speak Code Website
 </h1>
 
-## 🚀 Quick start
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-1.  **Clone the repo**
+    - [✨ Goals](#-goals)
+    - [💻 How to contribute](#-how-to-contribute)
+    - [💖 Quick start](#-quick-start)
+    	- [Dependencies](#dependencies)
+    	- [Developing](#developing)
+    - [🎭 Staging](#-staging)
+    - [🚀 Deployment](#-deployment)
+    - [📁 What's inside?](#-whats-inside)
+    - [🎓 Learning Gatsby](#-learning-gatsby)
+
+<!-- /TOC -->
+
+## ✨ Goals
+
+The goals of this website are as follows:
+
+- to improve the aesthetic and functionality of our digital presence
+- to streamline creation of conference pages each year
+- to add new features
+
+We aim to write code that is:
+
+- Consistent
+- Accessible
+- Performant
+- Ethical
+
+## 💻 How to contribute
+
+- Review the website goals
+- Read the [contributing doc](CONTRIBUTING.md) to learn how to claim an issue
+- Agree to and abide by our [code of conduct](http://www.writespeakcode.com/code-of-conduct)
+- Follow the instructions below to setup the site and begin development
+
+**Have a question?** _Make an issue using the question issue template._
+
+## 💖 Quick start
+
+### Dependencies
+
+- [Node](https://nodejs.org/en/) (v10.15.3)
+
+### Developing
+
+1.  **Clone the repo.**
 
     ```sh
     git clone https://github.com/WriteSpeakCode/writespeakcode.com.git
@@ -26,13 +70,21 @@
     npm run develop
     ```
 
-1.  **Start editing.**
+1.  **Write code.**
 
     The site is now running at `http://localhost:8000`
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-## 🧐 What's inside?
+## 🎭 Staging
+
+<!-- @TODO -->
+
+## 🚀 Deployment
+
+<!-- @TODO -->
+
+## 📁 What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 

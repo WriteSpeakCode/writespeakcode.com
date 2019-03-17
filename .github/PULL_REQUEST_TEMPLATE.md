@@ -4,7 +4,7 @@
 
 <!-- Summarize the problem being described in the issue -->
 
-### Proposed changes:
+### Proposed changes
 
 - < Bulleted summary of changes >
 -
