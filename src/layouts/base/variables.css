@@ -1,0 +1,19 @@
+:root {
+  --orange: #eb6851;
+  --navy: #172751;
+  --blush: #f1d8d3;
+  --mint: #c5e8d3;
+  --tan: #d5a96c;
+  --white: #ffffff;
+  --gray: #444444;
+
+  --bold: 700;
+  --semi-bold: 600;
+  --regular: 400;
+  --light: 100;
+
+  --small: 30em;
+  --medium: 42em;
+  --large: 63em;
+  --xlarge: 80em;
+}
