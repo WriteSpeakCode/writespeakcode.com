@@ -2,7 +2,7 @@
 
 ## Participation
 
-- Find an issue labelled `good first issue` or `todo` and claim it by assigning yourself.
+- Find an issue labelled `good first issue` or `help wanted` and claim it by assigning yourself.
 - Tag the person who created the issue or the [codeowners](/.github/codeowners) with any questions.
 
 ## Code of Conduct
