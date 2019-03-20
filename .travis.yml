@@ -3,5 +3,5 @@ node_js:
   - "10.15.3"
 
 script:
-  - npm run prettier
+  - ./test.sh
   - npm run build
