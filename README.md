@@ -8,6 +8,8 @@
   Write Speak Code Website
 </h1>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ad665e3b-60e0-491c-9126-7f5002058f16/deploy-status)](https://app.netlify.com/sites/writespeakcode/deploys)
+
 - [✨ Goals](#-goals)
 - [💻 How to contribute](#-how-to-contribute)
 - [💖 Quick start](#-quick-start)
