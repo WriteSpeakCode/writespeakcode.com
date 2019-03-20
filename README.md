@@ -38,7 +38,7 @@ We aim to write code that is:
 ## 💻 How to contribute
 
 - Review the website goals
-- Read the [contributing doc](CONTRIBUTING.md) to learn how to claim an issue
+- Read the [contributing doc](CONTRIBUTE.md)
 - Agree to and abide by our [code of conduct](http://www.writespeakcode.com/code-of-conduct)
 - Follow the instructions below to setup the site and begin development
 
