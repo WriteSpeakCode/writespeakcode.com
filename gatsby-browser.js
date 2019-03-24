@@ -5,4 +5,7 @@
  */
 
 // You can delete this file if you're not using it
-import("normalize.css")
+require("normalize.css")
+require("typeface-pt-sans-caption")
+require("typeface-open-sans")
+require("typeface-fira-mono")

@@ -21,7 +21,11 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "typeface-fira-mono": "0.0.72",
+    "typeface-open-sans": "0.0.54",
+    "typeface-pt-sans": "0.0.72",
+    "typeface-pt-sans-caption": "0.0.72"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",

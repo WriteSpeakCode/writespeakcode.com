@@ -1,0 +1,88 @@
+/* -------------------- */
+/* Variables */
+/* -------------------- */
+:root {
+  --orange: #eb6851;
+  --navy: #172751;
+  --blush: #f1d8d3;
+  --mint: #c5e8d3;
+  --tan: #d5a96c;
+  --white: #ffffff;
+  --gray: #444444;
+
+  --bold: 700;
+  --semi-bold: 600;
+  --regular: 400;
+  --light: 100;
+
+  --small: 30em;
+  --medium: 42em;
+  --large: 63em;
+  --xlarge: 80em;
+}
+
+/* -------------------- */
+/* Media Queries */
+/* -------------------- */
+@custom-media --small (min-width: 35em);
+@custom-media --medium (min-width: 42em);
+@custom-media --large (min-width: 63em);
+@custom-media --xlarge (min-width: 80em);
+
+/* -------------------- */
+/* Global Styles */
+/* -------------------- */
+body {
+  font-family: "Open Sans";
+  font-weight: var(--regular);
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--navy);
+  @media (--medium) {
+    font-size: 16px;
+  }
+  @media (--large) {
+    font-size: 18px;
+  }
+}
+
+a {
+  font-weight: var(--semi-bold);
+}
+
+.heading {
+  font-family: "PT Sans Caption";
+  font-weight: var(--bold);
+  line-height: 1.3;
+  font-size: 1.6em;
+  margin: 0.25em 0;
+  @media (--medium) {
+    font-size: 1.8em;
+  }
+}
+
+.subtitle {
+  display: inline;
+  font-family: "Open Sans";
+  font-weight: var(--light);
+  font-size: 1.3em;
+  line-height: 2.1;
+  background-color: var(--mint);
+}
+
+.heading--secondary {
+  font-family: "PT Sans Caption";
+  font-weight: var(--bold);
+  font-size: 1.5em;
+  line-height: 1.3;
+  margin: 0.25em 0;
+}
+
+.subtitle--secondary {
+  display: inline;
+  font-family: "Open Sans";
+  font-weight: var(--light);
+  font-size: 1.1em;
+  line-height: 2.1;
+  background-color: var(--blush);
+}
