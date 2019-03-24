@@ -1,5 +1,8 @@
+.background {
+  background-color: var(--white);
+  margin: 0.5em;
+}
 .container {
   max-width: 900px;
-  margin: 1em auto;
   padding: 1em;
 }

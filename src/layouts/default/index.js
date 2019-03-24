@@ -26,10 +26,12 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div className={styles.container}>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <main>{children}</main>
-        <footer>© {new Date().getFullYear()}</footer>
+      <div className={styles.background}>
+        <div className={styles.container}>
+          <Header siteTitle={data.site.siteMetadata.title} />
+          <main>{children}</main>
+          <footer>© {new Date().getFullYear()}</footer>
+        </div>
       </div>
     )}
   />
