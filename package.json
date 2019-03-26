@@ -5,9 +5,12 @@
   "version": "0.1.0",
   "author": "Nicola Beuscher <nbeuscher@gmail.com>",
   "dependencies": {
+    "flow": "^0.2.3",
+    "flow-bin": "^0.95.1",
     "gatsby": "^2.2.9",
     "gatsby-cli": "^2.4.17",
     "gatsby-image": "^2.0.31",
+    "gatsby-plugin-flow": "^1.0.4",
     "gatsby-plugin-manifest": "^2.0.21",
     "gatsby-plugin-offline": "^2.0.24",
     "gatsby-plugin-postcss": "^2.0.7",
@@ -41,6 +44,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "flow": "flow check",
     "format": "prettier --write '**/*.{js,scss,md,json,yaml}'",
     "prettier": "prettier --check '**/*.{js,scss,md,json,yaml}'",
     "start": "npm run develop",

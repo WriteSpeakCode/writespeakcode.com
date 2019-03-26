@@ -1,8 +1,9 @@
 language: node_js
 node_js:
-  - "10.15.3"
+  - '10.15.3'
 
 script:
   - npm audit
+  - npm run flow
   - npm run prettier
   - npm run build
