@@ -1,8 +1,14 @@
-.background {
-  background-color: var(--white);
-  margin: 0.5em;
+.gradientBg {
+  background-color: var(--navy);
+  background: linear-gradient(
+    var(--navy),
+    var(--mint),
+    var(--orange),
+    var(--navy)
+  );
+  padding: 0.4em;
 }
-.container {
-  max-width: 900px;
+.whiteBg {
+  background: var(--white);
   padding: 1em;
 }

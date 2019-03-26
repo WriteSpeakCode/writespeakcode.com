@@ -38,13 +38,6 @@ body {
   font-size: 14px;
   line-height: 1.6;
   color: var(--navy);
-  background-color: var(--navy);
-  background: linear-gradient(
-    var(--navy),
-    var(--mint),
-    var(--orange),
-    var(--navy)
-  );
   @media (--medium) {
     font-size: 16px;
   }

@@ -26,8 +26,8 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div className={styles.background}>
-        <div className={styles.container}>
+      <div className={styles.gradientBg}>
+        <div className={styles.whiteBg}>
           <Header siteTitle={data.site.siteMetadata.title} />
           <main>{children}</main>
           <footer>© {new Date().getFullYear()}</footer>
