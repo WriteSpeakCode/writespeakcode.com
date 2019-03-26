@@ -9,6 +9,7 @@
 </h1>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ad665e3b-60e0-491c-9126-7f5002058f16/deploy-status)](https://app.netlify.com/sites/writespeakcode/deploys)
+![TravisCI Status](https://travis-ci.com/WriteSpeakCode/writespeakcode.com.svg?branch=master)
 
 - [✨ Goals](#-goals)
 - [💻 How to contribute](#-how-to-contribute)
