@@ -1,9 +1,9 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import { Link } from 'gatsby'
+import PropTypes from 'prop-types'
+import React from 'react'
 
-import styles from "./header.module.css"
-import logo from "../../images/logos/wsc-logo-fullcolor.png"
+import styles from './header.module.css'
+import logo from '../../images/logos/wsc-logo-fullcolor.png'
 
 const Header = ({ siteTitle }) => (
   <header>

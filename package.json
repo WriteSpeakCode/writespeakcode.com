@@ -41,7 +41,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
+    "format": "prettier --write '**/*.{js,scss,md,json,yaml}'",
     "prettier": "prettier --check '**/*.{js,scss,md,json,yaml}'",
     "start": "npm run develop",
     "serve": "gatsby serve",
