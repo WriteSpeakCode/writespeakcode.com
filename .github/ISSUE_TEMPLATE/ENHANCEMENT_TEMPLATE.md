@@ -20,8 +20,8 @@ Add related issues
 <!-- What do you expect to happen? -->
 <!-- ie. "Link to Register opens in a new tab" -->
 
-- [] Expectation 1
-- [] Expectation 2
+- [ ] Expectation 1
+- [ ] Expectation 2
 
 ### Resources
 
