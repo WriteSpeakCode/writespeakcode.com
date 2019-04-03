@@ -1,11 +1,10 @@
 import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
 import React from 'react'
 
 import styles from './header.module.css'
 import logo from '../../images/logos/wsc-logo-fullcolor.png'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header>
     <Link to="/">
       <img
@@ -45,13 +44,5 @@ const Header = ({ siteTitle }) => (
     </ul>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

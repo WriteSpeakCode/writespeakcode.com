@@ -17,6 +17,7 @@
     "gatsby-plugin-react-helmet": "^3.0.7",
     "gatsby-plugin-sharp": "^2.0.31",
     "gatsby-source-filesystem": "^2.0.23",
+    "gatsby-transformer-json": "^2.1.11",
     "gatsby-transformer-sharp": "^2.1.15",
     "normalize.css": "^8.0.1",
     "postcss-custom-media": "^7.0.7",

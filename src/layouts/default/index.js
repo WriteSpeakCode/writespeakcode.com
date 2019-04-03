@@ -7,34 +7,22 @@
 
 import React from 'react'
 import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
 
 import Header from '../../components/header'
+import Notification from '../../components/notification'
 
 import '../base.css'
 import styles from './default.module.css'
 
 const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
-    render={data => (
-      <div className={styles.gradientBg}>
-        <div className={styles.whiteBg}>
-          <Header siteTitle={data.site.siteMetadata.title} />
-          <main>{children}</main>
-          <footer>© {new Date().getFullYear()}</footer>
-        </div>
-      </div>
-    )}
-  />
+  <div className={styles.gradientBg}>
+    <div className={styles.whiteBg}>
+      <Notification />
+      <Header />
+      <main>{children}</main>
+      <footer>© {new Date().getFullYear()}</footer>
+    </div>
+  </div>
 )
 
 Layout.propTypes = {
