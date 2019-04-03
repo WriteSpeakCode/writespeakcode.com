@@ -7,3 +7,10 @@ script:
   - npm run flow
   - npm run prettier
   - npm run build
+
+branches:
+  only:
+    - master
+
+notifications:
+  email: false
