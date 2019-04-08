@@ -8,7 +8,13 @@
   );
   padding: 0.4em;
 }
+
 .whiteBg {
   background: var(--white);
   padding: 1em;
+}
+
+.container {
+  max-width: var(--large);
+  margin: 0 auto;
 }

@@ -1,0 +1,9 @@
+.button {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+}
+
+.menu {
+  background-color: var(--blush);
+}

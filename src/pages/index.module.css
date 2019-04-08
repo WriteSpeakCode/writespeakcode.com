@@ -1,0 +1,50 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50em;
+}
+
+.mission {
+  font-family: 'PT Sans Caption';
+  font-size: 2.2em;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.title {
+  font-size: 1.8em;
+  line-height: 1.4;
+  font-family: 'PT Sans Caption';
+}
+
+.headline {
+  font-size: 1.3em;
+  font-weight: var(--light);
+}
+
+.section {
+  padding: 1em 0;
+  max-width: var(--medium);
+  a {
+    margin: 0 0.25em;
+    border-bottom: 2px dotted var(--navy);
+    &:hover {
+      border-bottom-style: solid;
+    }
+  }
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 1em;
+  li {
+    padding-left: 1.2em;
+  }
+  li:before {
+    content: '♥︎';
+    display: inline-block;
+    margin-left: -1.2em; /* same as padding-left set on li */
+    width: 1.2em; /* same as padding-left set on li */
+  }
+}

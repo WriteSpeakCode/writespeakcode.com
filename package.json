@@ -5,6 +5,11 @@
   "version": "0.1.0",
   "author": "Nicola Beuscher <nbeuscher@gmail.com>",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-brands-svg-icons": "^5.8.1",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@reach/visually-hidden": "^0.1.2",
     "flow": "^0.2.3",
     "flow-bin": "^0.95.1",
     "gatsby": "^2.2.9",

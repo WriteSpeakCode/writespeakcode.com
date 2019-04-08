@@ -1,0 +1,22 @@
+.background {
+  background: var(--blush);
+}
+
+.notification {
+  max-width: var(--large);
+  margin: 0 auto;
+  font-weight: var(--semi-bold);
+  padding: 1em;
+}
+
+.icon {
+  margin-right: 1em;
+}
+
+.link {
+  margin: 0 0.25em;
+  border-bottom: 2px dotted var(--navy);
+  &:hover {
+    border-bottom-style: solid;
+  }
+}

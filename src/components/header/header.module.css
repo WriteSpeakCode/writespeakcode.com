@@ -2,3 +2,25 @@
   max-width: 250px;
   padding: 1em 0;
 }
+
+.container {
+  max-width: var(--large);
+  margin: 2em auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+}
+
+.link {
+  padding: 0.5em;
+  font-size: 1.6em;
+  border-bottom: 2px solid transparent;
+  &:hover,
+  &:focus {
+    border-color: var(--navy);
+  }
+}

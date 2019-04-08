@@ -33,8 +33,9 @@
 /* Global Styles */
 /* -------------------- */
 body {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: var(--regular);
+  color: var(--navy);
   font-size: 14px;
   line-height: 1.6;
   @media (--medium) {
@@ -46,11 +47,12 @@ body {
 }
 
 a {
-  font-weight: var(--semi-bold);
+  text-decoration: none;
+  color: inherit;
 }
 
 .heading {
-  font-family: "PT Sans Caption";
+  font-family: 'PT Sans Caption';
   font-weight: var(--bold);
   line-height: 1.3;
   font-size: 1.6em;
@@ -62,7 +64,7 @@ a {
 
 .subtitle {
   display: inline;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: var(--light);
   font-size: 1.3em;
   line-height: 2.1;
@@ -70,7 +72,7 @@ a {
 }
 
 .heading--secondary {
-  font-family: "PT Sans Caption";
+  font-family: 'PT Sans Caption';
   font-weight: var(--bold);
   font-size: 1.5em;
   line-height: 1.3;
@@ -79,7 +81,7 @@ a {
 
 .subtitle--secondary {
   display: inline;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: var(--light);
   font-size: 1.1em;
   line-height: 2.1;
