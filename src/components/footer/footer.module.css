@@ -1,5 +1,5 @@
 .footer {
   padding: 1em;
-  max-width: var(--large);
-  margin: 0 auto;
+  text-align: center;
+  background-color: var(--white);
 }

@@ -5,7 +5,6 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 import Notification from '../../components/notification'
-import Menu from '../../components/menu'
 
 import '../base.css'
 import styles from './default.module.css'
@@ -23,14 +22,13 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Menu />
         <div className={styles.gradientBg}>
           <Notification />
           <div className={styles.whiteBg}>
             <Header siteTitle={data.site.siteMetadata.title} />
             <main className={styles.container}>{children}</main>
-            <Footer />
           </div>
+          <Footer />
         </div>
       </>
     )}

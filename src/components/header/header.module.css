@@ -6,9 +6,11 @@
 .container {
   max-width: var(--large);
   margin: 2em auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @media (--medium) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .social {

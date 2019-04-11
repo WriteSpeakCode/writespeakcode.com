@@ -51,7 +51,7 @@ a {
   color: inherit;
 }
 
-.heading {
+/* .heading {
   font-family: 'PT Sans Caption';
   font-weight: var(--bold);
   line-height: 1.3;
@@ -68,7 +68,9 @@ a {
   font-weight: var(--light);
   font-size: 1.3em;
   line-height: 2.1;
-  background-color: var(--mint);
+  &.mint {
+    background-color: var(--mint);
+  }
 }
 
 .heading--secondary {
@@ -85,5 +87,7 @@ a {
   font-weight: var(--light);
   font-size: 1.1em;
   line-height: 2.1;
-  background-color: var(--blush);
-}
+  &.blush {
+    background-color: var(--blush);
+  }
+} */
