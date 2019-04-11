@@ -51,6 +51,22 @@ a {
   color: inherit;
 }
 
+[data-reach-skip-link] {
+  overflow: hidden;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  color: var(--navy);
+  z-index: -1;
+}
+
+[data-reach-skip-link]:focus {
+  background-color: var(--white);
+  display: block;
+  line-height: 30px;
+  padding: 10px 20px;
+  z-index: 1;
+}
+
 /* .heading {
   font-family: 'PT Sans Caption';
   font-weight: var(--bold);

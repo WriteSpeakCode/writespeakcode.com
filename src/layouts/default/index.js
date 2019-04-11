@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
+import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
 
 import Header from '../../components/header'
 import Footer from '../../components/footer'
@@ -22,11 +23,14 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+        <SkipNavLink />
         <div className={styles.gradientBg}>
           <Notification />
           <div className={styles.whiteBg}>
             <Header siteTitle={data.site.siteMetadata.title} />
-            <main className={styles.container}>{children}</main>
+            <SkipNavContent>
+              <main className={styles.container}>{children}</main>
+            </SkipNavContent>
           </div>
           <Footer />
         </div>
