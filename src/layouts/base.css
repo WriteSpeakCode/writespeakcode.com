@@ -17,8 +17,10 @@
 
   --small: 30em;
   --medium: 42em;
-  --large: 63em;
+  --large: 66em;
   --xlarge: 80em;
+
+  --text-container: 50em;
 }
 
 /* -------------------- */
@@ -62,8 +64,7 @@ a {
 [data-reach-skip-link]:focus {
   background-color: var(--white);
   display: block;
-  line-height: 30px;
-  padding: 10px 20px;
+  padding: 1em 1.5em;
   z-index: 1;
 }
 
