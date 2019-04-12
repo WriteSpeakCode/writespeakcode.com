@@ -5,8 +5,8 @@
 
 .container {
   max-width: var(--large);
-  margin: 2em auto;
-  @media (--medium) {
+  margin: 1em auto;
+  @media screen and (min-width: 45em) {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,12 +14,19 @@
 }
 
 .social {
-  display: flex;
+  @media screen and (min-width: 45em) {
+    display: flex;
+    align-items: center;
+  }
+  .cta {
+    margin: 1em 0.5em;
+  }
 }
 
 .link {
   padding: 0.5em;
   font-size: 1.6em;
+  max-width: 1em;
   border-bottom: 2px solid transparent;
   &:hover,
   &:focus {

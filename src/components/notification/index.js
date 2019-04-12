@@ -10,7 +10,7 @@ const Notification = () => (
     <div className={styles.notification}>
       <FontAwesomeIcon icon={faBullhorn} aria-hidden className={styles.icon} />
       2019 Conference: CFP is open and tickets are now available!{' '}
-      <Link to="/2019/" className={styles.link}>
+      <Link to="/2019/" className="link">
         Learn more
       </Link>{' '}
     </div>

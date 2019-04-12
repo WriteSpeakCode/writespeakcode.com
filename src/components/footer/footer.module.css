@@ -1,5 +1,10 @@
 .footer {
   padding: 1em;
-  text-align: center;
-  background-color: var(--white);
+  background: var(--white);
+  border-top: 2px solid var(--blush);
+}
+
+.container {
+  max-width: 65em;
+  margin: 0 auto;
 }
