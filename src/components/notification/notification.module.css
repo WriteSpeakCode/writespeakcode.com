@@ -4,7 +4,7 @@
 }
 
 .notification {
-  max-width: var(--large);
+  max-width: var(--container);
   margin: 0 auto;
   font-weight: var(--semi-bold);
   padding: 1em;

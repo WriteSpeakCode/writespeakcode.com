@@ -5,6 +5,6 @@
 }
 
 .container {
-  max-width: 65em;
+  max-width: var(--container);
   margin: 0 auto;
 }

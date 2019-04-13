@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: var(--text-container);
+  max-width: var(--container);
 }
 
 .mission {
@@ -11,7 +11,8 @@
   line-height: 1.3;
   font-size: 1.6em;
   margin: 0.25em 0;
-  @media screen and (min-width: 65em) {
+  @media screen and (min-width: 50em) {
+    max-width: 22em;
     font-size: 1.8em;
   }
   @media screen and (min-width: 80em) {
@@ -25,7 +26,8 @@
   font-weight: var(--light);
   font-size: 1.1em;
   line-height: 1.6;
-  @media screen and (min-width: 65em) {
+  @media screen and (min-width: 50em) {
+    max-width: 34em;
     font-size: 1.3em;
   }
 }
@@ -53,7 +55,7 @@
 .heading {
   font-family: 'PT Sans Caption';
   font-weight: var(--bold);
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 1.3;
   margin: 1em 0;
 }
@@ -69,6 +71,10 @@
   &:nth-of-type(2n) {
     flex-direction: column-reverse;
   }
+  .content {
+    max-width: var(--container);
+    margin: 0 auto;
+  }
   @media screen and (min-width: 80em) {
     flex-direction: row;
     justify-content: space-between;
@@ -79,6 +85,7 @@
     .content {
       align-self: center;
       width: 48%;
+      margin: 0;
     }
     .image {
       width: 48%;
@@ -90,7 +97,8 @@
 .section {
   padding: 4em 0;
   .content {
-    max-width: var(--text-container);
+    max-width: var(--container);
+    margin: 0 auto;
   }
 }
 
@@ -118,4 +126,40 @@
 
 .sponsorLogo {
   max-width: 10em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  label {
+    font-size: 0.8em;
+    color: var(--navy);
+    font-weight: var(--semi-bold);
+  }
+  input[type='email'] {
+    font-size: 0.8em;
+    color: var(--navy);
+    padding: 1em;
+    margin: 1em 0;
+    border: 2px solid var(--navy);
+  }
+  input[type='submit'] {
+    font-size: 0.8em;
+    color: var(--navy);
+    font-weight: var(--semi-bold);
+    border: 2px dotted var(--navy);
+    padding: 1em;
+    cursor: pointer;
+    &:hover {
+      border-style: solid;
+    }
+  }
+  @media screen and (min-width: 30em) {
+    flex-direction: row;
+    align-items: center;
+    input[type='email'] {
+      margin: 0 1em;
+      min-width: 15em;
+    }
+  }
 }

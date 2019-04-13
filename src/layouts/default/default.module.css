@@ -15,6 +15,6 @@
 }
 
 .container {
-  max-width: var(--large);
+  max-width: var(--container);
   margin: 0 auto;
 }

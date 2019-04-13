@@ -59,7 +59,7 @@ const IndexPage = props => (
         alt="2018 conference-goers pose for a photo together in front of the Write Speak Code banner"
         fluid={props.data.community.childImageSharp.fluid}
         className={styles.image}
-        imgStyle={{ objectFit: 'contain', objectPosition: 'left center' }}
+        imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
       />
     </section>
 
@@ -68,7 +68,7 @@ const IndexPage = props => (
         alt="A panel of speakers on stage at the 2018 conference"
         fluid={props.data.conferences.childImageSharp.fluid}
         className={styles.image}
-        imgStyle={{ objectFit: 'contain', objectPosition: 'left center' }}
+        imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
       />
       <div className={styles.content}>
         <h1 className={styles.title}>Annual Conference</h1>
@@ -98,6 +98,12 @@ const IndexPage = props => (
             Get Tickets
           </a>
         </div>
+        <h3 className={styles.heading}>Subscribe to conference updates:</h3>
+        <form className={styles.form}>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+          <input type="submit" value="Subscribe" />
+        </form>
       </div>
     </section>
 
@@ -131,7 +137,7 @@ const IndexPage = props => (
         alt="A conference attendee raises her hand while sitting at a round table of people taking notes and using laptops."
         fluid={props.data.oye.childImageSharp.fluid}
         className={styles.image}
-        imgStyle={{ objectFit: 'contain', objectPosition: 'left center' }}
+        imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
       />
     </section>
 
@@ -140,7 +146,7 @@ const IndexPage = props => (
         alt="People collaborate on their laptops at a Write Speak Code event."
         fluid={props.data.chapters.childImageSharp.fluid}
         className={styles.image}
-        imgStyle={{ objectFit: 'contain', objectPosition: 'left center' }}
+        imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
       />
       <div className={styles.content}>
         <h1 className={styles.title}>Local Chapters</h1>
@@ -189,26 +195,28 @@ const IndexPage = props => (
             className="link"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.meetup.com/WSC-Seattle"
+            href="https://www.meetup.com/WriteSpeakCode-SFBay/"
           >
-            Seattle
-          </a>{' '}
-          and
+            San Francisco
+          </a>
+          , and{' '}
           <a
             className="link"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.meetup.com/WriteSpeakCode-SFBay/"
+            href="https://www.meetup.com/WSC-Seattle"
           >
-            San Francisco
+            Seattle
           </a>
           .
         </p>
 
         <p>
           Don't see your city?{' '}
-          <a href="mailto:info@writespeakcode.com">Contact us</a> to learn how
-          we can help you start a chapter near you.
+          <a className="link" href="mailto:info@writespeakcode.com">
+            Contact us
+          </a>{' '}
+          to learn how we can help you start a chapter near you.
         </p>
       </div>
     </section>

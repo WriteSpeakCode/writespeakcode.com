@@ -4,7 +4,7 @@
 }
 
 .container {
-  max-width: var(--large);
+  max-width: var(--container);
   margin: 1em auto;
   @media screen and (min-width: 45em) {
     display: flex;

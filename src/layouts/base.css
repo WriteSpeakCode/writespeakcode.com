@@ -19,8 +19,18 @@
   --medium: 42em;
   --large: 66em;
   --xlarge: 80em;
+}
 
-  --text-container: 50em;
+@media screen and (min-width: 66em) {
+  :root {
+    --container: 50em;
+  }
+}
+
+@media screen and (min-width: 80em) {
+  :root {
+    --container: 66em;
+  }
 }
 
 /* -------------------- */
@@ -46,11 +56,15 @@ a {
 }
 
 .link {
-  margin: 0 0.25em;
   border-bottom: 2px dotted var(--navy);
+  display: inline-block;
   &:hover {
     border-bottom-style: solid;
   }
+}
+
+.link-group .link {
+  margin: 0 0.25em;
 }
 
 .button {
@@ -83,6 +97,10 @@ a {
   z-index: 1;
 }
 
+/* TODO STYLES */
+/* .gatsby-image-wrapper {
+  box-shadow: -1em 1em var(--blush);
+} */
 /* .subtitle--secondary {
   display: inline;
   font-family: 'Open Sans';
