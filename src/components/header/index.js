@@ -81,6 +81,17 @@ const Header = ({ siteTitle }) => (
         <VisuallyHidden>Patreon</VisuallyHidden>
         <FontAwesomeIcon icon={faPatreon} aria-hidden />
       </a>
+      {/*
+      <div className={styles.cta}>
+        <a
+          href="/"
+          className="button"
+          onClick={() => alert('does nothing yet!')}
+        >
+          Donate
+        </a>
+      </div>
+      */}
     </div>
   </header>
 )

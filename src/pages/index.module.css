@@ -60,48 +60,6 @@
   margin: 1em 0;
 }
 
-.photoSection {
-  display: flex;
-  flex-direction: column;
-  padding: 2em 0;
-  .image {
-    max-height: 20em;
-    margin: 1em 0;
-  }
-  &:nth-of-type(2n) {
-    flex-direction: column-reverse;
-  }
-  .content {
-    max-width: var(--container);
-    margin: 0 auto;
-  }
-  @media screen and (min-width: 80em) {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 4em 0;
-    &:nth-of-type(2n) {
-      flex-direction: row;
-    }
-    .content {
-      align-self: center;
-      width: 48%;
-      margin: 0;
-    }
-    .image {
-      width: 48%;
-      max-height: none;
-    }
-  }
-}
-
-.section {
-  padding: 4em 0;
-  .content {
-    max-width: var(--container);
-    margin: 0 auto;
-  }
-}
-
 .list {
   list-style-type: none;
   padding-left: 1em;
@@ -139,16 +97,18 @@
   input[type='email'] {
     font-size: 0.8em;
     color: var(--navy);
-    padding: 1em;
+    padding: 1em 0.5em;
     margin: 1em 0;
-    border: 2px solid var(--navy);
+    border: none;
+    border-bottom: 1px solid var(--navy);
   }
   input[type='submit'] {
     font-size: 0.8em;
     color: var(--navy);
-    font-weight: var(--semi-bold);
+    background: var(--white);
     border: 2px dotted var(--navy);
-    padding: 1em;
+    font-weight: var(--semi-bold);
+    padding: 1em 1.25em;
     cursor: pointer;
     &:hover {
       border-style: solid;
