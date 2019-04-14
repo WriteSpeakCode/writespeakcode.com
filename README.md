@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.writespeakcode.com">
-    <img alt="Write Speak Code Logo" src="http://www.writespeakcode.com/assets/img/WSClogos_stacked_coral-blush-gold_screen.png" width="200" />
+    <img alt="Write Speak Code Logo" src="/src/images/logos/wsc-logo-fullcolor.png" width="200" />
   </a>
 </p>
 <h1 align="center">
