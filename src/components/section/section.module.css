@@ -1,5 +1,5 @@
 .section {
-  padding: 4em 0;
+  padding: 3em 0;
   .content {
     max-width: var(--container);
     margin: 0 auto;
@@ -9,7 +9,7 @@
 .photoSection {
   display: flex;
   flex-direction: column;
-  padding: 2em 0;
+  padding: 3em 0;
   .image {
     max-height: 20em;
     margin: 1em 0;
@@ -21,7 +21,6 @@
   @media screen and (min-width: 80em) {
     flex-direction: row;
     justify-content: space-between;
-    padding: 4em 0;
     &:nth-of-type(2n) {
       flex-direction: row-reverse;
     }

@@ -9,6 +9,10 @@ import Section from '../components/section'
 import styles from './index.module.css'
 
 import atlassian from '../images/sponsors/atlassian.svg'
+import netlify from '../images/sponsors/netlify.svg'
+import glympse from '../images/sponsors/glympse.png'
+import vts from '../images/sponsors/vts.png'
+import seatgeek from '../images/sponsors/seatgeek.jpg'
 
 const IndexPage = props => (
   <Layout>
@@ -65,6 +69,7 @@ const IndexPage = props => (
       img={props.data.conferences.childImageSharp.fluid}
       imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
       imgAlt="A panel of speakers on stage at the 2018 conference"
+      id="conference"
     >
       <h1 className={styles.title}>Annual Conference</h1>
       <h2 className={styles.subtitle}>
@@ -111,14 +116,13 @@ const IndexPage = props => (
         Present your accomplishments with confidence.
       </h2>
       <p>
-        Learn to understand, own your expertise, and convert your expertise into
-        thought leadership, conference speaking, and open source contributing.
+        Learn to understand, own, and convert your expertise into thought
+        leadership, conference speaking, and contributions to open source.
       </p>
       <p>
-        We provide breakfast and lunch for all dietary needs and ensure the
-        location is wheelchair accessible. We also provide nursing rooms,
-        childcare services, CART/ASL services, and any other accessibility
-        needs, as requested.
+        We provide breakfast and lunch for all dietary needs, wheelchair
+        accessible location, nursing rooms and childcare services, CART/ASL
+        services, and other accessibility needs as requested.
       </p>
       <a
         target="_blank"
@@ -226,18 +230,58 @@ const IndexPage = props => (
         2019 Sponsorship Prospectus
       </a>
       <div className={styles.logos}>
-        <h3 className={styles.heading}>2019 Sponsors</h3>
+        <h3 className={styles.heading}>Bronze</h3>
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.atlassian.com/company/careers?mc_cid=a471375b2e&mc_eid=cbd0304c4d"
+          href="https://www.netlify.com"
+        >
+          <img src={netlify} alt="Netlify logo" className={styles.bigLogo} />
+        </a>
+        <h3 className={styles.heading}>Workshops</h3>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.atlassian.com"
         >
           <img
             src={atlassian}
             alt="Atlassian logo"
-            className={styles.sponsorLogo}
+            className={styles.mediumLogo}
           />
         </a>
+        <h3 className={styles.heading}>Local Meetups</h3>
+        <div className={styles.grid}>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.glympse.com"
+          >
+            <img
+              src={glympse}
+              alt="Glympse logo"
+              className={styles.smallLogo}
+            />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.vts.com"
+          >
+            <img src={vts} alt="VTS logo" className={styles.smallLogo} />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.seatgeek.com"
+          >
+            <img
+              src={seatgeek}
+              alt="SeatGeek logo"
+              className={styles.smallLogo}
+            />
+          </a>
+        </div>
       </div>
     </Section>
   </Layout>

@@ -77,13 +77,24 @@
 }
 
 .logos {
-  display: grid;
-  grid-template-column: 1fr 1fr 1fr 1fr;
   margin: 2em 0;
 }
 
-.sponsorLogo {
-  max-width: 10em;
+.bigLogo {
+  width: 14em;
+}
+
+.mediumLogo {
+  width: 12em;
+}
+
+.smallLogo {
+  max-width: 8em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .form {
@@ -97,10 +108,10 @@
   input[type='email'] {
     font-size: 0.8em;
     color: var(--navy);
-    padding: 1em 0.5em;
+    padding: 0.5em 0;
     margin: 1em 0;
     border: none;
-    border-bottom: 1px solid var(--navy);
+    border-bottom: 2px solid var(--navy);
   }
   input[type='submit'] {
     font-size: 0.8em;
@@ -108,7 +119,7 @@
     background: var(--white);
     border: 2px dotted var(--navy);
     font-weight: var(--semi-bold);
-    padding: 1em 1.25em;
+    padding: 0.5em 1em;
     cursor: pointer;
     &:hover {
       border-style: solid;

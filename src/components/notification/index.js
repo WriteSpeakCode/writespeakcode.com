@@ -9,8 +9,8 @@ const Notification = () => (
   <div className={styles.background}>
     <div className={styles.notification}>
       <FontAwesomeIcon icon={faBullhorn} aria-hidden className={styles.icon} />
-      2019 Conference: CFP is open and tickets are now available!{' '}
-      <Link to="/2019/" className="link">
+      2019 Conference: Call for proposals is open and tickets are available!{' '}
+      <Link to="#conference" className="link">
         Learn more
       </Link>{' '}
     </div>
