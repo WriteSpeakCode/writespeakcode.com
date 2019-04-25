@@ -1,8 +1,6 @@
 .hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   max-width: var(--container);
+  padding: 2em 0;
 }
 
 .mission {
@@ -95,42 +93,4 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  label {
-    font-size: 0.8em;
-    color: var(--navy);
-    font-weight: var(--semi-bold);
-  }
-  input[type='email'] {
-    font-size: 0.8em;
-    color: var(--navy);
-    padding: 0.5em 0;
-    margin: 1em 0;
-    border: none;
-    border-bottom: 2px solid var(--navy);
-  }
-  input[type='submit'] {
-    font-size: 0.8em;
-    color: var(--navy);
-    background: var(--white);
-    border: 2px dotted var(--navy);
-    font-weight: var(--semi-bold);
-    padding: 0.5em 1em;
-    cursor: pointer;
-    &:hover {
-      border-style: solid;
-    }
-  }
-  @media screen and (min-width: 30em) {
-    flex-direction: row;
-    align-items: center;
-    input[type='email'] {
-      margin: 0 1em;
-      min-width: 15em;
-    }
-  }
 }

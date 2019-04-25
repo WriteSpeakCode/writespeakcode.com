@@ -80,6 +80,10 @@ const IndexPage = props => (
         Join us for three days designed to fully own your expertise through
         writing, speaking, and open source.
       </p>
+      <p>
+        The call for proposals is now open!{' '}
+        <strong>Deadline: May 17, 2019</strong>
+      </p>
       <div className="link-group">
         <a
           className="link"
@@ -98,12 +102,6 @@ const IndexPage = props => (
           Get Tickets
         </a>
       </div>
-      <h3 className={styles.heading}>Subscribe to conference updates:</h3>
-      <form className={styles.form}>
-        <label htmlFor="email">Email</label>
-        <input type="email" name="email" id="email" />
-        <input type="submit" value="Subscribe" />
-      </form>
     </Section>
 
     <Section
@@ -202,11 +200,8 @@ const IndexPage = props => (
       </p>
 
       <p>
-        Don't see your city?{' '}
-        <a className="link" href="mailto:info@writespeakcode.com">
-          Contact us
-        </a>{' '}
-        to learn how we can help you start a chapter near you.
+        Don't see your city? Contact info@writespeakcode.com to learn how we can
+        help you start a chapter near you.
       </p>
     </Section>
 
