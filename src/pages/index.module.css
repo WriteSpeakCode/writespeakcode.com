@@ -56,22 +56,8 @@
   font-size: 1.3em;
   line-height: 1.3;
   margin: 1em 0;
-}
-
-.list {
-  list-style-type: none;
-  padding-left: 1em;
-  li {
-    padding-left: 1.2em;
-  }
-  li:before {
-    content: '♥';
-    color: var(--tan);
-    font-size: 0.9em;
-    display: inline-block;
-    margin-left: -1.2em; /* same as padding-left set on li */
-    width: 1.2em; /* same as padding-left set on li */
-  }
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid var(--blush);
 }
 
 .logos {
@@ -80,17 +66,21 @@
 
 .bigLogo {
   width: 14em;
+  margin: 1em;
 }
 
 .mediumLogo {
   width: 12em;
+  margin: 1em;
 }
 
 .smallLogo {
   max-width: 8em;
+  margin: 1em;
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  @media screen and (min-width: 30em) {
+    display: flex;
+  }
 }

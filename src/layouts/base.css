@@ -40,7 +40,7 @@ body {
   font-family: 'Open Sans';
   font-weight: var(--regular);
   color: var(--navy);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.6;
   @media screen and (min-width: 42em) {
     font-size: 16px;
@@ -96,15 +96,3 @@ a {
   padding: 1em 1.5em;
   z-index: 1;
 }
-
-/* TODO STYLES */
-/* .gatsby-image-wrapper {
-  box-shadow: -1em 1em var(--blush);
-} */
-/* .subtitle--secondary {
-  display: inline;
-  font-family: 'Open Sans';
-  font-weight: var(--light);
-  font-size: 1.1em;
-  line-height: 2.1;
-} */

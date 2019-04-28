@@ -36,7 +36,7 @@ const IndexPage = props => (
     <Section
       img={props.data.community.childImageSharp.fluid}
       imgAlt="2018 conference-goers pose for a photo together in front of the Write Speak Code banner"
-      imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
+      imgStyle={{ objectFit: 'cover', objectPosition: 'center center' }}
     >
       <h1 className={styles.title}>Our Community</h1>
       <p>
@@ -44,7 +44,7 @@ const IndexPage = props => (
         gender or gender history is marginalized within tech. We define those
         gender groups as:{' '}
       </p>
-      <ul className={styles.list}>
+      <ul>
         <li>All women technologists (trans, non-binary, and cis) </li>
         <li>
           All trans technologists (trans women, trans men, and trans non-binary
