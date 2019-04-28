@@ -5,8 +5,8 @@ backend:
 media_folder: static/images
 public_folder: /images
 
-site_url: https://writespeakcode.com
-logo_url: http://www.writespeakcode.com/assets/img/WSClogos_stacked_coral-blush-gold_screen.png
+site_url: https://writespeakcode.netlify.com
+logo_url: https://pbs.twimg.com/profile_images/962066409244172288/-H4OdKh9_400x400.jpg
 
 collections:
   - name: 'pages'
