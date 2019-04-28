@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  repo: writespeakcode/writespeakcode.com
+
+media_folder: static/images
+public_folder: /images
+
+site_url: https://writespeakcode.com
+logo_url: http://www.writespeakcode.com/assets/img/WSClogos_stacked_coral-blush-gold_screen.png
+
+collections:
+  - name: 'pages'
+    label: 'Pages'
+    description: 'Edit the copy of standalone pages on our site.'
+    files:
+      - file: 'content/code-of-conduct.md'
+        label: 'Code of Conduct'
+        name: 'code-of-conduct'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'subpage',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
