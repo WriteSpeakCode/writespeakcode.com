@@ -1,4 +1,46 @@
-.container {
-  max-width: var(--container);
-  margin: 0 auto;
+.bg {
+  background-color: var(--navy);
+  color: var(--mint);
+}
+
+.hero {
+  background: linear-gradient(
+      RGBA(197, 232, 211, 0.6),
+      RGBA(197, 232, 211, 0.6)
+    ),
+    url('../../images/photos/oye.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 1em;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em;
+}
+
+.subtitle {
+  font-weight: var(--light);
+  padding: 0 0.5em;
+}
+
+.nav {
+  background-color: var(--mint);
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+  li {
+    margin: 0.5em;
+  }
 }
