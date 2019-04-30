@@ -6,12 +6,16 @@ media_folder: static/images
 public_folder: /images
 
 site_url: https://writespeakcode.netlify.com
-logo_url: https://pbs.twimg.com/profile_images/962066409244172288/-H4OdKh9_400x400.jpg
+logo_url: https://raw.githubusercontent.com/WriteSpeakCode/writespeakcode.com/master/src/images/logos/wsc-logo-fullcolor.png
+
+publish_mode: editorial_workflow
+show_preview_links: false
 
 collections:
   - name: 'pages'
     label: 'Pages'
     description: 'Edit the copy of standalone pages on our site.'
+    delete: false
     files:
       - file: 'content/code-of-conduct.md'
         label: 'Code of Conduct'
@@ -25,3 +29,52 @@ collections:
             }
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'speakers'
+    label: 'Speakers'
+    label_singular: 'Speaker'
+    description: 'Add, edit, or delete speakers here. Speakers here are used on conference pages and the speaker directory.'
+    delete: true
+    create: true
+    folder: 'content/speakers'
+    extension: 'json'
+    fields:
+      - label: 'Name'
+        name: 'name'
+        widget: 'string'
+      - label: 'Pronouns'
+        name: 'pronouns'
+        widget: 'string'
+      - label: 'Role'
+        name: 'role'
+        widget: 'string'
+        required: false
+      - label: 'Company'
+        name: 'company'
+        widget: 'string'
+        required: false
+      - label: 'Social Links'
+        name: 'links'
+        widget: 'list'
+        required: false
+        fields:
+          - {
+              label: 'Type',
+              name: 'type',
+              widget: 'select',
+              options: ['twitter', 'linkedin', 'github', 'website', 'other'],
+            }
+          - { label: 'URL', name: 'url', widget: 'string' }
+      - {
+          label: 'Layout',
+          name: 'layout',
+          widget: 'hidden',
+          default: 'speaker',
+        }
+      - {
+          label: 'Headshot',
+          name: 'headshot',
+          widget: 'image',
+          required: false,
+        }
+      - { label: 'Bio', name: 'bio', widget: 'text' }
