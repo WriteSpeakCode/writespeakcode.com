@@ -1,17 +1,23 @@
-.bg {
-  background-color: var(--navy);
-  color: var(--mint);
+.main {
+  padding: 1em;
 }
 
-.hero {
-  background: linear-gradient(
-      RGBA(197, 232, 211, 0.6),
-      RGBA(197, 232, 211, 0.6)
-    ),
-    url('../../images/photos/oye.jpg');
+.heroBg {
   background-position: center center;
   background-size: cover;
-  height: 100vh;
+  height: 75vh;
+  @media screen and (min-width: 50em) {
+    height: 100vh;
+  }
+}
+
+.mintBg {
+  background: linear-gradient(
+    RGBA(197, 232, 211, 0.6),
+    RGBA(197, 232, 211, 0.6)
+  );
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -22,10 +28,12 @@
 }
 
 .info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 1em;
+  @media screen and (min-width: 50em) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  padding: 1em;
 }
 
 .subtitle {
@@ -38,9 +46,14 @@
 }
 
 .links {
-  display: flex;
   list-style-type: none;
+  padding-left: 1em;
   li {
     margin: 0.5em;
+  }
+  @media screen and (min-width: 50em) {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 }
