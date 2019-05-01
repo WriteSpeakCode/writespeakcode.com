@@ -17,7 +17,7 @@ collections:
     description: 'Edit the copy of standalone pages on our site.'
     delete: false
     files:
-      - file: 'content/code-of-conduct.md'
+      - file: 'content/pages/code-of-conduct.md'
         label: 'Code of Conduct'
         name: 'code-of-conduct'
         fields:
@@ -78,7 +78,7 @@ collections:
 
   - name: 'sponsors'
     label: 'Sponsors'
-    identifier_field: name
+    identifier_field: company
     label_singular: 'Sponsor'
     description: 'Add, edit, or delete sponsors here. Sponsors are shown on the organization page and the conference pages.'
     delete: true
@@ -90,23 +90,30 @@ collections:
         name: 'company'
         widget: 'string'
         required: true
-      - { label: 'Logo', name: 'logo', widget: 'image', required: true }
+      - label: 'Company URL'
+        name: 'company_url'
+        widget: 'string'
+        required: false
+      - { label: 'Logo', name: 'logo', widget: 'image' }
       - {
           label: 'Organization Sponsor',
           name: 'org_sponsor',
           widget: 'boolean',
           default: false,
+          required: true,
         }
       - {
           label: 'Conference Sponsor',
           name: 'conf_sponsor',
           widget: 'boolean',
           default: false,
+          required: true,
         }
-      - label: 'Company'
+      - label: 'Company Text'
         name: 'company_text'
         widget: 'text'
       - label: 'Years'
         name: 'years'
-        widget: 'list'
-        field: { label: Year, name: year, widget: string }
+        widget: 'select'
+        multiple: true
+        options: ['2018', '2019', '2020']
