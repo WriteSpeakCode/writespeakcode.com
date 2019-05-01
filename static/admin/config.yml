@@ -32,6 +32,7 @@ collections:
 
   - name: 'speakers'
     label: 'Speakers'
+    identifier_field: name
     label_singular: 'Speaker'
     description: 'Add, edit, or delete speakers here. Speakers here are used on conference pages and the speaker directory.'
     delete: true
@@ -45,12 +46,8 @@ collections:
       - label: 'Pronouns'
         name: 'pronouns'
         widget: 'string'
-      - label: 'Role'
+      - label: 'Role/Company'
         name: 'role'
-        widget: 'string'
-        required: false
-      - label: 'Company'
-        name: 'company'
         widget: 'string'
         required: false
       - label: 'Social Links'
@@ -78,3 +75,38 @@ collections:
           required: false,
         }
       - { label: 'Bio', name: 'bio', widget: 'text' }
+
+  - name: 'sponsors'
+    label: 'Sponsors'
+    identifier_field: name
+    label_singular: 'Sponsor'
+    description: 'Add, edit, or delete sponsors here. Sponsors are shown on the organization page and the conference pages.'
+    delete: true
+    create: true
+    folder: 'content/sponsors'
+    extension: 'json'
+    fields:
+      - label: 'Company'
+        name: 'company'
+        widget: 'string'
+        required: true
+      - { label: 'Logo', name: 'logo', widget: 'image', required: true }
+      - {
+          label: 'Organization Sponsor',
+          name: 'org_sponsor',
+          widget: 'boolean',
+          default: false,
+        }
+      - {
+          label: 'Conference Sponsor',
+          name: 'conf_sponsor',
+          widget: 'boolean',
+          default: false,
+        }
+      - label: 'Company'
+        name: 'company_text'
+        widget: 'text'
+      - label: 'Years'
+        name: 'years'
+        widget: 'list'
+        field: { label: Year, name: year, widget: string }
