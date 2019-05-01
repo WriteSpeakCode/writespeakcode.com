@@ -38,7 +38,6 @@ collections:
     delete: true
     create: true
     folder: 'content/speakers'
-    extension: 'json'
     fields:
       - label: 'Name'
         name: 'name'
@@ -49,11 +48,9 @@ collections:
       - label: 'Role/Company'
         name: 'role'
         widget: 'string'
-        required: false
       - label: 'Social Links'
         name: 'links'
         widget: 'list'
-        required: false
         fields:
           - {
               label: 'Type',
@@ -68,13 +65,8 @@ collections:
           widget: 'hidden',
           default: 'speaker',
         }
-      - {
-          label: 'Headshot',
-          name: 'headshot',
-          widget: 'image',
-          required: false,
-        }
-      - { label: 'Bio', name: 'bio', widget: 'text' }
+      - { label: 'Headshot', name: 'headshot', widget: 'image' }
+      - { label: 'Bio', name: 'body', widget: 'text' }
 
   - name: 'sponsors'
     label: 'Sponsors'
@@ -84,33 +76,28 @@ collections:
     delete: true
     create: true
     folder: 'content/sponsors'
-    extension: 'json'
     fields:
       - label: 'Company'
         name: 'company'
         widget: 'string'
-        required: true
       - label: 'Company URL'
         name: 'company_url'
         widget: 'string'
-        required: false
       - { label: 'Logo', name: 'logo', widget: 'image' }
       - {
           label: 'Organization Sponsor',
           name: 'org_sponsor',
           widget: 'boolean',
           default: false,
-          required: true,
         }
       - {
           label: 'Conference Sponsor',
           name: 'conf_sponsor',
           widget: 'boolean',
           default: false,
-          required: true,
         }
       - label: 'Company Text'
-        name: 'company_text'
+        name: 'body'
         widget: 'text'
       - label: 'Years'
         name: 'years'
