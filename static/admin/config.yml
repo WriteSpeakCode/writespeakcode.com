@@ -99,14 +99,23 @@ collections:
       - label: 'Logo'
         name: 'logo'
         widget: 'image'
+        required: false
+      - label: 'Level'
+        name: 'level'
+        widget: 'select'
+        multiple: true
+        options: ['platinum', 'gold', 'silver', 'bronze', 'workshop', 'lanyard', 'breakout', 'childcare', 'accessibility', 'headshot', 'local meetup'],
+        required: false
       - label: 'Organization Sponsor'
         name: 'org_sponsor'
         widget: 'boolean'
         default: false
+        required: false
       - label: 'Conference Sponsor'
         name: 'conf_sponsor'
         widget: 'boolean'
         default: false
+        required: false
       - label: 'Company Text'
         name: 'company_text'
         widget: 'text'
@@ -116,3 +125,4 @@ collections:
         widget: 'select'
         multiple: true
         options: ['2015', '2016', '2017', '2018', '2019', '2020']
+        required: false
