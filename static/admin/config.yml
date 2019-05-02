@@ -17,18 +17,20 @@ collections:
     description: 'Edit the copy of standalone pages on our site.'
     delete: false
     files:
-      - file: 'content/pages/code-of-conduct.md'
+      - file: 'content/code-of-conduct.md'
         label: 'Code of Conduct'
         name: 'code-of-conduct'
         fields:
-          - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'subpage',
-            }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - label: 'Template Key'
+            name: 'templateKey'
+            widget: 'hidden'
+            default: 'subpage'
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
 
   - name: 'speakers'
     label: 'Speakers'
@@ -38,6 +40,7 @@ collections:
     delete: true
     create: true
     folder: 'content/speakers'
+    extension: 'json'
     fields:
       - label: 'Name'
         name: 'name'
@@ -45,28 +48,35 @@ collections:
       - label: 'Pronouns'
         name: 'pronouns'
         widget: 'string'
+        required: false
       - label: 'Role/Company'
         name: 'role'
         widget: 'string'
+        required: false
       - label: 'Social Links'
         name: 'links'
         widget: 'list'
+        required: false
         fields:
-          - {
-              label: 'Type',
-              name: 'type',
-              widget: 'select',
-              options: ['twitter', 'linkedin', 'github', 'website', 'other'],
-            }
-          - { label: 'URL', name: 'url', widget: 'string' }
-      - {
-          label: 'Layout',
-          name: 'layout',
-          widget: 'hidden',
-          default: 'speaker',
-        }
-      - { label: 'Headshot', name: 'headshot', widget: 'image' }
-      - { label: 'Bio', name: 'body', widget: 'text' }
+          - label: 'Type'
+            name: 'type'
+            widget: 'select'
+            options: ['twitter', 'linkedin', 'github', 'website', 'other']
+          - label: 'URL'
+            name: 'url'
+            widget: 'string'
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'speaker'
+      - label: 'Headshot'
+        name: 'headshot'
+        widget: 'image'
+        required: false
+      - label: 'Bio'
+        name: 'bio'
+        widget: 'text'
+        required: false
 
   - name: 'sponsors'
     label: 'Sponsors'
@@ -76,31 +86,32 @@ collections:
     delete: true
     create: true
     folder: 'content/sponsors'
+    extension: 'json'
     fields:
       - label: 'Company'
         name: 'company'
         widget: 'string'
+        required: true
       - label: 'Company URL'
         name: 'company_url'
         widget: 'string'
-      - { label: 'Logo', name: 'logo', widget: 'image' }
-      - {
-          label: 'Organization Sponsor',
-          name: 'org_sponsor',
-          widget: 'boolean',
-          default: false,
-        }
-      - {
-          label: 'Conference Sponsor',
-          name: 'conf_sponsor',
-          widget: 'boolean',
-          default: false,
-        }
+        required: false
+      - label: 'Logo'
+        name: 'logo'
+        widget: 'image'
+      - label: 'Organization Sponsor'
+        name: 'org_sponsor'
+        widget: 'boolean'
+        default: false
+      - label: 'Conference Sponsor'
+        name: 'conf_sponsor'
+        widget: 'boolean'
+        default: false
       - label: 'Company Text'
-        name: 'body'
+        name: 'company_text'
         widget: 'text'
       - label: 'Years'
         name: 'years'
         widget: 'select'
         multiple: true
-        options: ['2018', '2019', '2020']
+        options: ['2015', '2016', '2017', '2018', '2019', '2020']
