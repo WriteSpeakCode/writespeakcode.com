@@ -104,7 +104,7 @@ collections:
         name: 'level'
         widget: 'select'
         multiple: true
-        options: ['platinum', 'gold', 'silver', 'bronze', 'workshop', 'lanyard', 'breakout', 'childcare', 'accessibility', 'headshot', 'local meetup'],
+        options: ['platinum', 'gold', 'silver', 'bronze', 'workshop', 'lanyard', 'breakout', 'childcare', 'accessibility', 'headshot', 'local meetup']
         required: false
       - label: 'Organization Sponsor'
         name: 'org_sponsor'
