@@ -1,5 +1,5 @@
 backend:
-  name: name: github
+  name: github
   repo: writespeakcode/writespeakcode.com
 
 media_folder: static/images
