@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: name: github
   repo: writespeakcode/writespeakcode.com
 
 media_folder: static/images
