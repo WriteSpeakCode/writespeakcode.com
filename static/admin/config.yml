@@ -110,6 +110,7 @@ collections:
       - label: 'Company Text'
         name: 'company_text'
         widget: 'text'
+        required: false
       - label: 'Years'
         name: 'years'
         widget: 'select'
