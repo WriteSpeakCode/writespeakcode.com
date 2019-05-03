@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
-    "@storybook/react": "^5.0.10",
+    "@storybook/react": "^5.0.11",
     "babel-loader": "^8.0.5",
     "prettier": "^1.16.4"
   },
