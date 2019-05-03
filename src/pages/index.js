@@ -147,9 +147,9 @@ const IndexPage = props => (
           className="link"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.meetup.com/Write-Speak-Code-Atlanta"
+          href="https://www.meetup.com/Write-Speak-Code-Austin/"
         >
-          Atlanta
+          Austin
         </a>
         ,{' '}
         <a
