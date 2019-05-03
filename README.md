@@ -87,7 +87,7 @@ Each time we make a pull request either on github or via the CMS, Netlify will d
 
 ## 🚀 Deployment
 
-When any PR is merged into master, Netlify automatically deploys our master branch to production.
+When any PR is merged into the `production` branch, Netlify automatically deploys that branch live.
 
 ## 🎓 Learn More
 
