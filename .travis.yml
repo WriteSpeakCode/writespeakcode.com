@@ -3,8 +3,8 @@ node_js:
   - '10.15.3'
 
 script:
-  # the `audit-level` is at `moderate` to avoid https://www.npmjs.com/advisories/836, at time of writing
-  # consider swapping from `moderate` to `low` whenever this is possible and / reasonable
+  # the `audit-level` is at `moderate` to avoid https://www.npmjs.com/advisories/836, which has no resolution at time of writing
+  # consider swapping from `moderate` to `low` whenever this is possible and / reasonable (ex: when issue in the link above is fixed)
   - npm audit --audit-level=moderate
   - npm run flow
   - npm run prettier
