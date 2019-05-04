@@ -6,7 +6,9 @@ jobs:
   include:
     - stage: test package security
       script:
-        - npm run audit
+        - npm audit --audit-level=high
+        - npm audit --audit-level=moderate
+        - npm audit --audit-level=low
     - stage: test types
       script:
         - npm run flow
