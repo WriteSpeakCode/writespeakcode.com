@@ -8,7 +8,7 @@ jobs:
       script:
         - npm audit --audit-level=high
         - npm audit --audit-level=moderate
-        - npm audit --audit-level=low
+        - npm audit --audit-level=low || true
     - stage: test types
       script:
         - npm run flow
