@@ -16,7 +16,7 @@
     "@reach/visually-hidden": "^0.1.2",
     "flow": "^0.2.3",
     "flow-bin": "^0.95.1",
-    "gatsby": "^2.4.2",
+    "gatsby": "^2.3.29",
     "gatsby-background-image": "^0.4.3",
     "gatsby-cli": "^2.4.17",
     "gatsby-image": "^2.0.31",
@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
-    "@storybook/react": "^5.0.11",
+    "@storybook/react": "^5.0.10",
     "babel-loader": "^8.0.5",
     "prettier": "^1.16.4"
   },
