@@ -2,8 +2,17 @@ language: node_js
 node_js:
   - '10.15.3'
 
-script:
-  - npm run audit
-  - npm run flow
-  - npm run prettier
-  - npm run build
+jobs:
+  include:
+    - stage: test
+      script:
+        - npm run audit
+    - stage: test
+      script:
+        - npm run flow
+    - stage: test
+      script:
+        - npm run prettier
+    - stage: test
+      script:
+        - npm run build
