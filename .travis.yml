@@ -2,19 +2,18 @@ language: node_js
 node_js:
   - '10.15.3'
 
-jobs:
-  include:
-    - stage: test package security
+script:
+    - stage: test # security checks
       script:
         # locking at `moderate` to avoid https://www.npmjs.com/advisories/836
         # consider swapping back to low whenever possible / reasonable
         - npm audit --audit-level=moderate
-    - stage: test types
+    - stage: test # type checks
       script:
         - npm run flow
-    - stage: test linter
+    - stage: test # linter tests
       script:
         - npm run prettier
-    - stage: test build
+    - stage: test # build checks
       script:
         - npm run build
