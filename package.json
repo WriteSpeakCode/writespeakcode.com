@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Nicola Beuscher <nbeuscher@gmail.com>",
   "config": {
-    "audit_level": "low"
+    "audit_level": "moderate"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.17",
