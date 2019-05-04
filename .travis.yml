@@ -2,7 +2,8 @@ language: node_js
 node_js:
   - '10.15.3'
 
-script:
+jobs:
+  include:
     # security checks
     - script:
       # the `audit-level` is at `moderate` to avoid https://www.npmjs.com/advisories/836, at time of writing
