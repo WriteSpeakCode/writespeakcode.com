@@ -4,6 +4,9 @@
   "description": "Website for Write/Speak/Code organization",
   "version": "0.1.0",
   "author": "Nicola Beuscher <nbeuscher@gmail.com>",
+  "config": {
+    "audit_level": "low"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.17",
     "@fortawesome/free-brands-svg-icons": "^5.8.1",
@@ -53,6 +56,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "audit": "npm audit --audit-level=$npm_package_config_audit_level",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "flow": "flow check",
