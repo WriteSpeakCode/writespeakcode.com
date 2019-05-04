@@ -4,15 +4,15 @@ node_js:
 
 jobs:
   include:
-    - stage: test
+    - stage: test package security
       script:
         - npm run audit
-    - stage: test
+    - stage: test types
       script:
         - npm run flow
-    - stage: test
+    - stage: test linter
       script:
         - npm run prettier
-    - stage: test
+    - stage: test build
       script:
         - npm run build
