@@ -6,9 +6,9 @@ jobs:
   include:
     - stage: test package security
       script:
-        - npm audit --audit-level=high
+        # locking at `moderate` to avoid https://www.npmjs.com/advisories/836
+        # consider swapping back to low whenever possible / reasonable
         - npm audit --audit-level=moderate
-        - npm audit --audit-level=low || true
     - stage: test types
       script:
         - npm run flow
