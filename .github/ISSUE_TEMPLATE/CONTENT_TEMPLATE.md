@@ -1,6 +1,6 @@
 ---
 name: Add content to the website
-about: For adding content - can be completed entirely in CMS
+about: For adding content - can be completed entirely in CMS, or via a github pull request
 ---
 
 ### Content type
