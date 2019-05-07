@@ -1,13 +1,8 @@
 {
   "company": "Netlify",
-  "company_url": "",
+  "company_url": "https://www.netlify.com/",
   "logo": "/images/netlify.svg",
-  "level": [
-    "bronze"
-  ],
-  "org_sponsor": true,
+  "level": ["bronze"],
   "conf_sponsor": true,
-  "years": [
-    "2019"
-  ]
+  "years": ["2019"]
 }
