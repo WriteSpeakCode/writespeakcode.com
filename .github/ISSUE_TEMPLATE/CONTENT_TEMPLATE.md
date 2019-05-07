@@ -10,4 +10,4 @@ Is this an issue to add or update a speaker? sponsor? copy? metadata? etc
 
 
 #### Content Details
-<!-- Add all the information for the content and upload any images here if applicable -->
+<!-- Add information about the content and upload any images here, if applicable -->
