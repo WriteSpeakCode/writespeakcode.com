@@ -59,28 +59,3 @@
   padding-bottom: 0.5em;
   border-bottom: 1px solid var(--blush);
 }
-
-.logos {
-  margin: 2em 0;
-}
-
-.bigLogo {
-  width: 14em;
-  margin: 1em;
-}
-
-.mediumLogo {
-  width: 12em;
-  margin: 1em;
-}
-
-.smallLogo {
-  max-width: 8em;
-  margin: 1em;
-}
-
-.grid {
-  @media screen and (min-width: 30em) {
-    display: flex;
-  }
-}
