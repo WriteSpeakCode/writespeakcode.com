@@ -1,0 +1,15 @@
+{
+  "levels": [
+    { "level": "platinum" },
+    { "level": "gold" },
+    { "level": "silver" },
+    { "level": "bronze" },
+    { "level": "workshop" },
+    { "level": "lanyard" },
+    { "level": "breakout" },
+    { "level": "childcare" },
+    { "level": "accessibility" },
+    { "level": "headshot" },
+    { "level": "local meetup" }
+  ]
+}
