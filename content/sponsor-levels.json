@@ -1,15 +1,15 @@
 {
   "levels": [
-    { "level": "platinum" },
-    { "level": "gold" },
-    { "level": "silver" },
-    { "level": "bronze" },
-    { "level": "workshop" },
-    { "level": "lanyard" },
-    { "level": "breakout" },
-    { "level": "childcare" },
-    { "level": "accessibility" },
-    { "level": "headshot" },
-    { "level": "local meetup" }
+    { "level": "Platinum" },
+    { "level": "Gold" },
+    { "level": "Silver" },
+    { "level": "Bronze" },
+    { "level": "Workshop" },
+    { "level": "Lanyard" },
+    { "level": "Breakout" },
+    { "level": "Childcare" },
+    { "level": "Accessibility" },
+    { "level": "Headshot" },
+    { "level": "Local meetup" }
   ]
 }
