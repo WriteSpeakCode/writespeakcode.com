@@ -1,12 +1,13 @@
 backend:
   name: github
   repo: writespeakcode/writespeakcode.com
+  branch: production
 
 media_folder: static/images
 public_folder: /images
 
 site_url: https://writespeakcode.netlify.com
-logo_url: https://raw.githubusercontent.com/WriteSpeakCode/writespeakcode.com/master/src/images/logos/wsc-logo-fullcolor.png
+logo_url: https://raw.githubusercontent.com/WriteSpeakCode/writespeakcode.com/production/src/images/logos/wsc-logo-fullcolor.png
 
 publish_mode: editorial_workflow
 show_preview_links: false
