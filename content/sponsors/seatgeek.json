@@ -2,7 +2,7 @@
   "company": "Seat Geek",
   "company_url": "",
   "logo": "/images/seatgeek.jpg",
-  "level": ["local meetup"],
+  "level": ["Local Meetup"],
   "conf_sponsor": false,
   "years": ["2019"]
 }

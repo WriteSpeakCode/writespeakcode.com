@@ -5,6 +5,7 @@ import VisuallyHidden from '@reach/visually-hidden'
 import Layout from '../layouts/default'
 import SEO from '../components/seo'
 import Section from '../components/section'
+import Sponsors from '../components/sponsors'
 
 import styles from './index.module.css'
 
@@ -199,6 +200,7 @@ const IndexPage = props => (
       </p>
     </Section>
 
+    <Sponsors sponsors={props.data.allSponsorsJson.nodes} />
   </Layout>
 )
 
@@ -227,6 +229,15 @@ export const pageQuery = graphql`
     }
     community: file(relativePath: { eq: "photos/community.jpg" }) {
       ...fluidImage
+    }
+
+    allSponsorsJson(filter: { years: { in: "2019" } }) {
+      nodes {
+        company
+        company_url
+        logo
+        level
+      }
     }
   }
 `

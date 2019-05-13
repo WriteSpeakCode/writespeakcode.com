@@ -2,7 +2,7 @@
   "company": "VTS",
   "company_url": "https://www.vts.com/",
   "logo": "/images/vts.jpg",
-  "level": ["local meetup"],
+  "level": ["Local Meetup"],
   "conf_sponsor": false,
   "years": ["2019"]
 }

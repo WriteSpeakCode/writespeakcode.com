@@ -49,13 +49,3 @@
   line-height: 2.1;
   background-color: var(--mint);
 }
-
-.heading {
-  font-family: 'PT Sans Caption';
-  font-weight: var(--bold);
-  font-size: 1.3em;
-  line-height: 1.3;
-  margin: 1em 0;
-  padding-bottom: 0.5em;
-  border-bottom: 1px solid var(--blush);
-}

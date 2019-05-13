@@ -2,7 +2,7 @@
   "company": "Glympse",
   "company_url": "https://www.glympse.com",
   "logo": "/images/glympse.jpg",
-  "level": ["local meetup"],
+  "level": ["Local Meetup"],
   "conf_sponsor": false,
   "years": ["2019"]
 }
