@@ -4,7 +4,5 @@
   "logo": "/images/glympse.png",
   "org_sponsor": true,
   "conf_sponsor": true,
-  "years": [
-    "2019"
-  ]
+  "years": ["2019"]
 }
