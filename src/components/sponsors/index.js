@@ -1,3 +1,4 @@
+// @flow
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 
@@ -8,13 +9,13 @@ const parameterize = str => str.replace(' ', '').toLowerCase()
 
 const renderSponsors = (levels, sponsors) => {
   return levels.map(({ node }) => {
-    let sponsorsList = sponsors.filter(sponsor =>
-      sponsor.level.includes(node.level)
-    )
+    let list =
+      sponsors.filter(sponsor => sponsor.level.includes(node.level)) || []
 
-    if (sponsorsList.length > 0) {
-      return <Level key={node.id} level={node.level} sponsors={sponsorsList} />
+    if (list.length > 0) {
+      return <Level key={node.id} level={node.level} sponsors={list} />
     }
+    return null
   })
 }
 
@@ -40,7 +41,16 @@ const Level = ({ level, sponsors, id }) => (
   </section>
 )
 
-const Sponsors = ({ sponsors }) => (
+type SponsorsType = [
+  {
+    company: String,
+    company_url: String,
+    logo: String,
+    level: Array<String>,
+  },
+]
+
+const Sponsors = ({ sponsors }: { sponsors: SponsorsType }) => (
   <StaticQuery
     query={graphql`
       query {
