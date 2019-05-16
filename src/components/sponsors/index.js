@@ -7,22 +7,28 @@ import styles from './sponsors.module.css'
 const parameterize = str => str.replace(' ', '').toLowerCase()
 
 const renderSponsors = (levels, sponsors) => {
-  return levels.map(({ id, node }) => {
-    const sponsorsList = sponsors.filter(sponsor =>
+  return levels.map(({ node }) => {
+    let sponsorsList = sponsors.filter(sponsor =>
       sponsor.level.includes(node.level)
     )
-    return sponsorsList.length > 0 ? (
-      <Level key={id} level={node.level} sponsors={sponsorsList} />
-    ) : null
+
+    if (sponsorsList.length > 0) {
+      return <Level key={node.id} level={node.level} sponsors={sponsorsList} />
+    }
   })
 }
 
-const Level = ({ level, sponsors }) => (
-  <section className={styles[parameterize(level)]}>
+const Level = ({ level, sponsors, id }) => (
+  <section className={styles[parameterize(level)]} id="sponsors">
     <h3 className={styles.heading}>{level}</h3>
     <div className={styles.grid}>
-      {sponsors.map(sponsor => (
-        <a target="_blank" rel="noopener noreferrer" href={sponsor.company_url}>
+      {sponsors.map((sponsor, index) => (
+        <a
+          key={index}
+          target="_blank"
+          rel="noopener noreferrer"
+          href={sponsor.company_url}
+        >
           <img
             src={sponsor.logo}
             alt={sponsor.company}
@@ -42,6 +48,7 @@ const Sponsors = ({ sponsors }) => (
           edges {
             node {
               level
+              id
             }
           }
         }
@@ -73,4 +80,5 @@ const Sponsors = ({ sponsors }) => (
     )}
   />
 )
+
 export default Sponsors
