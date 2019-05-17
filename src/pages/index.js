@@ -5,14 +5,9 @@ import VisuallyHidden from '@reach/visually-hidden'
 import Layout from '../layouts/default'
 import SEO from '../components/seo'
 import Section from '../components/section'
+import Sponsors from '../components/sponsors'
 
 import styles from './index.module.css'
-
-import atlassian from '../images/sponsors/atlassian.svg'
-import netlify from '../images/sponsors/netlify.svg'
-import glympse from '../images/sponsors/glympse.png'
-import vts from '../images/sponsors/vts.png'
-import seatgeek from '../images/sponsors/seatgeek.jpg'
 
 const IndexPage = props => (
   <Layout>
@@ -205,80 +200,7 @@ const IndexPage = props => (
       </p>
     </Section>
 
-    <Section>
-      <h1 className={styles.title}>Sponsorship</h1>
-      <h2 className={styles.subtitle}>
-        Recruit talented, driven technologists.
-      </h2>
-      <p>
-        Sponsorship is the most effective way to demonstrate your commitment to
-        the professional development of people with marginalized genders at your
-        organization. Write/Speak/Code is a 501c3 nonprofit. Contact
-        sponsor@writespeakcode.com to learn more.
-      </p>
-      <a
-        className="link"
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://drive.google.com/file/d/1X-nDSHYiPiPT79Rc1xUAZCNxvr67ei6J/view?usp=sharing"
-      >
-        2019 Sponsorship Prospectus
-      </a>
-      <div className={styles.logos}>
-        <h3 className={styles.heading}>Bronze</h3>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.netlify.com"
-        >
-          <img src={netlify} alt="Netlify logo" className={styles.bigLogo} />
-        </a>
-        <h3 className={styles.heading}>Workshops</h3>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.atlassian.com"
-        >
-          <img
-            src={atlassian}
-            alt="Atlassian logo"
-            className={styles.mediumLogo}
-          />
-        </a>
-        <h3 className={styles.heading}>Local Meetups</h3>
-        <div className={styles.grid}>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.glympse.com"
-          >
-            <img
-              src={glympse}
-              alt="Glympse logo"
-              className={styles.smallLogo}
-            />
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.vts.com"
-          >
-            <img src={vts} alt="VTS logo" className={styles.smallLogo} />
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.seatgeek.com"
-          >
-            <img
-              src={seatgeek}
-              alt="SeatGeek logo"
-              className={styles.smallLogo}
-            />
-          </a>
-        </div>
-      </div>
-    </Section>
+    <Sponsors sponsors={props.data.allSponsorsJson.nodes} />
   </Layout>
 )
 
@@ -307,6 +229,15 @@ export const pageQuery = graphql`
     }
     community: file(relativePath: { eq: "photos/community.jpg" }) {
       ...fluidImage
+    }
+
+    allSponsorsJson(filter: { years: { in: "2019" } }) {
+      nodes {
+        company
+        company_url
+        logo
+        level
+      }
     }
   }
 `
