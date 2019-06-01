@@ -1,0 +1,54 @@
+.container {
+  margin: 1em 2em;
+  @media screen and (min-width: 90em) {
+    max-width: var(--container);
+    margin: 1em auto;
+  }
+}
+
+.heroBg {
+  background-position: center center;
+  background-size: cover;
+}
+
+.overlay {
+  background: linear-gradient(
+    to right,
+    RGBA(255, 255, 255, 1),
+    RGBA(255, 255, 255, 0.4)
+  );
+  width: 100%;
+  height: 100%;
+}
+
+.hero {
+  margin: 2em;
+  font-weight: var(--semi-bold);
+  @media screen and (min-width: 90em) {
+    max-width: var(--container);
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 50em) {
+    margin-top: 6em;
+    margin-bottom: 10em;
+  }
+}
+
+.mission {
+  max-width: 20em;
+  display: block;
+  font-family: 'PT Sans Caption';
+  font-weight: var(--bold);
+  font-size: 1.6em;
+  line-height: 1.3;
+  @media screen and (min-width: 50em) {
+    font-size: 2em;
+  }
+}
+
+.headline {
+  max-width: 30em;
+  font-family: 'Open Sans';
+  font-weight: var(--light);
+  font-size: 1.3em;
+}

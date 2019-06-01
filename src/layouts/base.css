@@ -29,7 +29,7 @@
 
 @media screen and (min-width: 80em) {
   :root {
-    --container: 66em;
+    --container: 80em;
   }
 }
 
@@ -88,6 +88,7 @@ a {
   transition: all 0.3s ease-in-out;
   color: var(--navy);
   z-index: -1;
+  opacity: 0;
 }
 
 [data-reach-skip-link]:focus {
@@ -95,4 +96,5 @@ a {
   display: block;
   padding: 1em 1.5em;
   z-index: 1;
+  opacity: 1;
 }

@@ -24,7 +24,6 @@
     &:nth-of-type(2n) {
       flex-direction: row-reverse;
       .image {
-        box-shadow: 1em 1em var(--blush);
       }
     }
     .content {
@@ -33,7 +32,6 @@
       margin: 0;
     }
     .image {
-      box-shadow: -1em 1em var(--blush);
       width: 48%;
       max-height: none;
     }

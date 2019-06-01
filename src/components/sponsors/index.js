@@ -20,7 +20,7 @@ const renderSponsors = (levels, sponsors) => {
 }
 
 const Level = ({ level, sponsors, id }) => (
-  <section className={styles[parameterize(level)]} id="sponsors">
+  <section className={styles[parameterize(level)]}>
     <h3 className={styles.heading}>{level}</h3>
     <div className={styles.grid}>
       {sponsors.map((sponsor, index) => (
@@ -65,7 +65,7 @@ const Sponsors = ({ sponsors }: { sponsors: SponsorsType }) => (
       }
     `}
     render={data => (
-      <Section>
+      <Section id="sponsorship">
         <h1 className={styles.title}>Sponsorship</h1>
         <h2 className={styles.subtitle}>
           Recruit talented, driven technologists.
