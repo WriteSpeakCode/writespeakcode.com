@@ -126,7 +126,7 @@ collections:
         multiple: true
         options: ['2015', '2016', '2017', '2018', '2019', '2020']
         required: false
-
+        
   - name: 'organizers'
     label: 'Organizers'
     identifier_field: name
@@ -166,4 +166,26 @@ collections:
           - label: 'URL'
             name: 'url'
             widget: 'string'
-
+            
+  - name: 'testimonials'
+    label: 'Testimonials'
+    identifier_field: quote
+    label_singular: 'Testimonial'
+    description: 'Add, edit, or delete testimonials here. Testimonials will be shown across the website.'
+    delete: true
+    create: true
+    folder: 'content/testimonials'
+    extension: 'json'
+    fields:
+      - label: 'Quote'
+        name: 'quote'
+        widget: 'text'
+        required: true
+      - label: 'Name'
+        name: 'name'
+        widget: 'string'
+        required: true
+      - label: 'URL Source'
+        name: 'url_source'
+        widget: 'string'
+        required: false
