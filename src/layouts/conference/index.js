@@ -23,7 +23,7 @@ const Layout = ({ children }) => (
             }
           }
         }
-        background: file(relativePath: { eq: "photos/oye.jpg" }) {
+        background: file(relativePath: { eq: "photos/WSC-309.jpg" }) {
           childImageSharp {
             fluid(quality: 90, maxWidth: 4160) {
               ...GatsbyImageSharpFluid_withWebp
