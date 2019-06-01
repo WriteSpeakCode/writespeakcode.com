@@ -159,7 +159,7 @@ collections:
         widget: 'list'
         required: false
         fields:
-          - label: 'Type'
+          - label: 'Type' 
             name: 'type'
             widget: 'select'
             options: ['twitter', 'linkedin', 'github', 'website', 'other']

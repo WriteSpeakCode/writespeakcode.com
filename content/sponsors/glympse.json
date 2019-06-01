@@ -1,10 +1,8 @@
 {
   "company": "Glympse",
   "company_url": "https://www.glympse.com",
-  "logo": "/images/glympse.png",
-  "org_sponsor": true,
-  "conf_sponsor": true,
-  "years": [
-    "2019"
-  ]
+  "logo": "/images/glympse.jpg",
+  "level": ["Local Meetup"],
+  "conf_sponsor": false,
+  "years": ["2019"]
 }
