@@ -135,7 +135,47 @@ collections:
         multiple: true
         options: ['2015', '2016', '2017', '2018', '2019', '2020']
         required: false
-
+        
+  - name: 'organizers'
+    label: 'Organizers'
+    identifier_field: name
+    label_singular: 'Organizer'
+    description: 'Add, edit, or delete organizers here. Organizers are used on the About Us page.'
+    delete: true
+    create: true
+    folder: 'content/organizers'
+    extension: 'json'
+    fields:
+      - label: 'Name'
+        name: 'name'
+        widget: 'string'
+      - label: 'Headshot'
+        name: 'headshot'
+        widget: 'image'
+        required: false
+      - label: 'Pronouns'
+        name: 'pronouns'
+        widget: 'string'
+        required: false
+      - label: 'Role'
+        name: 'role'
+        widget: 'select'
+        multiple: true
+        options: ['Board Member', 'Chapter Organizer', 'Conference Organizer', 'Website Contributor']
+        required: true
+      - label: 'Social Links'
+        name: 'links'
+        widget: 'list'
+        required: false
+        fields:
+          - label: 'Type'
+            name: 'type'
+            widget: 'select'
+            options: ['twitter', 'linkedin', 'github', 'website', 'other']
+          - label: 'URL'
+            name: 'url'
+            widget: 'string'
+            
   - name: 'testimonials'
     label: 'Testimonials'
     identifier_field: quote
