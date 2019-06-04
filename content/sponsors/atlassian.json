@@ -4,5 +4,8 @@
   "logo": "/images/atlassian.svg",
   "level": ["Workshops"],
   "conf_sponsor": false,
-  "years": ["2019"]
+  "years": ["2019"],
+  "sponsorships": [
+    { "year": "2019", "level": "Private Workshops", "conf_sponsor": false }
+  ]
 }
