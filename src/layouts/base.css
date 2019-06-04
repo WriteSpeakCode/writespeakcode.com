@@ -56,11 +56,14 @@ a {
 }
 
 .link {
-  border-bottom: 2px dotted;
+  border-bottom: 4px solid;
   border-color: inherit;
   display: inline-block;
+  font-weight: var(--semi-bold);
+  font-family: 'PT Sans Caption';
+  font-size: 0.9em;
   &:hover {
-    border-bottom-style: solid;
+    border-bottom-style: dotted;
   }
 }
 

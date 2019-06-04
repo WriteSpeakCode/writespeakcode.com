@@ -43,7 +43,11 @@ const IndexPage = props => (
         and external effects of that marginalization by identifying, expanding,
         and sharing their expertise with the support of an engaged peer network.
       </p>
-      <Link to="/code-of-conduct/" className="link">
+      <Link
+        to="/code-of-conduct/"
+        className="link"
+        style={{ borderColor: 'var(--orange)' }}
+      >
         Read the code of conduct
       </Link>
     </Section>
@@ -73,8 +77,9 @@ const IndexPage = props => (
         target="_blank"
         rel="noopener noreferrer"
         href="https://writespeakcode-2019conference.eventbrite.com/"
+        style={{ borderColor: 'var(--mint)' }}
       >
-        Get Tickets
+        Get tickets
       </a>
     </Section>
 
@@ -133,6 +138,7 @@ const IndexPage = props => (
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.meetup.com/Write-Speak-Code-Austin/"
+          style={{ borderColor: 'var(--blush)' }}
         >
           Austin
         </a>
@@ -142,6 +148,7 @@ const IndexPage = props => (
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.meetup.com/WriteSpeakCode-Chicago"
+          style={{ borderColor: 'var(--blush)' }}
         >
           Chicago
         </a>
@@ -151,6 +158,7 @@ const IndexPage = props => (
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.meetup.com/Write-Speak-Code-Los-Angeles"
+          style={{ borderColor: 'var(--blush)' }}
         >
           Los Angeles
         </a>
@@ -160,6 +168,7 @@ const IndexPage = props => (
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.meetup.com/Write-Speak-Code-NYC/"
+          style={{ borderColor: 'var(--blush)' }}
         >
           New York City
         </a>
@@ -169,6 +178,7 @@ const IndexPage = props => (
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.meetup.com/WriteSpeakCode-SFBay/"
+          style={{ borderColor: 'var(--blush)' }}
         >
           San Francisco
         </a>
@@ -178,6 +188,7 @@ const IndexPage = props => (
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.meetup.com/WSC-Seattle"
+          style={{ borderColor: 'var(--blush)' }}
         >
           Seattle
         </a>
