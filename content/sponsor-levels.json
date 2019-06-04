@@ -2,12 +2,5 @@
   { "level": "Platinum" },
   { "level": "Gold" },
   { "level": "Silver" },
-  { "level": "Bronze" },
-  { "level": "Workshops" },
-  { "level": "Lanyard" },
-  { "level": "Breakout" },
-  { "level": "Childcare" },
-  { "level": "Accessibility" },
-  { "level": "Headshot" },
-  { "level": "Local Meetup" }
+  { "level": "Bronze" }
 ]

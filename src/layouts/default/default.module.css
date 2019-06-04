@@ -2,6 +2,6 @@
   margin: 2em;
   @media screen and (min-width: 90em) {
     max-width: var(--container);
-    margin: 1em auto;
+    margin: 0 auto;
   }
 }

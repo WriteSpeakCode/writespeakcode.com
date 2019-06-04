@@ -14,8 +14,12 @@ const IndexPage = props => (
     <Section
       img={props.data.community.childImageSharp.fluid}
       imgAlt="2018 conference-goers pose for a photo together in front of the Write Speak Code banner"
-      imgStyle={{ objectFit: 'cover', objectPosition: 'center center' }}
+      imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
       id="community"
+      sectionStyle={{
+        background:
+          'linear-gradient(to top left, var(--white) 70%, var(--orange) 70%)',
+      }}
     >
       <h1 className={styles.title}>Community</h1>
       <p>
@@ -49,6 +53,11 @@ const IndexPage = props => (
       imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
       imgAlt="A panel of speakers on stage at the 2018 conference"
       id="conference"
+      sectionStyle={{
+        background:
+          'linear-gradient(to bottom right, var(--white) 50%, var(--mint) 50%)',
+      }}
+      contentStyle={{ alignSelf: 'flex-start' }}
     >
       <h1 className={styles.title}>Annual Conference</h1>
       <h2 className={styles.subtitle}>
@@ -74,6 +83,10 @@ const IndexPage = props => (
       img={props.data.oye.childImageSharp.fluid}
       imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
       id="own-your-expertise"
+      sectionStyle={{
+        background: 'var(--navy)',
+        color: 'var(--white)',
+      }}
     >
       <h1 className={styles.title}>Own Your Expertise</h1>
       <h2 className={styles.subtitle}>
@@ -103,6 +116,11 @@ const IndexPage = props => (
       imgAlt="People collaborate on their laptops at a Write Speak Code event."
       imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
       id="chapters"
+      sectionStyle={{
+        background:
+          'linear-gradient(to top right, var(--white) 50%, var(--blush) 50%)',
+      }}
+      contentStyle={{ alignSelf: 'flex-end' }}
     >
       <h1 className={styles.title}>Local Chapters</h1>
       <h2 className={styles.subtitle}>
@@ -167,8 +185,9 @@ const IndexPage = props => (
       </p>
 
       <p>
-        Don't see your city? Contact info@writespeakcode.com to learn how we can
-        help you start a chapter near you.
+        Don't see your city? Contact{' '}
+        <span className="italic">info@writespeakcode.com</span> to learn how we
+        can help you start a chapter near you.
       </p>
     </Section>
 

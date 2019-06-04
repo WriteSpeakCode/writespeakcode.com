@@ -1,5 +1,5 @@
 .header {
-  padding-top: 1em;
+  background-color: var(--white);
 }
 
 .list {
@@ -35,18 +35,22 @@
   height: 110%;
   width: 110%;
   margin-left: -5%;
-  margin-right: -5%;
+  margin-right: 5%;
   top: -5%;
   position: absolute;
   transform: skew(-15deg);
 }
+
 .navLink:before {
-  background: var(--blush);
+  background: var(--navy);
   z-index: -100;
 }
+
 .navLink {
-  color: var(--navy);
+  color: var(--white);
   padding: 0.5em;
   font-family: 'PT Sans Caption';
   z-index: 1;
+  font-weight: var(--bold);
+  font-size: 0.9em;
 }

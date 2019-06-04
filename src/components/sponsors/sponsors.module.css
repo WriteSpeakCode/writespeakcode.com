@@ -1,11 +1,14 @@
 .title {
   font-family: 'PT Sans Caption';
   font-weight: var(--bold);
-  font-size: 1.5em;
+  font-size: 1.6em;
   line-height: 1.3;
   margin: 0.25em 0;
   @media screen and (min-width: 65em) {
     font-size: 1.8em;
+  }
+  @media screen and (min-width: 90em) {
+    font-size: 2em;
   }
 }
 
@@ -23,8 +26,36 @@
   font-size: 1.3em;
   line-height: 1.3;
   margin: 1em 0;
+  padding-top: 0.5em;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid var(--blush);
+  border-top: 1px solid var(--tan);
+  border-bottom: 1px solid var(--tan);
+}
+
+@media screen and (min-width: 65em) {
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .cta {
+    max-width: 35%;
+  }
+  .info {
+    max-width: 50%;
+  }
+}
+
+.cta {
+  padding: 2em;
+  background-color: var(--tan);
+  a {
+    margin-top: 1em;
+    display: inline;
+  }
+  p {
+    margin-top: 0;
+  }
 }
 
 .logos {

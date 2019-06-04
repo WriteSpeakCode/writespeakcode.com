@@ -30,14 +30,13 @@ const HomeLayout = ({ children }) => {
   return (
     <>
       <SkipNavLink />
+      <Header />
       <BackgroundImage
         Tag="section"
         fluid={data.hero.childImageSharp.fluid}
         backgroundColor={`var(--mint)`}
-        className={styles.heroBg}
       >
         <div className={styles.overlay}>
-          <Header />
           <section className={styles.hero}>
             <VisuallyHidden>
               <h1>Write Speak Code</h1>
@@ -57,7 +56,7 @@ const HomeLayout = ({ children }) => {
         </div>
       </BackgroundImage>
       <SkipNavContent>
-        <main className={styles.container}>{children}</main>
+        <main>{children}</main>
       </SkipNavContent>
       <Footer />
     </>
