@@ -61,7 +61,6 @@ a {
   display: inline-block;
   font-weight: var(--semi-bold);
   font-family: 'PT Sans Caption';
-  font-size: 0.9em;
   &:hover {
     border-bottom-style: dotted;
   }

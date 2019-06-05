@@ -1,5 +1,5 @@
 .header {
-  background-color: var(--white);
+  background-color: var(--navy);
 }
 
 .list {
@@ -25,32 +25,14 @@
 }
 
 .navLink {
-  position: relative;
-}
-
-.navLink:before,
-.navLink:after {
-  content: ' ';
-  display: block;
-  height: 110%;
-  width: 110%;
-  margin-left: -5%;
-  margin-right: 5%;
-  top: -5%;
-  position: absolute;
-  transform: skew(-15deg);
-}
-
-.navLink:before {
-  background: var(--navy);
-  z-index: -100;
-}
-
-.navLink {
-  color: var(--white);
-  padding: 0.5em;
+  color: var(--blush);
+  margin: 0.5em;
+  padding-bottom: 0.25em;
   font-family: 'PT Sans Caption';
   z-index: 1;
   font-weight: var(--bold);
-  font-size: 0.9em;
+  &:hover,
+  &:focus {
+    border-bottom: 4px solid var(--blush);
+  }
 }
