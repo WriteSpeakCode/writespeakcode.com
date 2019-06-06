@@ -11,7 +11,7 @@ const Header = () => {
       query LogoQuery {
         file(relativePath: { eq: "logos/wsc-logo-twocolor-v2.png" }) {
           childImageSharp {
-            fixed(width: 250) {
+            fixed(width: 200) {
               ...GatsbyImageSharpFixed_tracedSVG
             }
           }

@@ -1,5 +1,8 @@
 .notification {
   font-weight: var(--semi-bold);
+  a {
+    border-color: var(--orange);
+  }
 }
 
 .icon {

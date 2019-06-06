@@ -5,7 +5,7 @@
 .list {
   list-style-type: none;
   margin: 0;
-  padding: 1em;
+  padding: 1em 2em;
 
   li:not(:first-of-type) {
     padding: 1em;
@@ -28,9 +28,9 @@
   color: var(--blush);
   margin: 0.5em;
   padding-bottom: 0.25em;
-  font-family: 'PT Sans Caption';
+  font-family: 'Open Sans';
   z-index: 1;
-  font-weight: var(--bold);
+  font-weight: var(--semi-bold);
   &:hover,
   &:focus {
     border-bottom: 4px solid var(--blush);

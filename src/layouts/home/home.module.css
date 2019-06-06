@@ -20,11 +20,11 @@
   margin: 4em 2em;
   font-weight: var(--semi-bold);
   @media screen and (min-width: 50em) {
-    margin: 6em 2em;
+    margin: 8em 2em;
   }
   @media screen and (min-width: 90em) {
     max-width: var(--container);
-    margin: 6em auto;
+    margin: 8em auto;
   }
 }
 
