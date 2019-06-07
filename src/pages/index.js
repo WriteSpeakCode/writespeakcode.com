@@ -196,10 +196,12 @@ const IndexPage = ({ data }) => (
         </p>
       </div>
     </section>
+
+    <Sponsors sponsors={data.allSponsorsJson.nodes} />
   </HomeLayout>
 )
+
 export default IndexPage
-// <Sponsors sponsors={props.data.allSponsorsJson.nodes} />
 
 export const fluidImage = graphql`
   fragment fluidImage on File {
@@ -228,10 +230,16 @@ export const pageQuery = graphql`
 
     allSponsorsJson {
       nodes {
+        id
         company
         company_url
         company_text
         logo
+        sponsorships {
+          year
+          level
+          conf_sponsor
+        }
       }
     }
   }

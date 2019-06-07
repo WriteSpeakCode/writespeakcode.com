@@ -2,8 +2,5 @@
   "company": "Textio",
   "company_url": "https://www.textio.com/",
   "logo": "/images/textio.svg",
-  "level": ["Bronze"],
-  "conf_sponsor": true,
-  "years": ["2019"],
   "sponsorships": [{ "year": "2019", "level": "Bronze", "conf_sponsor": true }]
 }

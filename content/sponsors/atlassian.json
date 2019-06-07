@@ -2,10 +2,8 @@
   "company": "Atlassian",
   "company_url": "https://www.atlassian.com/",
   "logo": "/images/atlassian.svg",
-  "level": ["Workshops"],
-  "conf_sponsor": false,
-  "years": ["2019"],
   "sponsorships": [
+    { "year": "2018", "level": "beep", "conf_sponsor": true },
     { "year": "2019", "level": "Private Workshops", "conf_sponsor": false }
   ]
 }

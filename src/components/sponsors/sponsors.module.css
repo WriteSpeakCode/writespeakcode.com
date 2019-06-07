@@ -1,23 +1,13 @@
-.title {
-  font-family: 'PT Sans Caption';
-  font-weight: var(--bold);
-  font-size: 1.6em;
-  line-height: 1.3;
-  margin: 0.25em 0;
-  @media screen and (min-width: 65em) {
-    font-size: 1.8em;
-  }
-  @media screen and (min-width: 90em) {
-    font-size: 2em;
-  }
+.section {
+  padding: 3em 1em;
 }
 
-.subtitle {
-  display: inline;
-  font-family: 'Open Sans';
-  font-weight: var(--light);
-  font-size: 1.3em;
-  line-height: 2.1;
+.info {
+  padding: 2em;
+}
+
+.levelSection {
+  padding: 1em;
 }
 
 .heading {
@@ -36,10 +26,11 @@
   .row {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .cta {
     max-width: 35%;
+    margin: 2em;
   }
   .info {
     max-width: 50%;
@@ -58,14 +49,31 @@
   }
 }
 
-.logos {
-  margin: 2em 0;
+.sponsor {
+  /* max-width: 50%; */
+  p {
+    font-size: 0.8em;
+  }
 }
+
+/* .logos {
+  margin: 2em 0;
+} */
 
 /* If somehow a logo is added without a level below, it will be medium-sized by default */
 .logo {
   width: 12em;
   margin: 1em;
+}
+
+.platinum {
+  .sponsor {
+    display: flex;
+    align-items: center;
+    p {
+      max-width: 30em;
+    }
+  }
 }
 
 .platinum,

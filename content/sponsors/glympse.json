@@ -2,9 +2,6 @@
   "company": "Glympse",
   "company_url": "https://www.glympse.com",
   "logo": "/images/glympse.jpg",
-  "level": ["Local Meetup SEA"],
-  "conf_sponsor": false,
-  "years": ["2019"],
   "sponsorships": [
     { "year": "2019", "level": "Local Meetup SEA", "conf_sponsor": false }
   ]
