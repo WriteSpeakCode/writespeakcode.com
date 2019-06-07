@@ -22,7 +22,7 @@
   @media screen and (min-width: 50em) {
     margin: 8em 2em;
   }
-  @media screen and (min-width: 90em) {
+  @media screen and (min-width: 95em) {
     max-width: var(--container);
     margin: 8em auto;
   }
