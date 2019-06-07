@@ -1,6 +1,6 @@
 {
-  "company": "VTS",
-  "company_url": "https://www.vts.com/",
+  "name": "VTS",
+  "url": "https://www.vts.com/",
   "logo": "/images/vts.jpg",
   "sponsorships": [
     { "year": "2019", "level": "Local Meetup NYC", "conf_sponsor": false }

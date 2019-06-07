@@ -1,7 +1,7 @@
 {
-  "company": "Mailchimp",
-  "company_url": "https://www.mailchimp.com",
-  "company_text": "MailChimp is the world’s most powerful marketing platform for small businesses. Millions of businesses and individuals - from community organizations to Fortune 100 companies - trust MailChimp to connect the right people with the right message, at the right time.",
+  "name": "Mailchimp",
+  "url": "https://www.mailchimp.com",
+  "text": "MailChimp is the world’s most powerful marketing platform for small businesses. Millions of businesses and individuals - from community organizations to Fortune 100 companies - trust MailChimp to connect the right people with the right message, at the right time.",
   "logo": "/images/mailchimp.jpg",
   "sponsorships": [{ "year": "2019", "level": "Gold", "conf_sponsor": true }]
 }

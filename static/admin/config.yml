@@ -81,7 +81,7 @@ collections:
 
   - name: 'sponsors'
     label: 'Sponsors'
-    identifier_field: company
+    identifier_field: name
     label_singular: 'Sponsor'
     description: 'Add, edit, or delete sponsors here. Sponsors are shown on the organization page and the conference pages.'
     delete: true
@@ -89,12 +89,12 @@ collections:
     folder: 'content/sponsors'
     extension: 'json'
     fields:
-      - label: 'Company'
-        name: 'company'
+      - label: 'Company Name'
+        name: 'name'
         widget: 'string'
         required: true
       - label: 'Company URL'
-        name: 'company_url'
+        name: 'url'
         widget: 'string'
         required: false
       - label: 'Logo'
@@ -102,7 +102,7 @@ collections:
         widget: 'image'
         required: false
       - label: 'Company Text'
-        name: 'company_text'
+        name: 'text'
         widget: 'text'
         required: false
       - label: 'Sponsorships'

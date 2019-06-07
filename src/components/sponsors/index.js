@@ -1,74 +1,21 @@
 import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+
+import Sponsor from '../sponsor'
 
 import styles from './sponsors.module.css'
 
-const parameterize = str => str.replace(' ', '').toLowerCase()
+import mailchimp from '../../../content/sponsors/mailchimp.json'
+import zipline from '../../../content/sponsors/zipline.json'
+import splunk from '../../../content/sponsors/splunk.json'
+import sentry from '../../../content/sponsors/sentry.json'
+import textio from '../../../content/sponsors/textio.json'
+import netlify from '../../../content/sponsors/netlify.json'
+import atlassian from '../../../content/sponsors/atlassian.json'
+import seatgeek from '../../../content/sponsors/seatgeek.json'
+import vts from '../../../content/sponsors/vts.json'
+import glympse from '../../../content/sponsors/glympse.json'
 
-// Select all sponsors with sponsorships in specific year
-const filterByYear = (sponsors, year) => {
-  return sponsors.filter(sponsor =>
-    sponsor.sponsorships.some(s => s.year === year)
-  )
-}
-
-const renderSponsors = (levels, sponsors, year) => {
-  return levels.map(level => {
-    // If any sponsors have sponsorships with current level, add them to list
-    let list =
-      sponsors.filter(sponsor =>
-        sponsor.sponsorships.some(s => s.level === level.level)
-      ) || []
-
-    if (list.length > 0) {
-      return <Level key={level.id} level={level.level} sponsors={list} />
-    }
-    return null
-  })
-}
-
-const Level = ({ level, sponsors }) => (
-  <section
-    className={[styles[parameterize(level)], styles.levelSection].join(' ')}
-  >
-    <h3 className={styles.heading}>{level}</h3>
-    <div className={styles.grid}>
-      {sponsors.map(sponsor => {
-        return (
-          <div className={styles.sponsor} key={sponsor.id}>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={sponsor.company_url}
-            >
-              <img
-                src={sponsor.logo}
-                alt={sponsor.company}
-                className={styles.logo}
-              />
-            </a>
-            <p>{sponsor.company_text}</p>
-          </div>
-        )
-      })}
-    </div>
-  </section>
-)
-
-const Sponsors = ({ sponsors, conf_sponsor }) => {
-  const { allSponsorLevelsJson } = useStaticQuery(
-    graphql`
-      query {
-        allSponsorLevelsJson {
-          nodes {
-            id
-            level
-          }
-        }
-      }
-    `
-  )
-
+const Sponsors = ({ sponsors }) => {
   return (
     <section id="sponsorship" className={styles.section}>
       <div className={styles.row}>
@@ -99,11 +46,39 @@ const Sponsors = ({ sponsors, conf_sponsor }) => {
           </a>
         </div>
       </div>
-      {renderSponsors(
-        allSponsorLevelsJson.nodes,
-        filterByYear(sponsors, '2019'),
-        '2019'
-      )}
+
+      <section className={[styles['gold'], styles.levelSection].join(' ')}>
+        <h3 className={styles.heading}>Gold</h3>
+        <div className={styles.grid}>
+          <Sponsor company={mailchimp} />
+          <Sponsor company={splunk} />
+          <Sponsor company={zipline} />
+        </div>
+      </section>
+      <section className={[styles['silver'], styles.levelSection].join(' ')}>
+        <h3 className={styles.heading}>Silver</h3>
+        <div className={styles.grid}>
+          <Sponsor company={sentry} />
+          <div />
+        </div>
+      </section>
+      <section className={[styles['bronze'], styles.levelSection].join(' ')}>
+        <h3 className={styles.heading}>Bronze</h3>
+        <div className={styles.grid}>
+          <Sponsor company={netlify} />
+          <Sponsor company={textio} />
+        </div>
+      </section>
+      <section className={[styles['other'], styles.levelSection].join(' ')}>
+        <h3 className={styles.heading}>Other</h3>
+        <div className={styles.grid}>
+          <Sponsor company={atlassian} level="Private Workshops" />
+          <Sponsor company={glympse} level="Local Meetup - SEA" />
+          <Sponsor company={seatgeek} level="Local Meetup - NYC" />
+          <Sponsor company={sentry} level="Local Meetup - SF" />
+          <Sponsor company={vts} level="Local Meetup - NYC" />
+        </div>
+      </section>
     </section>
   )
 }

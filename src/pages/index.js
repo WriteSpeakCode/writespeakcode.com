@@ -197,7 +197,7 @@ const IndexPage = ({ data }) => (
       </div>
     </section>
 
-    <Sponsors sponsors={data.allSponsorsJson.nodes} />
+    <Sponsors />
   </HomeLayout>
 )
 
@@ -226,21 +226,6 @@ export const pageQuery = graphql`
     }
     community: file(relativePath: { eq: "photos/WSC-NY-590.jpg" }) {
       ...fluidImage
-    }
-
-    allSponsorsJson {
-      nodes {
-        id
-        company
-        company_url
-        company_text
-        logo
-        sponsorships {
-          year
-          level
-          conf_sponsor
-        }
-      }
     }
   }
 `
