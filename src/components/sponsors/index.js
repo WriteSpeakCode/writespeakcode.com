@@ -1,4 +1,3 @@
-// @flow
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 
@@ -56,22 +55,7 @@ const Level = ({ level, sponsors }) => (
   </section>
 )
 
-type SponsorsType = [
-  {
-    company: String,
-    company_url: String,
-    logo: String,
-    level: Array<String>,
-  },
-]
-
-const Sponsors = ({
-  sponsors,
-  conf_sponsor,
-}: {
-  sponsors: SponsorsType,
-  conference: boolean,
-}) => {
+const Sponsors = ({ sponsors, conf_sponsor }) => {
   const { allSponsorLevelsJson } = useStaticQuery(
     graphql`
       query {
