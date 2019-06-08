@@ -20,10 +20,8 @@ const Sponsors = ({ sponsors }) => {
     <section id="sponsorship" className={styles.section}>
       <div className={styles.row}>
         <div className={styles.info}>
-          <h1 className={styles.title}>Sponsorship</h1>
-          <h2 className={styles.subtitle}>
-            Recruit talented, driven technologists.
-          </h2>
+          <h1 className="title">Sponsorship</h1>
+          <h2 className="subtitle">Recruit talented, driven technologists.</h2>
           <p>
             Sponsorship is the most effective way to demonstrate your commitment
             to the professional development of people with marginalized genders
