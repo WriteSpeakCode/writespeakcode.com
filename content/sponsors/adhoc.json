@@ -1,0 +1,6 @@
+{
+  "name": "Ad Hoc",
+  "url": "https://adhoc.team/",
+  "logo": "/images/adhoc.svg",
+  "sponsorships": [{ "year": "2019", "level": "Bronze", "conf_sponsor": true }]
+}

@@ -14,6 +14,8 @@ import atlassian from '../../../content/sponsors/atlassian.json'
 import seatgeek from '../../../content/sponsors/seatgeek.json'
 import vts from '../../../content/sponsors/vts.json'
 import glympse from '../../../content/sponsors/glympse.json'
+import github from '../../../content/sponsors/github.json'
+import adhoc from '../../../content/sponsors/adhoc.json'
 
 const Sponsors = ({ sponsors }) => {
   return (
@@ -45,6 +47,12 @@ const Sponsors = ({ sponsors }) => {
         </div>
       </div>
 
+      <section className={[styles['platinum'], styles.levelSection].join(' ')}>
+        <h3 className={styles.heading}>Platinum</h3>
+        <div className={styles.grid}>
+          <Sponsor company={github} />
+        </div>
+      </section>
       <section className={[styles['gold'], styles.levelSection].join(' ')}>
         <h3 className={styles.heading}>Gold</h3>
         <div className={styles.grid}>
@@ -65,6 +73,7 @@ const Sponsors = ({ sponsors }) => {
         <div className={styles.grid}>
           <Sponsor company={netlify} />
           <Sponsor company={textio} />
+          <Sponsor company={adhoc} />
         </div>
       </section>
       <section className={[styles['other'], styles.levelSection].join(' ')}>
