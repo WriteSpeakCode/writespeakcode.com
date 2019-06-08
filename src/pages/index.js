@@ -24,11 +24,11 @@ const IndexPage = ({ data }) => (
       />
       <div className={styles.content}>
         <h1 className="title">Community</h1>
-        <p>
+        <h2 className="subtitle">
           Our community is open to and our content is designed for people whose
-          gender or gender history is marginalized within tech. We define those
-          gender groups as:{' '}
-        </p>
+          gender or gender history is marginalized within tech.
+        </h2>
+        <p>We define those gender groups as:</p>
         <ul>
           <li>All women technologists (trans, non-binary, and cis) </li>
           <li>
