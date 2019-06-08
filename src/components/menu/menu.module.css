@@ -5,17 +5,22 @@
 
 .links {
   background-color: var(--navy);
-  a {
+  button {
     display: block;
+    background: transparent;
     color: var(--blush);
     margin: 1em;
-    padding-bottom: 0.25em;
+    padding: 0 0 0.5em 0;
     font-family: 'Open Sans';
     font-weight: var(--semi-bold);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
     border-bottom: 4px solid transparent;
     &:hover,
     &:focus {
       border-bottom: 4px solid var(--blush);
+      cursor: pointer;
     }
   }
 }
@@ -40,7 +45,7 @@
 .large {
   display: block;
   .links {
-    a {
+    button {
       display: inline-block;
     }
   }

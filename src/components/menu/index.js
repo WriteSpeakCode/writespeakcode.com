@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { navigate } from 'gatsby'
 
 import styles from './menu.module.css'
 
@@ -10,11 +11,41 @@ const Menu = () => {
 
   const menu = (
     <nav className={styles.links}>
-      <a href="#community">Community</a>
-      <a href="#conference">Conference</a>
-      <a href="#own-your-expertise">Own Your Expertise</a>
-      <a href="#chapters">Chapters</a>
-      <a href="#sponsorship">Sponsorship</a>
+      <button
+        onClick={() => {
+          navigate('/#community')
+        }}
+      >
+        Community
+      </button>
+      <button
+        onClick={() => {
+          navigate('/#conference')
+        }}
+      >
+        Conference
+      </button>
+      <button
+        onClick={() => {
+          navigate('/#own-your-expertise')
+        }}
+      >
+        Own Your Expertise
+      </button>
+      <button
+        onClick={() => {
+          navigate('/#chapters')
+        }}
+      >
+        Chapters
+      </button>
+      <button
+        onClick={() => {
+          navigate('/#sponsorship')
+        }}
+      >
+        Sponsorship
+      </button>
     </nav>
   )
 
