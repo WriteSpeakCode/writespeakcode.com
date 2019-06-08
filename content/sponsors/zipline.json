@@ -1,0 +1,6 @@
+{
+  "name": "Zipline",
+  "url": "https://flyzipline.com",
+  "logo": "/images/zipline.jpg",
+  "sponsorships": [{ "year": "2019", "level": "Gold", "conf_sponsor": true }]
+}

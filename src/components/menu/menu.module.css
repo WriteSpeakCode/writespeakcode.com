@@ -1,9 +1,56 @@
-.button {
-  position: fixed;
-  bottom: 1em;
-  right: 1em;
+.menuButton {
+  color: var(--blush);
+  font-size: 2em;
 }
 
-.menu {
-  background-color: var(--blush);
+.links {
+  background-color: var(--navy);
+  button {
+    display: block;
+    background: transparent;
+    color: var(--blush);
+    margin: 1em;
+    padding: 0 0 0.5em 0;
+    font-family: 'Open Sans';
+    font-weight: var(--semi-bold);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 4px solid transparent;
+    &:hover,
+    &:focus {
+      border-bottom: 4px solid var(--blush);
+      cursor: pointer;
+    }
+  }
+}
+
+.small {
+  display: none;
+
+  @media screen and (max-width: 60em) {
+    display: block;
+    .links {
+      z-index: 1;
+      position: absolute;
+      right: 0;
+      top: 6.5em;
+      a {
+        margin: 1em 2em;
+      }
+    }
+  }
+}
+
+.large {
+  display: block;
+  .links {
+    button {
+      display: inline-block;
+    }
+  }
+
+  @media screen and (max-width: 60em) {
+    display: none;
+  }
 }

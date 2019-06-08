@@ -81,7 +81,7 @@ collections:
 
   - name: 'sponsors'
     label: 'Sponsors'
-    identifier_field: company
+    identifier_field: name
     label_singular: 'Sponsor'
     description: 'Add, edit, or delete sponsors here. Sponsors are shown on the organization page and the conference pages.'
     delete: true
@@ -89,53 +89,76 @@ collections:
     folder: 'content/sponsors'
     extension: 'json'
     fields:
-      - label: 'Company'
-        name: 'company'
+      - label: 'Company Name'
+        name: 'name'
         widget: 'string'
         required: true
       - label: 'Company URL'
-        name: 'company_url'
+        name: 'url'
         widget: 'string'
         required: false
       - label: 'Logo'
         name: 'logo'
         widget: 'image'
         required: false
-      - label: 'Level'
-        name: 'level'
-        widget: 'select'
-        multiple: true
-        options:
-          [
-            'Platinum',
-            'Gold',
-            'Silver',
-            'Bronze',
-            'Workshop',
-            'Lanyard',
-            'Breakout',
-            'Childcare',
-            'Accessibility',
-            'Headshot',
-            'Local Meetup',
-          ]
-        required: false
-      - label: 'Conference Sponsor'
-        name: 'conf_sponsor'
-        widget: 'boolean'
-        default: false
-        required: false
       - label: 'Company Text'
-        name: 'company_text'
+        name: 'text'
         widget: 'text'
         required: false
-      - label: 'Years'
-        name: 'years'
-        widget: 'select'
-        multiple: true
-        options: ['2015', '2016', '2017', '2018', '2019', '2020']
+      - label: 'Sponsorships'
+        name: 'sponsorships'
+        widget: 'list'
         required: false
-        
+        fields:
+          - label: 'Year'
+            name: 'year'
+            widget: 'string'
+            required: true
+          - label: 'Level'
+            name: 'level'
+            widget: 'select'
+            required: true
+            options:
+              [
+                'Platinum',
+                'Gold',
+                'Silver',
+                'Bronze',
+                'Conference Childcare',
+                'Conference Lunch ',
+                'Conference Accessibility',
+                'Conference Headshot',
+                'Conference Workshop',
+                'Conference Lanyard',
+                'Conference Topic Dinner',
+                'OYE Chicago Childcare',
+                'OYE Chicago Accessibility',
+                'OYE Chicago Breakout Session',
+                'OYE Chicago Headshot',
+                'OYE Seattle Childcare',
+                'OYE Seattle Accessibility',
+                'OYE Seattle Breakout Session',
+                'OYE Seattle Headshot',
+                'OYE NYC Childcare',
+                'OYE NYC Accessibility',
+                'OYE NYC Breakout Session',
+                'OYE NYC Headshot',
+                'OYE LA Childcare',
+                'OYE LA Accessibility',
+                'OYE LA Breakout Session',
+                'OYE LA Headshot',
+                'Local Meetup SF',
+                'Local Meetup SEA',
+                'Local Meetup LA',
+                'Local Meetup NYC',
+                'Private Workshops',
+              ]
+          - label: 'Conference Sponsor'
+            name: 'conf_sponsor'
+            widget: 'boolean'
+            default: false
+            required: false
+
   - name: 'organizers'
     label: 'Organizers'
     identifier_field: name
@@ -161,7 +184,13 @@ collections:
         name: 'role'
         widget: 'select'
         multiple: true
-        options: ['Board Member', 'Chapter Organizer', 'Conference Organizer', 'Website Contributor']
+        options:
+          [
+            'Board Member',
+            'Chapter Organizer',
+            'Conference Organizer',
+            'Website Contributor',
+          ]
         required: true
       - label: 'Social Links'
         name: 'links'
@@ -175,7 +204,7 @@ collections:
           - label: 'URL'
             name: 'url'
             widget: 'string'
-            
+
   - name: 'testimonials'
     label: 'Testimonials'
     identifier_field: quote

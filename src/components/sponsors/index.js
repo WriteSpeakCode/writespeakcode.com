@@ -1,94 +1,84 @@
-// @flow
 import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
 
-import Section from '../section'
+import Sponsor from '../sponsor'
+
 import styles from './sponsors.module.css'
 
-const parameterize = str => str.replace(' ', '').toLowerCase()
+import mailchimp from '../../../content/sponsors/mailchimp.json'
+import zipline from '../../../content/sponsors/zipline.json'
+import splunk from '../../../content/sponsors/splunk.json'
+import sentry from '../../../content/sponsors/sentry.json'
+import textio from '../../../content/sponsors/textio.json'
+import netlify from '../../../content/sponsors/netlify.json'
+import atlassian from '../../../content/sponsors/atlassian.json'
+import seatgeek from '../../../content/sponsors/seatgeek.json'
+import vts from '../../../content/sponsors/vts.json'
+import glympse from '../../../content/sponsors/glympse.json'
 
-const renderSponsors = (levels, sponsors) => {
-  return levels.map(({ node }) => {
-    let list =
-      sponsors.filter(sponsor => sponsor.level.includes(node.level)) || []
+const Sponsors = ({ sponsors }) => {
+  return (
+    <section id="sponsorship" className={styles.section}>
+      <div className={styles.row}>
+        <div className={styles.info}>
+          <h1 className="title">Sponsorship</h1>
+          <h2 className="subtitle">Recruit talented, driven technologists.</h2>
+          <p>
+            Sponsorship is the most effective way to demonstrate your commitment
+            to the professional development of people with marginalized genders
+            at your organization.
+          </p>
+        </div>
+        <div className={styles.cta}>
+          <p>
+            Write/Speak/Code is a 501c3 nonprofit. Contact{' '}
+            <span className="italic">sponsor@writespeakcode.com</span> to learn
+            more.
+          </p>
+          <a
+            className="link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://drive.google.com/file/d/1X-nDSHYiPiPT79Rc1xUAZCNxvr67ei6J/view?usp=sharing"
+          >
+            2019 Sponsorship Prospectus
+          </a>
+        </div>
+      </div>
 
-    if (list.length > 0) {
-      return <Level key={node.id} level={node.level} sponsors={list} />
-    }
-    return null
-  })
+      <section className={[styles['gold'], styles.levelSection].join(' ')}>
+        <h3 className={styles.heading}>Gold</h3>
+        <div className={styles.grid}>
+          <Sponsor company={mailchimp} />
+          <Sponsor company={splunk} />
+          <Sponsor company={zipline} />
+        </div>
+      </section>
+      <section className={[styles['silver'], styles.levelSection].join(' ')}>
+        <h3 className={styles.heading}>Silver</h3>
+        <div className={styles.grid}>
+          <Sponsor company={sentry} />
+          <div />
+        </div>
+      </section>
+      <section className={[styles['bronze'], styles.levelSection].join(' ')}>
+        <h3 className={styles.heading}>Bronze</h3>
+        <div className={styles.grid}>
+          <Sponsor company={netlify} />
+          <Sponsor company={textio} />
+        </div>
+      </section>
+      <section className={[styles['other'], styles.levelSection].join(' ')}>
+        <h3 className={styles.heading}>Other</h3>
+        <div className={styles.grid}>
+          <Sponsor company={atlassian} level="Private Workshops" />
+          <Sponsor company={glympse} level="Local Meetup - SEA" />
+          <Sponsor company={seatgeek} level="Local Meetup - NYC" />
+          <Sponsor company={sentry} level="Local Meetup - SF" />
+          <Sponsor company={vts} level="Local Meetup - NYC" />
+        </div>
+      </section>
+    </section>
+  )
 }
-
-const Level = ({ level, sponsors, id }) => (
-  <section className={styles[parameterize(level)]} id="sponsors">
-    <h3 className={styles.heading}>{level}</h3>
-    <div className={styles.grid}>
-      {sponsors.map((sponsor, index) => (
-        <a
-          key={index}
-          target="_blank"
-          rel="noopener noreferrer"
-          href={sponsor.company_url}
-        >
-          <img
-            src={sponsor.logo}
-            alt={sponsor.company}
-            className={styles.logo}
-          />
-        </a>
-      ))}
-    </div>
-  </section>
-)
-
-type SponsorsType = [
-  {
-    company: String,
-    company_url: String,
-    logo: String,
-    level: Array<String>,
-  },
-]
-
-const Sponsors = ({ sponsors }: { sponsors: SponsorsType }) => (
-  <StaticQuery
-    query={graphql`
-      query {
-        allSponsorLevelsJson {
-          edges {
-            node {
-              level
-              id
-            }
-          }
-        }
-      }
-    `}
-    render={data => (
-      <Section>
-        <h1 className={styles.title}>Sponsorship</h1>
-        <h2 className={styles.subtitle}>
-          Recruit talented, driven technologists.
-        </h2>
-        <p>
-          Sponsorship is the most effective way to demonstrate your commitment
-          to the professional development of people with marginalized genders at
-          your organization. Write/Speak/Code is a 501c3 nonprofit. Contact
-          sponsor@writespeakcode.com to learn more.
-        </p>
-        <a
-          className="link"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/1X-nDSHYiPiPT79Rc1xUAZCNxvr67ei6J/view?usp=sharing"
-        >
-          2019 Sponsorship Prospectus
-        </a>
-
-        {renderSponsors(data.allSponsorLevelsJson.edges, sponsors)}
-      </Section>
-    )}
-  />
-)
 
 export default Sponsors
