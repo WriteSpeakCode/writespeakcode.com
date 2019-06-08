@@ -15,4 +15,17 @@
   @media screen and (min-width: 65em) {
     padding: 2em;
   }
+  button {
+    display: block;
+    background: transparent;
+    font-weight: var(--semi-bold);
+    padding-bottom: 0.25em;
+    margin-top: 1em;
+    color: var(--tan);
+    border-style: hidden;
+    border-width: 2px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }
