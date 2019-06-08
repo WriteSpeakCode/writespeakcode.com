@@ -17,7 +17,7 @@ import glympse from '../../../content/sponsors/glympse.json'
 
 const Sponsors = ({ sponsors }) => {
   return (
-    <section id="sponsorship" className={styles.section}>
+    <section id="sponsorship">
       <div className={styles.row}>
         <div className={styles.info}>
           <h1 className="title">Sponsorship</h1>
