@@ -10,7 +10,7 @@
     background: transparent;
     color: var(--navy);
     margin: 1em;
-    padding: 0;
+    padding: 0.25em;
     font-family: 'Open Sans';
     font-weight: var(--semi-bold);
     border: 0;
@@ -31,7 +31,8 @@
       z-index: 1;
       position: absolute;
       right: 0;
-      top: 6.5em;
+      top: 4.5em;
+      padding: 1em;
       a {
         margin: 1em 2em;
       }
