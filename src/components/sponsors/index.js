@@ -50,7 +50,7 @@ const Sponsors = ({ sponsors }) => {
       <section className={[styles['platinum'], styles.levelSection].join(' ')}>
         <h3 className={styles.heading}>Platinum</h3>
         <div className={styles.grid}>
-          <Sponsor company={github} />
+          <Sponsor company={github} level="Platinum" />
         </div>
       </section>
       <section className={[styles['gold'], styles.levelSection].join(' ')}>

@@ -13,10 +13,13 @@ const Sponsor = ({ company, level }) => {
         <a target="_blank" rel="noopener noreferrer" href={company.url}>
           <img src={company.logo} alt={`${company.name} logo`} />
         </a>
-        {company.text && (
+        {company.text && level !== 'Platinum' && (
           <button onClick={() => setDialogIsOpen(true)}>learn more</button>
         )}
-        {level && (
+        {level === 'Platinum' && (
+          <figcaption dangerouslySetInnerHTML={{ __html: company.text }} />
+        )}
+        {level && level !== 'Platinum' && (
           <figcaption className={level ? styles.level : ''}>{level}</figcaption>
         )}
       </figure>
