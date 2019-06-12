@@ -16,7 +16,7 @@ const HomeLayout = ({ children }) => {
   const data = useStaticQuery(
     graphql`
       query LayoutQuery {
-        hero: file(relativePath: { eq: "photos/WSC-2017-68.jpg" }) {
+        hero: file(relativePath: { eq: "photos/WSC-2017-68-3.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 3600) {
               ...GatsbyImageSharpFluid_tracedSVG

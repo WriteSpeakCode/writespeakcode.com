@@ -11,9 +11,9 @@ const Header = () => {
   const data = useStaticQuery(
     graphql`
       query LogoQuery {
-        file(relativePath: { eq: "logos/wsc-logo-twocolor-v2.png" }) {
+        file(relativePath: { eq: "logos/wsc-logo-fullcolor.png" }) {
           childImageSharp {
-            fixed(width: 200) {
+            fixed(width: 150) {
               ...GatsbyImageSharpFixed_tracedSVG
             }
           }

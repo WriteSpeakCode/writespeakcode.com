@@ -9,6 +9,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.8.1",
     "@fortawesome/free-solid-svg-icons": "^5.8.1",
     "@fortawesome/react-fontawesome": "^0.1.4",
+    "@reach/dialog": "^0.2.9",
     "@reach/skip-nav": "^0.1.2",
     "@reach/visually-hidden": "^0.1.2",
     "flow": "^0.2.3",

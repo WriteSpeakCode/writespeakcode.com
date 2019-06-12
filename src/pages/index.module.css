@@ -63,7 +63,7 @@
 }
 
 .conference {
-  background: linear-gradient(to top, var(--white) 50%, var(--mint) 50%);
+  background: linear-gradient(to top, var(--white) 70%, var(--mint) 70%);
   @media screen and (min-width: 50em) {
     background: linear-gradient(
       to bottom right,
@@ -90,7 +90,7 @@
 }
 
 .chapters {
-  background: linear-gradient(to top, var(--white) 50%, var(--blush) 50%);
+  background: linear-gradient(to top, var(--white) 70%, var(--blush) 70%);
   @media screen and (min-width: 50em) {
     background: linear-gradient(
       to top right,

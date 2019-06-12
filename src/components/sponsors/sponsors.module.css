@@ -1,5 +1,6 @@
-.section {
-  padding: 3em 1em;
+.row {
+  background-color: var(--tan);
+  padding: 1em 0;
 }
 
 .info {
@@ -21,19 +22,32 @@
   margin: 0;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  border-top: 1px solid var(--tan);
   border-bottom: 1px solid var(--tan);
 }
 
 .cta {
   padding: 2em;
-  background-color: var(--tan);
   a {
     margin-top: 1em;
     display: inline;
   }
   p {
     margin-top: 0;
+  }
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+.other,
+.bronze {
+  img {
+    max-width: 10em;
+  }
+  .grid {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -57,18 +71,30 @@
 
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .platinum {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+    figure {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      align-items: center;
+    }
   }
 
   .gold,
   .silver {
+    .grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
     img {
       max-width: 15em;
     }
   }
 
-  .bronze,
-  .other {
+  .bronze {
     img {
       max-width: 13em;
     }

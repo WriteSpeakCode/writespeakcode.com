@@ -24,11 +24,11 @@ const IndexPage = ({ data }) => (
       />
       <div className={styles.content}>
         <h1 className="title">Community</h1>
-        <p>
+        <h2 className="subtitle">
           Our community is open to and our content is designed for people whose
-          gender or gender history is marginalized within tech. We define those
-          gender groups as:{' '}
-        </p>
+          gender or gender history is marginalized within tech.
+        </h2>
+        <p>We define those gender groups as:</p>
         <ul>
           <li>All women technologists (trans, non-binary, and cis) </li>
           <li>
@@ -108,13 +108,14 @@ const IndexPage = ({ data }) => (
           accessible location, nursing rooms and childcare services, CART/ASL
           services, and other accessibility needs as requested.
         </p>
+        <p>Upcoming OYE Events:</p>
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.meetup.com/pro/writespeakcode/"
+          href="https://www.meetup.com/Write-Speak-Code-Austin/events/262246569/"
           className="link"
         >
-          Find events on Meetup
+          June 22 - Austin, TX
         </a>
       </div>
     </section>

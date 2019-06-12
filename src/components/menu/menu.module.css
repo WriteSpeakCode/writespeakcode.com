@@ -1,25 +1,22 @@
 .menuButton {
-  color: var(--blush);
+  color: var(--navy);
   font-size: 2em;
 }
 
 .links {
-  background-color: var(--navy);
+  background-color: var(--white);
   button {
     display: block;
     background: transparent;
-    color: var(--blush);
+    color: var(--navy);
     margin: 1em;
-    padding: 0 0 0.5em 0;
+    padding: 0.25em;
     font-family: 'Open Sans';
     font-weight: var(--semi-bold);
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 4px solid transparent;
+    border: 0;
     &:hover,
     &:focus {
-      border-bottom: 4px solid var(--blush);
+      color: var(--orange);
       cursor: pointer;
     }
   }
@@ -34,7 +31,8 @@
       z-index: 1;
       position: absolute;
       right: 0;
-      top: 6.5em;
+      top: 4.5em;
+      padding: 1em;
       a {
         margin: 1em 2em;
       }
