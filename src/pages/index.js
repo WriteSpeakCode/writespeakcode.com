@@ -1,207 +1,204 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import VisuallyHidden from '@reach/visually-hidden'
+import Img from 'gatsby-image'
 
-import Layout from '../layouts/default'
+import HomeLayout from '../layouts/home'
 import SEO from '../components/seo'
-import Section from '../components/section'
 import Sponsors from '../components/sponsors'
 
 import styles from './index.module.css'
 
-const IndexPage = props => (
-  <Layout>
+const IndexPage = ({ data }) => (
+  <HomeLayout>
     <SEO keywords={[`tech`, `diversity`, `conference`]} />
-    <section className={styles.hero}>
-      <VisuallyHidden>
-        <h1>Write Speak Code</h1>
-      </VisuallyHidden>
-      <h2 className={styles.mission}>
-        We're on a mission to promote the visibility and leadership of
-        technologists with marginalized genders through peer-led professional
-        development.
-      </h2>
-      <h3 className={styles.headline}>
-        Write/Speak/Code is a 501c3, tax-exempt non-profit that hosts an annual
-        conference and meetup events designed to help you fully own your
-        expertise through writing, speaking, and open source.
-      </h3>
+
+    <section
+      id="community"
+      className={[styles.photoSection, styles.community].join(' ')}
+    >
+      <Img
+        alt="2018 conference-goers pose for a photo together in front of the Write Speak Code banner"
+        fluid={data.community.childImageSharp.fluid}
+        imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
+        className={styles.image}
+      />
+      <div className={styles.content}>
+        <h1 className="title">Community</h1>
+        <p>
+          Our community is open to and our content is designed for people whose
+          gender or gender history is marginalized within tech. We define those
+          gender groups as:{' '}
+        </p>
+        <ul>
+          <li>All women technologists (trans, non-binary, and cis) </li>
+          <li>
+            All trans technologists (trans women, trans men, and trans
+            non-binary folks)
+          </li>
+          <li>
+            All non-binary technologists (including GNC, gender-fluid,
+            genderqueer, agender folks, etc)
+          </li>
+        </ul>
+        <p>
+          We want to equip people from these groups to overcome both the
+          internal and external effects of that marginalization by identifying,
+          expanding, and sharing their expertise with the support of an engaged
+          peer network.
+        </p>
+        <Link to="/code-of-conduct/" className="link">
+          Read the code of conduct
+        </Link>
+      </div>
     </section>
 
-    <Section
-      img={props.data.community.childImageSharp.fluid}
-      imgAlt="2018 conference-goers pose for a photo together in front of the Write Speak Code banner"
-      imgStyle={{ objectFit: 'cover', objectPosition: 'center center' }}
-    >
-      <h1 className={styles.title}>Our Community</h1>
-      <p>
-        Our community is open to and our content is designed for people whose
-        gender or gender history is marginalized within tech. We define those
-        gender groups as:{' '}
-      </p>
-      <ul>
-        <li>All women technologists (trans, non-binary, and cis) </li>
-        <li>
-          All trans technologists (trans women, trans men, and trans non-binary
-          folks)
-        </li>
-        <li>
-          All non-binary technologists (including GNC, gender-fluid,
-          genderqueer, agender folks, etc)
-        </li>
-      </ul>
-      <p>
-        We want to equip people from these groups to overcome both the internal
-        and external effects of that marginalization by identifying, expanding,
-        and sharing their expertise with the support of an engaged peer network.
-      </p>
-      <Link to="code-of-conduct" className="link">
-        Read the code of conduct
-      </Link>
-    </Section>
-
-    <Section
-      img={props.data.conferences.childImageSharp.fluid}
-      imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
-      imgAlt="A panel of speakers on stage at the 2018 conference"
+    <section
       id="conference"
+      className={[styles.photoSection, styles.conference].join(' ')}
     >
-      <h1 className={styles.title}>Annual Conference</h1>
-      <h2 className={styles.subtitle}>
-        August 16&ndash;18, 2019 <br />
-        Palace of Fine Arts &mdash; San Francisco, CA
-      </h2>
-      <p>
-        Join us for three days designed to fully own your expertise through
-        writing, speaking, and open source.
-      </p>
-      <p>
-        The call for proposals is now open!{' '}
-        <strong>Deadline: May 17, 2019</strong>
-      </p>
-      <div className="link-group">
-        <a
-          className="link"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://goo.gl/forms/gPMUnIwnvYMuh3Tp1"
-        >
-          Call for Proposals
-        </a>
+      <Img
+        alt="A panel of speakers on stage at the 2018 conference"
+        fluid={data.conf.childImageSharp.fluid}
+        imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
+        className={styles.image}
+      />
+      <div className={styles.content}>
+        <h1 className="title">Annual Conference</h1>
+        <h2 className="subtitle">
+          August 16&ndash;18, 2019 <br />
+          Palace of Fine Arts &mdash; San Francisco, CA
+        </h2>
+        <p>
+          Join us for three days designed to fully own your expertise through
+          writing, speaking, and open source.
+        </p>
         <a
           className="link"
           target="_blank"
           rel="noopener noreferrer"
           href="https://writespeakcode-2019conference.eventbrite.com/"
         >
-          Get Tickets
+          Get tickets
         </a>
       </div>
-    </Section>
+    </section>
 
-    <Section
-      imgAlt="A conference attendee raises her hand while sitting at a round table of people taking notes and using laptops."
-      img={props.data.oye.childImageSharp.fluid}
-      imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
+    <section
+      id="own-your-expertise"
+      className={[styles.photoSection, styles.oye].join(' ')}
     >
-      <h1 className={styles.title}>Own Your Expertise</h1>
-      <h2 className={styles.subtitle}>
-        Present your accomplishments with confidence.
-      </h2>
-      <p>
-        Learn to understand, own, and convert your expertise into thought
-        leadership, conference speaking, and contributions to open source.
-      </p>
-      <p>
-        We provide breakfast and lunch for all dietary needs, wheelchair
-        accessible location, nursing rooms and childcare services, CART/ASL
-        services, and other accessibility needs as requested.
-      </p>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://www.meetup.com/pro/writespeakcode/"
-        className="link"
-      >
-        Find events on Meetup
-      </a>
-    </Section>
+      <Img
+        alt="A smiling speaker talks on stage at the 2019 conference with a microphone."
+        fluid={data.oye.childImageSharp.fluid}
+        imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
+        className={styles.image}
+      />
+      <div className={styles.content}>
+        {' '}
+        <h1 className="title">Own Your Expertise</h1>
+        <h2 className="subtitle">
+          Present your accomplishments with confidence.
+        </h2>
+        <p>
+          Learn to understand, own, and convert your expertise into thought
+          leadership, conference speaking, and contributions to open source.
+        </p>
+        <p>
+          We provide breakfast and lunch for all dietary needs, wheelchair
+          accessible location, nursing rooms and childcare services, CART/ASL
+          services, and other accessibility needs as requested.
+        </p>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.meetup.com/pro/writespeakcode/"
+          className="link"
+        >
+          Find events on Meetup
+        </a>
+      </div>
+    </section>
 
-    <Section
-      img={props.data.chapters.childImageSharp.fluid}
-      imgAlt="People collaborate on their laptops at a Write Speak Code event."
-      imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
+    <section
+      id="chapters"
+      className={[styles.photoSection, styles.chapters].join(' ')}
     >
-      <h1 className={styles.title}>Local Chapters</h1>
-      <h2 className={styles.subtitle}>
-        We host events and full-day workshops.
-      </h2>
-      <p>
-        We have communities in cities across the U.S., including{' '}
-        <a
-          className="link"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.meetup.com/Write-Speak-Code-Austin/"
-        >
-          Austin
-        </a>
-        ,{' '}
-        <a
-          className="link"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.meetup.com/WriteSpeakCode-Chicago"
-        >
-          Chicago
-        </a>
-        ,{' '}
-        <a
-          className="link"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.meetup.com/Write-Speak-Code-Los-Angeles"
-        >
-          Los Angeles
-        </a>
-        ,{' '}
-        <a
-          className="link"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.meetup.com/Write-Speak-Code-NYC/"
-        >
-          New York City
-        </a>
-        ,{' '}
-        <a
-          className="link"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.meetup.com/WriteSpeakCode-SFBay/"
-        >
-          San Francisco
-        </a>
-        , and{' '}
-        <a
-          className="link"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.meetup.com/WSC-Seattle"
-        >
-          Seattle
-        </a>
-        .
-      </p>
+      <Img
+        alt="A woman sitting at a table in the audience raises her hand to ask a question."
+        fluid={data.chapters.childImageSharp.fluid}
+        imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
+        className={styles.image}
+      />
+      <div className={styles.content}>
+        <h1 className="title">Local Chapters</h1>
+        <h2 className="subtitle">We host events and full-day workshops.</h2>
+        <p>
+          We have communities in cities across the U.S., including{' '}
+          <a
+            className="link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.meetup.com/Write-Speak-Code-Austin/"
+          >
+            Austin
+          </a>
+          ,{' '}
+          <a
+            className="link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.meetup.com/WriteSpeakCode-Chicago"
+          >
+            Chicago
+          </a>
+          ,{' '}
+          <a
+            className="link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.meetup.com/Write-Speak-Code-Los-Angeles"
+          >
+            Los Angeles
+          </a>
+          ,{' '}
+          <a
+            className="link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.meetup.com/Write-Speak-Code-NYC/"
+          >
+            New York City
+          </a>
+          ,{' '}
+          <a
+            className="link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.meetup.com/WriteSpeakCode-SFBay/"
+          >
+            San Francisco
+          </a>
+          , and{' '}
+          <a
+            className="link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.meetup.com/WSC-Seattle"
+          >
+            Seattle
+          </a>
+          .
+        </p>
+        <p>
+          Don't see your city? Contact{' '}
+          <span className="italic">info@writespeakcode.com</span> to learn how
+          we can help you start a chapter.
+        </p>
+      </div>
+    </section>
 
-      <p>
-        Don't see your city? Contact info@writespeakcode.com to learn how we can
-        help you start a chapter near you.
-      </p>
-    </Section>
-
-    <Sponsors sponsors={props.data.allSponsorsJson.nodes} />
-  </Layout>
+    <Sponsors />
+  </HomeLayout>
 )
 
 export default IndexPage
@@ -218,26 +215,17 @@ export const fluidImage = graphql`
 
 export const pageQuery = graphql`
   query {
-    conferences: file(relativePath: { eq: "photos/conferences.jpg" }) {
+    conf: file(relativePath: { eq: "photos/WSC-NY-211.jpg" }) {
       ...fluidImage
     }
-    oye: file(relativePath: { eq: "photos/oye.jpg" }) {
+    oye: file(relativePath: { eq: "photos/WSC-NY-577.jpg" }) {
       ...fluidImage
     }
-    chapters: file(relativePath: { eq: "photos/chapters.jpg" }) {
+    chapters: file(relativePath: { eq: "photos/WSC-178.jpg" }) {
       ...fluidImage
     }
-    community: file(relativePath: { eq: "photos/community.jpg" }) {
+    community: file(relativePath: { eq: "photos/WSC-NY-590.jpg" }) {
       ...fluidImage
-    }
-
-    allSponsorsJson(filter: { years: { in: "2019" } }) {
-      nodes {
-        company
-        company_url
-        logo
-        level
-      }
     }
   }
 `

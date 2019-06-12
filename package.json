@@ -55,6 +55,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "clean": "gatsby clean",
     "develop": "gatsby develop",
     "flow": "flow check",
     "format": "prettier --write '**/*.{js,scss,md,json,yaml}'",

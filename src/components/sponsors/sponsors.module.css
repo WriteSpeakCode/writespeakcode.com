@@ -1,74 +1,96 @@
-.title {
-  font-family: 'PT Sans Caption';
-  font-weight: var(--bold);
-  font-size: 1.5em;
-  line-height: 1.3;
-  margin: 0.25em 0;
-  @media screen and (min-width: 65em) {
-    font-size: 1.8em;
-  }
+.section {
+  padding: 3em 1em;
 }
 
-.subtitle {
-  display: inline;
-  font-family: 'Open Sans';
-  font-weight: var(--light);
-  font-size: 1.3em;
-  line-height: 2.1;
-  background-color: var(--mint);
+.info {
+  padding: 2em;
+}
+
+.levelSection {
+  padding: 0 1em;
+  &:first-of-type {
+    margin-top: 1em;
+  }
 }
 
 .heading {
   font-family: 'PT Sans Caption';
   font-weight: var(--bold);
-  font-size: 1.3em;
+  font-size: 1em;
   line-height: 1.3;
-  margin: 1em 0;
+  margin: 0;
+  padding-top: 0.5em;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid var(--blush);
+  border-top: 1px solid var(--tan);
+  border-bottom: 1px solid var(--tan);
 }
 
-.logos {
-  margin: 2em 0;
-}
-
-/* If somehow a logo is added without a level below, it will be medium-sized by default */
-.logo {
-  width: 12em;
-  margin: 1em;
-}
-
-.platinum,
-.gold,
-.silver,
-.bronze {
-  .logo {
-    width: 14em;
-    margin: 1em;
+.cta {
+  padding: 2em;
+  background-color: var(--tan);
+  a {
+    margin-top: 1em;
+    display: inline;
+  }
+  p {
+    margin-top: 0;
   }
 }
 
-.workshops,
-.lanyards,
-.breakout,
-.childcare {
-  .logo {
-    width: 12em;
-    margin: 1em;
+@media screen and (min-width: 65em) {
+  .levelSection {
+    padding: 0 2em;
   }
-}
-
-.accessibility,
-.headshot,
-.localmeetup {
-  .logo {
-    max-width: 8em;
-    margin: 1em;
-  }
-}
-
-.grid {
-  @media screen and (min-width: 30em) {
+  .row {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .cta {
+    max-width: 35%;
+    margin: 2em;
+  }
+
+  .info {
+    max-width: 50%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .gold,
+  .silver {
+    img {
+      max-width: 15em;
+    }
+  }
+
+  .bronze,
+  .other {
+    img {
+      max-width: 13em;
+    }
+    .grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      align-items: center;
+    }
+  }
+
+  .other {
+    img {
+      max-width: 10em;
+    }
+    .grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+  }
+}
+
+@media screen and (min-width: 80em) {
+  .section {
+    max-width: var(--container);
+    margin: 0 auto;
   }
 }

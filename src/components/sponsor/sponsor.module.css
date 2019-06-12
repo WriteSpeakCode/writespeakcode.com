@@ -1,0 +1,15 @@
+.sponsor {
+  padding: 2em;
+  margin: 0;
+  img {
+    width: 100%;
+    max-width: 13em;
+  }
+  figcaption {
+    font-size: 0.8em;
+    margin-top: 1em;
+  }
+  .level {
+    font-weight: var(--bold);
+  }
+}

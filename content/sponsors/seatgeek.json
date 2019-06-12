@@ -1,8 +1,8 @@
 {
-  "company": "Seat Geek",
-  "company_url": "",
+  "name": "Seat Geek",
+  "url": "https://www.seatgeek.com",
   "logo": "/images/seatgeek.jpg",
-  "level": ["Local Meetup"],
-  "conf_sponsor": false,
-  "years": ["2019"]
+  "sponsorships": [
+    { "year": "2019", "level": "Local Meetup NYC", "conf_sponsor": false }
+  ]
 }

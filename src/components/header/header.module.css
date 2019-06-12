@@ -1,34 +1,14 @@
-.logo {
-  margin: 1em 0;
+.header {
+  background-color: var(--navy);
 }
 
 .container {
-  max-width: var(--container);
-  margin: 1em auto;
-  @media screen and (min-width: 45em) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-
-.social {
-  @media screen and (min-width: 45em) {
-    display: flex;
-    align-items: center;
-  }
-  .cta {
-    margin: 1em 0.5em;
-  }
-}
-
-.link {
-  padding: 0.5em;
-  font-size: 1.6em;
-  max-width: 1em;
-  border-bottom: 2px solid transparent;
-  &:hover,
-  &:focus {
-    border-color: var(--navy);
+  padding: 1em 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (min-width: 80em) {
+    max-width: var(--container);
+    margin: 0 auto;
   }
 }
