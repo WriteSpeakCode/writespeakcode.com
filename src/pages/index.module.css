@@ -15,34 +15,46 @@
 }
 
 .photoSection {
-  display: flex;
-  flex-direction: column;
-  padding: 3em 1em;
-  .content {
-    padding: 0 2em;
-  }
-  .image {
-    margin: 2em;
-  }
-  @media screen and (min-width: 50em) {
-    flex-direction: row;
-    justify-content: space-around;
+  .row {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 1em;
     .content {
-      align-self: center;
-      width: 50%;
-      max-width: 30em;
-      padding: 2em;
+      padding: 0 2em;
     }
     .image {
-      width: 50%;
-      max-height: none;
-      margin-left: 2em;
+      margin: 2em;
+    }
+  }
+  @media screen and (min-width: 50em) {
+    .row {
+      flex-direction: row;
+      justify-content: space-around;
+      .content {
+        align-self: center;
+        width: 50%;
+        max-width: 30em;
+        padding: 2em;
+      }
+      .image {
+        width: 50%;
+        max-height: none;
+        margin-left: 2em;
+      }
     }
     &:nth-of-type(2n) {
-      flex-direction: row-reverse;
-      .image {
-        margin-right: 2em;
+      .row {
+        flex-direction: row-reverse;
+        .image {
+          margin-right: 2em;
+        }
       }
+    }
+  }
+  @media screen and (min-width: 80em) {
+    .row {
+      max-width: var(--container);
+      margin: 0 auto;
     }
   }
 }
@@ -70,8 +82,10 @@
       var(--white) 50%,
       var(--mint) 50%
     );
-    .content {
-      align-self: flex-start;
+    .row {
+      .content {
+        align-self: flex-start;
+      }
     }
   }
 
@@ -97,8 +111,10 @@
       var(--white) 50%,
       var(--blush) 50%
     );
-    .content {
-      align-self: flex-end;
+    .row {
+      .content {
+        align-self: flex-end;
+      }
     }
   }
 
