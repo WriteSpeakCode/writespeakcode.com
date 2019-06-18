@@ -6,11 +6,11 @@
     max-width: 13em;
   }
   figcaption {
-    font-size: 0.8em;
     margin-top: 1em;
   }
   .level {
-    font-weight: var(--bold);
+    font-weight: var(--semi-bold);
+    font-size: 0.9em;
   }
   @media screen and (min-width: 65em) {
     padding: 2em;
@@ -21,14 +21,14 @@
     font-weight: var(--semi-bold);
     padding-bottom: 0.25em;
     margin-top: 1em;
-    color: var(--tan);
-    border-color: var(--tan);
+    color: var(--navy);
+    border-color: inherit;
     border-style: solid;
     font-size: 0.9em;
     border-width: 2px;
     &:hover {
       cursor: pointer;
-      border-style: dotted;
+      color: var(--tan);
     }
   }
 }

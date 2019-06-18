@@ -11,7 +11,7 @@
     color: var(--navy);
     margin: 1em;
     padding: 0.25em;
-    font-family: 'Open Sans';
+    font-family: 'Pt Sans Caption';
     font-weight: var(--semi-bold);
     border: 0;
     &:hover,

@@ -20,30 +20,34 @@ import adhoc from '../../../content/sponsors/adhoc.json'
 const Sponsors = ({ sponsors }) => {
   return (
     <section id="sponsorship">
-      <div className={styles.row}>
-        <div className={styles.info}>
-          <h1 className="title">Sponsorship</h1>
-          <h2 className="subtitle">Recruit talented, driven technologists.</h2>
-          <p>
-            Sponsorship is the most effective way to demonstrate your commitment
-            to the professional development of people with marginalized genders
-            at your organization.
-          </p>
-        </div>
-        <div className={styles.cta}>
-          <p>
-            Write/Speak/Code is a 501c3 nonprofit. Contact{' '}
-            <span className="italic">sponsor@writespeakcode.com</span> to learn
-            more.
-          </p>
-          <a
-            className="link"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1X-nDSHYiPiPT79Rc1xUAZCNxvr67ei6J/view?usp=sharing"
-          >
-            2019 Sponsorship Prospectus
-          </a>
+      <div className={styles.background}>
+        <div className={styles.row}>
+          <div className={styles.info}>
+            <h1 className="title">Sponsorship</h1>
+            <h2 className="subtitle">
+              Recruit talented, driven technologists.
+            </h2>
+            <p>
+              Sponsorship is the most effective way to demonstrate your
+              commitment to the professional development of people with
+              marginalized genders at your organization.
+            </p>
+          </div>
+          <div className={styles.cta}>
+            <p>
+              Write/Speak/Code is a 501c3 nonprofit. Contact{' '}
+              <span className="italic">sponsor@writespeakcode.com</span> to
+              learn more.
+            </p>
+            <a
+              className="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://drive.google.com/file/d/1X-nDSHYiPiPT79Rc1xUAZCNxvr67ei6J/view?usp=sharing"
+            >
+              2019 Sponsorship Prospectus
+            </a>
+          </div>
         </div>
       </div>
 
@@ -80,10 +84,10 @@ const Sponsors = ({ sponsors }) => {
         <h3 className={styles.heading}>Other</h3>
         <div className={styles.grid}>
           <Sponsor company={atlassian} level="Private Workshops" />
-          <Sponsor company={glympse} level="Local Meetup - SEA" />
-          <Sponsor company={seatgeek} level="Local Meetup - NYC" />
           <Sponsor company={sentry} level="Local Meetup - SF" />
+          <Sponsor company={seatgeek} level="Local Meetup - NYC" />
           <Sponsor company={vts} level="Local Meetup - NYC" />
+          <Sponsor company={glympse} level="Local Meetup - SEA" />
         </div>
       </section>
     </section>

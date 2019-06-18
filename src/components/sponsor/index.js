@@ -14,7 +14,7 @@ const Sponsor = ({ company, level }) => {
           <img src={company.logo} alt={`${company.name} logo`} />
         </a>
         {company.text && level !== 'Platinum' && (
-          <button onClick={() => setDialogIsOpen(true)}>learn more</button>
+          <button onClick={() => setDialogIsOpen(true)}>read more</button>
         )}
         {level === 'Platinum' && (
           <figcaption dangerouslySetInnerHTML={{ __html: company.text }} />
