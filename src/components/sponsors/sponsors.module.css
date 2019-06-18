@@ -1,5 +1,8 @@
-.row {
+.background {
   background-color: var(--tan);
+}
+
+.row {
   padding: 1em 0;
 }
 
@@ -10,7 +13,10 @@
 .levelSection {
   padding: 0 1em;
   &:first-of-type {
-    margin-top: 1em;
+    margin-top: 2em;
+  }
+  &:last-of-type {
+    margin-bottom: 2em;
   }
 }
 
@@ -22,6 +28,7 @@
   margin: 0;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  border-top: 1px solid var(--tan);
   border-bottom: 1px solid var(--tan);
 }
 
@@ -86,11 +93,11 @@
 
   .gold,
   .silver {
-    .grid {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
     img {
       max-width: 15em;
+    }
+    .grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
     }
   }
 
@@ -115,7 +122,8 @@
 }
 
 @media screen and (min-width: 80em) {
-  .section {
+  .levelSection,
+  .row {
     max-width: var(--container);
     margin: 0 auto;
   }
