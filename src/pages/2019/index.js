@@ -47,25 +47,24 @@ const Conference2019 = ({ data }) => (
     />
 
     <main className={styles.main}>
-      <section
-        className={styles.section}
-        style={{ backgroundColor: '#181c3c', color: 'white' }}
-      >
-        <div className={styles.content}>
-          <h3 className="title">About</h3>
-          <h4 className="subtitle">
-            Write/Speak/Code is an intensive, three-day, hands-on conference
-            with workshops, personalized feedback sessions, panels, and talks by
-            talented technologists with marginalized genders.
-          </h4>
-          <p>
-            Each day of the conference is themed: Write/Visibility Day,
-            Speak/Leadership Day, Code/Project Day and Growth. Attendees leave
-            the conference having developed blog posts, conference talks, open
-            source contributions, and more. We provide actionable next steps and
-            a supportive community to keep attendees accountable to the goals
-            they set at the conference and beyond.
-          </p>
+      <section style={{ backgroundColor: '#181c3c', color: 'white' }}>
+        <div className={styles.section}>
+          <div className={styles.content}>
+            <h3 className="title">About</h3>
+            <h4 className="subtitle">
+              Write/Speak/Code is an intensive, three-day, hands-on conference
+              with workshops, personalized feedback sessions, panels, and talks
+              by talented technologists with marginalized genders.
+            </h4>
+            <p>
+              Each day of the conference is themed: Write/Visibility Day,
+              Speak/Leadership Day, Code/Project Day and Growth. Attendees leave
+              the conference having developed blog posts, conference talks, open
+              source contributions, and more. We provide actionable next steps
+              and a supportive community to keep attendees accountable to the
+              goals they set at the conference and beyond.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -120,7 +119,7 @@ const Conference2019 = ({ data }) => (
         </div>
       </section>
 
-      <Sponsors />
+      <Sponsors isConference={true} />
     </main>
     <Footer />
   </>

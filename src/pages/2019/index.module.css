@@ -31,6 +31,12 @@
       }
     }
   }
+  @media screen and (min-width: 80em) {
+    max-width: var(--container);
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
 }
 
 .logo {
