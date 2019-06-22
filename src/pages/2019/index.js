@@ -30,7 +30,13 @@ const Conference2019 = ({ data }) => (
         <h2 className="subtitle">
           August 16&ndash;18, 2019 / San Francisco, CA
         </h2>
-        <a href="https://eventbrite.com">Register Now</a>
+        <a
+          href="https://www.eventbrite.com/e/writespeakcode-2019-conference-tickets-58347757714"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Register Now
+        </a>
       </div>
     </header>
 
