@@ -6,6 +6,7 @@ import VisuallyHidden from '@reach/visually-hidden'
 import Footer from '../../components/footer'
 import SEO from '../../components/seo'
 import Sponsors from '../../components/sponsors'
+import Hotels from '../../components/hotels'
 
 import styles from './index.module.css'
 
@@ -21,27 +22,28 @@ const Conference2019 = ({ data }) => (
         <Img
           fixed={data.logo.childImageSharp.fixed}
           alt="Write/Speak/Code logo"
+          className={styles.logo}
         />
       </Link>
-      <div>
+      <div className={styles.info}>
         <VisuallyHidden>Write Speak Code 2019 Conference</VisuallyHidden>
         <h2 className="subtitle">
           August 16&ndash;18, 2019 / San Francisco, CA
         </h2>
-        <a href="https://eventbrite.com">Get tickets</a>
+        <a href="https://eventbrite.com">Register Now</a>
       </div>
     </header>
 
     <Img
       alt="Illustration of San Francisco by Maia Boakye"
       fluid={data.sf.childImageSharp.fluid}
-      className={styles.image}
+      className={styles.heroImage}
     />
 
     <main className={styles.main}>
       <section
         className={styles.section}
-        style={{ backgroundColor: '#181c3c', color: 'white', display: 'flex' }}
+        style={{ backgroundColor: '#181c3c', color: 'white' }}
       >
         <div className={styles.content}>
           <h3 className="title">About</h3>
@@ -59,39 +61,13 @@ const Conference2019 = ({ data }) => (
             they set at the conference and beyond.
           </p>
         </div>
-        <div>
-          <ul>
-            Our conference features two tracks:
-            <li>
-              Foundations features our original Write/Speak/Code curriculum
-              designed to launch you into the next step of thought leadership,
-              conference speaking, or open source coding. This is a guided track
-              that will have individual, pair, and small group exercises as well
-              as panels and lectures. Each day will end with the creation of a
-              deliverable: a blog post draft, give a talk, and create a Pull
-              Request! This track is great for anyone who is new to writing,
-              speaking, or coding or those in transition (moving from individual
-              contributor to lead, re-entering after time off, changing focus
-              areas etc).
-            </li>
-            <li>
-              Explorations will include talks, facilitated curriculum, and hands
-              on workshops each day. Workshops will culminate in creating a
-              deliverable based on the day's theme (for example, a technical
-              zine or an outline for a workshop you can give). This track is
-              great for anyone who has attended our conference in the past, or
-              who feels confident in writing, speaking, and coding from their
-              current expertise.
-            </li>
-          </ul>
-        </div>
       </section>
 
-      <section className={styles.photoSection}>
-        <div
-          className={styles.row}
-          style={{ backgroundColor: '#ea5038', color: 'white' }}
-        >
+      <section
+        className={styles.photoSection}
+        style={{ backgroundColor: '#ea5038', color: 'white' }}
+      >
+        <div className={styles.row}>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.488895918175!2d-122.4505230490306!3d37.8020160796551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808586d510144681%3A0xe960db8a581aacf5!2sPalace+of+Fine+Arts!5e0!3m2!1sen!2sus!4v1556593751369!5m2!1sen!2sus"
             width="100%"
@@ -102,16 +78,21 @@ const Conference2019 = ({ data }) => (
           />
           <div className={styles.content}>
             <h3 className="title">Location</h3>
-            <h4 className="subtitle">Palace of Fine Arts</h4>
+            <h4 className="subtitle">
+              Palace of Fine Arts
+              <br />
+              3601 Lyon St, San Francisco, CA 94123
+            </h4>
+            <Hotels />
           </div>
         </div>
       </section>
 
-      <section className={styles.photoSection}>
-        <div
-          className={styles.row}
-          style={{ backgroundColor: '#181c3c', color: 'white' }}
-        >
+      <section
+        className={styles.photoSection}
+        style={{ backgroundColor: '#181c3c', color: 'white' }}
+      >
+        <div className={styles.row}>
           <Img
             alt="Illustration of a laptop by Maia Boakye"
             fluid={data.laptop.childImageSharp.fluid}
@@ -120,11 +101,11 @@ const Conference2019 = ({ data }) => (
         </div>
       </section>
 
-      <section className={styles.photoSection}>
-        <div
-          className={styles.row}
-          style={{ backgroundColor: '#f5d2c6', color: 'white' }}
-        >
+      <section
+        className={styles.photoSection}
+        style={{ backgroundColor: '#f5d2c6', color: 'white' }}
+      >
+        <div className={styles.row}>
           <Img
             alt="Illustration of a laptop by Maia Boakye"
             fluid={data.people.childImageSharp.fluid}

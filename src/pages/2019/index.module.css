@@ -1,24 +1,44 @@
 .header {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100%;
+  text-align: center;
   background-color: #ebf8ef;
-  padding: 0 2em;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-between;
-  align-items: center;
-  div {
-    display: flex;
-    align-items: center;
+  .info {
+    h2 {
+      font-size: 1em;
+    }
     a {
-      margin-left: 2em;
-      border: 2px solid var(--navy);
+      margin: 1em 2em;
       padding: 0.15em 0.5em;
       font-weight: var(--semi-bold);
+      color: var(--white);
+      background-color: var(--navy);
+      box-shadow: 5px 5px var(--orange);
+      display: inline-block;
     }
   }
+  @media screen and (min-width: 60em) {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .info {
+      display: flex;
+      align-items: center;
+      padding-right: 1em;
+      h2 {
+        font-size: 1.2em;
+      }
+    }
+  }
+}
+
+.logo {
+  margin: 1.5em 1em;
+}
+
+.heroImage {
+  z-index: -1;
 }
 
 .main {
@@ -34,6 +54,7 @@
   @media screen and (min-width: 50em) {
     .content {
       padding: 2em;
+      max-width: 50%;
     }
   }
   @media screen and (min-width: 80em) {
@@ -46,19 +67,13 @@
   .row {
     display: flex;
     flex-direction: column;
-    /* padding: 3em 1em; */
     .content {
       padding: 0 2em;
-    }
-    .image,
-    iframe {
-      /* margin: 2em; */
     }
   }
   @media screen and (min-width: 50em) {
     .row {
       flex-direction: row;
-      /* justify-content: space-around; */
       .content {
         align-self: center;
         width: 50%;
@@ -69,16 +84,11 @@
       iframe {
         width: 50%;
         max-height: none;
-        /* margin-left: 2em; */
       }
     }
     &:nth-of-type(2n) {
       .row {
         flex-direction: row-reverse;
-        .image,
-        iframe {
-          /* margin-right: 2em; */
-        }
       }
     }
   }
