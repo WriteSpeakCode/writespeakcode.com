@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBullhorn } from '@fortawesome/free-solid-svg-icons'
 
@@ -8,9 +9,9 @@ const Notification = () => (
   <div className={styles.notification}>
     <FontAwesomeIcon icon={faBullhorn} aria-hidden className={styles.icon} />
     2019 Conference: Tickets are now available{' '}
-    <a href="#conference" className="link">
+    <Link to="/2019/" className="link">
       Learn more
-    </a>
+    </Link>
   </div>
 )
 

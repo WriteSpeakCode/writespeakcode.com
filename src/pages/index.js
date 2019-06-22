@@ -75,14 +75,9 @@ const IndexPage = ({ data }) => (
             Join us for three days designed to fully own your expertise through
             writing, speaking, and open source.
           </p>
-          <a
-            className="link"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://writespeakcode-2019conference.eventbrite.com/"
-          >
-            Get tickets
-          </a>
+          <Link to="/2019/" className="link">
+            View conference website
+          </Link>
         </div>
       </div>
     </section>
@@ -93,7 +88,7 @@ const IndexPage = ({ data }) => (
     >
       <div className={styles.row}>
         <Img
-          alt="A smiling speaker talks on stage at the 2019 conference with a microphone."
+          alt="A smiling speaker talks on stage at the 2018 conference with a microphone."
           fluid={data.oye.childImageSharp.fluid}
           imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
           className={styles.image}
