@@ -20,7 +20,12 @@ const Hotel = ({ hotel }) => (
       <p>Rate: {hotel.rate}</p>
       <p>Group Name: {hotel.group_name}</p>
       {hotel.link && (
-        <a href={hotel.link} className="link">
+        <a
+          href={hotel.link}
+          className="link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Book a room
         </a>
       )}
