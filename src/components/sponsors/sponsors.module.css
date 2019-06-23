@@ -55,6 +55,7 @@
 }
 
 .other,
+.community,
 .bronze,
 .gold,
 .silver {
@@ -121,7 +122,8 @@
     }
   }
 
-  .other {
+  .other,
+  .community {
     img {
       max-width: 10em;
     }

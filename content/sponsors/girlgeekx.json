@@ -1,0 +1,8 @@
+{
+  "name": "Girl Geek X",
+  "url": "https://girlgeek.io/",
+  "logo": "/images/girlgeekx.svg",
+  "sponsorships": [
+    { "year": "2019", "level": "Community Partner", "conf_sponsor": true }
+  ]
+}
