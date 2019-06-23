@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 import ConfLayout from '../../layouts/conference'
@@ -10,12 +10,15 @@ import styles from './index.module.css'
 
 const Conference2019 = ({ data }) => (
   <ConfLayout>
-    <section style={{ backgroundColor: '#181c3c', color: 'white' }}>
-      <div className={styles.section}>
+    <section
+      className={styles.section}
+      style={{ backgroundColor: '#181c3c', color: 'white' }}
+    >
+      <div className={styles.row}>
         <div className={styles.content}>
           <h3 className="title">About</h3>
           <h4 className="subtitle">
-            What to Expect at the Write/Speak/Code Conference
+            What to expect at the Write/Speak/Code conference
           </h4>
           <p>
             Write/Speak/Code is an intensive, 3-day, hands-on conference with
@@ -30,7 +33,30 @@ const Conference2019 = ({ data }) => (
             <em>we recommend this for first-time attendees</em>) OR attending
             talks across three other tracks. The choice is yours!
           </p>
+          <p>
+            Write/Speak/Code’s core curriculum is designed to help you break
+            down mental blockers, identify and own your expertise, and build a
+            toolkit and body of work around technical blog writing, conference
+            speaking, and open source coding. On each day, attendees leave the
+            conference having developed blog posts and conference talks, making
+            open source contributions, and more. We provide actionable next
+            steps and a supportive community to keep attendees accountable to
+            the goals they set at the conference and beyond.
+          </p>
         </div>
+        <aside className={styles.aside}>
+          <p>
+            If you’ve never been to a W/S/C event or conference before, we
+            recommend doing our core curriculum each day or picking one or two
+            days to work through the curriculum for the topics you’re most
+            excited to learn, expand, and grow in.{' '}
+          </p>
+          <p>
+            For past attendees, the core curriculum is also a great refresher to
+            reboot your writing, speaking, and open source contributing
+            harddrive!
+          </p>
+        </aside>
       </div>
     </section>
 
@@ -38,7 +64,7 @@ const Conference2019 = ({ data }) => (
       className={styles.photoSection}
       style={{ backgroundColor: '#ea5038', color: 'white' }}
     >
-      <div className={styles.row}>
+      <div className={styles.row} style={{ position: 'relative' }}>
         <div className={styles.content}>
           <h3 className="title">Venue & Transportation</h3>
           <h4 className="subtitle">
@@ -77,13 +103,48 @@ const Conference2019 = ({ data }) => (
           className={styles.image}
         />
         <div className={styles.content}>
-          <h3 className="title">Title</h3>
-          <h4 className="subtitle">Subtitle</h4>
-          <p>content</p>
+          <h3 className="title">Tracks & Schedule</h3>
+          <h4 className="subtitle">Friday: Write // Visibility Day</h4>
+          <ul>
+            <li>Track 1: Core Write/Speak/Code WRITE curriculum</li>
+            <li>Track 2: Speak</li>
+            <li>Track 3: Code</li>
+            <li>Track 4: Growth</li>
+          </ul>
+          <h4 className="subtitle">Saturday: Speak // Leadership Day</h4>
+          <ul>
+            <li>Track 1: Core Write/Speak/Code SPEAK curriculum</li>
+            <li>Track 2: Write</li>
+            <li>Track 3: Code</li>
+            <li>Track 4: Growth</li>
+          </ul>
+          <h4 className="subtitle">Sunday: Code // Project Day</h4>
+          <ul>
+            <li>Track 1: Core Write/Speak/Code CODE curriculum</li>
+            <li>Track 2: Write</li>
+            <li>Track 3: Speak</li>
+            <li>Track 4: Growth</li>
+          </ul>
+          {/*
+          <Link className="link" to={`/2019/schedule`}>
+            View Schedule
+          </Link>
+          */}
+          <em>Full schedule coming soon</em>
         </div>
       </div>
     </section>
 
+    <section
+      className={styles.section}
+      style={{ backgroundColor: '#f5d2c6', color: 'var(--navy)' }}
+    >
+      <div className={styles.content}>
+        <h3 className="title">Title</h3>
+        <h4 className="subtitle">Subtitle</h4>
+        <p>content</p>
+      </div>
+    </section>
     <section
       className={styles.photoSection}
       style={{ backgroundColor: '#f5d2c6', color: 'var(--navy)' }}
