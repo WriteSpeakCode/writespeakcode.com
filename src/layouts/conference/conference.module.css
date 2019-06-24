@@ -1,6 +1,60 @@
+.menuButton {
+  color: var(--navy);
+  font-size: 2em;
+  min-width: 32px;
+}
+
+.links {
+  background-color: var(--mint);
+  width: 10em;
+  button {
+    display: block;
+    background: transparent;
+    color: var(--navy);
+    margin: 1em;
+    padding: 0.25em;
+    font-family: 'Pt Sans Caption';
+    font-weight: var(--semi-bold);
+    border: 0;
+    &:hover,
+    &:focus {
+      color: var(--orange);
+      cursor: pointer;
+    }
+  }
+}
+
+.small {
+  @media screen and (max-width: 50em) {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1em 0;
+    background-color: var(--mint);
+    z-index: 1;
+    border-top: 4px solid var(--navy);
+  }
+  @media screen and (min-width: 50em) {
+    .links {
+      z-index: 1;
+      position: absolute;
+      right: 0;
+      top: 4.5em;
+      padding: 1em;
+      a {
+        margin: 1em 2em;
+      }
+    }
+  }
+}
+
+.headerBg {
+  background-color: #ebf8ef;
+}
+
 .header {
   text-align: center;
-  background-color: #ebf8ef;
   .info {
     h2 {
       font-size: 1em;

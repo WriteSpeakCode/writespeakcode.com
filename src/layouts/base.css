@@ -100,7 +100,6 @@ a {
 }
 
 .subtitle {
-  display: inline;
   font-family: 'Open Sans';
   font-weight: var(--light);
   font-size: 1.3em;

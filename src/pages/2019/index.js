@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import ConfLayout from '../../layouts/conference'
@@ -13,6 +13,7 @@ const Conference2019 = ({ data }) => (
     <section
       className={styles.section}
       style={{ backgroundColor: '#181c3c', color: 'white' }}
+      id="about"
     >
       <div className={styles.row}>
         <div className={styles.content}>
@@ -45,6 +46,7 @@ const Conference2019 = ({ data }) => (
           </p>
         </div>
         <aside className={styles.aside}>
+          <h4 className="subtitle">Which tracks should I choose?</h4>
           <p>
             If you’ve never been to a W/S/C event or conference before, we
             recommend doing our core curriculum each day or picking one or two
@@ -56,6 +58,9 @@ const Conference2019 = ({ data }) => (
             reboot your writing, speaking, and open source contributing
             harddrive!
           </p>
+          <a href="#tracks-and-schedule" className="link">
+            View tracks & schedule
+          </a>
         </aside>
       </div>
     </section>
@@ -63,10 +68,11 @@ const Conference2019 = ({ data }) => (
     <section
       className={styles.photoSection}
       style={{ backgroundColor: '#ea5038', color: 'white' }}
+      id="location"
     >
       <div className={styles.row} style={{ position: 'relative' }}>
         <div className={styles.content}>
-          <h3 className="title">Venue & Transportation</h3>
+          <h3 className="title">Venue, Lodging, & Transportation</h3>
           <h4 className="subtitle">
             Palace of Fine Arts
             <br />
@@ -79,22 +85,21 @@ const Conference2019 = ({ data }) => (
             unfortunately not on the BART line.
           </p>
         </div>
-        <div className={styles.map}>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.488895918175!2d-122.4505230490306!3d37.8020160796551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808586d510144681%3A0xe960db8a581aacf5!2sPalace+of+Fine+Arts!5e0!3m2!1sen!2sus!4v1556593751369!5m2!1sen!2sus"
-            width="100%"
-            height="100%"
-            frameBorder="0"
-            allowFullScreen
-            title="Palace of Fine Arts San Francisco Google Maps"
-          />
-        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.488895918175!2d-122.4505230490306!3d37.8020160796551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808586d510144681%3A0xe960db8a581aacf5!2sPalace+of+Fine+Arts!5e0!3m2!1sen!2sus!4v1556593751369!5m2!1sen!2sus"
+          width="100%"
+          height="100%"
+          frameBorder="0"
+          allowFullScreen
+          title="Palace of Fine Arts San Francisco Google Maps"
+        />
       </div>
     </section>
 
     <section
       className={styles.photoSection}
       style={{ backgroundColor: '#181c3c', color: 'white' }}
+      id="tracks-and-schedule"
     >
       <div className={styles.row}>
         <Img
@@ -106,21 +111,21 @@ const Conference2019 = ({ data }) => (
           <h3 className="title">Tracks & Schedule</h3>
           <h4 className="subtitle">Friday: Write // Visibility Day</h4>
           <ul>
-            <li>Track 1: Core Write/Speak/Code WRITE curriculum</li>
+            <li>Track 1: Core Write curriculum</li>
             <li>Track 2: Speak</li>
             <li>Track 3: Code</li>
             <li>Track 4: Growth</li>
           </ul>
           <h4 className="subtitle">Saturday: Speak // Leadership Day</h4>
           <ul>
-            <li>Track 1: Core Write/Speak/Code SPEAK curriculum</li>
+            <li>Track 1: Core Speak curriculum</li>
             <li>Track 2: Write</li>
             <li>Track 3: Code</li>
             <li>Track 4: Growth</li>
           </ul>
           <h4 className="subtitle">Sunday: Code // Project Day</h4>
           <ul>
-            <li>Track 1: Core Write/Speak/Code CODE curriculum</li>
+            <li>Track 1: Core Code curriculum</li>
             <li>Track 2: Write</li>
             <li>Track 3: Speak</li>
             <li>Track 4: Growth</li>
