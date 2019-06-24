@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faTwitter,
@@ -119,7 +120,12 @@ const Footer = ({ conference }) => (
           <FontAwesomeIcon icon={faPatreon} aria-hidden />
         </a>
       </div>
-      <p>{new Date().getFullYear()} © Write/Speak/Code</p>
+      <p>
+        {new Date().getFullYear()} ©{' '}
+        <Link to={`/`} className="link">
+          Write/Speak/Code
+        </Link>
+      </p>
     </div>
   </footer>
 )
