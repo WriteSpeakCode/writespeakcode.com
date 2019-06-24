@@ -1,7 +1,10 @@
 .footer {
-  padding: 1em 2em;
+  padding: 1em 2em 6em 2em;
   background-color: var(--navy);
   color: var(--white);
+  @media screen and (min-width: 50em) {
+    padding: 1em 2em;
+  }
 }
 
 .container {

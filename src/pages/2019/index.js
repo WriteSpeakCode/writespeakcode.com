@@ -139,7 +139,7 @@ const Conference2019 = ({ data }) => (
         </div>
       </div>
     </section>
-
+    {/*
     <section
       className={styles.section}
       style={{ backgroundColor: '#f5d2c6', color: 'var(--navy)' }}
@@ -150,6 +150,7 @@ const Conference2019 = ({ data }) => (
         <p>content</p>
       </div>
     </section>
+      */}
     <section
       className={styles.photoSection}
       style={{ backgroundColor: '#f5d2c6', color: 'var(--navy)' }}

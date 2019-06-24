@@ -12,46 +12,56 @@ import VisuallyHidden from '@reach/visually-hidden'
 
 import styles from './footer.module.css'
 
-const Footer = () => (
+const Footer = ({ conference }) => (
   <footer className={styles.footer}>
     <div className={styles.container}>
-      <ul className={styles.past}>
-        Past years:
-        <li>2013</li>
-        <li>2015</li>
-        <li>
-          <a
-            href="http://2016.writespeakcode.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="2016 W/S/C conference page"
-            className="link"
-          >
-            2016
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://2017.writespeakcode.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="2017 W/S/C conference page"
-            className="link"
-          >
-            2017
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://writespeakcode.github.io/2018"
-            title="2018 W/S/C conference page"
-            className="link"
-            rel="noopener noreferrer"
-          >
-            2018
-          </a>
-        </li>
-      </ul>
+      {conference && (
+        <>
+          <ul className={styles.past}>
+            Past years:
+            <li>2013</li>
+            <li>2015</li>
+            <li>
+              <a
+                href="http://2016.writespeakcode.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="2016 W/S/C conference page"
+                className="link"
+              >
+                2016
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://2017.writespeakcode.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="2017 W/S/C conference page"
+                className="link"
+              >
+                2017
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://writespeakcode.github.io/2018"
+                title="2018 W/S/C conference page"
+                className="link"
+                rel="noopener noreferrer"
+              >
+                2018
+              </a>
+            </li>
+          </ul>
+          <span>
+            Illustrations by:{' '}
+            <a href="https://www.maiaboakye.com" className="link">
+              Maia Boakye
+            </a>
+          </span>
+        </>
+      )}
 
       <div className={styles.social}>
         <a
@@ -109,7 +119,6 @@ const Footer = () => (
           <FontAwesomeIcon icon={faPatreon} aria-hidden />
         </a>
       </div>
-
       <p>{new Date().getFullYear()} © Write/Speak/Code</p>
     </div>
   </footer>

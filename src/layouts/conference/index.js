@@ -130,7 +130,7 @@ const ConferenceLayout = ({ children, data, subpage }) => {
         />
       )}
       <main className={styles.main}>{children}</main>
-      <Footer />
+      <Footer conference={true} />
     </>
   )
 }
