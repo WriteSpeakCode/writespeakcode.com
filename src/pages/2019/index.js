@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import { Tabs, TabList, Tab, TabPanels, TabPanel } from '@reach/tabs'
 
 import ConfLayout from '../../layouts/conference'
 import Sponsors from '../../components/sponsors'
@@ -109,27 +110,44 @@ const Conference2019 = ({ data }) => (
         />
         <div className={styles.content}>
           <h3 className="title">Tracks & Schedule</h3>
-          <h4 className="subtitle">Friday: Write // Visibility Day</h4>
-          <ul>
-            <li>Track 1: Core Write curriculum</li>
-            <li>Track 2: Speak</li>
-            <li>Track 3: Code</li>
-            <li>Track 4: Growth</li>
-          </ul>
-          <h4 className="subtitle">Saturday: Speak // Leadership Day</h4>
-          <ul>
-            <li>Track 1: Core Speak curriculum</li>
-            <li>Track 2: Write</li>
-            <li>Track 3: Code</li>
-            <li>Track 4: Growth</li>
-          </ul>
-          <h4 className="subtitle">Sunday: Code // Project Day</h4>
-          <ul>
-            <li>Track 1: Core Code curriculum</li>
-            <li>Track 2: Write</li>
-            <li>Track 3: Speak</li>
-            <li>Track 4: Growth</li>
-          </ul>
+          <Tabs>
+            <TabList>
+              <Tab>Friday</Tab>
+              <Tab>Saturday</Tab>
+              <Tab>Sunday</Tab>
+            </TabList>
+
+            <TabPanels>
+              <TabPanel>
+                <h4 className="subtitle">Write // Visibility Day</h4>
+                <ul>
+                  <li>Track 1: Core Write curriculum</li>
+                  <li>Track 2: Speak</li>
+                  <li>Track 3: Code</li>
+                  <li>Track 4: Growth</li>
+                </ul>
+              </TabPanel>
+              <TabPanel>
+                <h4 className="subtitle">Speak // Leadership Day</h4>
+                <ul>
+                  <li>Track 1: Core Speak curriculum</li>
+                  <li>Track 2: Write</li>
+                  <li>Track 3: Code</li>
+                  <li>Track 4: Growth</li>
+                </ul>
+              </TabPanel>
+              <TabPanel>
+                <h4 className="subtitle">Code // Project Day</h4>
+                <ul>
+                  <li>Track 1: Core Code curriculum</li>
+                  <li>Track 2: Write</li>
+                  <li>Track 3: Speak</li>
+                  <li>Track 4: Growth</li>
+                </ul>
+              </TabPanel>
+            </TabPanels>
+          </Tabs>
+
           {/*
           <Link className="link" to={`/2019/schedule`}>
             View Schedule
