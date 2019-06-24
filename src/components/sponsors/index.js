@@ -104,22 +104,21 @@ const Sponsors = ({ sponsors, isConference }) => {
             </div>
           </section>
         )}
-        {isConference && (
-          <section
-            className={[styles['community'], styles.levelSection].join(' ')}
-          >
-            <h3 className={styles.heading}>Community Partners</h3>
-            <div className={styles.grid}>
-              <Sponsor company={girlgeekx} />
-              <Sponsor company={codenewbie} />
-              <Sponsor company={pyladies} />
-              <Sponsor company={techladies} />
-              <Sponsor company={techbychoice} />
-              <Sponsor company={mothercoders} />
-              <Sponsor company={diversifytech} />
-            </div>
-          </section>
-        )}
+
+        <section
+          className={[styles['community'], styles.levelSection].join(' ')}
+        >
+          <h3 className={styles.heading}>Community Partners</h3>
+          <div className={styles.grid}>
+            <Sponsor company={girlgeekx} />
+            <Sponsor company={codenewbie} />
+            <Sponsor company={pyladies} />
+            <Sponsor company={techladies} />
+            <Sponsor company={techbychoice} />
+            <Sponsor company={mothercoders} />
+            <Sponsor company={diversifytech} />
+          </div>
+        </section>
       </div>
     </section>
   )
