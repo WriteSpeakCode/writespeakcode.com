@@ -60,8 +60,8 @@ const Hotels = () => {
             />
           </button>
         </header>
-        {hotels.map(hotel => (
-          <Hotel hotel={hotel} />
+        {hotels.map((hotel, index) => (
+          <Hotel hotel={hotel} key={index} />
         ))}
       </Dialog>
     </>
