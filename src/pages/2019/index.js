@@ -15,7 +15,7 @@ const Conference2019 = ({ data }) => {
   return (
     <ConfLayout>
       <section
-        className={styles.section}
+        className={styles.about}
         style={{ backgroundColor: '#181c3c', color: 'white' }}
         id="about"
       >
@@ -35,8 +35,8 @@ const Conference2019 = ({ data }) => {
               Write, Speak, Code, and Growth. Each day of the conference, you’ll
               have the choice of participating in our core curriculum for
               writing (Friday), speaking (Saturday) or open-source/coding
-              (Sunday) (<em>we recommend this for first-time attendees</em>) OR
-              attending talks across three other tracks. The choice is yours!
+              (Sunday) OR attending talks across three other tracks. The choice
+              is yours!
             </p>
             <p>
               Write/Speak/Code’s core curriculum is designed to help you break
@@ -67,13 +67,13 @@ const Conference2019 = ({ data }) => {
       </section>
 
       <section
-        className={styles.photoSection}
+        className={styles.location}
         style={{ backgroundColor: '#ea5038', color: 'white' }}
         id="location"
       >
-        <div className={styles.row} style={{ position: 'relative' }}>
+        <div className={styles.row}>
           <div className={styles.content}>
-            <h3 className="title">Venue, Lodging, & Transportation</h3>
+            <h3 className="title">Location & Lodging</h3>
             <h4 className="subtitle">
               Palace of Fine Arts
               <br />
@@ -98,7 +98,7 @@ const Conference2019 = ({ data }) => {
       </section>
 
       <section
-        className={styles.photoSection}
+        className={styles.schedule}
         style={{ backgroundColor: '#181c3c', color: 'white' }}
         id="tracks-and-schedule"
       >
@@ -112,11 +112,8 @@ const Conference2019 = ({ data }) => {
             <h3 className="title">Tracks & Schedule</h3>
             <div className={styles.tracks}>
               <div>
-                <h4 className="subtitle">
-                  Friday
-                  <br />
-                  Write // Visibility Day
-                </h4>
+                <h4>Friday</h4>
+                <h5>Write / Visibility Day</h5>
                 <ul>
                   <li>Track 1: Core Write curriculum</li>
                   <li>Track 2: Speak</li>
@@ -125,10 +122,8 @@ const Conference2019 = ({ data }) => {
                 </ul>
               </div>
               <div>
-                <h4 className="subtitle">
-                  Saturday <br />
-                  Speak // Leadership Day
-                </h4>
+                <h4>Saturday</h4>
+                <h5>Speak / Leadership Day</h5>
                 <ul>
                   <li>Track 1: Core Speak curriculum</li>
                   <li>Track 2: Write</li>
@@ -137,10 +132,8 @@ const Conference2019 = ({ data }) => {
                 </ul>
               </div>
               <div>
-                <h4 className="subtitle">
-                  Sunday <br />
-                  Code // Project Day
-                </h4>
+                <h4>Sunday</h4>
+                <h5>Code / Project Day</h5>
                 <ul>
                   <li>Track 1: Core Code curriculum</li>
                   <li>Track 2: Write</li>
@@ -155,7 +148,7 @@ const Conference2019 = ({ data }) => {
       </section>
 
       <section
-        className={styles.section}
+        className={styles.coc}
         style={{ backgroundColor: '#f5d2c6', color: 'var(--navy)' }}
       >
         <div className={styles.row}>
@@ -195,9 +188,12 @@ const Conference2019 = ({ data }) => {
             <h3 className="title">Testimonials</h3>
             <CarouselProvider
               naturalSlideWidth={400}
-              naturalSlideHeight={250}
-              totalSlides={4}
+              naturalSlideHeight={400}
+              totalSlides={10}
+              isPlaying={true}
+              interval={5000}
             >
+              <DotGroup className={styles.dotGroup} />
               <Slider>
                 <Slide index={0}>
                   <TwitterTweetEmbed
@@ -206,23 +202,42 @@ const Conference2019 = ({ data }) => {
                   />
                 </Slide>
                 <Slide index={1}>
-                  <TwitterTweetEmbed tweetId={'743287577503989760'} />
+                  <TwitterTweetEmbed tweetId={'901710289690796032'} />
                 </Slide>
                 <Slide index={2}>
                   <TwitterTweetEmbed tweetId={'802645541985210368'} />
                 </Slide>
                 <Slide index={3}>
+                  <TwitterTweetEmbed tweetId={'901586188154183681'} />
+                </Slide>
+                <Slide index={4}>
+                  <TwitterTweetEmbed tweetId={'743287577503989760'} />
+                </Slide>
+                <Slide index={5}>
                   <TwitterTweetEmbed tweetId={'743205226434400256'} />
                 </Slide>
+                <Slide index={6}>
+                  <TwitterTweetEmbed tweetId={'744272710155517952'} />
+                </Slide>
+                <Slide index={7}>
+                  <TwitterTweetEmbed tweetId={'817353447423045632'} />
+                </Slide>
+                <Slide index={8}>
+                  <TwitterTweetEmbed
+                    tweetId={'744267099380547584'}
+                    options={{ cards: 'hidden' }}
+                  />
+                </Slide>
+                <Slide index={9}>
+                  <TwitterTweetEmbed tweetId={'744246096851939329'} />
+                </Slide>
               </Slider>
-              <DotGroup />
             </CarouselProvider>
           </div>
           <Img
             alt="Illustration of people by Maia Boakye"
             fluid={data.people.childImageSharp.fluid}
             className={styles.image}
-            style={{ alignSelf: 'end' }}
           />
         </div>
       </section>

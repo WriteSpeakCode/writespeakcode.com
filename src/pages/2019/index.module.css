@@ -11,20 +11,48 @@
   }
 }
 
-.photoSection {
+.location,
+.schedule {
   .row {
     display: grid;
     @media screen and (min-width: 50em) {
-      /* align-items: center; */
-      grid-template-columns: 1fr 2fr;
+      grid-template-columns: 2fr 3fr;
+    }
+  }
+}
+
+.testimonials {
+  .row {
+    display: grid;
+    .content {
+      display: none;
+    }
+    @media screen and (min-width: 70em) {
+      grid-template-columns: 2fr 3fr;
       .content {
-        /* max-width: 30em; */
+        display: block;
       }
     }
   }
 }
 
-.section {
+.dotGroup {
+  margin: 0.5em 0;
+  button {
+    background-color: var(--navy);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    margin-right: 10px;
+    border: 0;
+    &:disabled {
+      background-color: var(--orange);
+    }
+  }
+}
+
+.about,
+.coc {
   .aside {
     padding: 0 3em 3em 3em;
   }
@@ -39,26 +67,22 @@
     }
     .aside {
       margin: 1.5em;
-      padding: 0 1.5em 1.5em;
+      padding: 1em 1.5em 1.5em;
       border: 4px solid var(--tan);
-    }
-  }
-}
-/* Testimonials section */
-.testimonials {
-  @media screen and (min-width: 50em) {
-    .row {
-      display: grid;
-      align-items: center;
-      grid-template-columns: 2fr 3fr;
     }
   }
 }
 
 .tracks {
   display: grid;
+  h4 {
+    margin-bottom: 0.25em;
+  }
+  h5 {
+    margin-top: 0;
+  }
   @media screen and (min-width: 50em) {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2em;
+    grid-gap: 1em;
   }
 }
