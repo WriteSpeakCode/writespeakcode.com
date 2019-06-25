@@ -50,8 +50,12 @@ collections:
         name: 'pronouns'
         widget: 'string'
         required: false
-      - label: 'Role/Company'
+      - label: 'Role'
         name: 'role'
+        widget: 'string'
+        required: false
+      - label: 'Company'
+        name: 'company'
         widget: 'string'
         required: false
       - label: 'Social Links'
@@ -78,6 +82,15 @@ collections:
         name: 'bio'
         widget: 'text'
         required: false
+      - label: 'Years'
+        name: 'years'
+        widget: 'select'
+        multiple: true
+        required: false
+        options:
+          [
+            '2019',
+          ]
 
   - name: 'sponsors'
     label: 'Sponsors'
