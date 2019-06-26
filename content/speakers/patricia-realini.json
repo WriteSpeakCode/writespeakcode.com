@@ -1,0 +1,25 @@
+{
+  "name": "Patricia Realini",
+  "pronouns": "she/they",
+  "role": "Infrastructure Product Manager",
+  "company": "Github",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "patriciarealini"
+    },
+    {
+      "type": "github",
+      "url": "patriciarealini"
+    },
+    {
+      "type": "website",
+      "url": "https://patriciarealini.com"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Patricia Realini is an Infrastructure Product Manager at GitHub, a community organizer, and an artist from Los Angeles, CA. With a background in front end engineering, Patricia has contributed to the Javascript community by organizing with NodeTogether, EmpireJS, BrooklynJS, and Processing Foundation. She gives talks that research and examine the intersection of sociology and tech, loves CSS, and the first app she made when she was teaching herself how to code was for generating tarot spreads. ",
+  "years": [
+    "2019"
+  ]
+}
