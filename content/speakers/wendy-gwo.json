@@ -1,0 +1,24 @@
+{
+  "name": "Wendy Gwo",
+  "pronouns": "she/her",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "wendygwo"
+    },
+    {
+      "type": "linkedin",
+      "url": "wendygwo"
+    },
+    {
+      "type": "github",
+      "url": "wendygwo"
+    }
+  ],
+  "layout": "speaker",
+  "headshot": "/images/wendy-gwo.jpg",
+  "bio": "Wendy is a software engineer based in Los Angeles. She switched to software engineering after having previously worked as a consultant and as an electrical engineer. She loves all things tech, especially tech that can be used to make aspects of people's lives easier, meaningful, more efficient, and/or fun!\n\nWendy loves a challenge, and as a result has summited Mt. Kilimanjaro, has run the LA Marathon, and has a Master’s degree in Electrical Engineering. She loves hiking and being surrounded by the great outdoors and eating any and all carbs.",
+  "years": [
+    "2019"
+  ]
+}
