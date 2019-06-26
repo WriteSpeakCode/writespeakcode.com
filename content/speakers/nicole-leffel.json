@@ -1,20 +1,20 @@
 {
   "name": "Nicole Leffel",
-  "pronouns": "They/Them",
-  "role": "software engineer",
-  "company": "blink health",
+  "pronouns": "they/them",
+  "role": "Software Engineer",
+  "company": "Blink Health",
   "links": [
     {
       "type": "twitter",
-      "url": "https://www.twitter.com/deviltheirdue"
+      "url": "deviltheirdue"
     },
     {
       "type": "github",
-      "url": "https://github.com/leffel"
+      "url": "leffel"
     },
     {
       "type": "linkedin",
-      "url": "https://www.linkedin.com/in/nicoleleffel/"
+      "url": "nicoleleffel"
     }
   ],
   "layout": "speaker",
