@@ -1,0 +1,25 @@
+{
+  "name": "Anna Rankin",
+  "pronouns": "She/Her",
+  "role": "Software Engineer",
+  "company": "General Assembly",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "https://www.twitter.com/anniesqueedle"
+    },
+    {
+      "type": "github",
+      "url": "https://www.github.com/annarankin"
+    },
+    {
+      "type": "linkedin",
+      "url": "https://www.linkedin.com/in/annarankin"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Currently, Anna is a Software Engineer at General Assembly, helping build tools with an aim to change the way adults learn. Before finding her true calling as a computer whisperer, she explored careers in the arts, education, and even community relations for a small island! A lover of puns, mentorship, and learning through failure, you can find her written work on dev.to/annarankin. When she’s not trying to finish one of the four books she’s reading concurrently, you can find her lurking on Twitter or creating pixel art of her dog.",
+  "years": [
+    "2019"
+  ]
+}
