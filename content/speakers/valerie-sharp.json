@@ -1,0 +1,29 @@
+{
+  "name": "Valerie Sharp",
+  "pronouns": "she/her",
+  "role": "Executive Director",
+  "company": "Tech By Choice",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "Digitalblkhippy"
+    },
+    {
+      "type": "linkedin",
+      "url": "valerie--sharp"
+    },
+    {
+      "type": "github",
+      "url": "DeltaV93"
+    },
+    {
+      "type": "website",
+      "url": "http://issa.engineer"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Valerie Sharp is a technologist who focuses on create user-centered digital experiences as a full-time UX designer & full stack developer. To help spread the financial wealth offered by the tech industry, Valerie founded Tech By Choice, a nonprofit that is working to increase diversity in the tech industry by providing low to no cost events for individuals in protected groups. ",
+  "years": [
+    "2019"
+  ]
+}
