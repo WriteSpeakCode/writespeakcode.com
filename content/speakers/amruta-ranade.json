@@ -1,8 +1,12 @@
 {
+  "bio": "Senior Tech Writer at an open source company in New York. Founder and Organizer of #NastyRoachers, a women's ERG at the company. Actively involved in Diversity and Inclusion initiatives with the approach of being the \"dummy puffin\" (https://amrutaranade.com/2018/09/19/the-dummy-puffin/)",
+  "layout": "speaker",
   "name": "Amruta Ranade",
   "pronouns": "she/her",
   "role": "Senior Technical Writer",
-  "company": "Cockroach Labs",
+  "years": [
+    "2019"
+  ],
   "links": [
     {
       "type": "twitter",
@@ -21,9 +25,6 @@
       "url": "https://amrutaranade.com/"
     }
   ],
-  "layout": "speaker",
-  "bio": "Senior Tech Writer at an open source company in New York. Founder and Organizer of #NastyRoachers, a women's ERG at the company. Actively involved in Diversity and Inclusion initiatives with the approach of being the \"dummy puffin\" (https://amrutaranade.com/2018/09/19/the-dummy-puffin/)",
-  "years": [
-    "2019"
-  ]
+  "headshot": "/images/amruta-ranade.jpg",
+  "company": "Cockroach Labs"
 }
