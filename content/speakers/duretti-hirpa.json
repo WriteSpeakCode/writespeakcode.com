@@ -1,0 +1,30 @@
+{
+  "bio": "Duretti Hirpa is a writer and senior software engineer based in San Francisco, California. She's a ten-year veteran of the technology industry, and currently works at Slack. Duretti has a humanities background and often thinks about the intersection between people and technology. She likes treats, the feeling of finding the perfect animated gif to convey your meaning, and the vocal stylings of Beyoncé Knowles-Carter. ",
+  "layout": "speaker",
+  "name": "Duretti Hirpa",
+  "pronouns": "she/her",
+  "role": "Senior Engineer",
+  "years": [
+    "2019"
+  ],
+  "links": [
+    {
+      "type": "twitter",
+      "url": "duretti"
+    },
+    {
+      "type": "linkedin",
+      "url": "duretti"
+    },
+    {
+      "type": "github",
+      "url": "duretti"
+    },
+    {
+      "type": "website",
+      "url": "durettihirpa.com"
+    }
+  ],
+  "headshot": "/images/duretti-hirpa.jpg",
+  "company": "Slack"
+}
