@@ -1,0 +1,8 @@
+{
+  "name": "Tech By Choice",
+  "url": "https://techbychoice.org/",
+  "logo": "/images/techbychoice.jpg",
+  "sponsorships": [
+    { "year": "2019", "level": "Community Partner", "conf_sponsor": true }
+  ]
+}

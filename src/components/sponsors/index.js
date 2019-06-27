@@ -18,6 +18,15 @@ import github from '../../../content/sponsors/github.json'
 import adhoc from '../../../content/sponsors/adhoc.json'
 import climatecorp from '../../../content/sponsors/climate-corporation.json'
 
+// Community Partners
+import girlgeekx from '../../../content/sponsors/girlgeekx.json'
+import codenewbie from '../../../content/sponsors/codenewbie.json'
+import pyladies from '../../../content/sponsors/pyladies.json'
+import techladies from '../../../content/sponsors/techladies.json'
+import diversifytech from '../../../content/sponsors/diversifytech.json'
+import mothercoders from '../../../content/sponsors/mothercoders.json'
+import techbychoice from '../../../content/sponsors/techbychoice.json'
+
 const Sponsors = ({ sponsors }) => {
   return (
     <section id="sponsorship">
@@ -90,6 +99,18 @@ const Sponsors = ({ sponsors }) => {
           <Sponsor company={vts} level="Local Meetup - NYC" />
           <Sponsor company={glympse} level="Local Meetup - SEA" />
           <Sponsor company={climatecorp} level="Local Meetup - SEA + SF" />
+        </div>
+      </section>
+      <section className={[styles['community'], styles.levelSection].join(' ')}>
+        <h3 className={styles.heading}>Community Partners</h3>
+        <div className={styles.grid}>
+          <Sponsor company={girlgeekx} />
+          <Sponsor company={codenewbie} />
+          <Sponsor company={pyladies} />
+          <Sponsor company={techladies} />
+          <Sponsor company={techbychoice} />
+          <Sponsor company={mothercoders} />
+          <Sponsor company={diversifytech} />
         </div>
       </section>
     </section>
