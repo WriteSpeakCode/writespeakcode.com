@@ -1,0 +1,9 @@
+{
+  "name": "The Climate Corporation",
+  "url": "https://climate.com/",
+  "logo": "/images/climate-corporation.jpg",
+  "sponsorships": [
+    { "year": "2019", "level": "Local Meetup SEA", "conf_sponsor": false },
+    { "year": "2019", "level": "Local Meetup SF", "conf_sponsor": false }
+  ]
+}

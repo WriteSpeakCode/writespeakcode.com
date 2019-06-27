@@ -2,5 +2,12 @@
   "name": "Zipline",
   "url": "https://flyzipline.com",
   "logo": "/images/zipline.jpg",
-  "sponsorships": [{ "year": "2019", "level": "Gold", "conf_sponsor": true }]
+  "text": "Zipline is the world's first national-scale drone delivery service. Its mission is to make on-demand instant deliveries of life-saving and critical medicines to those in need — even in the planet's most difficult to reach places.",
+  "sponsorships": [
+    {
+      "year": "2019",
+      "level": "Gold",
+      "conf_sponsor": true
+    }
+  ]
 }
