@@ -27,7 +27,7 @@ import diversifytech from '../../../content/sponsors/diversifytech.json'
 import mothercoders from '../../../content/sponsors/mothercoders.json'
 import techbychoice from '../../../content/sponsors/techbychoice.json'
 
-const Sponsors = ({ sponsors }) => {
+const Sponsors = ({ sponsors, isConference }) => {
   return (
     <section id="sponsorship">
       <div className={styles.background}>
@@ -61,58 +61,67 @@ const Sponsors = ({ sponsors }) => {
         </div>
       </div>
 
-      <section className={[styles['platinum'], styles.levelSection].join(' ')}>
-        <h3 className={styles.heading}>Platinum</h3>
-        <div className={styles.grid}>
-          <Sponsor company={github} level="Platinum" />
-        </div>
-      </section>
-      <section className={[styles['gold'], styles.levelSection].join(' ')}>
-        <h3 className={styles.heading}>Gold</h3>
-        <div className={styles.grid}>
-          <Sponsor company={mailchimp} />
-          <Sponsor company={splunk} />
-          <Sponsor company={zipline} />
-        </div>
-      </section>
-      <section className={[styles['silver'], styles.levelSection].join(' ')}>
-        <h3 className={styles.heading}>Silver</h3>
-        <div className={styles.grid}>
-          <Sponsor company={sentry} />
-          <div />
-        </div>
-      </section>
-      <section className={[styles['bronze'], styles.levelSection].join(' ')}>
-        <h3 className={styles.heading}>Bronze</h3>
-        <div className={styles.grid}>
-          <Sponsor company={netlify} />
-          <Sponsor company={textio} />
-          <Sponsor company={adhoc} />
-        </div>
-      </section>
-      <section className={[styles['other'], styles.levelSection].join(' ')}>
-        <h3 className={styles.heading}>Other</h3>
-        <div className={styles.grid}>
-          <Sponsor company={atlassian} level="Private Workshops" />
-          <Sponsor company={sentry} level="Local Meetup - SF" />
-          <Sponsor company={seatgeek} level="Local Meetup - NYC" />
-          <Sponsor company={vts} level="Local Meetup - NYC" />
-          <Sponsor company={glympse} level="Local Meetup - SEA" />
-          <Sponsor company={climatecorp} level="Local Meetup - SEA + SF" />
-        </div>
-      </section>
-      <section className={[styles['community'], styles.levelSection].join(' ')}>
-        <h3 className={styles.heading}>Community Partners</h3>
-        <div className={styles.grid}>
-          <Sponsor company={girlgeekx} />
-          <Sponsor company={codenewbie} />
-          <Sponsor company={pyladies} />
-          <Sponsor company={techladies} />
-          <Sponsor company={techbychoice} />
-          <Sponsor company={mothercoders} />
-          <Sponsor company={diversifytech} />
-        </div>
-      </section>
+      <div className={styles.wrap}>
+        <section
+          className={[styles['platinum'], styles.levelSection].join(' ')}
+        >
+          <h3 className={styles.heading}>Platinum</h3>
+          <div className={styles.grid}>
+            <Sponsor company={github} level="Platinum" />
+          </div>
+        </section>
+        <section className={[styles['gold'], styles.levelSection].join(' ')}>
+          <h3 className={styles.heading}>Gold</h3>
+          <div className={styles.grid}>
+            <Sponsor company={mailchimp} />
+            <Sponsor company={splunk} />
+            <Sponsor company={zipline} />
+          </div>
+        </section>
+        <section className={[styles['silver'], styles.levelSection].join(' ')}>
+          <h3 className={styles.heading}>Silver</h3>
+          <div className={styles.grid}>
+            <Sponsor company={sentry} />
+            <div />
+          </div>
+        </section>
+        <section className={[styles['bronze'], styles.levelSection].join(' ')}>
+          <h3 className={styles.heading}>Bronze</h3>
+          <div className={styles.grid}>
+            <Sponsor company={netlify} />
+            <Sponsor company={textio} />
+            <Sponsor company={adhoc} />
+          </div>
+        </section>
+        {!isConference && (
+          <section className={[styles['other'], styles.levelSection].join(' ')}>
+            <h3 className={styles.heading}>Other</h3>
+            <div className={styles.grid}>
+              <Sponsor company={atlassian} level="Private Workshops" />
+              <Sponsor company={sentry} level="Local Meetup - SF" />
+              <Sponsor company={seatgeek} level="Local Meetup - NYC" />
+              <Sponsor company={vts} level="Local Meetup - NYC" />
+              <Sponsor company={glympse} level="Local Meetup - SEA" />{' '}
+              <Sponsor company={climatecorp} level="Local Meetup - SEA + SF" />
+            </div>
+          </section>
+        )}
+
+        <section
+          className={[styles['community'], styles.levelSection].join(' ')}
+        >
+          <h3 className={styles.heading}>Community Partners</h3>
+          <div className={styles.grid}>
+            <Sponsor company={girlgeekx} />
+            <Sponsor company={codenewbie} />
+            <Sponsor company={pyladies} />
+            <Sponsor company={techladies} />
+            <Sponsor company={techbychoice} />
+            <Sponsor company={mothercoders} />
+            <Sponsor company={diversifytech} />
+          </div>
+        </section>
+      </div>
     </section>
   )
 }

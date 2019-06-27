@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Kimpton Buchanan Hotel",
+    "address": "1800 Sutter Street, San Francisco, CA 94115",
+    "rate": "$219",
+    "link": "https://www.ihg.com/kimptonhotels/hotels/us/en/buchanan-hotel-san-francisco-ca/sfobc/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=SFOBC&qGrpCd=A35&setPMCookies=true&qDest=1800%20Sutter%20Street,%20San%20Francisco,%20CA,%20US&srb_u=1",
+    "phone": "(415) 921-4000",
+    "group_name": "Write Speak Code Con"
+  },
+  {
+    "name": "The Westin St. Francis San Francisco on Union Square",
+    "address": "335 Powell Street, San Francisco, CA 94102",
+    "rate": "$219",
+    "link": "https://www.marriott.com/events/start.mi?id=1556670115023&key=GRP",
+    "phone": "(415) 397-7000",
+    "group_name": "Write Speak Code Conf"
+  },
+  {
+    "name": "Holiday Inn San Francisco-Golden Gateway",
+    "address": "1500 Van Ness Avenue, San Francisco, CA 94109",
+    "rate": "$249",
+    "link": "https://bit.ly/2XvV7Bp",
+    "phone": "(866) 272-7098",
+    "group_name": "Write Speak Code"
+  }
+]

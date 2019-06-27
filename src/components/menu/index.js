@@ -50,7 +50,7 @@ const Menu = () => {
   )
 
   return (
-    <div>
+    <>
       <div className={styles.large}>{menu}</div>
       <div className={styles.small}>
         <FontAwesomeIcon
@@ -60,7 +60,7 @@ const Menu = () => {
         />
         {menuIsOpen && menu}
       </div>
-    </div>
+    </>
   )
 }
 

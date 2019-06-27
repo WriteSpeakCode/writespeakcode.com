@@ -1,24 +1,26 @@
 .footer {
-  padding: 1em 2em;
+  padding: 1em 2em 6em 2em;
   background-color: var(--navy);
   color: var(--white);
+  @media screen and (min-width: 50em) {
+    padding: 1em 2em;
+  }
 }
 
 .container {
-  max-width: var(--container);
-  margin: 0 auto;
-  @media screen and (min-width: 45em) {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (min-width: 80em) {
+    max-width: var(--container);
+    margin: 0 auto;
   }
 }
 
 .social {
-  @media screen and (min-width: 45em) {
-    display: flex;
-    align-items: center;
-  }
+  display: flex;
+  align-items: center;
   .cta {
     margin: 1em 0.5em;
   }
@@ -31,5 +33,19 @@
   &:hover,
   &:focus {
     color: var(--orange);
+  }
+}
+
+.past {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 0;
+  li {
+    padding-left: 0.5em;
+    a {
+      padding-top: 4px;
+    }
   }
 }

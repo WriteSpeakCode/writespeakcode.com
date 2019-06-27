@@ -1,0 +1,64 @@
+.speaker {
+  margin: 1em 0;
+  figcaption {
+    h3 {
+      margin: 0;
+      font-family: 'PT Sans Caption';
+      font-weight: var(--bold);
+      font-size: 1.2em;
+    }
+    h4,
+    h5 {
+      margin: 0;
+      font-size: 0.9em;
+      font-weight: var(--light);
+    }
+    h5 {
+      font-size: 0.9em;
+      font-weight: var(--semi-bold);
+    }
+  }
+}
+.headshot {
+  width: 100%;
+  border: 4px solid var(--navy);
+  &:hover {
+    border-color: #ea5038;
+    cursor: pointer;
+  }
+}
+
+/* Dialog Styles */
+
+.dialog {
+  width: 60vw;
+  background-color: var(--mint);
+  color: var(--navy);
+  img {
+    max-width: 100px;
+    border: 4px solid var(--navy);
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.close {
+  font-size: 1.5em;
+  background: transparent;
+  display: block;
+  color: var(--navy);
+  border: 0;
+  &:focus {
+    border: 1px solid var(--navy);
+    outline: none;
+  }
+}
+
+.name {
+  margin: 0;
+  font-size: 1.5em;
+}

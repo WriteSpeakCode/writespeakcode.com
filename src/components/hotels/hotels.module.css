@@ -1,0 +1,59 @@
+.hotel {
+  margin-bottom: 1em;
+  padding-top: 1em;
+
+  h3 {
+    font-size: 1.2em;
+  }
+  h4 {
+    font-size: 1.1em;
+  }
+  p {
+    margin: 0;
+  }
+  @media screen and (min-width: 50em) {
+    display: flex;
+    div:first-of-type {
+      width: 50%;
+      padding-right: 2em;
+    }
+  }
+}
+
+.button {
+  display: block;
+  background: transparent;
+  font-weight: var(--semi-bold);
+  padding-bottom: 0.25em;
+  margin-top: 1em;
+  color: var(--white);
+  border-color: inherit;
+  border-style: solid;
+  font-size: 0.9em;
+  border-width: 2px;
+  &:hover {
+    cursor: pointer;
+    color: var(--navy);
+  }
+}
+
+.dialog {
+  width: 60vw;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.close {
+  font-size: 1.5em;
+  background: transparent;
+  display: block;
+  color: var(--navy);
+}
+
+.info {
+  font-size: 1.5em;
+}

@@ -1,0 +1,11 @@
+.keynotes,
+.speakers {
+  padding: 3em;
+  background-color: #ebf7ef;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+}

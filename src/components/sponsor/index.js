@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Dialog } from '@reach/dialog'
 
-import styles from './sponsor.module.css'
 import '@reach/dialog/styles.css'
+import styles from './sponsor.module.css'
 
 const Sponsor = ({ company, level }) => {
   const [dialogIsOpen, setDialogIsOpen] = useState(false)
