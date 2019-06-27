@@ -17,15 +17,6 @@ import glympse from '../../../content/sponsors/glympse.json'
 import github from '../../../content/sponsors/github.json'
 import adhoc from '../../../content/sponsors/adhoc.json'
 
-// Community Partners
-import girlgeekx from '../../../content/sponsors/girlgeekx.json'
-import codenewbie from '../../../content/sponsors/codenewbie.json'
-import pyladies from '../../../content/sponsors/pyladies.json'
-import techladies from '../../../content/sponsors/techladies.json'
-import diversifytech from '../../../content/sponsors/diversifytech.json'
-import mothercoders from '../../../content/sponsors/mothercoders.json'
-import techbychoice from '../../../content/sponsors/techbychoice.json'
-
 const Sponsors = ({ sponsors, isConference }) => {
   return (
     <section id="sponsorship">
@@ -104,21 +95,6 @@ const Sponsors = ({ sponsors, isConference }) => {
             </div>
           </section>
         )}
-
-        <section
-          className={[styles['community'], styles.levelSection].join(' ')}
-        >
-          <h3 className={styles.heading}>Community Partners</h3>
-          <div className={styles.grid}>
-            <Sponsor company={girlgeekx} />
-            <Sponsor company={codenewbie} />
-            <Sponsor company={pyladies} />
-            <Sponsor company={techladies} />
-            <Sponsor company={techbychoice} />
-            <Sponsor company={mothercoders} />
-            <Sponsor company={diversifytech} />
-          </div>
-        </section>
       </div>
     </section>
   )

@@ -55,7 +55,6 @@
 }
 
 .other,
-.community,
 .bronze,
 .gold,
 .silver {
@@ -129,15 +128,6 @@
     .grid {
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
-  }
-}
-
-.community {
-  img {
-    max-width: 7em;
-  }
-  .grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
 

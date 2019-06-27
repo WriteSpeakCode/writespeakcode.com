@@ -1,8 +1,0 @@
-{
-  "name": "Tech Ladies",
-  "url": "https://www.hiretechladies.com/",
-  "logo": "/images/techladies.jpg",
-  "sponsorships": [
-    { "year": "2019", "level": "Community Partner", "conf_sponsor": true }
-  ]
-}

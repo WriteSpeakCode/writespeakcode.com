@@ -1,8 +1,0 @@
-{
-  "name": "Pyladies",
-  "url": "https://www.pyladies.com/",
-  "logo": "/images/pyladies.jpg",
-  "sponsorships": [
-    { "year": "2019", "level": "Community Partner", "conf_sponsor": true }
-  ]
-}

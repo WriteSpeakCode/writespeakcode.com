@@ -1,8 +1,0 @@
-{
-  "name": "CodeNewbie",
-  "url": "https://www.codenewbie.org/",
-  "logo": "/images/codenewbie.jpg",
-  "sponsorships": [
-    { "year": "2019", "level": "Community Partner", "conf_sponsor": true }
-  ]
-}

@@ -1,8 +1,0 @@
-{
-  "name": "Mother Coders",
-  "url": "https://www.mothercoders.org/",
-  "logo": "/images/mothercoders.jpg",
-  "sponsorships": [
-    { "year": "2019", "level": "Community Partner", "conf_sponsor": true }
-  ]
-}
