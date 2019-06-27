@@ -28,7 +28,37 @@
   }
 }
 
+/* Dialog Styles */
+
 .dialog {
+  width: 60vw;
   background-color: var(--mint);
   color: var(--navy);
+  img {
+    max-width: 100px;
+    border: 4px solid var(--navy);
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.close {
+  font-size: 1.5em;
+  background: transparent;
+  display: block;
+  color: var(--navy);
+  border: 0;
+  &:focus {
+    border: 1px solid var(--navy);
+    outline: none;
+  }
+}
+
+.name {
+  margin: 0;
+  font-size: 1.5em;
 }
