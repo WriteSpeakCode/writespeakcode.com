@@ -1,0 +1,16 @@
+{
+    "name": "Nicola Beuscher",
+    "headshot": "/images/nicola-beuscher.jpg",
+    "pronouns": "she/her",
+    "role": ["Website Contributor", "Conference Organizer"],
+    "links": [
+      {
+        "type": "linkedin",
+        "url": "nicola-b"
+      },
+      {
+        "type": "twitter",
+        "url": "nicolabeus"
+      }
+    ]
+  }
