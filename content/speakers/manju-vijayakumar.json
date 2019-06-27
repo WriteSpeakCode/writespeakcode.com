@@ -1,0 +1,25 @@
+{
+  "name": "Manju Vijayakumar",
+  "pronouns": "she/her",
+  "role": "Lead Software Engineer",
+  "company": "Salesforce",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "vmanju"
+    },
+    {
+      "type": "linkedin",
+      "url": "manjuvijayakumar"
+    },
+    {
+      "type": "website",
+      "url": "vmanju.com"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Manju is a full stack engineer at Salesforce, where she works on Einstein Voice Assistant, bringing the best in class AI (artificial intelligence) capabilities to Salesforce suite of products. Prior to Salesforce, she worked in a breadth of roles solving complex problems at Google, Goldman Sachs, NVIDIA and Akamai. She holds a Masters in Computer Science from Texas A&M University. She is a new mom who loves outdoor adventures, reading and blogging in her free time (joke! there is no free time as a new mom).",
+  "years": [
+    "2019"
+  ]
+}

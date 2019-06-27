@@ -1,0 +1,25 @@
+{
+  "name": "Nicole Leffel",
+  "pronouns": "they/them",
+  "role": "Software Engineer",
+  "company": "Blink Health",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "deviltheirdue"
+    },
+    {
+      "type": "github",
+      "url": "leffel"
+    },
+    {
+      "type": "linkedin",
+      "url": "nicoleleffel"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Nicole Leffel is a software engineer and social entrepreneur working to make the world a more playful, connected, and equitable place. After a five year career in games and media, they made the leap into doing personally meaningful, mission-driven work. since then they've learned to code, participated in social impact incubators, attended a programming retreat, co-founded an accessible legal services startup, and connected with a vibrant network of do-gooders across the country. currently they led a team of developers at an affordable healthcare company, whose aim is to drive down the cost of prescription medication in the United Statues. Nicole believes that empowering others to pursue their nobler desires in a sustainable way is the surest, shortest path to saving the world.",
+  "years": [
+    "2019"
+  ]
+}
