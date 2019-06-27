@@ -56,7 +56,7 @@
   .aside {
     padding: 0 3em 3em 3em;
   }
-  @media screen and (min-width: 50em) {
+  @media screen and (min-width: 60em) {
     .row {
       display: grid;
       align-items: center;
@@ -68,7 +68,7 @@
     .aside {
       margin: 1.5em;
       padding: 1em 1.5em 1.5em;
-      border: 4px solid var(--tan);
+      border: 4px solid #181c3c;
     }
   }
 }

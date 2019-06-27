@@ -16,7 +16,7 @@ const Conference2019 = ({ data }) => {
     <ConfLayout>
       <section
         className={styles.about}
-        style={{ backgroundColor: '#181c3c', color: 'white' }}
+        style={{ backgroundColor: 'white', color: '#181c3c' }}
         id="about"
       >
         <div className={styles.row}>
@@ -63,37 +63,6 @@ const Conference2019 = ({ data }) => {
               harddrive!
             </p>
           </aside>
-        </div>
-      </section>
-
-      <section
-        className={styles.location}
-        style={{ backgroundColor: '#ea5038', color: 'white' }}
-        id="location"
-      >
-        <div className={styles.row}>
-          <div className={styles.content}>
-            <h3 className="title">Location & Lodging</h3>
-            <h4 className="subtitle">
-              Palace of Fine Arts
-              <br />
-              3601 Lyon St, San Francisco, CA 94123
-            </h4>
-            <Hotels />
-            <p>
-              We recommend taking a taxi or Lyft/Uber to the conference. It’s a
-              beautiful, historic San Francisco building and landmark, but it’s
-              unfortunately not on the BART line.
-            </p>
-          </div>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.488895918175!2d-122.4505230490306!3d37.8020160796551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808586d510144681%3A0xe960db8a581aacf5!2sPalace+of+Fine+Arts!5e0!3m2!1sen!2sus!4v1556593751369!5m2!1sen!2sus"
-            width="100%"
-            height="100%"
-            frameBorder="0"
-            allowFullScreen
-            title="Palace of Fine Arts San Francisco Google Maps"
-          />
         </div>
       </section>
 
@@ -148,8 +117,39 @@ const Conference2019 = ({ data }) => {
       </section>
 
       <section
+        className={styles.location}
+        style={{ backgroundColor: '#ea5038', color: 'white' }}
+        id="location"
+      >
+        <div className={styles.row}>
+          <div className={styles.content}>
+            <h3 className="title">Location & Lodging</h3>
+            <h4 className="subtitle">
+              Palace of Fine Arts
+              <br />
+              3601 Lyon St, San Francisco, CA 94123
+            </h4>
+            <Hotels />
+            <p>
+              We recommend taking a taxi or Lyft/Uber to the conference. It’s a
+              beautiful, historic San Francisco building and landmark, but it’s
+              unfortunately not on the BART line.
+            </p>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.488895918175!2d-122.4505230490306!3d37.8020160796551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808586d510144681%3A0xe960db8a581aacf5!2sPalace+of+Fine+Arts!5e0!3m2!1sen!2sus!4v1556593751369!5m2!1sen!2sus"
+            width="100%"
+            height="100%"
+            frameBorder="0"
+            allowFullScreen
+            title="Palace of Fine Arts San Francisco Google Maps"
+          />
+        </div>
+      </section>
+
+      <section
         className={styles.coc}
-        style={{ backgroundColor: '#f5d2c6', color: 'var(--navy)' }}
+        style={{ backgroundColor: 'white', color: '#181c3c' }}
       >
         <div className={styles.row}>
           <div className={styles.content}>
@@ -169,19 +169,12 @@ const Conference2019 = ({ data }) => {
               Read the full version
             </Link>
           </div>
-          <aside className={styles.aside}>
-            <h5 className="subtitle">Need help?</h5>
-            <p>
-              Our contact information will be provided to all conference
-              participants and speakers upon registration.
-            </p>
-          </aside>
         </div>
       </section>
 
       <section
         className={styles.testimonials}
-        style={{ backgroundColor: '#f5d2c6', color: 'var(--navy)' }}
+        style={{ backgroundColor: '#f5d2c6', color: '#181c3c' }}
       >
         <div className={styles.row}>
           <div className={styles.content}>
