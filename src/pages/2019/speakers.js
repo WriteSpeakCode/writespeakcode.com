@@ -1,14 +1,49 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import SEO from '../../components/seo'
 import ConfLayout from '../../layouts/conference'
 
-const Speakers2019 = ({ data }) => (
-  <ConfLayout subpage={true}>
-    <SEO title="Speakers | 2019 Conference" />
-    <section>
-      <h1 className="title">Speakers</h1>
+import Speaker from '../../components/speaker'
+
+import styles from './speakers.module.css'
+
+const Speakers2019 = ({ data }) => {
+  const speakers = data.allSpeakersJson.nodes
+  console.log(speakers)
+  return (
+    <ConfLayout subpage={true}>
+      <SEO title="Speakers | 2019 Conference" />
+      {/*<section className={styles.keynotes}>
+    <h1 className="title">Keynotes</h1>
+    <div className={styles.grid}>
+    </div>
     </section>
-  </ConfLayout>
-)
+    */}
+      <section className={styles.speakers}>
+        <h1 className="title">Speakers</h1>
+        <div className={styles.grid}>
+          {speakers.map(speaker => (
+            <Speaker speaker={speaker} key={speaker.id} />
+          ))}
+        </div>
+      </section>
+    </ConfLayout>
+  )
+}
 
 export default Speakers2019
+
+export const speakersQuery = graphql`
+  query {
+    allSpeakersJson(filter: { years: { in: "2019" } }) {
+      nodes {
+        name
+        role
+        headshot
+        company
+        id
+        bio
+      }
+    }
+  }
+`

@@ -1,0 +1,34 @@
+.speaker {
+  margin: 1em 0;
+  figcaption {
+    h3 {
+      margin: 0;
+      font-family: 'PT Sans Caption';
+      font-weight: var(--bold);
+      font-size: 1.2em;
+    }
+    h4,
+    h5 {
+      margin: 0;
+      font-size: 0.9em;
+      font-weight: var(--light);
+    }
+    h5 {
+      font-size: 0.9em;
+      font-weight: var(--semi-bold);
+    }
+  }
+}
+.headshot {
+  width: 100%;
+  border: 4px solid var(--navy);
+  &:hover {
+    border-color: #ea5038;
+    cursor: pointer;
+  }
+}
+
+.dialog {
+  background-color: var(--mint);
+  color: var(--navy);
+}
