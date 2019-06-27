@@ -16,6 +16,7 @@ import vts from '../../../content/sponsors/vts.json'
 import glympse from '../../../content/sponsors/glympse.json'
 import github from '../../../content/sponsors/github.json'
 import adhoc from '../../../content/sponsors/adhoc.json'
+import climatecorp from '../../../content/sponsors/climate-corporation.json'
 
 const Sponsors = ({ sponsors }) => {
   return (
@@ -88,6 +89,7 @@ const Sponsors = ({ sponsors }) => {
           <Sponsor company={seatgeek} level="Local Meetup - NYC" />
           <Sponsor company={vts} level="Local Meetup - NYC" />
           <Sponsor company={glympse} level="Local Meetup - SEA" />
+          <Sponsor company={climatecorp} level="Local Meetup - SEA + SF" />
         </div>
       </section>
     </section>
