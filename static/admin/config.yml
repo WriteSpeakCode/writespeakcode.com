@@ -87,10 +87,7 @@ collections:
         widget: 'select'
         multiple: true
         required: false
-        options:
-          [
-            '2019',
-          ]
+        options: ['2019']
 
   - name: 'sponsors'
     label: 'Sponsors'
@@ -165,6 +162,7 @@ collections:
                 'Local Meetup LA',
                 'Local Meetup NYC',
                 'Private Workshops',
+                'Community Partnerships',
               ]
           - label: 'Conference Sponsor'
             name: 'conf_sponsor'
