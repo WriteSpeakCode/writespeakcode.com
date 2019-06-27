@@ -8,9 +8,9 @@ import styles from './notification.module.css'
 const Notification = () => (
   <div className={styles.notification}>
     <FontAwesomeIcon icon={faBullhorn} aria-hidden className={styles.icon} />
-    2019 Conference: Tickets are now available{' '}
+    Register now for the 2019 conference:{' '}
     <Link to="/2019/" className="link">
-      Learn more
+      View conference page
     </Link>
   </div>
 )
