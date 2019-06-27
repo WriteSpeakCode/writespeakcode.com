@@ -1,20 +1,23 @@
 {
-    "name": "Nayonna Purnell",
-    "headshot": "/images/nayonna-purnell.jpg",
-    "pronouns": "she/her",
-    "role": ["Website Contributor", "Conference Organizer"],
-    "links": [
-      {
-        "type": "linkedin",
-        "url": "nayonnapurnell"
-      },
-      {
-        "type": "twitter",
-        "url": "nayonna1"
-      },
-      {
-        "type": "github",
-        "url": "nayonnapurnell"
-      }
-    ]
-  }
+  "name": "Nayonna Purnell",
+  "headshot": "/images/untitled.jpg",
+  "pronouns": "she/her",
+  "role": [
+    "Website Contributor",
+    "Conference Organizer"
+  ],
+  "links": [
+    {
+      "type": "linkedin",
+      "url": "nayonnapurnell"
+    },
+    {
+      "type": "twitter",
+      "url": "nayonna1"
+    },
+    {
+      "type": "github",
+      "url": "nayonnapurnell"
+    }
+  ]
+}
