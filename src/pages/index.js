@@ -76,7 +76,7 @@ const IndexPage = ({ data }) => (
             writing, speaking, and open source.
           </p>
           <Link to="/2019/" className="link">
-            View conference website
+            2019 Conference Page
           </Link>
         </div>
       </div>
