@@ -3,6 +3,8 @@ import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import { TwitterTweetEmbed } from 'react-twitter-embed'
 import { CarouselProvider, Slider, Slide, DotGroup } from 'pure-react-carousel'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBullhorn } from '@fortawesome/free-solid-svg-icons'
 
 import ConfLayout from '../../layouts/conference'
 import Sponsors from '../../components/sponsors'
@@ -65,6 +67,19 @@ const Conference2019 = ({ data }) => {
           </aside>
         </div>
       </section>
+
+      <div className={styles.notification}>
+        <FontAwesomeIcon
+          icon={faBullhorn}
+          aria-hidden
+          className={styles.icon}
+        />
+        We're looking for help during the conference in exchange for a free
+        ticket:{' '}
+        <Link className="link" to="/2019/volunteer/">
+          Become a volunteer
+        </Link>
+      </div>
 
       <section
         className={styles.schedule}
