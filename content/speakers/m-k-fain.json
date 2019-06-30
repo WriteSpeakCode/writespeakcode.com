@@ -3,6 +3,7 @@
   "pronouns": "she/her",
   "role": "Software Engineer",
   "company": "Promptworks",
+  "headshot": "/images/m-k-fain.jpg",
   "links": [
     {
       "type": "linkedin",
@@ -19,7 +20,5 @@
   ],
   "layout": "speaker",
   "bio": "Mary Kate Fain (M. K.) is a software engineer with a background in grassroots activism, focusing on animal liberation, feminism, and software freedom.\n\nIn 2016, she co-founded Candlewaster Web Collective, a Free Software development agency based out of Philly. She currently serves on the board of Species Revolution, is a writer and editor for WOMEN'S WAY, and is writing a book on radical feminism for young women.",
-  "years": [
-    "2019"
-  ]
+  "years": ["2019"]
 }
