@@ -8,7 +8,7 @@ import ConfLayout from '../../layouts/conference'
 import styles from './speakers.module.css'
 
 const Speakers2019 = ({ data }) => {
-  const speakers = data.allSpeakersJson.nodes
+  // const speakers = data.allSpeakersJson.nodes
   return (
     <ConfLayout subpage={true}>
       <SEO title="Speakers | 2019 Conference" />

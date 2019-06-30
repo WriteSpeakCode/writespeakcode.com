@@ -1,0 +1,28 @@
+{
+  "name": "Denise Yu",
+  "pronouns": "she/her",
+  "role": "Senior Software Engineer",
+  "company": "Pivotal",
+  "headshot": "/images/denise-yu.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "deniseyu21"
+    },
+    {
+      "type": "linkedin",
+      "url": "deniseyu"
+    },
+    {
+      "type": "github",
+      "url": "deniseyu"
+    },
+    {
+      "type": "website",
+      "url": "https://deniseyu.io/"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Denise is a Senior Software Engineer at Pivotal in Toronto. She attended Write/Speak/Code last year and it literally changed her life :-) She speaks and runs workshops frequently at conferences in North America and Europe on topics ranging from continuous delivery to sketchnoting.",
+  "years": ["2019"]
+}
