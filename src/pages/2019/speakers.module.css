@@ -6,6 +6,9 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 1em;
+  grid-template-columns: 1fr 1fr;
+  @media screen and (min-width: 50em) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
 }
