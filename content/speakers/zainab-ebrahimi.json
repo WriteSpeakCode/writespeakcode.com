@@ -1,0 +1,24 @@
+{
+  "name": "Zainab Ebrahimi",
+  "pronouns": "she/her",
+  "role": "Engineering Lead",
+  "company": "Bitly",
+  "headshot": "/images/zainab-ebrahimi.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "zainab3brahimi"
+    },
+    {
+      "type": "linkedin",
+      "url": "zainab-ebrahimi-a601b347"
+    },
+    {
+      "type": "github",
+      "url": "zeeberry"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Zainab Ebrahimi is an Engineering Lead at Bitly where she advocates for creating front-end practices that are people centric. She’s also a passionate computer science teacher and curriculum developer for Code Nation, a non-profit organization that provides tech education to students in under-resourced high schools. In her spare time, she geeks out about martial arts and her love for french toast.",
+  "years": ["2019"]
+}

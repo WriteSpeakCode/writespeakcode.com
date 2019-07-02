@@ -1,0 +1,28 @@
+{
+  "name": "Elle Meredith",
+  "pronouns": "she/her",
+  "role": "Developer",
+  "company": "Blackmill",
+  "headshot": "/images/elle-meredith.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "aemeredith"
+    },
+    {
+      "type": "linkedin",
+      "url": "ellemeredith"
+    },
+    {
+      "type": "github",
+      "url": "elle"
+    },
+    {
+      "type": "website",
+      "url": "aemeredith.com"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Elle is a Ruby developer with more than ten years experience writing Ruby and Rails. Currently at Blackmill, previously Development Director at thoughtbot NY. Elle believes in writing clean code, driven by automatic tests, with agile practices, an even work/life balance, and a respectful and inclusive team culture. Recently, she developed and ran an apprenticeship program, up-skilling less experienced developers. When not immersed in the Ruby community, she's probably immersed in flour. You can talk to her on Twitter at @aemeredith.",
+  "years": ["2019"]
+}
