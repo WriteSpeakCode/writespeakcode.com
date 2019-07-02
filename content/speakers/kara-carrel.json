@@ -1,0 +1,28 @@
+{
+  "name": "Kara Carrell",
+  "pronouns": "she/her",
+  "role": "Software Developer",
+  "company": "Table XI",
+  "headshot": "/images/kara-carrell.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "KaraAJC"
+    },
+    {
+      "type": "linkedin",
+      "url": "KaraAJC"
+    },
+    {
+      "type": "github",
+      "url": "KaraAJC"
+    },
+    {
+      "type": "website",
+      "url": "https://kara.codes"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Kara Carrell is a Developer by day, CommuniTechie by night, and a Queer Blaxican changemaker always. Kara codes at Table XI, a software development consultancy dedicated to tech done right, and she’s an advocate for under-indexed folks in the community through her work as a Chapter Organizer for Write/Speak/Code. Kara enjoys communicating through gifs, zines, playlists, and astrological birth charts. She lives in Chicago, and is the human of the cutest dog EVAR, Sadie.",
+  "years": ["2019"]
+}
