@@ -67,11 +67,7 @@ const Speaker = ({ speaker }) => {
       >
         <button className={styles.close} onClick={() => setDialogIsOpen(false)}>
           <VisuallyHidden>Close</VisuallyHidden>
-          <FontAwesomeIcon
-            icon={faTimes}
-            className={styles.menuButton}
-            onClick={() => setDialogIsOpen(!dialogIsOpen)}
-          />
+          <FontAwesomeIcon icon={faTimes} className={styles.menuButton} />
         </button>
 
         <figure>
