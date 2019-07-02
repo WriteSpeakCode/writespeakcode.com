@@ -111,6 +111,13 @@ const Conference2019 = ({ data }) => {
                 </ul>
               </div>
             </div>
+            <Link
+              to="/2019/speakers/"
+              className="link"
+              style={{ borderColor: 'var(--tan)', marginRight: '1em' }}
+            >
+              View all speakers
+            </Link>
             <em>Full schedule coming soon</em>
           </div>
         </div>

@@ -1,0 +1,28 @@
+{
+  "name": "Nitya Narasimhan",
+  "pronouns": "she/her",
+  "role": "Senior Program Manager, Cloud+AI Developer Relations",
+  "company": "Microsoft",
+  "headshot": "/images/nitya-narasimhan.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "nitya"
+    },
+    {
+      "type": "linkedin",
+      "url": "nityan"
+    },
+    {
+      "type": "github",
+      "url": "nitya"
+    },
+    {
+      "type": "website",
+      "url": "talks.nityan.me"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Nitya is a PhD and Polymath with 20+ years of software development and research experience across industry and startups. Her interests span mobile and web development, machine learning, community and developer advocacy. She is currently a Senior PM on the Cloud+AI Developer Relations Team at Microsoft, helping a new generation of developers go from technology awareness to actionable learning. She is a frequent speaker and sketch-noter interested in finding better ways to share stories, create meaningful connections and promote self-care.",
+  "years": ["2019"]
+}

@@ -78,6 +78,10 @@ collections:
         name: 'bio'
         widget: 'text'
         required: false
+      - label: 'Keynote'
+        name: 'keynote'
+        widget: 'boolean'
+        required: false
       - label: 'Years'
         name: 'years'
         widget: 'select'

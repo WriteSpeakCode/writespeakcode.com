@@ -12,19 +12,25 @@ const Speakers2019 = ({ data }) => {
   return (
     <ConfLayout subpage={true}>
       <SEO title="Speakers | 2019 Conference" />
-      {/*<section className={styles.keynotes}>
-    <h1 className="title">Keynotes</h1>
-    <div className={styles.grid}>
-    </div>
-    </section>
-    */}
+      <section className={styles.keynotes}>
+        <h1 className="title">Keynotes</h1>
+        <div className={styles.grid}>
+          {speakers
+            .filter(s => s.keynote)
+            .map(speaker => (
+              <Speaker speaker={speaker} key={speaker.id} />
+            ))}
+        </div>
+      </section>
 
-      <section className={styles.speakers} style={{ minHeight: '50vh' }}>
+      <section className={styles.speakers}>
         <h1 className="title">Speakers</h1>
         <div className={styles.grid}>
-          {speakers.map(speaker => (
-            <Speaker speaker={speaker} key={speaker.id} />
-          ))}
+          {speakers
+            .filter(s => !s.keynote)
+            .map(speaker => (
+              <Speaker speaker={speaker} key={speaker.id} />
+            ))}
         </div>
       </section>
     </ConfLayout>
@@ -35,7 +41,10 @@ export default Speakers2019
 
 export const speakersQuery = graphql`
   query {
-    allSpeakersJson(filter: { years: { in: "2019" } }) {
+    allSpeakersJson(
+      filter: { years: { in: "2019" } }
+      sort: { fields: name, order: ASC }
+    ) {
       nodes {
         id
         name
@@ -44,6 +53,7 @@ export const speakersQuery = graphql`
         company
         bio
         pronouns
+        keynote
         links {
           type
           url

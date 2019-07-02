@@ -1,0 +1,28 @@
+{
+  "name": "Lexi Galantino",
+  "pronouns": "she/her",
+  "role": "Software Engineer",
+  "company": "GitHub",
+  "headshot": "/images/lexi-galantino.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "_gallexi"
+    },
+    {
+      "type": "linkedin",
+      "url": "lexi-galantino-29146790"
+    },
+    {
+      "type": "github",
+      "url": "gallexi"
+    },
+    {
+      "type": "website",
+      "url": "https://galantino.pw"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Lexi is a Community & Safety Engineer at GitHub, building tools to empower maintainers to cultivate happy and healthy communities around their projects. She is an early-career engineer, and is very grateful for all of the learning opportunities she gets every day. She is also a dog enthusiast, and does her very best to incorporate dog photos in every talk she gives.",
+  "years": ["2019"]
+}
