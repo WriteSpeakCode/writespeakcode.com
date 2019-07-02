@@ -1,0 +1,16 @@
+{
+  "name": "Shailvi Wakhlu",
+  "pronouns": "she/her",
+  "role": "Sr. Manager, Data Intelligence",
+  "company": "Salesforce",
+  "headshot": "/images/adrienne-tacke.jpg",
+  "links": [
+    {
+      "type": "linkedin",
+      "url": "shailviw"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Shailvi is a Sr Manager, Data Intelligence at Salesforce. In the past she has worked at Fitbit, Prezi, Monster.com and also run her own company. She is a passionate coder and analyst and believes in furthering STEM education for women and minorities. In addition to multiple inspiring talks in professional and casual settings, she tutors 7th graders in an inner city school in San Francisco with their math homework. Her goal is to help build communities by women, that help other women be successful. ",
+  "years": ["2019"]
+}

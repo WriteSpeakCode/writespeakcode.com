@@ -1,0 +1,28 @@
+{
+  "name": "Reshama Shaikh",
+  "pronouns": "she/her",
+  "role": "Independent Statistician",
+  "company": "Debt Trader",
+  "headshot": "/images/reshama-shaikh.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "reshamas"
+    },
+    {
+      "type": "linkedin",
+      "url": "reshamas"
+    },
+    {
+      "type": "github",
+      "url": "reshamas"
+    },
+    {
+      "type": "website",
+      "url": "https://reshamas.github.io"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Reshama is a freelance data scientist/statistician with skills in Python, R and SAS. She has a background as a biostatistician in the pharmaceutical industry, where she worked for over 10 years. She also taught math and statistics for 2 years at Temple University. She is an organizer of the meetups group NYC Women in Machine Learning & Data Science and NYC PyLadies. Her interests include:  statistics, deep learning, python, open source, diversity & inclusion, education, technology, leadership and strategic change.",
+  "years": ["2019"]
+}

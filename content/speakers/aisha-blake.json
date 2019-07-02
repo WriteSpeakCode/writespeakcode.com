@@ -1,0 +1,24 @@
+{
+  "name": "Aisha Blake",
+  "pronouns": "she/her",
+  "role": "Application Developer",
+  "company": "Detroit Labs",
+  "headshot": "/images/aisha-blake.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "aishablake"
+    },
+    {
+      "type": "linkedin",
+      "url": "aisha-blake-5bb2677a"
+    },
+    {
+      "type": "github",
+      "url": "aishablake"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Aisha Blake has a deep love for the tech community in Detroit and has been a leader in that community since 2014. She has taught web development to people of all ages in bootcamps, workshops, and online courses. Aisha cofounded Detroit Speakers in Tech, which organizes workshops teaching and supporting new conference speakers. She currently works as an Application Developer for Detroit Labs and is down for anything as long as there are puppies and/or karaoke involved.",
+  "years": ["2019"]
+}
