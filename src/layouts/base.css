@@ -112,6 +112,7 @@ a {
   font-family: 'Open Sans';
   font-weight: var(--light);
   font-size: 1.3em;
+  margin: 0;
 }
 
 /* Miscellaneous */
