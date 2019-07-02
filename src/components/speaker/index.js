@@ -77,7 +77,8 @@ const Speaker = ({ speaker }) => {
           />
           <figcaption>
             <h1 className="title">
-              {speaker.name} <span>({speaker.pronouns})</span>
+              {speaker.name}{' '}
+              {speaker.pronouns && <span>({speaker.pronouns})</span>}
             </h1>
             {speaker.role && <h2 className="subtitle">{speaker.role}</h2>}
             {speaker.company && <h3>{speaker.company}</h3>}
