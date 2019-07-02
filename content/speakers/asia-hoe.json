@@ -1,0 +1,28 @@
+{
+  "name": "Asia Hoe",
+  "pronouns": "she/her",
+  "role": "Senior Product Designer",
+  "company": "Newsela",
+  "headshot": "/images/asia-hoe.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "asiahoe"
+    },
+    {
+      "type": "linkedin",
+      "url": "asiah"
+    },
+    {
+      "type": "github",
+      "url": "asiahoe"
+    },
+    {
+      "type": "website",
+      "url": "https://asiahoe.com"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Asia is an award winning Senior Product Designer at Newsela. An avid gamer, mentor, and learner, she enjoys experimenting with art, writing, and code.",
+  "years": ["2019"]
+}

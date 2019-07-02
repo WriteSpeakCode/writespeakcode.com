@@ -1,0 +1,28 @@
+{
+  "name": "Brittney Braxton",
+  "pronouns": "she/her",
+  "role": "Software Engineer",
+  "company": "Edovo",
+  "headshot": "/images/brittney-braxton.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "mintiib"
+    },
+    {
+      "type": "linkedin",
+      "url": "brittneybraxton"
+    },
+    {
+      "type": "github",
+      "url": "mintii"
+    },
+    {
+      "type": "website",
+      "url": "brittneybraxton.com"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Brittney is a software engineer at Edovo and co-organizer of the Chicago chapter of WSC. She enjoys crafting, coding, and cats, all while enjoying a good cup of tea. Brittney strives to connect with folks who geek out over code with hopes to contribute to a friendly and inviting tech community.",
+  "years": ["2019"]
+}

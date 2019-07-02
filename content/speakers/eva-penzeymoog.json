@@ -1,0 +1,28 @@
+{
+  "name": "Eva PenzeyMoog",
+  "pronouns": "she/her",
+  "role": "Lead Designer",
+  "company": "8th Light",
+  "headshot": "/images/eva-penzeymoog.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "epenzeymoog"
+    },
+    {
+      "type": "linkedin",
+      "url": "evapenzeymoog"
+    },
+    {
+      "type": "github",
+      "url": "epenzeymoog"
+    },
+    {
+      "type": "website",
+      "url": "https://evapenzeymoog.com"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Eva PenzeyMoog is a Lead Designer at 8th Light. She works to ensure that digital products cannot be be used as tools of abuse, with the goal of reducing harm in the world through centering the safety of victims of domestic violence. When not designing, coding, or mentoring people new to tech, she spends her time creating botanical cyanotype prints, consuming any zombie-related media she can get her hands on, and playing with her two dogs, Hamlet and Horatio.",
+  "years": ["2019"]
+}

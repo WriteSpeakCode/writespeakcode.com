@@ -1,0 +1,28 @@
+{
+  "name": "Eva PenzeyMoog",
+  "pronouns": "she/her",
+  "role": "Senior Software Engineer",
+  "company": "Simple Health",
+  "headshot": "/images/galen-corey.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "galenemco"
+    },
+    {
+      "type": "linkedin",
+      "url": "galen-corey"
+    },
+    {
+      "type": "github",
+      "url": "galencorey"
+    },
+    {
+      "type": "website",
+      "url": "https://galencorey.com"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Galen is a full stack developer from New York City. She made a career change from teaching math to writing code in 2016, and loves finding ways to use her teaching skills and passion in the tech world. When she isn’t teaching or coding, you can usually find Galen reading on the subway, or writing poetry about how disgusting the subway is.  ",
+  "years": ["2019"]
+}

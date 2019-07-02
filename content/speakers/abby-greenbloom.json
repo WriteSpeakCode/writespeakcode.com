@@ -1,0 +1,23 @@
+{
+  "name": "Abby Greenbloom",
+  "pronouns": "she/her",
+  "role": "Software Developer",
+  "company": "Ada Support",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "agreenbloom"
+    },
+    {
+      "type": "linkedin",
+      "url": "abbygreenbloom"
+    },
+    {
+      "type": "website",
+      "url": "http://abbygreenbloom.com/"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Abby Greenbloom is a software developer at Ada Support, in Toronto, Canada.  In addition to software development, Abby mentors engineering students and teaches people in their second careers how to code. Prior to becoming a software developer, Abby studied international development. ",
+  "years": ["2019"]
+}

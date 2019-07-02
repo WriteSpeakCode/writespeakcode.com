@@ -1,0 +1,28 @@
+{
+  "name": "Hilary Stohs-Krause",
+  "pronouns": "she/her",
+  "role": "Lieutenant Software Developer",
+  "company": "Ten Forward Consulting",
+  "headshot": "/images/hilary-stohs-krause.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "hilarysk"
+    },
+    {
+      "type": "linkedin",
+      "url": "hilarysk"
+    },
+    {
+      "type": "github",
+      "url": "hilarysk"
+    },
+    {
+      "type": "website",
+      "url": "http://hilarysk.com"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Hilary Stohs-Krause is currently based in Madison, WI, working as a full-stack software developer at Ten Forward Consulting. She came to tech by way of childhood website-building (a \"Buffy the Vampire Slayer\" fansite, to be exact, complete with a guestbook and visitor counter). She volunteers regularly with several tech and community organizations, and co-runs Madison Women in Tech, a local group with more than 1,800 members. She loves sci-fi/fantasy, board games and bourbon barrel-aged stouts. She tweets at @hilarysk.",
+  "years": ["2019"]
+}

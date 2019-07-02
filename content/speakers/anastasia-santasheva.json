@@ -1,0 +1,15 @@
+{
+  "name": "Anastasia Santasheva",
+  "pronouns": "she/her",
+  "role": "Software Engineer",
+  "company": "Coinbase",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "antiroyalty_"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Backend engineer building payments at Coinbase by day; Painting watercolor, reading privacy law, and eating omelettes by night.",
+  "years": ["2019"]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Neem Serra",
+  "pronouns": "she/her",
+  "role": "Software Developer",
+  "company": "Slalom",
+  "headshot": "/images/neem-serra.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "teamneem"
+    },
+    {
+      "type": "linkedin",
+      "url": "teamneem"
+    },
+    {
+      "type": "github",
+      "url": "teamneem"
+    },
+    {
+      "type": "website",
+      "url": "neemserra.com"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Neem Serra is a mobile developer at Slalom in St. Louis. She teaches and mentors at a variety of non-profit organizations such as Software Carpentry. As the lead of the Google Women Techmakers group in St. Louis, she started the St. Louis Techies Project to highlight the diversity of technical people in St. Louis. Neem loves to bake, read comics, and host craft nights.",
+  "years": ["2019"]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Maya Porter",
+  "pronouns": "she/her",
+  "role": "Learning & Development, Program Manager",
+  "company": "Sentry.io",
+  "headshot": "/images/maya-porter.jpg",
+  "links": [
+    {
+      "type": "linkedin",
+      "url": "mayaporter"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Maya Porter is a Learning & Development Program Manager, specializing in workshop facilitation at developer tool startup Sentry.io. She is primarily focused on how to bring your fullest, most authentic self to professional development. Maya comes from a background in early childhood education as a teacher. She transitioned into Silicon Valley in 2017, where she worked in communications at VMware in the South Bay. Maya earned a Bachelors in Business Administration with a minor in Psychology, and speaks Portuguese. Her hobbies outside of work include volunteering with youth development programs and acting in films and commercials.",
+  "years": ["2019"]
+}

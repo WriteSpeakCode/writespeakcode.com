@@ -1,0 +1,28 @@
+{
+  "name": "Tatiana Mac",
+  "pronouns": "she/they",
+  "role": "Inclusive & Accessible Designer",
+  "company": "Debt Trader",
+  "headshot": "/images/tatiana-mac.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "TatianaTMac"
+    },
+    {
+      "type": "linkedin",
+      "url": "TatianaMac"
+    },
+    {
+      "type": "github",
+      "url": "TatianaMac"
+    },
+    {
+      "type": "website",
+      "url": "https://www.tatianamac.com"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Tatiana Mac is an independent American designer who works directly with organisations to build clear and coherent products and design systems. She believes the trifecta of accessibility, performance, and inclusion can work symbiotically to improve our social landscape digitally and physically. When ethically-minded, she thinks technologists can dismantle exclusionary systems in favour of community-focused, inclusive ones. Never totally pleased with design tools, she designs in browser to bring performant, semantic, and accessible visual narratives into the web. Her current obsessions are optimising variable fonts, converting raster images into to SVGs, and recreating modernist paintings in CSS grid. When she can successfully escape vim, she finds new countries to explore (33 and counting).",
+  "years": ["2019"]
+}
