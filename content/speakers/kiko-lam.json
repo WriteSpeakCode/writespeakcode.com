@@ -1,0 +1,28 @@
+{
+  "name": "Kiko Lam",
+  "pronouns": "she/her",
+  "role": "Software Engineer",
+  "company": "Figma",
+  "headshot": "/images/kiko-lam.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "___kik0"
+    },
+    {
+      "type": "linkedin",
+      "url": "kikolam"
+    },
+    {
+      "type": "github",
+      "url": "kikolam"
+    },
+    {
+      "type": "website",
+      "url": "https://kiko.party/"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Kiko Lam is a software engineer at Figma, a collaborative interface design tool on the cloud. She aims to build the best design tools for everyone to exercise their creativity and collaboration features for teams to communicate visually. Her goal is to help make technology accessible to everyone through art and interactive media. She was previously a software engineer at Twitch Interactive, working on their discovery tools and recommendation engines. She graduated from Dartmouth College with a B.A and a M.S in Computer Science and Digital Arts. Kiko is a professional mentor at TechWomen, an Initiative of the U.S. Department of State's Bureau of Educational and Cultural Affairs. She is also a long time instructor and volunteer at Girls Who Code. She is passionate about creating a safe place for women in tech, and she wants to make the tech industry an inclusive space for all, especially women.",
+  "years": ["2019"]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Adrienne Tacke",
+  "pronouns": "she/her",
+  "role": "Software Engineer",
+  "company": "Debt Trader",
+  "headshot": "/images/adrienne-tacke.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "adriennetacke"
+    },
+    {
+      "type": "linkedin",
+      "url": "adriennetacke"
+    },
+    {
+      "type": "github",
+      "url": "adriennetacke"
+    },
+    {
+      "type": "website",
+      "url": "https://www.adrienne.io"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Adrienne Braganza Tacke is a Filipina software engineer in Las Vegas, the author of the newly released book Coding for Kids: Python, and a dedicated STEM education advocate. As a Code. org volunteer in Las Vegas, she regularly speaks to students of all ages about the power of code and encourages young women and girls to explore a career in software engineering. She enjoys leading by example and sharing her knowledge to help new devs become great ones.",
+  "years": ["2019"]
+}

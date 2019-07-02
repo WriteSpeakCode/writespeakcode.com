@@ -1,0 +1,24 @@
+{
+  "name": "Nikita Rathi",
+  "pronouns": "she/her",
+  "role": "Software Engineering Manager",
+  "company": "Pivotal Cloud Foundry",
+  "headshot": "/images/nikita-rathi.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "nratniko23"
+    },
+    {
+      "type": "linkedin",
+      "url": "nikitarathi23"
+    },
+    {
+      "type": "github",
+      "url": "nikitarathi23"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Nikita Rathi is an aspiring dog-mum, a yogi, foodie amongst other things and an engineer by training and job history, and a chief empathiser by nature. She has spent her career in the tech industry between Illinois, New York, and Dublin solving problems, writing code, and managing direct reports. She has found herself ever-curious about human relationships and brings that curiosity to her work. Her thoughts and research have led her to think about different perceptions that folks might have based on past experiences and years of socialization and how that impacts the careers of those that are marginalized.",
+  "years": ["2019"]
+}
