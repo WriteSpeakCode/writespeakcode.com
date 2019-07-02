@@ -14,9 +14,9 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   @media screen and (min-width: 80em) {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
   @media screen and (min-width: 90em) {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
