@@ -1,0 +1,16 @@
+{
+  "name": "Karen Huddleston",
+  "pronouns": "she/her",
+  "role": "Senior Software Engineer",
+  "company": "Pivotal",
+  "headshot": "/images/karen-huddleston.jpg",
+  "links": [
+    {
+      "type": "github",
+      "url": "khuddlefish"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Karen is a Software Engineer and People Manager at Pivotal. She is also active in advocating for diversity and inclusion at Pivotal in order to help build a supportive environment where everyone can do their best work. She is passionate about helping people be more productive and is always looking for opportunities to experiment with and improve on processes. In her spare time, she enjoys teaching dance, hiking and making things with yarn.",
+  "years": ["2019"]
+}
