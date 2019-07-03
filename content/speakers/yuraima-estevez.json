@@ -3,7 +3,6 @@
   "pronouns": "she/her",
   "role": "Senior Software Engineer",
   "company": "The New York Times",
-  "headshot": "/images/yuraima-estevez.jpg",
   "links": [
     {
       "type": "twitter",
@@ -22,7 +21,7 @@
       "url": "https://www.yuraima.com/"
     }
   ],
-  "layout": "speaker",
+  "headshot": "/images/yuraima-estevez.jpg",
   "bio": "Yuraima Estevez is a software engineer at The New York Times.  She cares deeply about building open source tools, empathetic web design and development, and finding the best tacos in whatever city she happens to be.",
-  "years": ["2019"]
+  "years": []
 }
