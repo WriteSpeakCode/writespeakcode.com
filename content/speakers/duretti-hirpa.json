@@ -3,7 +3,7 @@
   "layout": "speaker",
   "name": "Duretti Hirpa",
   "pronouns": "she/her",
-  "role": "Senior Engineer",
+  "role": "Staff Software Engineer",
   "years": ["2019"],
   "links": [
     {
@@ -24,5 +24,5 @@
     }
   ],
   "headshot": "/images/duretti-hirpa.jpg",
-  "company": "Slack"
+  "company": "Mailchimp"
 }
