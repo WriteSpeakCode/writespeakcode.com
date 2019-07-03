@@ -4,9 +4,7 @@
   "name": "Duretti Hirpa",
   "pronouns": "she/her",
   "role": "Senior Engineer",
-  "years": [
-    "2019"
-  ],
+  "years": ["2019"],
   "links": [
     {
       "type": "twitter",
@@ -22,7 +20,7 @@
     },
     {
       "type": "website",
-      "url": "durettihirpa.com"
+      "url": "https://durettihirpa.com"
     }
   ],
   "headshot": "/images/duretti-hirpa.jpg",

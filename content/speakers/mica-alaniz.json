@@ -1,0 +1,24 @@
+{
+  "name": "Mica Alaniz",
+  "pronouns": "she/her",
+  "role": "Software Engineer",
+  "company": "DNC (Democratic National Committee)",
+  "headshot": "/images/mica-alaniz.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "_micada"
+    },
+    {
+      "type": "linkedin",
+      "url": "micaalaniz"
+    },
+    {
+      "type": "github",
+      "url": "micada"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Mica Alaniz is a Software Engineer at the DNC, where she builds tools to support all Democratic candidates and their data needs, as well as grassroots organizing, fundraising and voter empowerment efforts in campaigns across the country. She is a Chicagoan, born and raised and in her spare time mentors at Write/Speak/Code, volunteers for the Chicago Architecture Center, has taught classes at Girl Develop It Chicago, and maintains an inconvenient baseball empire while working to speak to and inspire other women of color in technology.",
+  "years": ["2019"]
+}

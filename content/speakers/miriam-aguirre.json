@@ -1,0 +1,28 @@
+{
+  "name": "Miriam Aguirre",
+  "pronouns": "she/her",
+  "role": "Senior Vice President of Engineering",
+  "company": "Skillz Inc.",
+  "headshot": "/images/miriam-aguirre.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "techaquirre"
+    },
+    {
+      "type": "linkedin",
+      "url": "aguirrem"
+    },
+    {
+      "type": "github",
+      "url": "aguirre-miriam"
+    },
+    {
+      "type": "website",
+      "url": "https://www.skillz.com/ "
+    }
+  ],
+  "layout": "speaker",
+  "bio": "As Senior Vice President of Engineering at Skillz, the worldwide leader in mobile eSports, Miriam is committed to fostering a strong and diverse engineering team. She has been featured in publications including VentureBeat and CIO Magazine for her passion and efforts to bring diversity to gaming and technology, and spoken at numerous industry conferences, including Tech Inclusion, TwitchCon, Anita Borg's Hopper x1 Seattle, and Lesbians Who Tech. Miriam was also named to the Alumni Society's Class of 2018 and won the 2018 Timmy Award for Best Tech Manager.",
+  "years": ["2019"]
+}

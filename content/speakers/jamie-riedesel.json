@@ -1,0 +1,20 @@
+{
+  "name": "Jamie Riedesel",
+  "pronouns": "she/her",
+  "role": "Lead Engineer",
+  "company": "HelloSign",
+  "headshot": "/images/jamie-riedesel.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "sysadm1138"
+    },
+    {
+      "type": "website",
+      "url": "https://sysadmin1138.net/mnt/blog"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Jamie Riedesel is a Lead Engineer of DevOps with HelloSign and has been working in the Ops and DevOps space since 1997. She moved from corporate IT to the startup space in 2010 and experience educational culture-shock. Jamie has been blogging as sysadmin1138 since 2004, a community elected moderator on ServerFault since 2010, and awarded the Chuck Yerkes community award by LOPSA in 2015.",
+  "years": ["2019"]
+}

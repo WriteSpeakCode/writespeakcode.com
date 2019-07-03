@@ -1,0 +1,27 @@
+{
+  "name": "Elgin-Skye McLaren",
+  "pronouns": "she/her",
+  "role": "MSc Student/Graduate Researcher",
+  "company": "School of Interactive Arts + Technology, Simon Fraser University",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "elginskye"
+    },
+    {
+      "type": "linkedin",
+      "url": "elgin-skye"
+    },
+    {
+      "type": "github",
+      "url": "emclaren"
+    },
+    {
+      "type": "website",
+      "url": "http://elginskye.com"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Elgin-Skye McLaren is a graduate student at the School of Interactive Arts & Technology in Vancouver BC. Her research interests include child-computer interaction design, and tangible computing. Before returning to university, Elgin-Skye worked as a web developer. She is passionate about building community and creating inclusive spaces. She works hard to make sure tech is accessible to all by mentoring for organizations such as Ladies Learning code, Girls Learning Code, and NodeSchool. In 2016, she helped start the Vancouver chapter of Women Who Code. She is an experienced educator and speaker. When she isn’t working she enjoys making art with code, and taking road trips in her “sold-for-parts” campervan.",
+  "years": ["2019"]
+}

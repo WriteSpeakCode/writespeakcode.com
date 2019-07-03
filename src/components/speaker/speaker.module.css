@@ -1,8 +1,11 @@
 .speaker {
+  @media screen and (max-width: 30em) {
+    display: flex;
+  }
   margin: 1em 0;
   figcaption {
     h3 {
-      margin: 0;
+      margin: 1em 0 0 0;
       font-family: 'PT Sans Caption';
       font-weight: var(--bold);
       font-size: 1.2em;
@@ -20,10 +23,15 @@
   }
 }
 .headshot {
-  width: 100%;
+  @media screen and (max-width: 30em) {
+    width: 100px;
+    margin-right: 2em;
+  }
   border: 4px solid var(--navy);
+  box-shadow: 8px 8px var(--navy);
+  width: 100%;
   &:hover {
-    border-color: #ea5038;
+    box-shadow: 8px 8px var(--tan);
     cursor: pointer;
   }
 }
@@ -31,34 +39,84 @@
 /* Dialog Styles */
 
 .dialog {
-  width: 60vw;
-  background-color: var(--mint);
+  width: 70vw;
+  background: linear-gradient(to bottom right, var(--white) 50%, #ebf7ef 50%);
   color: var(--navy);
+  position: relative;
   img {
-    max-width: 100px;
-    border: 4px solid var(--navy);
+    display: none;
+  }
+  h1 span {
+    font-size: 0.6em;
+    font-weight: var(--regular);
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+    line-height: 1.8;
+  }
+  figure {
+    margin: 2em 0 1em 0;
+  }
+  @media screen and (min-width: 50em) {
+    width: 50vw;
+    figure {
+      display: flex;
+      align-items: center;
+      margin: 1em 2em;
+    }
+    p {
+      max-width: 35em;
+      margin: 1em 2em;
+    }
+    img {
+      display: block;
+      max-width: 150px;
+      margin-right: 1em;
+    }
   }
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .close {
+  position: absolute;
+  right: 1em;
   font-size: 1.5em;
   background: transparent;
   display: block;
   color: var(--navy);
   border: 0;
   &:focus {
-    border: 1px solid var(--navy);
+    background-color: var(--tan);
     outline: none;
+    border: none;
+  }
+  &:hover {
+    cursor: pointer;
   }
 }
 
 .name {
   margin: 0;
   font-size: 1.5em;
+}
+
+.links {
+  margin: 1em 0;
+  a {
+    margin-right: 1em;
+  }
+  .icon {
+    font-size: 1.1em;
+  }
+  .icon:hover {
+    color: var(--tan);
+  }
+  @media screen and (min-width: 50em) {
+    margin: 1em 2em;
+  }
 }

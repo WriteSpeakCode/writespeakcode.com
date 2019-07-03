@@ -1,0 +1,15 @@
+{
+  "name": "Eileen Whitener",
+  "pronouns": "she/her",
+  "role": "Technical Writer",
+  "company": "iCIMS",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "eileenwhitener"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Eileen is a technical writer, writing instructor, and public speaker.",
+  "years": ["2019"]
+}
