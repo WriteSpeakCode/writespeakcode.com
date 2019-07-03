@@ -1,6 +1,7 @@
 .speaker {
   @media screen and (max-width: 30em) {
     display: flex;
+    align-items: flex-start;
   }
   margin: 1em 0;
   figcaption {
