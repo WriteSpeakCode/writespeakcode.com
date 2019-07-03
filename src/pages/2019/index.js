@@ -116,7 +116,7 @@ const Conference2019 = ({ data }) => {
               className="link"
               style={{ borderColor: 'var(--tan)', marginRight: '1em' }}
             >
-              View all speakers
+              View speakers
             </Link>
             <em>Full schedule coming soon</em>
           </div>

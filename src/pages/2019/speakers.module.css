@@ -1,4 +1,3 @@
-.keynotes,
 .speakers {
   padding: 3em;
 }
@@ -9,10 +8,10 @@
   @media screen and (min-width: 30em) {
     grid-template-columns: 1fr 1fr;
   }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 50em) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  @media screen and (min-width: 80em) {
+  @media screen and (min-width: 70em) {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
   @media screen and (min-width: 90em) {

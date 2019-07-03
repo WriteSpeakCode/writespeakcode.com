@@ -12,25 +12,12 @@ const Speakers2019 = ({ data }) => {
   return (
     <ConfLayout subpage={true}>
       <SEO title="Speakers | 2019 Conference" />
-      <section className={styles.keynotes}>
-        <h1 className="title">Keynotes</h1>
-        <div className={styles.grid}>
-          {speakers
-            .filter(s => s.keynote)
-            .map(speaker => (
-              <Speaker speaker={speaker} key={speaker.id} />
-            ))}
-        </div>
-      </section>
-
       <section className={styles.speakers}>
         <h1 className="title">Speakers</h1>
         <div className={styles.grid}>
-          {speakers
-            .filter(s => !s.keynote)
-            .map(speaker => (
-              <Speaker speaker={speaker} key={speaker.id} />
-            ))}
+          {speakers.map(speaker => (
+            <Speaker speaker={speaker} key={speaker.id} />
+          ))}
         </div>
       </section>
     </ConfLayout>
@@ -53,7 +40,6 @@ export const speakersQuery = graphql`
         company
         bio
         pronouns
-        keynote
         links {
           type
           url

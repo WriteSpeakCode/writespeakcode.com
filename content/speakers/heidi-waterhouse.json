@@ -1,6 +1,9 @@
 {
   "name": "Heidi Waterhouse",
   "layout": "speaker",
-  "keynote": true,
+  "role": "Developer Advocate",
+  "company": "LaunchDarkly",
+  "headshot": "/images/heidi-waterhouse.jpg",
+  "bio": "Heidi is a developer advocate with LaunchDarkly. She delights in working at the intersection of usability, risk reduction, and cutting-edge technology. One of her favorite hobbies is talking to developers about things they already knew but had never thought of that way before. She sews all her conference dresses so that she's sure there is a pocket for the mic.",
   "years": ["2019"]
 }

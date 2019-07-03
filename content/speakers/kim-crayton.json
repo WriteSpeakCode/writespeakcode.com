@@ -1,6 +1,7 @@
 {
   "name": "Kim Crayton",
   "layout": "speaker",
-  "keynote": true,
+  "headshot": "/images/kim-crayton.jpg",
+  "bio": "Kim Crayton is a business strategist, the founder of the #causeascene movement, board chair of We Pivot, proud multipotentialite and advocate for diversity, inclusion, and safe spaces in tech. She is committed to facilitating and hosting spaces with honest conversations with intentional actions for positive change. Kim is known for her work of coaching tech leaders, in companies and non-profits, for improving profitability and innovation by operationalizing core organizational values and identifying hidden organizational barriers to inclusion.",
   "years": ["2019"]
 }
