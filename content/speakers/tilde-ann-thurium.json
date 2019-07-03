@@ -1,14 +1,25 @@
 {
   "name": "Tilde Ann Thurium",
-  "headshot": "/images/tilde-ann-thurium.jpg",
-  "bio": "Tilde Ann Thurium is an artist, engiqueer, and activist. In previous lives, they have done stints as a florist, a security guard, and a Human Resources wench. In their spare time, they illustrate data structures and algorithms with acrylic paint.",
+  "pronouns": "they/them",
   "role": "Developer Evangelist",
   "company": "Twilio",
-  "pronouns": "they/them",
-  "social_links": [
-    { "github": "annthurium" },
-    { "twitter": "annthurium" },
-    { "linkedin": "annthurium" }
+  "links": [
+    {
+      "type": "twitter",
+      "url": "annthurium"
+    },
+    {
+      "type": "github",
+      "url": "annthurium"
+    },
+    {
+      "type": "linkedin",
+      "url": "annthurium"
+    }
   ],
-  "years": ["2019"]
+  "headshot": "/images/tilde-ann-thurium.jpg",
+  "bio": "Tilde Ann Thurium is an artist, engiqueer, and activist. In previous lives, they have done stints as a florist, a security guard, and a Human Resources wench. In their spare time, they illustrate data structures and algorithms with acrylic paint.",
+  "years": [
+    "2019"
+  ]
 }
