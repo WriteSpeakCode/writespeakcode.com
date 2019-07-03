@@ -25,6 +25,7 @@
 .headshot {
   @media screen and (max-width: 30em) {
     width: 100px;
+    height: 100px;
     margin-right: 2em;
   }
   border: 4px solid var(--navy);
