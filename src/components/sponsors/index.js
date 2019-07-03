@@ -17,6 +17,7 @@ import glympse from '../../../content/sponsors/glympse.json'
 import github from '../../../content/sponsors/github.json'
 import adhoc from '../../../content/sponsors/adhoc.json'
 import climatecorp from '../../../content/sponsors/climate-corporation.json'
+import onramp from '../../../content/sponsors/onramp.json'
 
 // Community Partners
 import girlgeekx from '../../../content/sponsors/girlgeekx.json'
@@ -26,6 +27,7 @@ import techladies from '../../../content/sponsors/techladies.json'
 import diversifytech from '../../../content/sponsors/diversifytech.json'
 import mothercoders from '../../../content/sponsors/mothercoders.json'
 import techbychoice from '../../../content/sponsors/techbychoice.json'
+import brooklynjs from '../../../content/sponsors/brooklynjs.json'
 
 const Sponsors = ({ sponsors, isConference }) => {
   return (
@@ -76,6 +78,7 @@ const Sponsors = ({ sponsors, isConference }) => {
             <Sponsor company={mailchimp} />
             <Sponsor company={splunk} />
             <Sponsor company={zipline} />
+            <Sponsor company={onramp} />
           </div>
         </section>
         <section className={[styles['silver'], styles.levelSection].join(' ')}>
@@ -119,6 +122,7 @@ const Sponsors = ({ sponsors, isConference }) => {
             <Sponsor company={techbychoice} />
             <Sponsor company={mothercoders} />
             <Sponsor company={diversifytech} />
+            <Sponsor company={brooklynjs} />
           </div>
         </section>
       </div>

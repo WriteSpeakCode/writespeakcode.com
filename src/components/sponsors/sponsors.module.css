@@ -103,22 +103,13 @@
   }
 
   .gold,
-  .silver {
-    img {
-      max-width: 15em;
-    }
-    .grid {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-  }
-
+  .silver,
   .bronze {
     img {
       max-width: 13em;
     }
     .grid {
       grid-template-columns: 1fr 1fr 1fr 1fr;
-      align-items: center;
     }
   }
 
@@ -136,7 +127,7 @@
       max-width: 7em;
     }
     .grid {
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
   }
 }

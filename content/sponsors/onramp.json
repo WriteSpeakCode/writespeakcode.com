@@ -1,0 +1,6 @@
+{
+  "name": "Onramp",
+  "url": "https://www.onramp.io/",
+  "logo": "/images/onramp.jpg",
+  "sponsorships": [{ "year": "2019", "level": "Gold", "conf_sponsor": true }]
+}
