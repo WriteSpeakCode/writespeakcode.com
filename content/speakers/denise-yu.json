@@ -24,5 +24,13 @@
   ],
   "layout": "speaker",
   "bio": "Denise is a Senior Software Engineer at Pivotal in Toronto. She attended Write/Speak/Code last year and it literally changed her life :-) She speaks and runs workshops frequently at conferences in North America and Europe on topics ranging from continuous delivery to sketchnoting.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Telling stories with doodles",
+      "desc": "For an industry where we constantly need to be picking up new knowledge to succeed as engineers, product managers, designers, technical writers, and everything in between: we're actually pretty bad at communicating with each other. One thing I've been experimenting with lately is using sketchnoting and low-fidelity doodles to complement technical explanations. By adding simple visuals that require no artistic talent, my written content has gained far greater traction than before, and it's even helped me to grow a wider, more diverse professional network. In this workshop, I'll walk attendees through (1) building a visual library of technical subject matter, (2) applying some illustration tricks to make simple doodles look more sophisticated, and (3) thinking about modeling technical concepts in cartoon metaphors for more nuanced storytelling. By the end of this session, all attendees will have the seeds of a new superpower planted.",
+      "type": "workshop"
+    }
+  ]
 }

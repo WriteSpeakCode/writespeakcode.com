@@ -18,7 +18,13 @@
   "layout": "speaker",
   "headshot": "/images/wendy-gwo.jpg",
   "bio": "Wendy is a software engineer based in Los Angeles. She switched to software engineering after having previously worked as a consultant and as an electrical engineer. She loves all things tech, especially tech that can be used to make aspects of people's lives easier, meaningful, more efficient, and/or fun!\n\nWendy loves a challenge, and as a result has summited Mt. Kilimanjaro, has run the LA Marathon, and has a Master’s degree in Electrical Engineering. She loves hiking and being surrounded by the great outdoors and eating any and all carbs.",
-  "years": [
-    "2019"
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Oh baby! How to successfully navigate being the first to need parental leave at your startup",
+      "desc": "Becoming a parent is a big life change. Being the first person to need parental leave at a startup makes it feel even more daunting. This talk walks you through steps you can take to educate your company about what leave you're entitled to and shows how you can own the situation and take control. This talk is for anyone who works in startups who is thinking about having a baby (or adopting one!), is currently expecting a child, or just wants to be an ally in the workplace for soon-to-be parents.",
+      "type": "talk"
+    }
   ]
 }
