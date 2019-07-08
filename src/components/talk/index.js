@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTimes } from '@fortawesome/free-solid-svg-icons'
 import { faLaptopCode, faVolumeUp } from '@fortawesome/free-solid-svg-icons'
 import { SpeakerDialog } from '../speaker'
 import { parameterize } from '../../utils/helpers'

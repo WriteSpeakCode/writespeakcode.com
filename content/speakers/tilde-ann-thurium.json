@@ -19,7 +19,13 @@
   ],
   "headshot": "/images/tilde-ann-thurium.jpg",
   "bio": "Tilde Ann Thurium is an artist, engiqueer, and activist. In previous lives, they have done stints as a florist, a security guard, and a Human Resources wench. In their spare time, they illustrate data structures and algorithms with acrylic paint.",
-  "years": [
-    "2019"
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Demystifying Human Resources",
+      "desc": "\"Don’t trust HR,\" is something you hear a lot, and with good reason: fundamentally, the role of Human Resources is to protect a company's interests.  (I should know: I used to work in HR before I became an engineer!)  However, there are situations where the company’s interests and your interests are aligned, where involving HR might be a good idea. How can under-represented technical workers leverage Human Resources to help our teams and ourselves? In this talk, I'll explain the different types of HR folks you're likely to encounter in the wild.  I'll share some principles you can apply to understand whether or not HR can actually help you, including real world stories from both sides of the table.",
+      "type": "talk"
+    }
   ]
 }

@@ -24,5 +24,13 @@
   ],
   "layout": "speaker",
   "bio": "Elle is a Ruby developer with more than ten years experience writing Ruby and Rails. Currently at Blackmill, previously Development Director at thoughtbot NY. Elle believes in writing clean code, driven by automatic tests, with agile practices, an even work/life balance, and a respectful and inclusive team culture. Recently, she developed and ran an apprenticeship program, up-skilling less experienced developers. When not immersed in the Ruby community, she's probably immersed in flour. You can talk to her on Twitter at @aemeredith.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Story telling with Git rebase",
+      "desc": "In a successful software development project, a key challenge is to manage complexity because projects get very complex very quickly even within small teams. Version control is the tool for communicating intent in our codebase over the life time of the project. Rebasing allows us to revise our development history before sharing it with the team. Learn to use Git commit messages to keep track of the intent of your code changes to make it easier to make future changes. Learn how to make using feature branches less painful and more effective. Learn the mechanics of interactive rebasing, how to merge conflicts without losing precious code and how to auto-squash commits. Basically, stop fearing interactive rebasing.",
+      "type": "talk"
+    }
+  ]
 }

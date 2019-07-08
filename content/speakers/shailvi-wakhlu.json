@@ -12,5 +12,13 @@
   ],
   "layout": "speaker",
   "bio": "Shailvi is a Sr Manager, Data Intelligence at Salesforce. In the past she has worked at Fitbit, Prezi, Monster.com and also run her own company. She is a passionate coder and analyst and believes in furthering STEM education for women and minorities. In addition to multiple inspiring talks in professional and casual settings, she tutors 7th graders in an inner city school in San Francisco with their math homework. Her goal is to help build communities by women, that help other women be successful. ",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "How to #HumbleBrag Effectively",
+      "desc": "Many people are shy of accepting praise, and highlighting their professional achievements to the detriment of their own career success. The reasons why they are uncomfortable advocating for themselves could be gendered, cultural or societal. In this talk, I hope to highlight the specific ways to phrase your wins, and position your thinking to not get left behind due to a lack of perceived value.",
+      "type": "talk"
+    }
+  ]
 }
