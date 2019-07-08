@@ -16,5 +16,13 @@
   ],
   "layout": "speaker",
   "bio": "Jamie Riedesel is a Lead Engineer of DevOps with HelloSign and has been working in the Ops and DevOps space since 1997. She moved from corporate IT to the startup space in 2010 and experience educational culture-shock. Jamie has been blogging as sysadmin1138 since 2004, a community elected moderator on ServerFault since 2010, and awarded the Chuck Yerkes community award by LOPSA in 2015.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Sneakily toxic workplaces and how to identify you may be in one",
+      "desc": "Toxic workplaces come in many kinds, and some are so sneaky you won’t know you were in one until you’re long gone. Abuse survival is like that sometimes. Time in the industry helps give you that baseline, but wouldn’t it be nice to identify these before you have years of trauma to get over? This talk will be going over various ways that workplaces can be toxic, the psychological safety techniques that work to survive them, and how to identify you may be adopting some of these techniques. Knowing you’re in a toxic environment helps isolate the long-term damage, and gives you a leg up in relearning healthier techniques when you get to a safer place of work.",
+      "type": "talk"
+    }
+  ]
 }

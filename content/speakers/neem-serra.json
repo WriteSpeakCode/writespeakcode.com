@@ -24,5 +24,13 @@
   ],
   "layout": "speaker",
   "bio": "Neem Serra is a mobile developer at Slalom in St. Louis. She teaches and mentors at a variety of non-profit organizations such as Software Carpentry. As the lead of the Google Women Techmakers group in St. Louis, she started the St. Louis Techies Project to highlight the diversity of technical people in St. Louis. Neem loves to bake, read comics, and host craft nights.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Salary Negotiations Unlocked",
+      "desc": "Do you want a fair salary for you and your friends? Do you feel awkward talking about money unless it’s to talk about a deal you got at Target? Do you wish you could just pay someone to negotiate on your behalf? Do you dread the fact that you have to be an adult and advocate for yourself? If you said yes to those questions, this is the talk for you! First, we’ll talk about how you can answer those awkward questions about what your current salary is and what salary your looking for so you don’t get that heart in the throat kind of feeling. Then, we’ll set you up to do the right research for a fair salary because who can argue with data? We will talk about tips and tricks for your upcoming negotiation, but we’ll start you on the right plan to be confident and prepared for the next negotiation. We will finish it off with some real life practice in a safe space and give each other feedback on how we can improve. Let’s start closing the wage gap today!",
+      "type": "workshop"
+    }
+  ]
 }
