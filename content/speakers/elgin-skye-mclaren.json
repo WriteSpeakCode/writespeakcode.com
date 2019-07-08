@@ -23,5 +23,13 @@
   ],
   "layout": "speaker",
   "bio": "Elgin-Skye McLaren is a graduate student at the School of Interactive Arts & Technology in Vancouver BC. Her research interests include child-computer interaction design, and tangible computing. Before returning to university, Elgin-Skye worked as a web developer. She is passionate about building community and creating inclusive spaces. She works hard to make sure tech is accessible to all by mentoring for organizations such as Ladies Learning code, Girls Learning Code, and NodeSchool. In 2016, she helped start the Vancouver chapter of Women Who Code. She is an experienced educator and speaker. When she isn’t working she enjoys making art with code, and taking road trips in her “sold-for-parts” campervan.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Shitty robot fight club",
+      "type": "workshop",
+      "desc": "Work in teams to build a node-powered battle bot and compete to be the *ultimate shitty robot champion.* In this workshop participants will combine cardboard, circuits and open source software to learn about working with hardware. Everyone is welcome, no experience required. Laptop with node installed may be helpful, but is not necessary. First rule of shitty robot fight club - have fun!"
+    }
+  ]
 }
