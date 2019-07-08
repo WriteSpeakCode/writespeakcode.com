@@ -9,19 +9,16 @@ import styles from './program.module.css'
 
 const Program2019 = ({ data }) => {
   const speakers = data.allSpeakersJson.nodes
-  const talks = speakers.filter(s => s.talks[0].type === 'talk')
-  const workshops = speakers.filter(s => s.talks[0].type === 'workshop')
   return (
     <ConfLayout subpage={true}>
       <SEO title="Program | 2019 Conference" />
       <section className={styles.talks}>
-        <h1 className="title">Talks</h1>
-        {talks.map(speaker => (
-          <Talk speaker={speaker} key={speaker.id} />
-        ))}
-
-        <h1 className="title">Workshops</h1>
-        {workshops.map(speaker => (
+        <h1 className="title">Program</h1>
+        <h2 className="subtitle">
+          Workshops, personalized feedback sessions, panels, and talks by
+          talented technologists with marginalized genders.
+        </h2>
+        {speakers.map(speaker => (
           <Talk speaker={speaker} key={speaker.id} />
         ))}
       </section>

@@ -1,8 +1,38 @@
-.talk {
-  padding: 1em 0 2em 0;
-  border-bottom: 1px solid;
-  margin-bottom: 1em;
+.section {
+  padding: 1em 0;
+  border-top: 1px solid;
+  margin-top: 1em;
   h2 {
     font-size: 1.2em;
+  }
+  @media screen and (min-width: 50em) {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    grid-column-gap: 2em;
+    align-items: center;
+  }
+}
+
+.icon {
+  margin-right: 0.5em;
+}
+.type {
+  font-weight: var(--light);
+}
+
+.dialogButton {
+  display: block;
+  color: var(--navy);
+  background: transparent;
+  font-weight: var(--semi-bold);
+  padding-bottom: 0.25em;
+  margin-top: 1em;
+  border-color: inherit;
+  border-style: solid;
+  font-size: 0.9em;
+  border-width: 2px;
+  &:hover {
+    cursor: pointer;
+    color: var(--tan);
   }
 }

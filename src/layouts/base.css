@@ -95,23 +95,6 @@ a {
   }
 }
 
-.dialogButton {
-  display: block;
-  color: var(--navy);
-  background: transparent;
-  font-weight: var(--semi-bold);
-  padding-bottom: 0.25em;
-  margin-top: 1em;
-  border-color: inherit;
-  border-style: solid;
-  font-size: 0.9em;
-  border-width: 2px;
-  &:hover {
-    cursor: pointer;
-    color: var(--tan);
-  }
-}
-
 .title {
   font-family: 'PT Sans Caption';
   font-weight: var(--bold);
