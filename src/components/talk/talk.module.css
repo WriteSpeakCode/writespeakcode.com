@@ -1,0 +1,8 @@
+.talk {
+  padding: 1em 0 2em 0;
+  border-bottom: 1px solid;
+  margin-bottom: 1em;
+  h2 {
+    font-size: 1.2em;
+  }
+}

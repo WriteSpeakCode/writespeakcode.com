@@ -88,6 +88,20 @@ collections:
         multiple: true
         required: false
         options: ['2019']
+      - label: 'Talks'
+        name: 'talks'
+        widget: 'list'
+        required: false
+        fields:
+          - label: 'Year'
+            name: 'year'
+            widget: 'string'
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Description'
+            name: 'desc'
+            widget: 'string'
 
   - name: 'sponsors'
     label: 'Sponsors'

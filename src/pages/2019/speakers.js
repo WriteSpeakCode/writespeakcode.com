@@ -44,6 +44,10 @@ export const speakersQuery = graphql`
           type
           url
         }
+        talks {
+          title
+          type
+        }
       }
     }
   }
