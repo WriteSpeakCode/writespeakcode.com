@@ -9,6 +9,7 @@ import {
   faLinkedinIn,
   faGithub,
 } from '@fortawesome/free-brands-svg-icons'
+import { faLaptopCode, faVolumeUp } from '@fortawesome/free-solid-svg-icons'
 import { parameterize } from '../../utils/helpers'
 
 import styles from './speaker.module.css'
@@ -79,7 +80,12 @@ export const SpeakerDialog = ({
         showLinkToTalk &&
         speaker.talks.map(talk => (
           <>
-            <span>{talk.type}: </span>
+            <span>
+              <FontAwesomeIcon
+                icon={talk.type === 'workshop' ? faLaptopCode : faVolumeUp}
+                style={{ marginRight: '.5em' }}
+              />
+            </span>
             <Link
               to={`/2019/program/#${parameterize(talk.title)}`}
               className="link"

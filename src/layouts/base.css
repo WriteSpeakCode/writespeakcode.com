@@ -65,6 +65,7 @@ a {
 }
 
 .link {
+  display: inline;
   border-bottom: 4px solid;
   border-color: inherit;
   display: inline-block;
