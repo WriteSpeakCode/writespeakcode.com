@@ -20,5 +20,13 @@
   ],
   "layout": "speaker",
   "bio": "Nicole Leffel is a software engineer and social entrepreneur working to make the world a more playful, connected, and equitable place. After a five year career in games and media, they made the leap into doing personally meaningful, mission-driven work. Since then they've learned to code, participated in social impact incubators, attended a programming retreat, co-founded an accessible legal services startup, and connected with a vibrant network of do-gooders across the country. Currently they led a team of developers at an affordable healthcare company, whose aim is to drive down the cost of prescription medication in the United States. Nicole believes that empowering others to pursue their nobler desires in a sustainable way is the surest, shortest path to saving the world.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "So You Want To Save The World",
+      "desc": "What would it look like to save the world - to help people become and stay healthier, to make the world more equitable, to mitigate ecological disaster? How do you craft a career in service of that goal? This talk proposes a strategy for identifying the causes you're passionate about, how to build the skills that will prepare you to work effectively in highly constrained environments, and where to get started. We’ll talk about: Abandoning the savior mentality, Guiding entrepreneurial ambition through user-centered design, The pros and cons of working for-profit, non-profit, and for-the-government, Common technical stacks in the social good space, Looking for opportunities, How to cope with disillusionment, and more! Attendees will leave with a high-level view of the tech for good ecosystem and some advice for how to navigate it, grounded in real world examples.",
+      "type": "talk"
+    }
+  ]
 }

@@ -24,5 +24,13 @@
   ],
   "layout": "speaker",
   "bio": "Lexi is a Community & Safety Engineer at GitHub, building tools to empower maintainers to cultivate happy and healthy communities around their projects. She is an early-career engineer, and is very grateful for all of the learning opportunities she gets every day. She is also a dog enthusiast, and does her very best to incorporate dog photos in every talk she gives.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Building Software with Trust & Safety",
+      "type": "talk",
+      "desc": "Online harassment and abuse is a major problem, and when users don't feel safe on a platform, they will leave. In this talk I argue that everyone who is building software for humans has the ethical responsibility to build with user trust & safety in mind. With that perspective, I walk through the framework my team uses to evaluate and develop features, and I give examples of this framework in action. I hope that attendees will come away from this talk knowing why they should and how they can bring the principles of trust & safety back to their own work."
+    }
+  ]
 }

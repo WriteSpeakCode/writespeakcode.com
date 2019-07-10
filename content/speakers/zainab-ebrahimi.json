@@ -20,5 +20,13 @@
   ],
   "layout": "speaker",
   "bio": "Zainab Ebrahimi is an Engineering Lead at Bitly where she advocates for creating front-end practices that are people centric. She’s also a passionate computer science teacher and curriculum developer for Code Nation, a non-profit organization that provides tech education to students in under-resourced high schools. In her spare time, she geeks out about martial arts and her love for french toast.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Ask your dumb question",
+      "desc": "Have you ever been in a situation where you didn’t ask a tech question at work because you were scared people would think it was dumb?  Well, you’re not alone! In this talk we’ll examine our reluctance to ask questions in the workplace and how the stereotype of the 10x superstar developer is driving us to second-guess and devalue ourselves as developers. We’ll explore the roles that psychological safety and debunking stereotypes have on nurturing creative and supportive spaces in tech. Come find out how asking your dumb question helps make that happen.",
+      "type": "talk"
+    }
+  ]
 }

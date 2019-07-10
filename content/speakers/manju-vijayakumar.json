@@ -20,5 +20,13 @@
   ],
   "layout": "speaker",
   "bio": "Manju is a full stack engineer at Salesforce, where she works on Einstein Voice Assistant, bringing the best in class AI (artificial intelligence) capabilities to Salesforce suite of products. Prior to Salesforce, she worked in a breadth of roles solving complex problems at Google, Goldman Sachs, NVIDIA and Akamai. She holds a Masters in Computer Science from Texas A&M University. She is a new mom who loves outdoor adventures, reading and blogging in her free time (joke! there is no free time as a new mom).",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "How to give your first technical talk and not die.",
+      "desc": "Do you imagine the absolute worst when it comes to giving a technical talk? Come learn how I gave my first tech talk gone bad, a full 45 mins (shudder!) and yet came out alive after several mistakes. I had all the ingredients of a good tech talk gone bad - Audio/Video fail, nerves, tough audience, challenging Q&A etc. And still managed to come out as one of the best talks at the tech conference per audience voting! You may know what to do at a tech talk, now learn what not to do as I walk you through each failure scenario and how I recovered from them.",
+      "type": "talk"
+    }
+  ]
 }

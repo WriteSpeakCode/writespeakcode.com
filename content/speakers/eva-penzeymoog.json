@@ -24,5 +24,13 @@
   ],
   "layout": "speaker",
   "bio": "Eva PenzeyMoog is a Lead Designer at 8th Light. She works to ensure that digital products cannot be be used as tools of abuse, with the goal of reducing harm in the world through centering the safety of victims of domestic violence. When not designing, coding, or mentoring people new to tech, she spends her time creating botanical cyanotype prints, consuming any zombie-related media she can get her hands on, and playing with her two dogs, Hamlet and Horatio.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Designing Against Domestic Violence",
+      "desc": "The reality of domestic violence doesn’t disappear when people enter the digital world. Abusers use technology to exploit and control their victims, meaning that technologists have a responsibility to ensure that users of our products are empowered to protect their safety. How can we prevent people with violent intentions from forms of abuse and control that are digital, such as exploiting online banking software to control a partners finances or tormenting them with smart home devices? How can we recognize points of possible intervention where we might be able to help a user who is experiencing domestic violence? How can we make it harder for stalkers to find their victims?  While there’s no simple answer and ultimately no way to ensure our users’ safety in all situations, thoughtful considerations and small changes while designing and building products can and does result in meaningful contributions to people’s safety. This talk will help the audience get into the right mindset for thinking about safety and provide a framework for building technology against domestic violence.",
+      "type": "talk"
+    }
+  ]
 }

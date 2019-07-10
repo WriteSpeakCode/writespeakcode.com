@@ -20,5 +20,13 @@
   ],
   "layout": "speaker",
   "bio": "Aisha Blake has a deep love for the tech community in Detroit and has been a leader in that community since 2014. She has taught web development to people of all ages in bootcamps, workshops, and online courses. Aisha cofounded Detroit Speakers in Tech, which organizes workshops teaching and supporting new conference speakers. She currently works as an Application Developer for Detroit Labs and is down for anything as long as there are puppies and/or karaoke involved.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Don't Fear the Red Light: Getting Started with Screencasting",
+      "desc": "One of the really great things about learning to code is that so much of that learning can take place online, on our own time. If video is your thing, you know what a powerful medium it can be. You have something unique and interesting to offer whether that be in the form of a conference talk, blog posts, etc. Share it through a screencast! This session walks though the basic steps to help you design your own screen cast. We’ll cover some options for basic equipment, software, distribution, and lots of tips to help you develop and deliver the best content you can.",
+      "type": "workshop"
+    }
+  ]
 }

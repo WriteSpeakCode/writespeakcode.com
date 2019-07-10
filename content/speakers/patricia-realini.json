@@ -4,9 +4,7 @@
   "name": "Patricia Realini",
   "pronouns": "she/they",
   "role": "Infrastructure Product Manager",
-  "years": [
-    "2019"
-  ],
+  "years": ["2019"],
   "links": [
     {
       "type": "twitter",
@@ -22,5 +20,13 @@
     }
   ],
   "headshot": "/images/patricia-realini.jpg",
-  "company": "Github"
+  "company": "Github",
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Donde Esta La BiblioTech? ",
+      "desc": "When it comes to accessibility, in the Javascript community we often forget to talk about what it takes to get on the internet in the first place, yet the Federal Communications Commission estimates that 34 million Americans don’t have access to the internet. Where do these people go when they need to check their email, turn in their homework, or apply for a job? To the original open archive for information: public libraries! In this talk we will peer into the digital divide and learn about what public libraries across the United States are doing to support their communities access to the world wide web. We will discuss how hardware constraints, PC reservation software, browser access, and broadband speeds affect user experience and what we can do to help librarians and the Digital Inclusion movement. ",
+      "type": "talk"
+    }
+  ]
 }

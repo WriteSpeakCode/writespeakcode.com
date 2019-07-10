@@ -65,13 +65,14 @@ a {
 }
 
 .link {
+  display: inline;
   border-bottom: 4px solid;
   border-color: inherit;
-  display: inline-block;
   font-weight: var(--semi-bold);
   font-family: 'PT Sans Caption';
   &:hover {
     border-bottom-style: dotted;
+    cursor: pointer;
   }
 }
 
