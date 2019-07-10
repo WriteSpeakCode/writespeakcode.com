@@ -24,5 +24,13 @@
   ],
   "layout": "speaker",
   "bio": "Alex Qin is out here tryna get free. She cares about helping people fulfill the radical visions they have for themselves and the world while working towards more just and equitable futures. She has experience writing code, leading engineering teams, growing communities, developing education programs, teaching, and advocating for underrepresented peoples in tech. These days, she spends her time learning, healing, giving love, and building the Code Cooperative, a community of formerly incarcerated people and advocates who use and build technology as a means of liberation.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "type": "talk",
+      "title": "The Hero's Journey",
+      "year": "2019",
+      "desc": "I took a sabbatical in October 2018 after a very difficult year, both personally and professionally. I stopped working and traveled by myself for three months, during which I started the slow and deep process of healing. This talk (which might feel more like poetry at times) aims to share some wisdom I have gathered on this journey -- that this industry, this world, wounds us and that we need to heal and transform ourselves in order to transform anything else."
+    }
+  ]
 }

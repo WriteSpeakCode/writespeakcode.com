@@ -29,12 +29,13 @@ const Program2019 = ({ data }) => {
 export default Program2019
 
 export const programQuery = graphql`
-  query {
+  {
     allSpeakersJson(
       filter: {
         talks: { elemMatch: { year: { eq: "2019" } } }
         years: { in: "2019" }
       }
+      sort: { fields: talks___title, order: ASC }
     ) {
       nodes {
         id
