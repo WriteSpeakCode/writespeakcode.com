@@ -36,6 +36,13 @@ const menu = (
     </button>
     <button
       onClick={() => {
+        navigate('/2019/program')
+      }}
+    >
+      Program
+    </button>
+    <button
+      onClick={() => {
         navigate('/2019/schedule')
       }}
     >

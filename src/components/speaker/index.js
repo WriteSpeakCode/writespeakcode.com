@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'gatsby'
 import { Dialog } from '@reach/dialog'
 import VisuallyHidden from '@reach/visually-hidden'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -8,6 +9,8 @@ import {
   faLinkedinIn,
   faGithub,
 } from '@fortawesome/free-brands-svg-icons'
+import { faLaptopCode, faVolumeUp } from '@fortawesome/free-solid-svg-icons'
+import { parameterize } from '../../utils/helpers'
 
 import styles from './speaker.module.css'
 
@@ -35,6 +38,66 @@ const SocialLink = ({ type, url }) => {
   )
 }
 
+export const SpeakerDialog = ({
+  open,
+  speaker,
+  dialogIsOpen,
+  setDialogIsOpen,
+  showLinkToTalk,
+}) => (
+  <Dialog
+    isOpen={dialogIsOpen}
+    onDismiss={() => setDialogIsOpen(false)}
+    className={styles.dialog}
+  >
+    <button className={styles.close} onClick={() => setDialogIsOpen(false)}>
+      <VisuallyHidden>Close</VisuallyHidden>
+      <FontAwesomeIcon icon={faTimes} className={styles.menuButton} />
+    </button>
+
+    <figure>
+      <img
+        src={speaker.headshot ? speaker.headshot : randomPlaceholder()}
+        alt={`${speaker.name} headshot`}
+      />
+      <figcaption>
+        <h1 className="title">
+          {speaker.name} {speaker.pronouns && <span>({speaker.pronouns})</span>}
+        </h1>
+        {speaker.role && <h2 className="subtitle">{speaker.role}</h2>}
+        {speaker.company && <h3>{speaker.company}</h3>}
+      </figcaption>
+    </figure>
+    <p>{speaker.bio}</p>
+    <div className={styles.links}>
+      {speaker.links &&
+        speaker.links.map((link, index) => (
+          <SocialLink type={link.type} url={link.url} key={index} />
+        ))}
+    </div>
+    <div className={styles.links}>
+      {speaker.talks &&
+        showLinkToTalk &&
+        speaker.talks.map(talk => (
+          <>
+            <span>
+              <FontAwesomeIcon
+                icon={talk.type === 'workshop' ? faLaptopCode : faVolumeUp}
+                style={{ marginRight: '.5em' }}
+              />
+            </span>
+            <Link
+              to={`/2019/program/#${parameterize(talk.title)}`}
+              className="link"
+            >
+              {talk.title}
+            </Link>
+          </>
+        ))}
+    </div>
+  </Dialog>
+)
+
 const randomPlaceholder = () => {
   const placeholders = [
     '/images/speaker.jpg',
@@ -60,38 +123,12 @@ const Speaker = ({ speaker }) => {
           {speaker.company && <h5>{speaker.company}</h5>}
         </figcaption>
       </figure>
-      <Dialog
-        isOpen={dialogIsOpen}
-        onDismiss={() => setDialogIsOpen(false)}
-        className={styles.dialog}
-      >
-        <button className={styles.close} onClick={() => setDialogIsOpen(false)}>
-          <VisuallyHidden>Close</VisuallyHidden>
-          <FontAwesomeIcon icon={faTimes} className={styles.menuButton} />
-        </button>
-
-        <figure>
-          <img
-            src={speaker.headshot ? speaker.headshot : randomPlaceholder()}
-            alt={`${speaker.name} headshot`}
-          />
-          <figcaption>
-            <h1 className="title">
-              {speaker.name}{' '}
-              {speaker.pronouns && <span>({speaker.pronouns})</span>}
-            </h1>
-            {speaker.role && <h2 className="subtitle">{speaker.role}</h2>}
-            {speaker.company && <h3>{speaker.company}</h3>}
-          </figcaption>
-        </figure>
-        <p>{speaker.bio}</p>
-        <div className={styles.links}>
-          {speaker.links &&
-            speaker.links.map((link, index) => (
-              <SocialLink type={link.type} url={link.url} key={index} />
-            ))}
-        </div>
-      </Dialog>
+      <SpeakerDialog
+        dialogIsOpen={dialogIsOpen}
+        setDialogIsOpen={setDialogIsOpen}
+        speaker={speaker}
+        showLinkToTalk={true}
+      />
     </>
   )
 }

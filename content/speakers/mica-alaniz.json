@@ -20,5 +20,13 @@
   ],
   "layout": "speaker",
   "bio": "Mica Alaniz is a Software Engineer at the DNC, where she builds tools to support all Democratic candidates and their data needs, as well as grassroots organizing, fundraising and voter empowerment efforts in campaigns across the country. She is a Chicagoan, born and raised and in her spare time mentors at Write/Speak/Code, volunteers for the Chicago Architecture Center, has taught classes at Girl Develop It Chicago, and maintains an inconvenient baseball empire while working to speak to and inspire other women of color in technology.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Four-Letter F Word",
+      "desc": "A career path, like any path, can contain bumps and obstacles. But we don't often hear about the stumbling blocks along the way, leading many to believe their experiences are singular and isolated. Learn the best tools for professional progress despite setbacks by discussing strategies, dispelling myths, providing resources and speaking openly about the potholes on the road to success.",
+      "type": "talk"
+    }
+  ]
 }

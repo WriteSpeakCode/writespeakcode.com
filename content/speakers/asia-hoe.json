@@ -24,5 +24,13 @@
   ],
   "layout": "speaker",
   "bio": "Asia is an award winning Senior Product Designer at Newsela. An avid gamer, mentor, and learner, she enjoys experimenting with art, writing, and code.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Making Myself Through Writing",
+      "desc": "For the year of 2019, I was determined to get over my fears and start writing 300 words every day. A friend of mine created a platform called Write Together which uses a GitHub inspired streak counter to help incentivize writers on the platform to write daily. Now 136 days strong, and counting, I want to share how writing has had numerous benefits for my wellbeing, friendships, and career, and how and why you should start your own writing practice too!",
+      "type": "talk"
+    }
+  ]
 }

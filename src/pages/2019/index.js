@@ -121,7 +121,20 @@ const Conference2019 = ({ data }) => {
             <Link
               to="/2019/schedule/"
               className="link"
+              style={{ borderColor: 'var(--mint)', marginRight: '1em' }}
+            >
+              View schedule
+            </Link>
+              to="/2019/program/"
+              className="link"
               style={{ borderColor: 'var(--orange)', marginRight: '1em' }}
+            >
+              View talks & workshops
+            </Link>
+            <Link
+              to="/2019/schedule/"
+              className="link"
+              style={{ borderColor: 'var(--mint)', marginRight: '1em' }}
             >
               View schedule
             </Link>

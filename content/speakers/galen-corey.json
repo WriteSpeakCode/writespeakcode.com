@@ -24,5 +24,13 @@
   ],
   "layout": "speaker",
   "bio": "Galen is a full stack developer from New York City. She made a career change from teaching math to writing code in 2016, and loves finding ways to use her teaching skills and passion in the tech world. When she isn’t teaching or coding, you can usually find Galen reading on the subway, or writing poetry about how disgusting the subway is.  ",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "4 Mistakes from my First Open Source Contribution",
+      "desc": "We all know we should be contributing to open source. But if you are like me, actually doing it for the first time can be daunting. I made my first contribution to an open source project this year, and there were a lot of hurdles that tripped me up. In this talk, I will share the mistakes I made in that first PR, as well as the things that I did well that helped me (eventually) get that PR merged. ",
+      "type": "talk"
+    }
+  ]
 }

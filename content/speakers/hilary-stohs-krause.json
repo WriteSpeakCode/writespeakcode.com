@@ -24,5 +24,13 @@
   ],
   "layout": "speaker",
   "bio": "Hilary Stohs-Krause is currently based in Madison, WI, working as a full-stack software developer at Ten Forward Consulting. She came to tech by way of childhood website-building (a \"Buffy the Vampire Slayer\" fansite, to be exact, complete with a guestbook and visitor counter). She volunteers regularly with several tech and community organizations, and co-runs Madison Women in Tech, a local group with more than 1,800 members. She loves sci-fi/fantasy, board games and bourbon barrel-aged stouts. She tweets at @hilarysk.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Why we worry about all the wrong things",
+      "desc": "Modern humans aren't great at risk assessment. We often blithely ignore things that could harm us, and are intimidated instead by things that are factually quite safe. This has vast implications for all aspects of our lives, including our careers. In this talk, we'll explore root causes of fear and anxiety, and discover how we can work to deliberately rewrite our \"instincts\", redirect our worry toward what actually matters, and channel it into productive outcomes that make us safer, happier and less stressed.",
+      "type": "talk"
+    }
+  ]
 }

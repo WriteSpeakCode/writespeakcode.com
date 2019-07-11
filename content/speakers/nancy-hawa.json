@@ -24,5 +24,13 @@
   ],
   "layout": "speaker",
   "bio": "Nancy is a full stack engineer at DevResults. Before turning to code, Nancy was a Special Education teacher at high need schools in Brooklyn for seven years. She's carried her teacher skills of advocacy and inquiry into every role she's held since, and will always be most proud of the teaching she does while in tech.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Advocating for Salary Transparency",
+      "desc": "Salary transparency is a necessary precursor to salary fairness.  In advocating for salary transparency, we face three main obstacles - a concern for employee's privacy, social stigma against open talk about money issues, and desire to obscure salary inequity. This talk will discuss some approaches to communicating the importance of salary transparency as well as assuaging concerns about those issues.",
+      "type": "talk"
+    }
+  ]
 }

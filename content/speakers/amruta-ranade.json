@@ -4,9 +4,7 @@
   "name": "Amruta Ranade",
   "pronouns": "she/her",
   "role": "Senior Technical Writer",
-  "years": [
-    "2019"
-  ],
+  "years": ["2019"],
   "links": [
     {
       "type": "twitter",
@@ -26,5 +24,13 @@
     }
   ],
   "headshot": "/images/amruta-ranade.jpg",
-  "company": "Cockroach Labs"
+  "company": "Cockroach Labs",
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Contributing docs to open source projects",
+      "desc": "If you are a new open source contributor, you must have been told at some point: \"Start by contributing docs to open source projects\". But no one tells you how to do it. How do you choose an open source project to contribute docs to, how do you communicate with the project maintainers, and how do you actually write the docs. These are the questions I intend to help answer in this talk. Drawing on my experience as a Senior Tech Writer at an open source organization and a docs contributor to other open source projects, I want to share my process of finding and choosing an open source project to contribute docs to, interacting with project maintainers, and my technical writing process to create useful documentation.",
+      "type": "talk"
+    }
+  ]
 }

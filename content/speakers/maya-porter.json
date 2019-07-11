@@ -12,5 +12,13 @@
   ],
   "layout": "speaker",
   "bio": "Maya Porter is a Learning & Development Program Manager, specializing in workshop facilitation at developer tool startup Sentry.io. She is primarily focused on how to bring your fullest, most authentic self to professional development. Maya comes from a background in early childhood education as a teacher. She transitioned into Silicon Valley in 2017, where she worked in communications at VMware in the South Bay. Maya earned a Bachelors in Business Administration with a minor in Psychology, and speaks Portuguese. Her hobbies outside of work include volunteering with youth development programs and acting in films and commercials.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Improv for Introverts Workshop",
+      "desc": "Making a funny remark on your feet in front of strangers is intimidating. Luckily for us, good improv isn't about making well-timed jokes or being the funniest person in the room. For some, learning improv comedy can even reduce social anxiety. Improv for Introverts is a safe space to try out improv through supportive exercises. The lovely thing about these energizing improvised-theater activities is that everyone is expected and ENCOURAGED to have fun and make mistakes. This workshop's activities are specially crafted to focus on lifting the next person up (instead of competing with them)! By the end of the workshop, you'll feel more comfortable with ambiguity and authentically connected to others. You'll also walk away with ways to foster more welcoming environments where you work and beyond.",
+      "type": "workshop"
+    }
+  ]
 }
