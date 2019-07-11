@@ -3,5 +3,13 @@
   "layout": "speaker",
   "headshot": "/images/kim-crayton.jpg",
   "bio": "Kim Crayton is a business strategist, the founder of the #causeascene movement, board chair of We Pivot, proud multipotentialite and advocate for diversity, inclusion, and safe spaces in tech. She is committed to facilitating and hosting spaces with honest conversations with intentional actions for positive change. Kim is known for her work of coaching tech leaders, in companies and non-profits, for improving profitability and innovation by operationalizing core organizational values and identifying hidden organizational barriers to inclusion.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "type": "talk",
+      "title": "Whiteness In Marginalized Spaces: When Coalition Building Harms",
+      "year": "2019",
+      "desc": "As we work on improving the diversity of our technical organizations, communities, and events, we must also address the harm that is inflicted when whiteness centers itself in marginalized spaces. In this talk, I will discuss what is happening, why it's happening, and provide a strategy that focuses on prioritizing the most vulnerable."
+    }
+  ]
 }

@@ -5,5 +5,13 @@
   "company": "LaunchDarkly",
   "headshot": "/images/heidi-waterhouse.jpg",
   "bio": "Heidi is a developer advocate with LaunchDarkly. She delights in working at the intersection of usability, risk reduction, and cutting-edge technology. One of her favorite hobbies is talking to developers about things they already knew but had never thought of that way before. She sews all her conference dresses so that she's sure there is a pocket for the mic.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "type": "talk",
+      "title": "The Wonderful Thing About Tiggers: Tautology and Business Value",
+      "year": "2019",
+      "desc": "You didn't get that cool programming job because you're a great programmer. You got it because the company you work for wants to make money and they think you can help. It's easy for us to feel like our worth/value/capitalist expression is tied to our employment, but it's also useful to flip that narrative and talk about how our companies need us, and how we can use that understanding to be more valuable employees and even better humans. What is the value that you bring to your employer? Can you articulate it? Can you expand it? Can you take that value and use it for your own purposes?"
+    }
+  ]
 }
