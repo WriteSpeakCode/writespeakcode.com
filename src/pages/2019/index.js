@@ -125,6 +125,7 @@ const Conference2019 = ({ data }) => {
             >
               View schedule
             </Link>
+            <Link
               to="/2019/program/"
               className="link"
               style={{ borderColor: 'var(--orange)', marginRight: '1em' }}
