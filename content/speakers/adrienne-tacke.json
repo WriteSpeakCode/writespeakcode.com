@@ -24,5 +24,13 @@
   ],
   "layout": "speaker",
   "bio": "Adrienne Braganza Tacke is a Filipina software engineer in Las Vegas, the author of the newly released book Coding for Kids: Python, and a dedicated STEM education advocate. As a Code. org volunteer in Las Vegas, she regularly speaks to students of all ages about the power of code and encourages young women and girls to explore a career in software engineering. She enjoys leading by example and sharing her knowledge to help new devs become great ones.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Think Coding is Hard? Try Writing a Kids Book For It!",
+      "desc": "As a software engineer for the last 8 years, I've encountered many technical problems and challenges. The most difficult one? Writing a book to teach kids how to code in Python! I'll give you insights on how I accomplished this monumental task while maintaining a regular 9-5!",
+      "type": "talk"
+    }
+  ]
 }

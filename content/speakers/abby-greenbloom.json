@@ -18,6 +18,14 @@
     }
   ],
   "layout": "speaker",
-  "bio": "Abby Greenbloom is a software developer at Ada Support, in Toronto, Canada.  In addition to software development, Abby mentors engineering students and teaches people in their second careers how to code. Prior to becoming a software developer, Abby studied international development. ",
-  "years": ["2019"]
+  "bio": "Abby Greenbloom is a software developer at Ada Support, in Toronto, Canada.  In addition to software development, Abby mentors engineering students and teaches people in their second careers how to code. Prior to becoming a software developer, Abby studied international development.",
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Managing up",
+      "desc": "No one cares more about your career than you. Whether it’s your first job, or you are an experienced manager we all report to someone. Our managers can’t help us get where we want to go if we don’t talk about it. Without speaking up, your manager is flying blind. This talk will highlight how you can manage your boss to better the daily communications, and guide your long-term career planning. ",
+      "type": "talk"
+    }
+  ]
 }

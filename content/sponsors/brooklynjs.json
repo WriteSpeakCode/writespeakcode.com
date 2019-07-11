@@ -1,0 +1,8 @@
+{
+  "name": "BrooklynJS",
+  "url": "http://brooklynjs.com/",
+  "logo": "/images/brooklynjs.jpg",
+  "sponsorships": [
+    { "year": "2019", "level": "Community Partner", "conf_sponsor": true }
+  ]
+}

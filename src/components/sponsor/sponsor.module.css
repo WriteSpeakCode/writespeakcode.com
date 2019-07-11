@@ -5,15 +5,14 @@
     width: 100%;
     max-width: 13em;
   }
-  figcaption {
+  figcaption,
+  p {
     margin-top: 1em;
+    font-size: 0.9em;
   }
   .level {
     font-weight: var(--semi-bold);
     font-size: 0.9em;
-  }
-  @media screen and (min-width: 65em) {
-    padding: 2em;
   }
   button {
     display: block;

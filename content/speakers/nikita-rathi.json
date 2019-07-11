@@ -20,5 +20,13 @@
   ],
   "layout": "speaker",
   "bio": "Nikita Rathi is an aspiring dog-mum, a yogi, foodie amongst other things and an engineer by training and job history, and a chief empathiser by nature. She has spent her career in the tech industry between Illinois, New York, and Dublin solving problems, writing code, and managing direct reports. She has found herself ever-curious about human relationships and brings that curiosity to her work. Her thoughts and research have led her to think about different perceptions that folks might have based on past experiences and years of socialization and how that impacts the careers of those that are marginalized.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Fierce, Feisty, Fussy… fighting for fair, ungendered feedback",
+      "desc": "\"Kate comes across as too pushy and abrasive in front of clients. Maybe she should try to be more accommodating.\" \"Jim can really be a strong driving force when it comes to convincing clients. His confident approach shows clients we believe in what we’re doing.\" This is an all-too-common example of similar behaviour perceived and evaluated differently based on one’s gender presentation. Does this situation sound familiar? If it does, you’ve probably experienced gendered feedback - a construct that harms everyone and is never fair. In this talk we will discuss how to identify gendered feedback when it’s not so obvious, how it’s having a tangible impact on your career success and how to protect yourself from it while leveraging your peer network.",
+      "type": "talk"
+    }
+  ]
 }

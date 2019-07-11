@@ -1,0 +1,36 @@
+{
+  "name": "Liz Krane",
+  "pronouns": "she/her",
+  "role": "Developer Advocate",
+  "company": "Sentry.io",
+  "headshot": "/images/liz-krane.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "LearningNerd"
+    },
+    {
+      "type": "linkedin",
+      "url": "lizkrane"
+    },
+    {
+      "type": "github",
+      "url": "LearningNerd"
+    },
+    {
+      "type": "website",
+      "url": "https://learningnerd.com/"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Liz Krane is a developer advocate at Sentry and founder of Learn Teach Code, an organization that empowers aspiring developers to lead their own local events to create stronger, more diverse tech communities. She loves finding new ways to combine code with other disciplines like art and music, sharing everything she learns while she tries to learn everything!",
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Give bad talks: An introvert's step-by-step guide to public speaking",
+      "desc": "Even though we all know how much public speaking can advance our careers and increase the visibility of our fellow members of marginalized groups, let's be honest: it's terrifying!!! Especially if you're an introvert or have a social anxiety disorder like I do. In this talk, we'll explore strategies to excel at public speaking and conquer our fears through a series of incremental steps. From vocal variation exercises to video blogging to PowerPoint parties (more fun than it sounds!), I'll share everything that helped me become a public speaker while conquering my social anxiety along the way. In psychology we call this \"systematic desensitization\". I just call it \"lots of small wins over time\"!",
+      "type": "talk"
+    }
+  ]
+}

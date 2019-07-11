@@ -4,9 +4,7 @@
   "name": "Anna Rankin",
   "pronouns": "she/her",
   "role": "Software Engineer",
-  "years": [
-    "2019"
-  ],
+  "years": ["2019"],
   "links": [
     {
       "type": "twitter",
@@ -22,5 +20,13 @@
     }
   ],
   "headshot": "/images/anna-rankin.jpg",
-  "company": "General Assembly"
+  "company": "General Assembly",
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Deeper Understanding & Better Communication through Art & Observation",
+      "desc": "Understanding new concepts and complex systems is hard. Explaining them? That’s even harder. Like anyone in a highly specialized career, software engineers may struggle to convey information concisely, confidently, and clearly to technical and non-technical folks. As an illustrator and former graphic designer, Anna has found that visual art can be the key to both deeper understanding and clearer, more accessible communication. In this talk, we’ll explore why the ability to clearly communicate is vital to mastering complex topics, how to choose the right abstractions to present to a specific audience, and how a different medium can provide a new lens through which to view a familiar concept.",
+      "type": "talk"
+    }
+  ]
 }

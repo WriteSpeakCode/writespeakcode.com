@@ -11,5 +11,13 @@
   ],
   "layout": "speaker",
   "bio": "Backend engineer building payments at Coinbase by day; Painting watercolor, reading privacy law, and eating omelettes by night.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Mind the gap (between technology and morality)",
+      "type": "talk",
+      "desc": "Results of ethical plights make international headlines overnight — from Boeing 737 Max crashes, to Facebook privacy scandals, to 23andMe genetic data sharing, and more. Ethical dilemmas with technology force us to confront difficult a questions: who gets the last word when it comes to making money or doing what’s right? And: whose job is it to decide? In this talk, we’ll examine why ethics in technology is uniquely challenging to address, and explore how to equip ourselves for an active role in making sure everybody does good."
+    }
+  ]
 }

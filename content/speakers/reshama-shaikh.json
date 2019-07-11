@@ -2,7 +2,7 @@
   "name": "Reshama Shaikh",
   "pronouns": "she/her",
   "role": "Independent Statistician",
-  "company": "Debt Trader",
+  "company": "WiMLDS",
   "headshot": "/images/reshama-shaikh.jpg",
   "links": [
     {
@@ -24,5 +24,13 @@
   ],
   "layout": "speaker",
   "bio": "Reshama is a freelance data scientist/statistician with skills in Python, R and SAS. She has a background as a biostatistician in the pharmaceutical industry, where she worked for over 10 years. She also taught math and statistics for 2 years at Temple University. She is an organizer of the meetups group NYC Women in Machine Learning & Data Science and NYC PyLadies. Her interests include:  statistics, deep learning, python, open source, diversity & inclusion, education, technology, leadership and strategic change.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Opening the Door to Open Source and More, by Getting Git",
+      "desc": "Git is the most widely used open source version control system. Git, like any language, opens the door to a world of possibilities, including contributing to open source, collaborating with others on projects, showcasing your code work publicly, hosting a blog and so much more! Git and tech, go hand in hand.",
+      "type": "workshop"
+    }
+  ]
 }

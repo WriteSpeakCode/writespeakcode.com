@@ -12,5 +12,13 @@
   ],
   "layout": "speaker",
   "bio": "Karen is a Software Engineer and People Manager at Pivotal. She is also active in advocating for diversity and inclusion at Pivotal in order to help build a supportive environment where everyone can do their best work. She is passionate about helping people be more productive and is always looking for opportunities to experiment with and improve on processes. In her spare time, she enjoys teaching dance, hiking and making things with yarn.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "How facilitation can help you achieve more in your meetings",
+      "desc": "Are you frustrated with meetings? Do you struggle to manage difficult personalities? Do you feel like you spend hours talking, but never reach a decision? These are all problems that can be solved with facilitation! I have been training and practicing facilitation in my company for the last several months and have seen the benefits it can bring. In this talk, I will share with you the ways that facilitation can transform your meetings to improve efficiency, outcomes, and happiness and will give you some techniques for how you can start to practice facilitation in your work.",
+      "type": "talk"
+    }
+  ]
 }
