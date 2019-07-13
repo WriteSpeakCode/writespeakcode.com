@@ -1,9 +1,18 @@
 {
+  "talks": [
+    {
+      "year": "2019",
+      "title": "How Privilege Defines Performance",
+      "desc": "In theory, web performance, accessibility, and inclusive design and development all have similar goals: Provide the best, most consistent experience to all people using the minimal amount of resources. In practice, this often falls apart. Product creators define what it means to be performant from where they stand, which is typically from places of privilege with unseen biases, struggling to find true empathy with their users. Through this talk, we'll examine how to build conscientiously, looking within to resist systematic problems in order to create more truly performant, accessible, and inclusive systems for our users."
+    }
+  ],
+  "bio": "Tatiana Mac is an independent American designer who works directly with organisations to build clear and coherent products and design systems. She believes the trifecta of accessibility, performance, and inclusion can work symbiotically to improve our social landscape digitally and physically. When ethically-minded, she thinks technologists can dismantle exclusionary systems in favour of community-focused, inclusive ones. Never totally pleased with design tools, she designs in browser to bring performant, semantic, and accessible visual narratives into the web. Her current obsessions are optimising variable fonts, converting raster images into to SVGs, and recreating modernist paintings in CSS grid. When she can successfully escape vim, she finds new countries to explore (33 and counting).",
   "name": "Tatiana Mac",
   "pronouns": "she/they",
   "role": "Inclusive & Accessible Designer",
-  "company": "Debt Trader",
-  "headshot": "/images/tatiana-mac.jpg",
+  "years": [
+    "2019"
+  ],
   "links": [
     {
       "type": "twitter",
@@ -22,15 +31,6 @@
       "url": "https://www.tatianamac.com"
     }
   ],
-  "layout": "speaker",
-  "bio": "Tatiana Mac is an independent American designer who works directly with organisations to build clear and coherent products and design systems. She believes the trifecta of accessibility, performance, and inclusion can work symbiotically to improve our social landscape digitally and physically. When ethically-minded, she thinks technologists can dismantle exclusionary systems in favour of community-focused, inclusive ones. Never totally pleased with design tools, she designs in browser to bring performant, semantic, and accessible visual narratives into the web. Her current obsessions are optimising variable fonts, converting raster images into to SVGs, and recreating modernist paintings in CSS grid. When she can successfully escape vim, she finds new countries to explore (33 and counting).",
-  "years": ["2019"],
-  "talks": [
-    {
-      "year": "2019",
-      "title": "How Privilege Defines Performance",
-      "desc": "In theory, web performance, accessibility, and inclusive design and development all have similar goals: Provide the best, most consistent experience to all people using the minimal amount of resources. In practice, this often falls apart. Product creators define what it means to be performant from where they stand, which is typically from places of privilege with unseen biases, struggling to find true empathy with their users. Through this talk, we'll examine how to build conscientiously, looking within to resist systematic problems in order to create more truly performant, accessible, and inclusive systems for our users.",
-      "type": "talk"
-    }
-  ]
+  "headshot": "/images/tatiana-mac.jpg",
+  "company": "Independent"
 }
