@@ -1,5 +1,27 @@
 {
   "name": "Liz Fong-Jones",
+  "role": "Principal Developer Advocate",
+  "company": "Honeycomb.io",
+  "headshot": "/images/liz-fong-jones.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "lizthegrey"
+    },
+    {
+      "type": "linkedin",
+      "url": "efong"
+    },
+    {
+      "type": "github",
+      "url": "lizthegrey"
+    },
+    {
+      "type": "website",
+      "url": "https://www.lizthegrey.com/"
+    }
+  ],
   "layout": "speaker",
-  "years": []
+  "bio": "Liz is a developer advocate, labor and ethics organizer, and Site Reliability Engineer (SRE) with 15+ years of experience. She is an advocate at Honeycomb.io for the SRE and Observability communities, and previously was an SRE working on products ranging from the Google Cloud Load Balancer to Google Flights. She lives in Brooklyn with her wife Elly, metamours, and a Samoyed/Golden Retriever mix, and in San Francisco and Seattle with her other partners. She plays classical piano, leads an EVE Online alliance, and advocates for transgender rights as a board member of the National Center for Transgender Equality.",
+  "years": ["2019"]
 }
