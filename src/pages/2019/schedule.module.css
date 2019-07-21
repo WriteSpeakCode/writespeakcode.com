@@ -1,8 +1,9 @@
 .schedule {
-  padding: 3em;
+  padding: 1em;
 }
 
 .tab {
+  padding-top: 1em;
   text-align: left;
   width: 100%;
   background-color: transparent;
@@ -14,13 +15,82 @@
   &:focus,
   &[data-selected] {
     border-bottom: 4px solid var(--navy);
-    background-color: var(--mint);
+    background-color: #aeebc9;
+  }
+}
+
+.subtab {
+  composes: tab;
+  padding: 0.5em;
+  font-weight: var(--semi-bold);
+}
+
+.subtabpanels {
+  margin: 1em;
+  .event {
+    padding: 0.5em 1em;
+  }
+}
+
+/* Event */
+.event {
+  padding: 0.5em 1em;
+  &:nth-of-type(even) {
+    background-color: #e6f9ee;
+  }
+}
+
+.title {
+  font-weight: var(--bold);
+  font-size: 1.1em;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.time {
+  font-size: 1em;
+  font-weight: var(--regular);
+  text-decoration: underline;
+}
+
+.icon {
+  margin-right: 0.5em;
+}
+
+.type {
+  font-weight: var(--light);
+}
+
+.dialogButton {
+  display: block;
+  color: var(--navy);
+  background: transparent;
+  font-weight: var(--semi-bold);
+  padding-bottom: 0.25em;
+  margin-top: 1em;
+  border-color: inherit;
+  border-style: solid;
+  font-size: 0.9em;
+  border-width: 2px;
+  &:hover {
+    cursor: pointer;
+    color: var(--tan);
   }
 }
 
 @media screen and (min-width: 30em) {
+  .schedule {
+    padding: 3em;
+  }
+
   .tablist {
     display: flex;
+  }
+
+  .subtablist {
+    composes: tablist;
+    padding: 0 1em;
   }
 
   .tab {
