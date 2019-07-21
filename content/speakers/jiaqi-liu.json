@@ -1,0 +1,18 @@
+{
+  "name": "Jiaqi Liu",
+  "pronouns": "she/her",
+  "role": "Tech Lead",
+  "company": "Button",
+  "headshot": "/images/jiaqi-liu.jpg",
+  "layout": "speaker",
+  "bio": "Jiaqi is a Tech Lead at Button in NYC. At work, she leads a product team that builds the platform for powering a mobile eCommerce experience. She is passionate about building strong engineering culture and designing system and data architectures that are scalable and observable while leading a product team. Jiaqi is also a Director for the NYC Women Who Code Network.",
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "How to Craft an Interdisciplinary Career Path",
+      "desc": "When you think about your career, do you find yourself torn between two fields? Traditional companies may make it seem like you have to choose, but we think differently. As “hybrid” engineers, we’ll discuss how we combined our passion for other disciplines with software to build meaningful career paths.",
+      "type": "fireside chat"
+    }
+  ]
+}
