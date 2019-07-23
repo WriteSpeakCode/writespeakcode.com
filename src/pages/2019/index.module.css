@@ -11,6 +11,16 @@
   }
 }
 
+.notification {
+  font-weight: var(--semi-bold);
+  background-color: var(--mint);
+  padding: 1em 3em;
+  .icon {
+    margin-right: 1em;
+    width: 1em;
+  }
+}
+
 .location,
 .schedule {
   .row {
