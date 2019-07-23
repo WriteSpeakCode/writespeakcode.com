@@ -3,6 +3,7 @@
   "pronouns": "she/her",
   "role": "MSc Student/Graduate Researcher",
   "company": "School of Interactive Arts + Technology, Simon Fraser University",
+  "headshot": "/images/elgin-mclaren.jpg",
   "links": [
     {
       "type": "twitter",
@@ -27,9 +28,9 @@
   "talks": [
     {
       "year": "2019",
-      "title": "Shitty robot fight club",
+      "title": "DIY robot fight club",
       "type": "workshop",
-      "desc": "Work in teams to build a node-powered battle bot and compete to be the *ultimate shitty robot champion.* In this workshop participants will combine cardboard, circuits and open source software to learn about working with hardware. Everyone is welcome, no experience required. Laptop with node installed may be helpful, but is not necessary. First rule of shitty robot fight club - have fun!"
+      "desc": "Work in teams to build a node-powered battle bot and compete to be the *ultimate DIY robot champion.* In this workshop participants will combine cardboard, circuits and open source software to learn about working with hardware. Everyone is welcome, no experience required. Laptop with node installed may be helpful, but is not necessary. First rule of DIY robot fight club - have fun!"
     }
   ]
 }

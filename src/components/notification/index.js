@@ -10,7 +10,7 @@ const Notification = () => (
     <FontAwesomeIcon icon={faBullhorn} aria-hidden className={styles.icon} />
     #WSC2019Conf &mdash; August 16&ndash;18 in San Francisco:{' '}
     <Link to="/2019/" className="link">
-      Register now
+      Learn more
     </Link>
   </div>
 )

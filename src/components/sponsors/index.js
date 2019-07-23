@@ -18,6 +18,7 @@ import github from '../../../content/sponsors/github.json'
 import adhoc from '../../../content/sponsors/adhoc.json'
 import climatecorp from '../../../content/sponsors/climate-corporation.json'
 import onramp from '../../../content/sponsors/onramp.json'
+import microsoft from '../../../content/sponsors/microsoft.json'
 
 // Community Partners
 import girlgeekx from '../../../content/sponsors/girlgeekx.json'
@@ -106,6 +107,15 @@ const Sponsors = ({ sponsors, isConference }) => {
               <Sponsor company={vts} level="Local Meetup - NYC" />
               <Sponsor company={glympse} level="Local Meetup - SEA" />{' '}
               <Sponsor company={climatecorp} level="Local Meetup - SEA + SF" />
+              <Sponsor company={microsoft} level="Conference Topic Dinner" />
+            </div>
+          </section>
+        )}
+        {isConference && (
+          <section className={[styles['other'], styles.levelSection].join(' ')}>
+            <h3 className={styles.heading}>Other</h3>
+            <div className={styles.grid}>
+              <Sponsor company={microsoft} level="Conference Topic Dinner" />
             </div>
           </section>
         )}

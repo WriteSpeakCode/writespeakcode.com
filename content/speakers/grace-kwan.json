@@ -1,0 +1,18 @@
+{
+  "name": "Grace Kwan",
+  "pronouns": "she/her",
+  "role": "Interaction and Software Designer",
+  "company": "IDEO Tokyo",
+  "headshot": "/images/grace-kwan.jpg",
+  "layout": "speaker",
+  "bio": "Grace is an Interaction and Software Designer at IDEO Tokyo. At work, she brings abstract concepts to life through human-centered design and creative code. Before that, she was a frontend engineer at online learning and mobile commerce startups in the Bay Area and New York City. Outside of the office, you can find her tinkering in the kitchen, coming up with new recipes.",
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "How to Craft an Interdisciplinary Career Path",
+      "desc": "When you think about your career, do you find yourself torn between two fields? Traditional companies may make it seem like you have to choose, but we think differently. As “hybrid” engineers, we’ll discuss how we combined our passion for other disciplines with software to build meaningful career paths.",
+      "type": "fireside chat"
+    }
+  ]
+}

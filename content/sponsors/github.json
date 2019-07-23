@@ -2,8 +2,12 @@
   "name": "Github",
   "url": "https://www.github.com/",
   "logo": "/images/github.jpg",
-  "text": "GitHub is how people build software. Millions of individuals and organizations around the world use GitHub to discover, share, and collaborate on software—from games and experiments to popular frameworks and leading applications. Together, we're defining how software is built today.<br /> <br/>Whether you use GitHub.com or GitHub Enterprise on your own servers, you can access one of the world's largest developer communities to build software in the way that works best for you. Choose your deployment option and integrate your favorite third party tools into a powerful, collaborative workflow.",
+  "text": "GitHub is the developer company. We make it easier for you to be a developer: to work together, to solve challenging problems, and to create the world’s most important technologies. We foster a collaborative community where you can come together to create the future of software and make a difference in the world.<br/><br/>The GitHub platform is where you can create, share, and ship the best code possible. Whether you are a student, hobbyist, consultant, enterprise professional, partner or executive, GitHub allows you to build software in the way that works best for you.<br/><br/>GitHub is much more than code. It is the home of open source collaboration. It is where new developers get started and where experienced developers expand their knowledge. It is a community where you can come together to solve the unsolvable and test the limits of what software can do.",
   "sponsorships": [
-    { "year": "2019", "level": "Platinum", "conf_sponsor": true }
+    {
+      "year": "2019",
+      "level": "Platinum",
+      "conf_sponsor": true
+    }
   ]
 }
