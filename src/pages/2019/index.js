@@ -76,9 +76,14 @@ const Conference2019 = ({ data }) => {
         />
         We're looking for help during the conference in exchange for a free
         ticket:{' '}
-        <Link className="link" to="/2019/volunteer/">
+        <a
+          className="link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfAwc5J_hBm0jg7c9ZRMS4X_fw9krJBAwEDEZPzhGjUZwmt4Q/viewform?usp=sf_link"
+        >
           Become a volunteer
-        </Link>
+        </a>
       </div>
 
       <section

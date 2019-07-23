@@ -1,7 +1,0 @@
-.container {
-  padding: 1em;
-  background-color: #ebf7ef;
-  @media screen and (min-width: 50em) {
-    padding: 3em;
-  }
-}
