@@ -1,0 +1,36 @@
+{
+  "name": "Dana Lawson",
+  "pronouns": "",
+  "role": "",
+  "company": "",
+  "headshot": "",
+  "links": [
+    {
+      "type": "twitter",
+      "url": ""
+    },
+    {
+      "type": "linkedin",
+      "url": ""
+    },
+    {
+      "type": "github",
+      "url": ""
+    },
+    {
+      "type": "website",
+      "url": ""
+    }
+  ],
+  "layout": "speaker",
+  "bio": "",
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "",
+      "desc": "",
+      "type": "talk"
+    }
+  ]
+}
