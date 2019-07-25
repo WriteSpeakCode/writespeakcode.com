@@ -1,0 +1,8 @@
+{
+  "name": "Lob",
+  "url": "https://lob.com/",
+  "logo": "/images/lob.jpg",
+  "sponsorships": [
+    { "year": "2019", "level": "Local Meetup - SF", "conf_sponsor": false }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Kapor Center",
+  "url": "https://kaporcenter.org/",
+  "logo": "/images/kapor-center.jpg",
+  "sponsorships": [{ "year": "2019", "level": "Bronze", "conf_sponsor": true }]
+}
