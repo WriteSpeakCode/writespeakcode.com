@@ -24,5 +24,13 @@
   ],
   "layout": "speaker",
   "bio": "Kara Carrell is a Developer by day, CommuniTechie by night, and a Queer Blaxican changemaker always. Kara codes at Table XI, a software development consultancy dedicated to tech done right, and she’s an advocate for under-indexed folks in the community through her work as a Chapter Organizer for Write/Speak/Code. Kara enjoys communicating through gifs, zines, playlists, and astrological birth charts. She lives in Chicago, and is the human of the cutest dog EVAR, Sadie.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "type": "workshop",
+      "desc": "Getting a team together, and don't want to try the traditional ice breakers again? Get to that Psychological Safety by get-ZINE to know you! This workshop will guide you through the process of using this zine for you and your colleagues to know more about eachother, and get to some understanding for establishing awareness and trust.",
+      "title": "Get Zine To Know You - A Workshop for team building through Zines"
+    }
+  ]
 }

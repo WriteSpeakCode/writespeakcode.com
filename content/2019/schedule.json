@@ -447,8 +447,172 @@
         "title": "Breakfast & Registration"
       },
       {
+        "time": "9:20 AM",
+        "title": "Sponsor Talk"
+      },
+      {
+        "time": "9:30 AM",
+        "name": "Kim Crayton"
+      },
+      {
+        "time": "9:50 AM",
+        "title": "Sponsor Talk"
+      },
+      {
+        "time": "10:00 AM",
+        "name": "Brianna Wu"
+      },
+      {
+        "time": "10:30 AM",
+        "title": "Sponsor Talk"
+      },
+      {
+        "time": "10:40 AM",
+        "title": "Mingle & Break"
+      },
+      {
+        "tracks": [
+          {
+            "title": "Write Track",
+            "events": [
+              {
+                "time": "11:10am",
+                "name": "Kara Carrell"
+              }
+            ]
+          },
+          {
+            "title": "Speak Track",
+            "events": [
+              {
+                "time": "11:10am",
+                "name": "Aisha Blake"
+              }
+            ]
+          },
+          {
+            "title": "Code Track",
+            "events": [
+              {
+                "time": "11:10am",
+                "title": "Curriculum"
+              }
+            ]
+          },
+          {
+            "title": "Self Track",
+            "events": [
+              {
+                "time": "11:10am",
+                "title": "Organizing your way to a healthy career"
+              },
+              {
+                "time": "11:40am",
+                "name": "Alex Qin"
+              },
+              {
+                "time": "12:10pm",
+                "name": "Tilde Ann Thurium"
+              },
+              {
+                "time": "12:40pm",
+                "name": "Wendy Gwo"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "time": "1:00 PM",
         "title": "Lunch"
+      },
+      {
+        "tracks": [
+          {
+            "title": "Write Track",
+            "events": [
+              {
+                "time": "2:00 PM",
+                "title": "Github Sponsored Workshop"
+              }
+            ]
+          },
+          {
+            "title": "Speak Track",
+            "events": [
+              {
+                "time": "2:00 PM",
+                "name": "Liz Krane"
+              },
+              {
+                "time": "2:30 PM",
+                "name": "Karen Huddleston"
+              },
+              {
+                "time": "3:00 PM",
+                "name": "Abby Greenbloom"
+              },
+              {
+                "time": "3:30 PM",
+                "name": ""
+              }
+            ]
+          },
+          {
+            "title": "Code Track",
+            "events": [
+              {
+                "time": "2:00 PM",
+                "title": "Curriculum"
+              }
+            ]
+          },
+          {
+            "title": "Self Track",
+            "events": [
+              {
+                "time": "2:00 PM",
+                "name": "Hilary Stohs-Krause"
+              },
+              {
+                "time": "2:30 PM",
+                "name": "Zainab Ebrahimi"
+              },
+              {
+                "time": "3:00 PM",
+                "name": "Nitya Narasimhan"
+              },
+              {
+                "time": "3:30 PM",
+                "name": "Valerie Sharp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": "4:00 PM",
+        "title": "Snacks & Sponsor Mingling"
+      },
+      {
+        "time": "4:30 PM",
+        "title": "Attendee Talks"
+      },
+      {
+        "time": "4:50 PM",
+        "title": "Sponsor Talk"
+      },
+      {
+        "time": "5:00 PM",
+        "title": "Sponsor Talk"
+      },
+      {
+        "time": "5:10 PM",
+        "name": "Cindy Alvarez"
+      },
+      {
+        "time": "5:30 PM",
+        "title": "Announcements & Feedback"
       }
     ]
   }

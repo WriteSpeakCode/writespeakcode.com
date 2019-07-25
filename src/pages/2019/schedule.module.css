@@ -79,7 +79,10 @@
   font-size: 1em;
   font-weight: var(--regular);
   border-bottom: 1px solid #ccc;
-  padding-bottom: 0.25em;
+}
+
+.grid {
+  margin-top: 1em;
 }
 
 .icon {
@@ -133,6 +136,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-column-gap: 1em;
+    margin-top: 0;
   }
 
   .tab {
