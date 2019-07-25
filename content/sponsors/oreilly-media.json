@@ -1,0 +1,6 @@
+{
+  "name": "O'Reilly Media",
+  "url": "https://www.oreilly.com/",
+  "logo": "/images/oreilly-media.svg",
+  "sponsorships": [{ "year": "2019", "level": "Silver", "conf_sponsor": true }]
+}

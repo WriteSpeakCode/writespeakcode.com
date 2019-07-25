@@ -1,0 +1,8 @@
+{
+  "name": "Clever",
+  "url": "https://clever.com/",
+  "logo": "/images/clever.jpg",
+  "sponsorships": [
+    { "year": "2019", "level": "Local Meetup - SF", "conf_sponsor": false }
+  ]
+}

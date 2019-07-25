@@ -1,0 +1,8 @@
+{
+  "name": "Indeed",
+  "url": "https://www.indeed.com/",
+  "logo": "/images/indeed.jpg",
+  "sponsorships": [
+    { "year": "2019", "level": "Own Your Expertise", "conf_sponsor": false }
+  ]
+}
