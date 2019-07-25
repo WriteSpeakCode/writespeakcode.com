@@ -7,8 +7,10 @@ import { SpeakerDialog } from '../../components/speaker'
 
 import styles from './schedule.module.css'
 
+import schedule from '../../../content/2019/schedule.json'
+
 const Event = ({ name, time, speakers, title, additionalNames }) => {
-  if (!speakers) {
+  if (!name) {
     return (
       <section className={styles.event}>
         <div>
@@ -35,12 +37,20 @@ const Event = ({ name, time, speakers, title, additionalNames }) => {
         <div>
           <span className={styles.time}>{time}</span>
           <div className={styles.grid}>
-            <details>
-              <summary>
+            {!talk.desc && (
+              <div className={styles.grid}>
                 <h3 className={styles.title}>{talk.title}</h3>
-              </summary>
-              <p>{talk.desc}</p>
-            </details>
+              </div>
+            )}
+
+            {talk.desc && (
+              <details>
+                <summary>
+                  <h3 className={styles.title}>{talk.title}</h3>
+                </summary>
+                <p>{talk.desc}</p>
+              </details>
+            )}
 
             <div>
               {allSpeakers.map(s => (
@@ -67,8 +77,39 @@ const Event = ({ name, time, speakers, title, additionalNames }) => {
   }
 }
 
+const Tracks = ({ tracks, speakers }) => {
+  return (
+    <Tabs className={styles.subTabs}>
+      <TabList className={styles.subTabList}>
+        {tracks.map(track => (
+          <Tab className={styles.subTab}>
+            <h1 className={styles.tabTitle}>{track.title}</h1>
+          </Tab>
+        ))}
+      </TabList>
+
+      <TabPanels className={styles.subTabPanels}>
+        {tracks.map(track => (
+          <TabPanel>
+            {track.events.map(event => (
+              <Event
+                name={event.name}
+                title={event.title}
+                time={event.time}
+                additionalNames={event.additionalNames}
+                speakers={speakers}
+              />
+            ))}
+          </TabPanel>
+        ))}
+      </TabPanels>
+    </Tabs>
+  )
+}
+
 const Schedule = ({ data }) => {
   const speakers = data.allSpeakersJson.nodes
+
   return (
     <ConfLayout subpage={true}>
       <SEO title="Schedule | 2019 Conference" />
@@ -76,188 +117,35 @@ const Schedule = ({ data }) => {
         <h1 className="title">Schedule</h1>
         <Tabs>
           <TabList className={styles.tablist}>
-            <Tab className={styles.tab}>
-              <h1 className={styles.tabTitle}>Write / Visibility Day</h1>
-            </Tab>
-            <Tab className={styles.tab}>
-              <h1 className={styles.tabTitle}>Speak / Leadership Day</h1>
-            </Tab>
-            <Tab className={styles.tab}>
-              <h1 className={styles.tabTitle}>Code / Project Day</h1>
-            </Tab>
+            {schedule.map(day => (
+              <Tab className={styles.tab}>
+                <h1 className={styles.tabTitle}>{day.title}</h1>
+              </Tab>
+            ))}
           </TabList>
 
           <TabPanels className={styles.tabPanels}>
-            <TabPanel>
-              <div className={styles.day}>
-                <h2 className="subtitle">Fri Aug 18, 2019</h2>
-              </div>
+            {schedule.map(day => (
+              <TabPanel>
+                <div className={styles.day}>
+                  <h2 className="subtitle">{day.date}</h2>
+                </div>
 
-              <Event title="Breakfast & Registration" time="8:00 AM" />
-              <Event title="Welcome & Code of Conduct" time="9:00 AM" />
-
-              <Event name="Dana Lawson" time="9:30 AM" speakers={speakers} />
-              <Event
-                name="Liz Fong-Jones"
-                time="10:00 AM"
-                speakers={speakers}
-              />
-
-              <Event title="Sponsor Talk / Mingle / Break" time="10:30 AM" />
-
-              <Tabs className={styles.subTabs}>
-                <TabList className={styles.subTabList}>
-                  <Tab className={styles.subTab}>
-                    <h4 className={styles.tabTitle}>Write Track</h4>
-                  </Tab>
-                  <Tab className={styles.subTab}>
-                    <h4 className={styles.tabTitle}>Speak Track</h4>
-                  </Tab>
-                  <Tab className={styles.subTab}>
-                    <h4 className={styles.tabTitle}>Code Track</h4>
-                  </Tab>
-                  <Tab className={styles.subTab}>
-                    <h4 className={styles.tabTitle}>Self Track</h4>
-                  </Tab>
-                </TabList>
-
-                <TabPanels className={styles.subTabPanels}>
-                  <TabPanel>
+                {day.events.map(event =>
+                  event.tracks ? (
+                    <Tracks tracks={event.tracks} speakers={speakers} />
+                  ) : (
                     <Event
-                      title="Foundations of Thought Leadership: Reframing your Narrative"
-                      time="11:00 AM"
-                    />
-                    <Event
-                      title="No Blank Spaces: Tapping Into Our Expertise"
-                      time="12:10 PM"
-                    />
-                  </TabPanel>
-                  <TabPanel>
-                    <Event
-                      title="Foundations of Thought Leadership: Reframing your Narrative"
-                      time="11:00 AM"
-                    />
-                    <Event
-                      name="Lilah Sturges"
-                      time="12:00 PM"
+                      name={event.name}
+                      title={event.title}
+                      time={event.time}
+                      additionalNames={event.additionalNames}
                       speakers={speakers}
                     />
-                    <Event
-                      name="Eileen Whitener"
-                      time="12:30 PM"
-                      speakers={speakers}
-                    />
-                  </TabPanel>
-                  <TabPanel>
-                    <Event
-                      title="Foundations of Thought Leadership: Reframing your Narrative"
-                      time="11:00 AM"
-                    />
-                    <Event
-                      name="Patricia Realini"
-                      time="12:00 PM"
-                      speakers={speakers}
-                    />
-                    <Event
-                      name="Karina Kotval"
-                      time="12:30 PM"
-                      speakers={speakers}
-                    />
-                  </TabPanel>
-                  <TabPanel>
-                    <Event
-                      name="Nikita Rathi"
-                      time="11:00 AM"
-                      speakers={speakers}
-                      additionalNames={['Katrina Bakas']}
-                    />
-                    <Event
-                      name="Duretti Hirpa"
-                      time="11:30 AM"
-                      speakers={speakers}
-                    />
-                    <Event
-                      name="Nancy Hawa"
-                      time="12:00 PM"
-                      speakers={speakers}
-                    />
-                    <Event
-                      name="Nicole Leffel"
-                      time="12:30 PM"
-                      speakers={speakers}
-                    />
-                  </TabPanel>
-                </TabPanels>
-              </Tabs>
-              <Event title="Lunch" time="1:00 PM" />
-
-              <Tabs className={styles.subTabs}>
-                <TabList className={styles.subTabList}>
-                  <Tab className={styles.subTab}>
-                    <h4 className={styles.tabTitle}>Write Track</h4>
-                  </Tab>
-                  <Tab className={styles.subTab}>
-                    <h4 className={styles.tabTitle}>Speak Track</h4>
-                  </Tab>
-                  <Tab className={styles.subTab}>
-                    <h4 className={styles.tabTitle}>Code Track</h4>
-                  </Tab>
-                  <Tab className={styles.subTab}>
-                    <h4 className={styles.tabTitle}>Self Track</h4>
-                  </Tab>
-                </TabList>
-
-                <TabPanels className={styles.subTabPanels}>
-                  <TabPanel>
-                    <Event title="Publishers Panel" time="2:00 PM" />
-                    <Event title="Curriculum" time="3:00 PM" />
-                  </TabPanel>
-                  <TabPanel>
-                    <Event title="Improv" time="2:00 PM" />
-                  </TabPanel>
-                  <TabPanel>
-                    <Event
-                      name="Eva PenzeyMoog"
-                      time="2:00 PM"
-                      speakers={speakers}
-                    />
-                    <Event
-                      name="M. K. Fain"
-                      time="2:30 PM"
-                      speakers={speakers}
-                    />
-                    <Event
-                      name="Anastasia Santasheva"
-                      time="3:00 PM"
-                      speakers={speakers}
-                    />
-                    <Event
-                      name="Lexi Galantino"
-                      time="3:30 PM"
-                      speakers={speakers}
-                    />
-                  </TabPanel>
-                  <TabPanel>
-                    <Event
-                      name="Neem Serra"
-                      time="2:00 PM"
-                      speakers={speakers}
-                    />
-                  </TabPanel>
-                </TabPanels>
-              </Tabs>
-              <Event title="Snacks & Sponsor Mingling" time="4:00 PM" />
-              <Event title="Sponsor Talk" time="5:00 PM" />
-              <Event title="Sponsor Talk" time="5:10 PM" />
-              <Event name="Aubrey Blanche" time="5:20 PM" speakers={speakers} />
-              <Event title="Announcements & Feedback" time="5:40 PM" />
-            </TabPanel>
-            <TabPanel>
-              <p>two!</p>
-            </TabPanel>
-            <TabPanel>
-              <p>three!</p>
-            </TabPanel>
+                  )
+                )}
+              </TabPanel>
+            ))}
           </TabPanels>
         </Tabs>
       </section>

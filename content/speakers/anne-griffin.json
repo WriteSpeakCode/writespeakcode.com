@@ -24,5 +24,12 @@
   ],
   "layout": "speaker",
   "bio": "Anne is a Product Manager at Priceline, and recently worked in the blockchain space at legal tech start up OpenLaw. Her focus is on growth and emerging technologies with a degree in engineering from the University of Michigan. She is passionate about the practical human aspects of technology and building AI and blockchain products rooted in the realities of the human experience. She is also an Emerging Tech Correspondent for Tech 2025, a platform and community for learning about, and discussing emerging technologies. Additionally, she serves on the Rutgers University Big Data Certificate program Advisory Board and has guest lectured at Morgan State University and the University of Montreal on blockchain.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Human First, Product Second",
+      "type": "talk"
+    }
+  ]
 }
