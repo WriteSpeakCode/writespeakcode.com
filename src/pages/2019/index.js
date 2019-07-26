@@ -4,7 +4,7 @@ import Img from 'gatsby-image'
 import { TwitterTweetEmbed } from 'react-twitter-embed'
 import { CarouselProvider, Slider, Slide, DotGroup } from 'pure-react-carousel'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBullhorn } from '@fortawesome/free-solid-svg-icons'
+import { faBullhorn, faStar } from '@fortawesome/free-solid-svg-icons'
 
 import ConfLayout from '../../layouts/conference'
 import Sponsors from '../../components/sponsors'
@@ -84,6 +84,22 @@ const Conference2019 = ({ data }) => {
         >
           Become a volunteer
         </a>
+      </div>
+
+      <div
+        className={styles.notification}
+        style={{ backgroundColor: 'var(--blush)' }}
+      >
+        <FontAwesomeIcon icon={faStar} aria-hidden className={styles.icon} />
+        <a
+          className="link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="http://bit.ly/2019wscscholarship"
+        >
+          Apply for a scholarship
+        </a>{' '}
+        to #WSC2019conf! Applications due Sunday, July 28th
       </div>
 
       <section
