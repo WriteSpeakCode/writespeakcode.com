@@ -115,7 +115,7 @@
               },
               {
                 "time": "3:00 PM",
-                "title": "Curriculum"
+                "name": "Angie Jones"
               }
             ]
           },
@@ -171,7 +171,7 @@
             "events": [
               {
                 "time": "4:30 PM",
-                "title": "Curriculum"
+                "name": "Angie Jones"
               }
             ]
           },
@@ -283,7 +283,7 @@
             "events": [
               {
                 "time": "11:10am",
-                "title": "Curriculum"
+                "name": "Alex Millatmal"
               }
             ]
           },
@@ -351,7 +351,7 @@
               },
               {
                 "time": "3:00 PM",
-                "title": "Curriculum"
+                "name": "Alex Millatmal"
               }
             ]
           },
@@ -404,7 +404,7 @@
             "events": [
               {
                 "time": "4:30 PM",
-                "title": "Curriculum"
+                "name": "Alex Millatmal"
               }
             ]
           },
@@ -504,7 +504,7 @@
             "events": [
               {
                 "time": "11:10am",
-                "title": "Curriculum"
+                "name": "Courteney Ervin"
               }
             ]
           },
@@ -568,7 +568,7 @@
             "events": [
               {
                 "time": "2:00 PM",
-                "title": "Curriculum"
+                "name": "Courteney Ervin"
               }
             ]
           },

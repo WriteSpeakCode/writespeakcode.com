@@ -1,0 +1,26 @@
+{
+  "name": "Courteney Ervin",
+  "pronouns": "she/her",
+  "role": "Software Engineer",
+  "company": "Teachers Pay Teachers",
+  "headshot": "/images/courteney-ervin.jpg",
+  "layout": "speaker",
+  "bio": "",
+  "years": ["2019"],
+  "links": [
+    {
+      "type": "twitter",
+      "url": "courteneyervin"
+    },
+    {
+      "type": "linkedin",
+      "url": "courteneyervin"
+    }
+  ],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Code Day Curriculum"
+    }
+  ]
+}
