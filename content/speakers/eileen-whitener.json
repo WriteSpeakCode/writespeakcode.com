@@ -11,13 +11,5 @@
   ],
   "layout": "speaker",
   "bio": "Eileen is a technical writer, writing instructor, and public speaker.",
-  "years": ["2019"],
-  "talks": [
-    {
-      "title": "A Crash Course in Off-the-Cuff Speaking",
-      "desc": "Whether delivering a status report to a manager or engaging with questions at the end of a presentation, we all face moments when we need to deliver thoughtful, strategic messages on the fly. As with any public-speaking skill, extemporaneous speaking becomes easier with practice--but there are also specific tactics that can help speakers appear (and become) more confident when they need to leave their notes behind.",
-      "year": "2019",
-      "type": "talk"
-    }
-  ]
+  "years": ["2019"]
 }

@@ -13,7 +13,6 @@ import {
   faLaptopCode,
   faVolumeUp,
   faFire,
-  faStar,
 } from '@fortawesome/free-solid-svg-icons'
 import { parameterize } from '../../utils/helpers'
 
@@ -55,7 +54,6 @@ export const SpeakerDialog = ({
     workshop: faLaptopCode,
     talk: faVolumeUp,
     'fireside chat': faFire,
-    keynote: faStar,
   }
   return (
     <Dialog

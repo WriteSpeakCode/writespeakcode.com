@@ -43,13 +43,6 @@ const menu = (
     </button>
     <button
       onClick={() => {
-        navigate('/2019/schedule')
-      }}
-    >
-      Schedule
-    </button>
-    <button
-      onClick={() => {
         navigate('/2019/#sponsorship')
       }}
     >

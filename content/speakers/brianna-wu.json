@@ -15,11 +15,5 @@
   "layout": "speaker",
   "bio": "Brianna Wu is a Democratic candidate for the United States Congress in the Massachusetts 8th District.  She is a computer programmer, cyber security expert, and small business owner with a proven track record of standing up for progressive values. Brianna founded and runs her own independent technology firm in Dedham, Massachusetts. She also hosts several long-running podcasts on both tech and culture, including “Rocket” on Relay FM. Brianna came to national prominence when she and other women working in the tech industry were personally targeted by alt-right hate groups, including one spearheaded by Steve Bannon, ex-Chief Strategist to Donald Trump. Despite multitudes of threats on her life and her family, Brianna has never wavered as a voice for the marginalized, including women, people of color, and LGBT individuals. The story of her continuing fight for social and economic justice has been told and fictionalized in several media, including an episode of Law & Order. As a congresswoman, Brianna will forge a bold path forward for America – universal health care, real answers for income inequality, job creation, gun safety, aggressive solutions to combat climate change, and getting money out of politics.  As a leader in the tech industry, Brianna has the experience and expertise we need in Congress to address 21st Century information warfare, including Russian penetration of our electronic infrastructure, the unconstitutional assault on our privacy, and hackers stealing personal information. When getting away from politics and technology, she enjoys personally restoring and maintaining her car, racing her motorcycle, and spending time with her loving husband, Frank.",
   "years": ["2019"],
-  "talks": [
-    {
-      "year": "2019",
-      "title": "Code Day Keynote",
-      "type": "keynote"
-    }
-  ]
+  "talks": []
 }

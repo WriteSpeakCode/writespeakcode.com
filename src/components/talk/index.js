@@ -4,7 +4,6 @@ import {
   faLaptopCode,
   faVolumeUp,
   faFire,
-  faStar,
 } from '@fortawesome/free-solid-svg-icons'
 import { SpeakerDialog } from '../speaker'
 import { parameterize } from '../../utils/helpers'
@@ -18,7 +17,6 @@ const Talk = ({ speaker }) => {
     workshop: faLaptopCode,
     talk: faVolumeUp,
     'fireside chat': faFire,
-    keynote: faStar,
   }
   if (talk.year && talk.title && talk.desc && talk.desc && talk.type) {
     return (

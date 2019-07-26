@@ -24,13 +24,5 @@
   ],
   "layout": "speaker",
   "bio": "Kiko Lam is a software engineer at Figma, a collaborative interface design tool on the cloud. She aims to build the best design tools for everyone to exercise their creativity and collaboration features for teams to communicate visually. Her goal is to help make technology accessible to everyone through art and interactive media. She was previously a software engineer at Twitch Interactive, working on their discovery tools and recommendation engines. She graduated from Dartmouth College with a B.A and a M.S in Computer Science and Digital Arts. Kiko is a professional mentor at TechWomen, an Initiative of the U.S. Department of State's Bureau of Educational and Cultural Affairs. She is also a long time instructor and volunteer at Girls Who Code. She is passionate about creating a safe place for women in tech, and she wants to make the tech industry an inclusive space for all, especially women.",
-  "years": ["2019"],
-  "talks": [
-    {
-      "year": "2019",
-      "title": "Psychological Safety: How to build a High Performing Team",
-      "type": "talk",
-      "desc": "\"There’s no team without trust,\" A study on team performance revealed that the highest-performing teams have one thing in common: psychological safety. This session will present keys to enabling psychological safety in your workspace and discuss the following five categories for creating trust in teams: psychological safety, dependability, structure & clarity, meaning of work, and impact of work."
-    }
-  ]
+  "years": ["2019"]
 }
