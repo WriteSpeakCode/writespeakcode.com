@@ -10,7 +10,8 @@
   "talks": [
     {
       "year": "2019",
-      "title": "CodeEveryday: Turning your side project into a startup"
+      "title": "CodeEveryday: Turning your side project into a startup",
+      "type": "keynote"
     }
   ]
 }

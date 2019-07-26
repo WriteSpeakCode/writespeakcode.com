@@ -33,7 +33,7 @@
             "title": "Write Track",
             "events": [
               {
-                "time": "11:00 AM",
+                "time": "11:10 AM",
                 "title": "Foundations of Thought Leadership: Reframing your Narrative"
               },
               {
@@ -46,7 +46,7 @@
             "title": "Speak Track",
             "events": [
               {
-                "time": "11:00 AM",
+                "time": "11:10 AM",
                 "title": "Foundations of Thought Leadership: Reframing your Narrative"
               },
               {
@@ -63,8 +63,16 @@
             "title": "Code Track",
             "events": [
               {
-                "time": "11:00 AM",
+                "time": "11:10 AM",
                 "title": "Foundations of Thought Leadership: Reframing your Narrative"
+              },
+              {
+                "time": "12:10 AM",
+                "name": "Patricia Realini"
+              },
+              {
+                "time": "12:40 AM",
+                "name": "Karina Kotval"
               }
             ]
           },
@@ -72,20 +80,20 @@
             "title": "Self Track",
             "events": [
               {
-                "time": "11:00 AM",
+                "time": "11:10 AM",
                 "name": "Nikita Rathi",
                 "additionalNames": ["Katrina Bakas"]
               },
               {
-                "time": "11:30 AM",
+                "time": "11:40 AM",
                 "name": "Duretti Hirpa"
               },
               {
-                "time": "12:00 PM",
+                "time": "12:10 PM",
                 "name": "Nancy Hawa"
               },
               {
-                "time": "12:30 PM",
+                "time": "12:20 PM",
                 "name": "Nicole Leffel"
               }
             ]
@@ -116,7 +124,7 @@
             "events": [
               {
                 "time": "2:00 PM",
-                "title": "Improv"
+                "name": "Maya Porter"
               }
             ]
           },
@@ -369,7 +377,8 @@
               },
               {
                 "time": "3:30 PM",
-                "title": "Engineering Leader Panel"
+                "name": "Jiaqi Liu",
+                "additionalNames": ["Grace Kwan"]
               }
             ]
           }
@@ -504,7 +513,7 @@
             "events": [
               {
                 "time": "11:10am",
-                "title": "Organizing your way to a healthy career"
+                "name": "Audrey Eschright"
               },
               {
                 "time": "11:40am",
@@ -551,10 +560,6 @@
               {
                 "time": "3:00 PM",
                 "name": "Abby Greenbloom"
-              },
-              {
-                "time": "3:30 PM",
-                "name": ""
               }
             ]
           },
