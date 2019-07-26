@@ -9,7 +9,8 @@
       },
       {
         "time": "9:00 AM",
-        "title": "Welcome & Code of Conduct"
+        "name": "Lateesha Thomas",
+        "additionalNames": ["Courteney Ervin"]
       },
       {
         "time": "9:30 AM",
@@ -25,7 +26,7 @@
       },
       {
         "time": "10:40 AM",
-        "title": "Mingle & Break"
+        "title": "Networking & Sponsor Mingle"
       },
       {
         "tracks": [
@@ -67,11 +68,11 @@
                 "title": "Foundations of Thought Leadership: Reframing your Narrative"
               },
               {
-                "time": "12:10 AM",
+                "time": "12:10 PM",
                 "name": "Patricia Realini"
               },
               {
-                "time": "12:40 AM",
+                "time": "12:40 PM",
                 "name": "Karina Kotval"
               }
             ]
@@ -233,7 +234,8 @@
       },
       {
         "time": "9:00 AM",
-        "title": "Welcome & Code of Conduct"
+        "name": "Lateesha Thomas",
+        "additionalNames": ["Courteney Ervin"]
       },
       {
         "time": "9:20 AM",
@@ -253,7 +255,7 @@
       },
       {
         "time": "10:20 AM",
-        "title": "Mingle & Break"
+        "title": "Networking & Sponsor Mingle"
       },
       {
         "tracks": [
@@ -453,7 +455,7 @@
     "events": [
       {
         "time": "8:00 AM",
-        "title": "Breakfast & Registration"
+        "title": "Breakfast"
       },
       {
         "time": "9:20 AM",
@@ -477,7 +479,7 @@
       },
       {
         "time": "10:40 AM",
-        "title": "Mingle & Break"
+        "title": "Networking & Sponsor Mingle"
       },
       {
         "tracks": [
