@@ -1,5 +1,12 @@
 {
   "name": "Cindy Alvarez",
   "layout": "speaker",
-  "years": []
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Closing Keynote",
+      "type": "keynote"
+    }
+  ]
 }

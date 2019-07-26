@@ -1,0 +1,161 @@
+.schedule {
+  padding: 1em;
+  max-width: var(--container);
+  margin: 0 auto;
+}
+
+.tabPanels {
+  border: 1px solid var(--navy);
+  border-bottom: 0;
+  background-color: var(--white);
+}
+
+.tab {
+  background-color: transparent;
+  color: var(--navy);
+  border: 0;
+  display: block;
+  width: 100%;
+  .tabTitle {
+    font-size: 1em;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus,
+  &[data-selected] {
+    color: #de0000;
+  }
+}
+
+.subTab {
+  composes: tab;
+}
+
+.subTabs {
+  background-color: var(--mint);
+  padding: 2em;
+  border-bottom: 1px solid var(--navy);
+}
+
+.subTabPanels {
+  composes: tabPanels;
+}
+
+.day {
+  background-color: var(--mint);
+  padding: 1em;
+  text-align: right;
+  border-bottom: 1px solid var(--navy);
+}
+
+/* Event */
+.event {
+  padding: 1em;
+  border-bottom: 1px solid var(--navy);
+
+  details {
+    margin: 1em 0;
+  }
+
+  summary {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.meal {
+  background-color: #e6f9ee;
+}
+
+.title {
+  font-weight: var(--bold);
+  font-size: 1.1em;
+  display: inline;
+}
+
+.time {
+  font-size: 1em;
+  font-weight: var(--regular);
+  border-bottom: 1px solid #ccc;
+}
+
+.grid {
+  margin-top: 1em;
+}
+
+.icon {
+  margin-right: 0.5em;
+}
+
+.type {
+  font-weight: var(--light);
+}
+
+.dialogButton {
+  display: block;
+  color: var(--navy);
+  background: transparent;
+  font-weight: var(--semi-bold);
+  padding-bottom: 0.25em;
+  margin-top: 1em;
+  border-color: inherit;
+  border-style: solid;
+  font-size: 0.9em;
+  border-width: 2px;
+  &:hover {
+    cursor: pointer;
+    color: var(--tan);
+  }
+}
+
+@media screen and (min-width: 30em) {
+  .schedule {
+    padding: 3em;
+  }
+
+  .tablist {
+    display: flex;
+  }
+
+  .tabPanels {
+    border-top: 0;
+  }
+
+  .subTabList {
+    composes: tablist;
+  }
+
+  .speakerBtn {
+    display: inline-flex;
+    padding-right: 1em;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 1em;
+    margin-top: 0;
+  }
+
+  .tab {
+    flex: 1;
+    border-bottom: 4px solid var(--navy);
+    &:focus,
+    &[data-selected] {
+      position: relative;
+      border-bottom: 4px solid #de0000;
+      &::after {
+        content: '';
+        position: absolute;
+        top: 55px;
+        left: 50%;
+        margin-left: -5px;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 8px solid #de0000;
+      }
+    }
+  }
+}

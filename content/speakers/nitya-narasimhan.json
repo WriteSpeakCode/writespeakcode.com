@@ -24,5 +24,13 @@
   ],
   "layout": "speaker",
   "bio": "Nitya is a PhD and Polymath with 20+ years of software development and research experience across industry and startups. Her interests span mobile and web development, machine learning, community and developer advocacy. She is currently a Senior PM on the Cloud+AI Developer Relations Team at Microsoft, helping a new generation of developers go from technology awareness to actionable learning. She is a frequent speaker and sketch-noter interested in finding better ways to share stories, create meaningful connections and promote self-care.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Self-Care: Refactoring Your Life, Revitalize Your Community",
+      "type": "talk",
+      "desc": "We all know about self-care in the abstract. That it's good for us to find work/life balance in an increasingly multi-tasked world. That it's something we all need to be doing more of. However in reality many of us don't pay attention until it's too late. We burn out under a burden of high expectations and low self-esteem. And we struggle to break the cycle of stress and sustain the path to recovery. This is a talk about my ongoing journey - from recognizing symptoms to proactively creating tools and design patterns to help me navigate the stresses that impact my physical and mental well-being. I will start by unpacking the science of stress and it's connection to self-esteem. I'll then share specific strategies I use to combat key issues in my life, and provide analogies and design patterns that can hopefully motivate others to create self-care toolkits personalized to their needs."
+    }
+  ]
 }

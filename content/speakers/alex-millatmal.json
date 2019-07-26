@@ -25,5 +25,10 @@
   "layout": "speaker",
   "bio": "Alex is a programmer with a passion for work that has real-world impact. At Newsela, she writes software that helps students read and teachers teach. When she's not thinking about refactoring her Ruby or good object-oriented front-end patterns, Alex spends a lot of time thinking about secular space/discourse, ethics in communicating “othered” experiences, how many cats are too many cats, and if she’ll ever write a novel.",
   "years": ["2019"],
-  "talks": []
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Speak Day Curriculum"
+    }
+  ]
 }

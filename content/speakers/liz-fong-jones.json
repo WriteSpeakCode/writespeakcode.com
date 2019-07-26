@@ -23,5 +23,13 @@
   ],
   "layout": "speaker",
   "bio": "Liz is a developer advocate, labor and ethics organizer, and Site Reliability Engineer (SRE) with 15+ years of experience. She is an advocate at Honeycomb.io for the SRE and Observability communities, and previously was an SRE working on products ranging from the Google Cloud Load Balancer to Google Flights. She lives in Brooklyn with her wife Elly, metamours, and a Samoyed/Golden Retriever mix, and in San Francisco and Seattle with her other partners. She plays classical piano, leads an EVE Online alliance, and advocates for transgender rights as a board member of the National Center for Transgender Equality.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "title": "Maximizing Impact by Navigating Build, Reuse, and Buy Tradeoffs",
+      "desc": "Engineering is about allocating adequate time to do project work that improves the long-term sustainability of our services. But what do we reward engineers for doing? Does your company have a culture of \"not invented here\" or the converse of \"ask the consultants to design it for us\"? We need to step back and ensure that we are doing the most efficient thing with our time as engineers. The main way that we can improve sustainability is empowering other engineers to understand our systems, rather than developing code for the sake of our resumes and/or glory.",
+      "year": "2019",
+      "type": "keynote"
+    }
+  ]
 }
