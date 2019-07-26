@@ -118,13 +118,7 @@ const Tracks = ({ tracks, speakers }) => {
         {tracks.map(track => (
           <TabPanel>
             {track.events.map(event => (
-              <Event
-                name={event.name}
-                title={event.title}
-                time={event.time}
-                additionalNames={event.additionalNames}
-                speakers={speakers}
-              />
+              <Event {...event} speakers={speakers} />
             ))}
           </TabPanel>
         ))}
@@ -161,13 +155,7 @@ const Schedule = ({ data }) => {
                   event.tracks ? (
                     <Tracks tracks={event.tracks} speakers={speakers} />
                   ) : (
-                    <Event
-                      name={event.name}
-                      title={event.title}
-                      time={event.time}
-                      additionalNames={event.additionalNames}
-                      speakers={speakers}
-                    />
+                    <Event {...event} speakers={speakers} day={day} />
                   )
                 )}
               </TabPanel>

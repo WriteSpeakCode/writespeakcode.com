@@ -35,11 +35,11 @@
             "events": [
               {
                 "time": "11:10 AM",
-                "title": "Foundations of Thought Leadership: Reframing your Narrative"
+                "name": "Angie Jones"
               },
               {
                 "time": "12:10 PM",
-                "title": "No Blank Spaces: Tapping Into Our Expertise"
+                "name": "Angie Jones"
               }
             ]
           },
@@ -48,7 +48,7 @@
             "events": [
               {
                 "time": "11:10 AM",
-                "title": "Foundations of Thought Leadership: Reframing your Narrative"
+                "name": "Angie Jones"
               },
               {
                 "time": "12:10 PM",
@@ -65,7 +65,7 @@
             "events": [
               {
                 "time": "11:10 AM",
-                "title": "Foundations of Thought Leadership: Reframing your Narrative"
+                "name": "Angie Jones"
               },
               {
                 "time": "12:10 PM",
