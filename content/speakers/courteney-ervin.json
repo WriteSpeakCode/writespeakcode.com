@@ -20,6 +20,7 @@
   "talks": [
     {
       "year": "2019",
+      "type": "curriculum",
       "title": "Code Day Curriculum"
     }
   ]
