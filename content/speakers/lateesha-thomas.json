@@ -19,11 +19,5 @@
     }
   ],
   "layout": "speaker",
-  "years": ["2019"],
-  "talks": [
-    {
-      "year": "2019",
-      "title": "Welcome & Code of Conduct"
-    }
-  ]
+  "years": ["2019"]
 }

@@ -122,7 +122,29 @@ const randomPlaceholder = () => {
   return placeholders[Math.floor(Math.random() * placeholders.length)]
 }
 
-const Speaker = ({ speaker }) => {
+// The speakers on the schedule page
+export const SpeakerButton = ({ speaker }) => {
+  const [dialogIsOpen, setDialogIsOpen] = useState(false)
+  return (
+    <span className={styles.speakerBtn}>
+      <button
+        onClick={() => setDialogIsOpen(true)}
+        className={styles.dialogButton}
+      >
+        {speaker.name}
+      </button>
+      <SpeakerDialog
+        dialogIsOpen={dialogIsOpen}
+        setDialogIsOpen={setDialogIsOpen}
+        speaker={speaker}
+        showLinkToTalk={false}
+      />
+    </span>
+  )
+}
+
+// The grid of headshots on the speakers page
+const SpeakerHeadshot = ({ speaker }) => {
   const [dialogIsOpen, setDialogIsOpen] = useState(false)
   return (
     <>
@@ -148,4 +170,4 @@ const Speaker = ({ speaker }) => {
   )
 }
 
-export default Speaker
+export default SpeakerHeadshot

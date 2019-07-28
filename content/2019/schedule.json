@@ -9,8 +9,8 @@
       },
       {
         "time": "9:00 AM",
-        "name": "Lateesha Thomas",
-        "additionalNames": ["Courteney Ervin"]
+        "title": "Welcome & Code of Conduct",
+        "additionalNames": ["Lateesha Thomas", "Courteney Ervin"]
       },
       {
         "time": "9:30 AM",
@@ -238,8 +238,8 @@
       },
       {
         "time": "9:00 AM",
-        "name": "Lateesha Thomas",
-        "additionalNames": ["Courteney Ervin"]
+        "title": "Welcome & Code of Conduct",
+        "additionalNames": ["Lateesha Thomas", "Courteney Ervin"]
       },
       {
         "time": "9:20 AM",
@@ -460,6 +460,11 @@
       {
         "time": "8:00 AM",
         "title": "Breakfast"
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Welcome & Code of Conduct",
+        "additionalNames": ["Lateesha Thomas", "Courteney Ervin"]
       },
       {
         "time": "9:20 AM",
