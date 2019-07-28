@@ -10,7 +10,8 @@ import styles from './schedule.module.css'
 
 import schedule from '../../../content/2019/schedule.json'
 
-const Tracks = ({ tracks, speakers }) => {
+// TODO: Add unique key for tab
+const Tracks = ({ tracks, speakers, day }) => {
   return (
     <Tabs className={styles.subTabs}>
       <TabList className={styles.subTabList}>
@@ -25,7 +26,13 @@ const Tracks = ({ tracks, speakers }) => {
         {tracks.map(track => (
           <TabPanel>
             {track.events.map(event => (
-              <Event {...event} speakers={speakers} />
+              <Event
+                {...event}
+                speakers={speakers}
+                key={`event-${parameterize(day.date)}-${parameterize(
+                  event.time
+                )}`}
+              />
             ))}
           </TabPanel>
         ))}
@@ -45,7 +52,7 @@ const Schedule = ({ data }) => {
         <Tabs>
           <TabList className={styles.tablist}>
             {schedule.map(day => (
-              <Tab className={styles.tab}>
+              <Tab className={styles.tab} key={`tab-${parameterize(day.date)}`}>
                 <h1 className={styles.tabTitle}>{day.title}</h1>
               </Tab>
             ))}
@@ -53,16 +60,28 @@ const Schedule = ({ data }) => {
 
           <TabPanels className={styles.tabPanels}>
             {schedule.map(day => (
-              <TabPanel>
+              <TabPanel key={`panel-${parameterize(day.date)}`}>
                 <div className={styles.day}>
                   <h2 className="subtitle">{day.date}</h2>
                 </div>
 
-                {day.events.map(event =>
+                {day.events.map((event, index) =>
                   event.tracks ? (
-                    <Tracks tracks={event.tracks} speakers={speakers} />
+                    <Tracks
+                      tracks={event.tracks}
+                      speakers={speakers}
+                      day={day}
+                      key={`track-${parameterize(day.date)}-${index}`}
+                    />
                   ) : (
-                    <Event {...event} speakers={speakers} day={day} />
+                    <Event
+                      {...event}
+                      speakers={speakers}
+                      day={day}
+                      key={`event-${parameterize(day.date)}-${parameterize(
+                        event.time
+                      )}`}
+                    />
                   )
                 )}
               </TabPanel>

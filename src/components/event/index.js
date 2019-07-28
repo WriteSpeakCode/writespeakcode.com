@@ -39,8 +39,12 @@ const ConfEvent = ({ title, desc, additionalNames, speakers }) => {
       {renderEventInfo(title, desc)}
       <div>
         {additionalNames &&
-          allSpeakers.map(speaker => (
-            <SpeakerButton speaker={speaker} speakers={speakers} />
+          allSpeakers.map((speaker, index) => (
+            <SpeakerButton
+              speaker={speaker}
+              speakers={speakers}
+              key={`speaker-${speaker.name}-${index}`}
+            />
           ))}
       </div>
     </div>
