@@ -4,6 +4,10 @@
   margin: 0 auto;
 }
 
+.tabs {
+  margin: 1em 0;
+}
+
 .tabPanels {
   border: 1px solid var(--navy);
   border-bottom: 0;

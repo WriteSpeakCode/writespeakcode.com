@@ -49,7 +49,12 @@ const Schedule = ({ data }) => {
       <SEO title="Schedule | 2019 Conference" />
       <section className={styles.schedule}>
         <h1 className="title">Schedule</h1>
-        <Tabs>
+        <h2 className="subtitle">
+          Each day, participate in our core curriculum for writing, speaking and
+          open-source/coding or attend talks across three other tracks. The
+          choice is yours!
+        </h2>
+        <Tabs className={styles.tabs}>
           <TabList className={styles.tablist}>
             {schedule.map(day => (
               <Tab className={styles.tab} key={`tab-${parameterize(day.date)}`}>
