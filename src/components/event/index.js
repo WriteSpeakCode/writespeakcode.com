@@ -1,14 +1,7 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faLaptopCode,
-  faVolumeUp,
-  faFire,
-  faStar,
-  faBookOpen,
-} from '@fortawesome/free-solid-svg-icons'
 
 import { SpeakerButton } from '../speaker'
+import { TalkType } from '../talk'
 import { parameterize } from '../../utils/helpers'
 
 import styles from './event.module.css'
@@ -27,7 +20,7 @@ function renderEventInfo(title, desc) {
 }
 
 // When the talk information is in the schedule.json
-const ConfEvent = ({ title, desc, additionalNames, speakers }) => {
+const ConfEvent = ({ title, desc, type, additionalNames, speakers }) => {
   const allSpeakers = []
   if (additionalNames) {
     additionalNames.map(name =>
@@ -35,32 +28,27 @@ const ConfEvent = ({ title, desc, additionalNames, speakers }) => {
     )
   }
   return (
-    <div className={styles.grid}>
-      {renderEventInfo(title, desc)}
-      <div>
-        {additionalNames &&
-          allSpeakers.map((speaker, index) => (
-            <SpeakerButton
-              speaker={speaker}
-              speakers={speakers}
-              key={`speaker-${speaker.name}-${index}`}
-            />
-          ))}
+    <>
+      {type && <TalkType type={type} secondary />}
+      <div className={styles.grid}>
+        {renderEventInfo(title, desc)}
+        <div>
+          {additionalNames &&
+            allSpeakers.map((speaker, index) => (
+              <SpeakerButton
+                speaker={speaker}
+                speakers={speakers}
+                key={`speaker-${speaker.name}-${index}`}
+              />
+            ))}
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 
 // When the talk information comes from the speaker json file
 const TalkEvent = ({ name, additionalNames, speakers }) => {
-  const talkIcons = {
-    workshop: faLaptopCode,
-    talk: faVolumeUp,
-    'fireside chat': faFire,
-    keynote: faStar,
-    curriculum: faBookOpen,
-  }
-
   const speaker = speakers.find(s => s.name === name)
   const allSpeakers = [speaker]
   const talk = speaker.talks.find(t => t.year === '2019')
@@ -72,19 +60,7 @@ const TalkEvent = ({ name, additionalNames, speakers }) => {
 
   return (
     <>
-      <span
-        style={{
-          fontSize: '.8em',
-          margin: '0 .5em',
-          color: 'var(--tan)',
-        }}
-      >
-        <FontAwesomeIcon
-          icon={talkIcons[talk.type]}
-          style={{ margin: '0 .5em' }}
-        />
-        {talk.type}
-      </span>
+      {talk.type && <TalkType type={talk.type} secondary />}
       <div className={styles.grid}>
         {renderEventInfo(talk.title, talk.desc)}
         <div>
@@ -97,7 +73,15 @@ const TalkEvent = ({ name, additionalNames, speakers }) => {
   )
 }
 
-const Event = ({ name, time, speakers, title, desc, additionalNames }) => {
+const Event = ({
+  name,
+  time,
+  speakers,
+  title,
+  desc,
+  type,
+  additionalNames,
+}) => {
   return (
     <section className={styles.event}>
       <div>
@@ -106,6 +90,7 @@ const Event = ({ name, time, speakers, title, desc, additionalNames }) => {
           <ConfEvent
             title={title}
             desc={desc}
+            type={type}
             additionalNames={additionalNames}
             speakers={speakers}
           />

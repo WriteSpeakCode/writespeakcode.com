@@ -9,12 +9,7 @@ import {
   faLinkedinIn,
   faGithub,
 } from '@fortawesome/free-brands-svg-icons'
-import {
-  faLaptopCode,
-  faVolumeUp,
-  faFire,
-  faStar,
-} from '@fortawesome/free-solid-svg-icons'
+import { TALK_ICONS } from '../talk'
 import { parameterize } from '../../utils/helpers'
 
 import styles from './speaker.module.css'
@@ -51,12 +46,6 @@ export const SpeakerDialog = ({
   setDialogIsOpen,
   showLinkToTalk,
 }) => {
-  const talkIcons = {
-    workshop: faLaptopCode,
-    talk: faVolumeUp,
-    'fireside chat': faFire,
-    keynote: faStar,
-  }
   return (
     <Dialog
       isOpen={dialogIsOpen}
@@ -96,16 +85,20 @@ export const SpeakerDialog = ({
             <>
               <span>
                 <FontAwesomeIcon
-                  icon={talkIcons[talk.type]}
+                  icon={TALK_ICONS[talk.type]}
                   style={{ marginRight: '.5em' }}
                 />
               </span>
-              <Link
-                to={`/2019/program/#${parameterize(talk.title)}`}
-                className="link"
-              >
-                {talk.title}
-              </Link>
+              {talk.type === 'curriculum' ? (
+                talk.title
+              ) : (
+                <Link
+                  to={`/2019/program/#${parameterize(talk.title)}`}
+                  className="link"
+                >
+                  {talk.title}
+                </Link>
+              )}
             </>
           ))}
       </div>
