@@ -36,14 +36,14 @@
               {
                 "time": "11:10 AM",
                 "type": "curriculum",
-                "title": "Foundations of Thought Leadership: Reframing your Narrative",
+                "title": "Reframing your Narrative",
                 "desc": "To kick-off our highly-interactive and energetic full-day seminar we explore the source of credibility and how to establish it. We cover strategies for making a greater impact through our writing, including how to escape a pigeonhole, how to preach beyond the choir, and the value of framing your message and yourself as part of a larger public conversation. Participants leave this session with a newly crafted professional bio.",
                 "additionalNames": ["Angie Jones"]
               },
               {
                 "time": "12:10 PM",
                 "type": "curriculum",
-                "title": "No Blank Spaces: Tapping Into Our Expertise",
+                "title": "Tapping Into Our Expertise",
                 "desc": "To kick-off our highly-interactive and energetic full-day seminar we explore the source of credibility and how to establish it. We cover strategies for making a greater impact through our writing, including how to escape a pigeonhole, how to preach beyond the choir, and the value of framing your message and yourself as part of a larger public conversation. Participants leave this session with a newly crafted professional bio.",
                 "additionalNames": ["Angie Jones"]
               }
@@ -55,7 +55,7 @@
               {
                 "time": "11:10 AM",
                 "type": "curriculum",
-                "title": "Foundations of Thought Leadership: Reframing your Narrative",
+                "title": "Reframing your Narrative",
                 "desc": "To kick-off our highly-interactive and energetic full-day seminar we explore the source of credibility and how to establish it. We cover strategies for making a greater impact through our writing, including how to escape a pigeonhole, how to preach beyond the choir, and the value of framing your message and yourself as part of a larger public conversation. Participants leave this session with a newly crafted professional bio.",
                 "additionalNames": ["Angie Jones"]
               },
@@ -75,7 +75,7 @@
               {
                 "time": "11:10 AM",
                 "type": "curriculum",
-                "title": "Foundations of Thought Leadership: Reframing your Narrative",
+                "title": "Reframing your Narrative",
                 "desc": "To kick-off our highly-interactive and energetic full-day seminar we explore the source of credibility and how to establish it. We cover strategies for making a greater impact through our writing, including how to escape a pigeonhole, how to preach beyond the choir, and the value of framing your message and yourself as part of a larger public conversation. Participants leave this session with a newly crafted professional bio.",
                 "additionalNames": ["Angie Jones"]
               },
@@ -124,12 +124,13 @@
             "events": [
               {
                 "time": "2:00 PM",
+                "type": "curriculum",
                 "title": "Publishers Panel"
               },
               {
                 "time": "3:00 PM",
                 "type": "curriculum",
-                "title": "Pseudocode It: Breaking through the Writer’s Block Pt. 1",
+                "title": "Pseudocode It!",
                 "desc": "How can you present ideas quickly and effectively? In this session we’ll talk about the components of a powerful, evidence-based argument; and share a few helpful outline formats to help you put your ideas on the page.",
                 "additionalNames": ["Angie Jones"]
               }
@@ -188,7 +189,7 @@
               {
                 "time": "4:30 PM",
                 "type": "curriculum",
-                "title": "Pens to Paper: Breaking through the Writer’s Block Pt. 2",
+                "title": "Pens to Paper",
                 "desc": "The most common reason are participants cite for not blogging or writing is \"I don’t have time.\" Lucky for you we scheduled it into this session. Use the outline you created to write a draft blog post and give/receive feedback from your peers.",
                 "additionalNames": ["Angie Jones"]
               }
