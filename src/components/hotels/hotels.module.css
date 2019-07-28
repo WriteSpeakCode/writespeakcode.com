@@ -52,6 +52,15 @@
   background: transparent;
   display: block;
   color: var(--navy);
+  border: 0;
+  &:focus {
+    background-color: var(--tan);
+    outline: none;
+    border: none;
+  }
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .info {
