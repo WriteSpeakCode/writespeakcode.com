@@ -1,7 +1,7 @@
 [
   {
     "title": "Write / Visibility Day",
-    "date": "Fri Aug 16, 2019",
+    "date": "Friday Aug 16, 2019",
     "events": [
       {
         "time": "8:00 AM",
@@ -9,8 +9,8 @@
       },
       {
         "time": "9:00 AM",
-        "name": "Lateesha Thomas",
-        "additionalNames": ["Courteney Ervin"]
+        "title": "Welcome & Code of Conduct",
+        "additionalNames": ["Lateesha Thomas", "Courteney Ervin"]
       },
       {
         "time": "9:30 AM",
@@ -35,11 +35,17 @@
             "events": [
               {
                 "time": "11:10 AM",
-                "name": "Angie Jones"
+                "type": "curriculum",
+                "title": "Foundations of Thought Leadership: Reframing your Narrative",
+                "desc": "To kick-off our highly-interactive and energetic full-day seminar we explore the source of credibility and how to establish it. We cover strategies for making a greater impact through our writing, including how to escape a pigeonhole, how to preach beyond the choir, and the value of framing your message and yourself as part of a larger public conversation. Participants leave this session with a newly crafted professional bio.",
+                "additionalNames": ["Angie Jones"]
               },
               {
                 "time": "12:10 PM",
-                "name": "Angie Jones"
+                "type": "curriculum",
+                "title": "No Blank Spaces: Tapping Into Our Expertise",
+                "desc": "To kick-off our highly-interactive and energetic full-day seminar we explore the source of credibility and how to establish it. We cover strategies for making a greater impact through our writing, including how to escape a pigeonhole, how to preach beyond the choir, and the value of framing your message and yourself as part of a larger public conversation. Participants leave this session with a newly crafted professional bio.",
+                "additionalNames": ["Angie Jones"]
               }
             ]
           },
@@ -48,7 +54,10 @@
             "events": [
               {
                 "time": "11:10 AM",
-                "name": "Angie Jones"
+                "type": "curriculum",
+                "title": "Foundations of Thought Leadership: Reframing your Narrative",
+                "desc": "To kick-off our highly-interactive and energetic full-day seminar we explore the source of credibility and how to establish it. We cover strategies for making a greater impact through our writing, including how to escape a pigeonhole, how to preach beyond the choir, and the value of framing your message and yourself as part of a larger public conversation. Participants leave this session with a newly crafted professional bio.",
+                "additionalNames": ["Angie Jones"]
               },
               {
                 "time": "12:10 PM",
@@ -65,7 +74,10 @@
             "events": [
               {
                 "time": "11:10 AM",
-                "name": "Angie Jones"
+                "type": "curriculum",
+                "title": "Foundations of Thought Leadership: Reframing your Narrative",
+                "desc": "To kick-off our highly-interactive and energetic full-day seminar we explore the source of credibility and how to establish it. We cover strategies for making a greater impact through our writing, including how to escape a pigeonhole, how to preach beyond the choir, and the value of framing your message and yourself as part of a larger public conversation. Participants leave this session with a newly crafted professional bio.",
+                "additionalNames": ["Angie Jones"]
               },
               {
                 "time": "12:10 PM",
@@ -116,7 +128,10 @@
               },
               {
                 "time": "3:00 PM",
-                "name": "Angie Jones"
+                "type": "curriculum",
+                "title": "Pseudocode It: Breaking through the Writer’s Block Pt. 1",
+                "desc": "How can you present ideas quickly and effectively? In this session we’ll talk about the components of a powerful, evidence-based argument; and share a few helpful outline formats to help you put your ideas on the page.",
+                "additionalNames": ["Angie Jones"]
               }
             ]
           },
@@ -172,7 +187,10 @@
             "events": [
               {
                 "time": "4:30 PM",
-                "name": "Angie Jones"
+                "type": "curriculum",
+                "title": "Pens to Paper: Breaking through the Writer’s Block Pt. 2",
+                "desc": "The most common reason are participants cite for not blogging or writing is \"I don’t have time.\" Lucky for you we scheduled it into this session. Use the outline you created to write a draft blog post and give/receive feedback from your peers.",
+                "additionalNames": ["Angie Jones"]
               }
             ]
           },
@@ -230,7 +248,7 @@
 
   {
     "title": "Speak / Leadership Day",
-    "date": "Sat Aug 17, 2019",
+    "date": "Saturday Aug 17, 2019",
     "events": [
       {
         "time": "8:00 AM",
@@ -238,8 +256,8 @@
       },
       {
         "time": "9:00 AM",
-        "name": "Lateesha Thomas",
-        "additionalNames": ["Courteney Ervin"]
+        "title": "Welcome & Code of Conduct",
+        "additionalNames": ["Lateesha Thomas", "Courteney Ervin"]
       },
       {
         "time": "9:20 AM",
@@ -289,6 +307,7 @@
             "events": [
               {
                 "time": "11:10am",
+                "type": "curriculum",
                 "name": "Alex Millatmal"
               }
             ]
@@ -357,6 +376,7 @@
               },
               {
                 "time": "3:00 PM",
+                "type": "curriculum",
                 "name": "Alex Millatmal"
               }
             ]
@@ -410,6 +430,7 @@
             "events": [
               {
                 "time": "4:30 PM",
+                "type": "curriculum",
                 "name": "Alex Millatmal"
               }
             ]
@@ -455,11 +476,16 @@
 
   {
     "title": "Code / Project Day",
-    "date": "Sun Aug 18, 2019",
+    "date": "Sunday Aug 18, 2019",
     "events": [
       {
         "time": "8:00 AM",
         "title": "Breakfast"
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Welcome & Code of Conduct",
+        "additionalNames": ["Lateesha Thomas", "Courteney Ervin"]
       },
       {
         "time": "9:20 AM",
@@ -510,7 +536,9 @@
             "events": [
               {
                 "time": "11:10am",
-                "name": "Courteney Ervin"
+                "type": "curriculum",
+                "title": "Code Day curriculum",
+                "additionalNames": ["Courteney Ervin"]
               }
             ]
           },
@@ -574,7 +602,9 @@
             "events": [
               {
                 "time": "2:00 PM",
-                "name": "Courteney Ervin"
+                "type": "curriculum",
+                "title": "Code Day curriculum",
+                "additionalNames": ["Courteney Ervin"]
               }
             ]
           },

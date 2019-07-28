@@ -18,3 +18,10 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
+
+@media screen and (min-width: 90em) {
+  .speakers {
+    max-width: var(--container);
+    margin: 0 auto;
+  }
+}

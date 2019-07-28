@@ -1,7 +1,9 @@
 .schedule {
   padding: 1em;
-  max-width: var(--container);
-  margin: 0 auto;
+}
+
+.tabs {
+  margin: 1em 0;
 }
 
 .tabPanels {
@@ -50,65 +52,6 @@
 }
 
 /* Event */
-.event {
-  padding: 1em;
-  border-bottom: 1px solid var(--navy);
-
-  details {
-    margin: 1em 0;
-  }
-
-  summary {
-    &:hover {
-      cursor: pointer;
-    }
-  }
-}
-
-.meal {
-  background-color: #e6f9ee;
-}
-
-.title {
-  font-weight: var(--bold);
-  font-size: 1.1em;
-  display: inline;
-}
-
-.time {
-  font-size: 1em;
-  font-weight: var(--regular);
-  border-bottom: 1px solid #ccc;
-}
-
-.grid {
-  margin-top: 1em;
-}
-
-.icon {
-  margin-right: 0.5em;
-}
-
-.type {
-  font-weight: var(--light);
-}
-
-.dialogButton {
-  display: block;
-  color: var(--navy);
-  background: transparent;
-  font-weight: var(--semi-bold);
-  padding-bottom: 0.25em;
-  margin-top: 1em;
-  border-color: inherit;
-  border-style: solid;
-  font-size: 0.9em;
-  border-width: 2px;
-  &:hover {
-    cursor: pointer;
-    color: var(--tan);
-  }
-}
 
 @media screen and (min-width: 30em) {
   .schedule {
@@ -125,18 +68,6 @@
 
   .subTabList {
     composes: tablist;
-  }
-
-  .speakerBtn {
-    display: inline-flex;
-    padding-right: 1em;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-column-gap: 1em;
-    margin-top: 0;
   }
 
   .tab {
@@ -157,5 +88,12 @@
         border-top: 8px solid #de0000;
       }
     }
+  }
+}
+
+@media screen and (min-width: 90em) {
+  .schedule {
+    max-width: var(--container);
+    margin: 0 auto;
   }
 }

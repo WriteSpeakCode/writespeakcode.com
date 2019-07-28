@@ -28,6 +28,7 @@
   "talks": [
     {
       "year": "2019",
+      "type": "curriculum",
       "title": "Write Day Curriculum"
     }
   ]

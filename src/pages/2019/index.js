@@ -251,7 +251,7 @@ const Conference2019 = ({ data }) => {
                   />
                 </Slide>
                 <Slide index={1}>
-                  <TwitterTweetEmbed tweetId={'901710289690796032'} />
+                  <TwitterTweetEmbed tweetId={'744272710155517952'} />
                 </Slide>
                 <Slide index={2}>
                   <TwitterTweetEmbed tweetId={'802645541985210368'} />
