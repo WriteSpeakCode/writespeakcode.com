@@ -1,7 +1,5 @@
 .schedule {
   padding: 1em;
-  max-width: var(--container);
-  margin: 0 auto;
 }
 
 .tabs {
@@ -90,5 +88,12 @@
         border-top: 8px solid #de0000;
       }
     }
+  }
+}
+
+@media screen and (min-width: 90em) {
+  .schedule {
+    max-width: var(--container);
+    margin: 0 auto;
   }
 }
