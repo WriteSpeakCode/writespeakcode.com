@@ -1,0 +1,661 @@
+[
+  {
+    "title": "Write / Visibility Day",
+    "date": "Friday Aug 16, 2019",
+    "events": [
+      {
+        "time": "8:00 AM",
+        "title": "Breakfast & Registration"
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Welcome & Code of Conduct",
+        "additionalNames": ["Lateesha Thomas", "Courteney Ervin"]
+      },
+      {
+        "time": "9:30 AM",
+        "name": "Dana Lawson"
+      },
+      {
+        "time": "10:00 AM",
+        "name": "Liz Fong-Jones"
+      },
+      {
+        "time": "10:30 AM",
+        "title": "Sponsor Talk"
+      },
+      {
+        "time": "10:40 AM",
+        "title": "Networking & Sponsor Mingle"
+      },
+      {
+        "tracks": [
+          {
+            "title": "Write Track",
+            "events": [
+              {
+                "time": "11:10 AM",
+                "type": "curriculum",
+                "title": "Reframing your Narrative",
+                "desc": "To kick-off our highly-interactive and energetic full-day seminar we explore the source of credibility and how to establish it. We cover strategies for making a greater impact through our writing, including how to escape a pigeonhole, how to preach beyond the choir, and the value of framing your message and yourself as part of a larger public conversation. Participants leave this session with a newly crafted professional bio.",
+                "additionalNames": ["Angie Jones"]
+              },
+              {
+                "time": "12:10 PM",
+                "type": "curriculum",
+                "title": "Tapping Into Our Expertise",
+                "desc": "Want to write, but have no clue what you want to say? We’ll challenge you through fun collaborative exercises and design thinking activities to be more thoughtful and expansive when reflecting on your own knowledge, skills and experience. Participants will leave this session with no fewer than 20 new topics that they can blog or speak about.",
+                "additionalNames": ["Angie Jones"]
+              }
+            ]
+          },
+          {
+            "title": "Speak Track",
+            "events": [
+              {
+                "time": "11:10 AM",
+                "type": "curriculum",
+                "title": "Reframing your Narrative",
+                "desc": "To kick-off our highly-interactive and energetic full-day seminar we explore the source of credibility and how to establish it. We cover strategies for making a greater impact through our writing, including how to escape a pigeonhole, how to preach beyond the choir, and the value of framing your message and yourself as part of a larger public conversation. Participants leave this session with a newly crafted professional bio.",
+                "additionalNames": ["Angie Jones"]
+              },
+              {
+                "time": "12:10 PM",
+                "name": "Lilah Sturges"
+              },
+              {
+                "time": "12:40 PM",
+                "name": "Eileen Whitener"
+              }
+            ]
+          },
+          {
+            "title": "Code Track",
+            "events": [
+              {
+                "time": "11:10 AM",
+                "type": "curriculum",
+                "title": "Reframing your Narrative",
+                "desc": "To kick-off our highly-interactive and energetic full-day seminar we explore the source of credibility and how to establish it. We cover strategies for making a greater impact through our writing, including how to escape a pigeonhole, how to preach beyond the choir, and the value of framing your message and yourself as part of a larger public conversation. Participants leave this session with a newly crafted professional bio.",
+                "additionalNames": ["Angie Jones"]
+              },
+              {
+                "time": "12:10 PM",
+                "name": "Patricia Realini"
+              },
+              {
+                "time": "12:40 PM",
+                "name": "Karina Kotval"
+              }
+            ]
+          },
+          {
+            "title": "Self Track",
+            "events": [
+              {
+                "time": "11:10 AM",
+                "name": "Nikita Rathi",
+                "additionalNames": ["Katrina Bakas"]
+              },
+              {
+                "time": "11:40 AM",
+                "name": "Duretti Hirpa"
+              },
+              {
+                "time": "12:10 PM",
+                "name": "Nancy Hawa"
+              },
+              {
+                "time": "12:20 PM",
+                "name": "Nicole Leffel"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": "1:00 PM",
+        "title": "Lunch"
+      },
+      {
+        "tracks": [
+          {
+            "title": "Write Track",
+            "events": [
+              {
+                "time": "2:00 PM",
+                "type": "curriculum",
+                "title": "Publishers Panel"
+              },
+              {
+                "time": "3:00 PM",
+                "type": "curriculum",
+                "title": "Pseudocode It!",
+                "desc": "How can you present ideas quickly and effectively? In this session we’ll talk about the components of a powerful, evidence-based argument; and share a few helpful outline formats to help you put your ideas on the page.",
+                "additionalNames": ["Angie Jones"]
+              }
+            ]
+          },
+          {
+            "title": "Speak Track",
+            "events": [
+              {
+                "time": "2:00 PM",
+                "name": "Maya Porter"
+              }
+            ]
+          },
+          {
+            "title": "Code Track",
+            "events": [
+              {
+                "time": "2:00 PM",
+                "name": "Eva PenzeyMoog"
+              },
+              {
+                "time": "3:00 PM",
+                "name": "Anastasia Santasheva"
+              },
+              {
+                "time": "3:30 PM",
+                "name": "Lexi Galantino"
+              }
+            ]
+          },
+          {
+            "title": "Self Track",
+            "events": [
+              {
+                "time": "2:00 PM",
+                "name": "Neem Serra"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": "4:00 PM",
+        "title": "Snacks & Sponsor Mingling"
+      },
+      {
+        "tracks": [
+          {
+            "title": "Write Track",
+            "events": [
+              {
+                "time": "4:30 PM",
+                "type": "curriculum",
+                "title": "Pens to Paper",
+                "desc": "The most common reason are participants cite for not blogging or writing is \"I don’t have time.\" Lucky for you we scheduled it into this session. Use the outline you created to write a draft blog post and give/receive feedback from your peers.",
+                "additionalNames": ["Angie Jones"]
+              }
+            ]
+          },
+          {
+            "title": "Speak Track",
+            "events": [
+              {
+                "time": "4:30 PM",
+                "name": "Manju Vijayakumar"
+              }
+            ]
+          },
+          {
+            "title": "Code Track",
+            "events": [
+              {
+                "time": "4:30 PM",
+                "name": "Anne Griffin"
+              }
+            ]
+          },
+          {
+            "title": "Self Track",
+            "events": [
+              {
+                "time": "4:30 PM",
+                "name": "Jamie Riedesel"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": "5:00 PM",
+        "title": "Sponsor Talk"
+      },
+      {
+        "time": "5:10 PM",
+        "title": "Sponsor Talk"
+      },
+      {
+        "time": "5:20 PM",
+        "name": "Aubrey Blanche"
+      },
+      {
+        "time": "5:40 PM",
+        "title": "Announcements & Feedback"
+      },
+      {
+        "time": "7:00 PM - 10:00 PM",
+        "title": "Opening Night Party"
+      }
+    ]
+  },
+
+  {
+    "title": "Speak / Leadership Day",
+    "date": "Saturday Aug 17, 2019",
+    "events": [
+      {
+        "time": "8:00 AM",
+        "title": "Breakfast"
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Welcome & Code of Conduct",
+        "additionalNames": ["Lateesha Thomas", "Courteney Ervin"]
+      },
+      {
+        "time": "9:20 AM",
+        "name": "Heidi Waterhouse"
+      },
+      {
+        "time": "9:40 AM",
+        "title": "Sponsor Talk"
+      },
+      {
+        "time": "9:50 AM",
+        "title": "Sponsor Talk"
+      },
+      {
+        "time": "10:10 AM",
+        "name": "Ana Medina"
+      },
+      {
+        "time": "10:20 AM",
+        "title": "Networking & Sponsor Mingle"
+      },
+      {
+        "tracks": [
+          {
+            "title": "Write Track",
+            "events": [
+              {
+                "time": "11:10am",
+                "name": "Adrienne Tacke"
+              },
+              {
+                "time": "11:40am",
+                "name": "Brittney Braxton"
+              },
+              {
+                "time": "12:10pm",
+                "name": "Amruta Ranade"
+              },
+              {
+                "time": "12:40pm",
+                "name": "Asia Hoe"
+              }
+            ]
+          },
+          {
+            "title": "Speak Track",
+            "events": [
+              {
+                "time": "11:10am",
+                "type": "curriculum",
+                "name": "Alex Millatmal"
+              }
+            ]
+          },
+          {
+            "title": "Code Track",
+            "events": [
+              {
+                "time": "11:10am",
+                "name": "Reshama Shaikh"
+              },
+              {
+                "time": "12:10pm",
+                "name": "Galen Corey"
+              },
+              {
+                "time": "12:40pm",
+                "name": "Elle Meredith"
+              }
+            ]
+          },
+          {
+            "title": "Self Track",
+            "events": [
+              {
+                "time": "11:10am",
+                "name": "Tatiana Mac"
+              },
+              {
+                "time": "11:40am",
+                "name": "Kiko Lam"
+              },
+              {
+                "time": "12:10pm",
+                "name": "Miriam Aguirre"
+              },
+              {
+                "time": "12:40pm",
+                "name": "Mica Alaniz"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": "1:00 PM",
+        "title": "Lunch"
+      },
+      {
+        "tracks": [
+          {
+            "title": "Write Track",
+            "events": [
+              {
+                "time": "2:00 PM",
+                "name": "Denise Yu"
+              }
+            ]
+          },
+          {
+            "title": "Speak Track",
+            "events": [
+              {
+                "time": "2:00 PM",
+                "title": "Conference Organizers Panel"
+              },
+              {
+                "time": "3:00 PM",
+                "type": "curriculum",
+                "name": "Alex Millatmal"
+              }
+            ]
+          },
+          {
+            "title": "Code Track",
+            "events": [
+              {
+                "time": "2:00 PM",
+                "name": "Elgin-Skye McLaren"
+              }
+            ]
+          },
+          {
+            "title": "Self Track",
+            "events": [
+              {
+                "time": "2:00 PM",
+                "title": "Self Care and Personal Growth Open Space"
+              },
+              {
+                "time": "3:00 PM",
+                "name": "Yuraima Estevez"
+              },
+              {
+                "time": "3:30 PM",
+                "name": "Jiaqi Liu",
+                "additionalNames": ["Grace Kwan"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": "4:00 PM",
+        "title": "Snacks & Sponsor Mingling"
+      },
+      {
+        "tracks": [
+          {
+            "title": "Write Track",
+            "events": [
+              {
+                "time": "4:30 PM",
+                "name": "Anna Rankin"
+              }
+            ]
+          },
+          {
+            "title": "Speak Track",
+            "events": [
+              {
+                "time": "4:30 PM",
+                "type": "curriculum",
+                "name": "Alex Millatmal"
+              }
+            ]
+          },
+          {
+            "title": "Code Track",
+            "events": [
+              {
+                "time": "4:30 PM",
+                "name": "Hannah Howard"
+              }
+            ]
+          },
+          {
+            "title": "Self Track",
+            "events": [
+              {
+                "time": "4:30 PM",
+                "name": "Shailvi Wakhlu"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": "5:00 PM",
+        "title": "Sponsor Talk"
+      },
+      {
+        "time": "5:10 PM",
+        "title": "Sponsor Talk"
+      },
+      {
+        "time": "5:20 PM",
+        "name": "Tae'lur Alexis"
+      },
+      {
+        "time": "5:40 PM",
+        "title": "Announcements & Feedback"
+      }
+    ]
+  },
+
+  {
+    "title": "Code / Project Day",
+    "date": "Sunday Aug 18, 2019",
+    "events": [
+      {
+        "time": "8:00 AM",
+        "title": "Breakfast"
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Welcome & Code of Conduct",
+        "additionalNames": ["Lateesha Thomas", "Courteney Ervin"]
+      },
+      {
+        "time": "9:20 AM",
+        "title": "Sponsor Talk"
+      },
+      {
+        "time": "9:30 AM",
+        "name": "Kim Crayton"
+      },
+      {
+        "time": "9:50 AM",
+        "title": "Sponsor Talk"
+      },
+      {
+        "time": "10:00 AM",
+        "name": "Brianna Wu"
+      },
+      {
+        "time": "10:30 AM",
+        "title": "Sponsor Talk"
+      },
+      {
+        "time": "10:40 AM",
+        "title": "Networking & Sponsor Mingle"
+      },
+      {
+        "tracks": [
+          {
+            "title": "Write Track",
+            "events": [
+              {
+                "time": "11:10am",
+                "name": "Kara Carrell"
+              }
+            ]
+          },
+          {
+            "title": "Speak Track",
+            "events": [
+              {
+                "time": "11:10am",
+                "name": "Aisha Blake"
+              }
+            ]
+          },
+          {
+            "title": "Code Track",
+            "events": [
+              {
+                "time": "11:10am",
+                "type": "curriculum",
+                "title": "Code Day curriculum",
+                "additionalNames": ["Courteney Ervin"]
+              }
+            ]
+          },
+          {
+            "title": "Self Track",
+            "events": [
+              {
+                "time": "11:10am",
+                "name": "Audrey Eschright"
+              },
+              {
+                "time": "11:40am",
+                "name": "Alex Qin"
+              },
+              {
+                "time": "12:10pm",
+                "name": "Tilde Ann Thurium"
+              },
+              {
+                "time": "12:40pm",
+                "name": "Wendy Gwo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": "1:00 PM",
+        "title": "Lunch"
+      },
+      {
+        "tracks": [
+          {
+            "title": "Write Track",
+            "events": [
+              {
+                "time": "2:00 PM",
+                "title": "Github Sponsored Workshop"
+              }
+            ]
+          },
+          {
+            "title": "Speak Track",
+            "events": [
+              {
+                "time": "2:00 PM",
+                "name": "Liz Krane"
+              },
+              {
+                "time": "2:30 PM",
+                "name": "Karen Huddleston"
+              },
+              {
+                "time": "3:00 PM",
+                "name": "Abby Greenbloom"
+              },
+              {
+                "time": "3:00 PM",
+                "name": "T Sripunvoraskul"
+              }
+            ]
+          },
+          {
+            "title": "Code Track",
+            "events": [
+              {
+                "time": "2:00 PM",
+                "type": "curriculum",
+                "title": "Code Day curriculum",
+                "additionalNames": ["Courteney Ervin"]
+              }
+            ]
+          },
+          {
+            "title": "Self Track",
+            "events": [
+              {
+                "time": "2:00 PM",
+                "name": "Hilary Stohs-Krause"
+              },
+              {
+                "time": "2:30 PM",
+                "name": "Zainab Ebrahimi"
+              },
+              {
+                "time": "3:00 PM",
+                "name": "Nitya Narasimhan"
+              },
+              {
+                "time": "3:30 PM",
+                "name": "Valerie Sharp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": "4:00 PM",
+        "title": "Snacks & Sponsor Mingling"
+      },
+      {
+        "time": "4:30 PM",
+        "title": "Attendee Talks"
+      },
+      {
+        "time": "4:50 PM",
+        "title": "Sponsor Talk"
+      },
+      {
+        "time": "5:00 PM",
+        "title": "Sponsor Talk"
+      },
+      {
+        "time": "5:10 PM",
+        "name": "Cindy Alvarez"
+      },
+      {
+        "time": "5:30 PM",
+        "title": "Announcements & Feedback"
+      }
+    ]
+  }
+]

@@ -21,6 +21,12 @@
   font-weight: var(--light);
 }
 
+.secondary {
+  font-size: 0.8em;
+  margin: 0 0.5em;
+  color: var(--tan);
+}
+
 .dialogButton {
   display: block;
   color: var(--navy);

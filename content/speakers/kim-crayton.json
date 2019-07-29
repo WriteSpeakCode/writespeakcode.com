@@ -6,7 +6,7 @@
   "years": ["2019"],
   "talks": [
     {
-      "type": "talk",
+      "type": "keynote",
       "title": "Whiteness In Marginalized Spaces: When Coalition Building Harms",
       "year": "2019",
       "desc": "As we work on improving the diversity of our technical organizations, communities, and events, we must also address the harm that is inflicted when whiteness centers itself in marginalized spaces. In this talk, I will discuss what is happening, why it's happening, and provide a strategy that focuses on prioritizing the most vulnerable."

@@ -4,7 +4,7 @@ import Img from 'gatsby-image'
 import { TwitterTweetEmbed } from 'react-twitter-embed'
 import { CarouselProvider, Slider, Slide, DotGroup } from 'pure-react-carousel'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBullhorn } from '@fortawesome/free-solid-svg-icons'
+import { faBullhorn, faStar } from '@fortawesome/free-solid-svg-icons'
 
 import ConfLayout from '../../layouts/conference'
 import Sponsors from '../../components/sponsors'
@@ -139,13 +139,19 @@ const Conference2019 = ({ data }) => {
               View speakers
             </Link>
             <Link
+              to="/2019/schedule/"
+              className="link"
+              style={{ borderColor: 'var(--mint)', marginRight: '1em' }}
+            >
+              View schedule
+            </Link>
+            <Link
               to="/2019/program/"
               className="link"
               style={{ borderColor: 'var(--orange)', marginRight: '1em' }}
             >
               View talks & workshops
             </Link>
-            <em>Full schedule coming soon</em>
           </div>
         </div>
       </section>
@@ -229,7 +235,7 @@ const Conference2019 = ({ data }) => {
                   />
                 </Slide>
                 <Slide index={1}>
-                  <TwitterTweetEmbed tweetId={'901710289690796032'} />
+                  <TwitterTweetEmbed tweetId={'744272710155517952'} />
                 </Slide>
                 <Slide index={2}>
                   <TwitterTweetEmbed tweetId={'802645541985210368'} />

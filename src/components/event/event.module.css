@@ -1,0 +1,45 @@
+.event {
+  padding: 1em;
+  border-bottom: 1px solid var(--navy);
+
+  details {
+    margin: 1em 0;
+  }
+
+  summary {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.title {
+  font-weight: var(--bold);
+  font-size: 1.1em;
+  display: inline;
+}
+
+.time {
+  font-size: 1em;
+  font-weight: var(--regular);
+  border-bottom: 1px solid #ccc;
+}
+.icon {
+  margin-right: 0.5em;
+}
+
+.type {
+  font-weight: var(--light);
+}
+
+.grid {
+  margin-top: 1em;
+}
+@media screen and (min-width: 30em) {
+  .grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 1em;
+    margin-top: 0;
+  }
+}

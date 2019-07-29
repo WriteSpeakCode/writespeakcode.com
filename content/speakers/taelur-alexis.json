@@ -6,5 +6,13 @@
   "company": "Code Everyday",
   "links": [{ "type": "website", "url": "http://CodeEveryday.io" }],
   "bio": "Tae'lur Alexis is a Front-End Engineer and Content Creator with a passion for making coding accessible for everyone. She's also the Founder of Code Everyday, an online platform she's building to help developers with a nontraditional background find their place in tech.",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "CodeEveryday: Turning your side project into a startup",
+      "desc": "Documenting one's journey of learning how to code and transitioning into tech led to a desire to help others on their journey. And that's how CodeEveryday was founded. Now I want to share my journey of going from self taught developer to founder and share my lessons, failure and motivation to other developers seeking to turn their side project into a startup!",
+      "type": "keynote"
+    }
+  ]
 }

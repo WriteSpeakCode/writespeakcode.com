@@ -24,5 +24,13 @@
     }
   ],
   "headshot": "/images/duretti-hirpa.jpg",
-  "company": "Mailchimp"
+  "company": "Mailchimp",
+  "talks": [
+    {
+      "title": "Making Good Trouble, or: how to affect change without losing your job",
+      "desc": "Sometimes, we want to make changes to processes and habits our team has, but it’s not around the code itself. How can we do that? How do we make changes to the habits of hundreds? Moreover, how can we do this work as individual contributors? Many times, debugging your organization is work that goes undone but can be an effective force-multiplier. This talk will act as a starting guide to making good trouble at work, culminating in tangible tips for how to rebrand troublemakers into change agents.",
+      "year": "2019",
+      "type": "talk"
+    }
+  ]
 }

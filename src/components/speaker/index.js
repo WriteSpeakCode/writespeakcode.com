@@ -9,11 +9,7 @@ import {
   faLinkedinIn,
   faGithub,
 } from '@fortawesome/free-brands-svg-icons'
-import {
-  faLaptopCode,
-  faVolumeUp,
-  faFire,
-} from '@fortawesome/free-solid-svg-icons'
+import { TALK_ICONS } from '../talk'
 import { parameterize } from '../../utils/helpers'
 
 import styles from './speaker.module.css'
@@ -50,11 +46,6 @@ export const SpeakerDialog = ({
   setDialogIsOpen,
   showLinkToTalk,
 }) => {
-  const talkIcons = {
-    workshop: faLaptopCode,
-    talk: faVolumeUp,
-    'fireside chat': faFire,
-  }
   return (
     <Dialog
       isOpen={dialogIsOpen}
@@ -94,16 +85,20 @@ export const SpeakerDialog = ({
             <>
               <span>
                 <FontAwesomeIcon
-                  icon={talkIcons[talk.type]}
+                  icon={TALK_ICONS[talk.type]}
                   style={{ marginRight: '.5em' }}
                 />
               </span>
-              <Link
-                to={`/2019/program/#${parameterize(talk.title)}`}
-                className="link"
-              >
-                {talk.title}
-              </Link>
+              {talk.type === 'curriculum' ? (
+                talk.title
+              ) : (
+                <Link
+                  to={`/2019/program/#${parameterize(talk.title)}`}
+                  className="link"
+                >
+                  {talk.title}
+                </Link>
+              )}
             </>
           ))}
       </div>
@@ -120,7 +115,29 @@ const randomPlaceholder = () => {
   return placeholders[Math.floor(Math.random() * placeholders.length)]
 }
 
-const Speaker = ({ speaker }) => {
+// The speakers on the schedule page
+export const SpeakerButton = ({ speaker }) => {
+  const [dialogIsOpen, setDialogIsOpen] = useState(false)
+  return (
+    <span className={styles.speakerBtn}>
+      <button
+        onClick={() => setDialogIsOpen(true)}
+        className={styles.dialogButton}
+      >
+        {speaker.name}
+      </button>
+      <SpeakerDialog
+        dialogIsOpen={dialogIsOpen}
+        setDialogIsOpen={setDialogIsOpen}
+        speaker={speaker}
+        showLinkToTalk={false}
+      />
+    </span>
+  )
+}
+
+// The grid of headshots on the speakers page
+const SpeakerHeadshot = ({ speaker }) => {
   const [dialogIsOpen, setDialogIsOpen] = useState(false)
   return (
     <>
@@ -146,4 +163,4 @@ const Speaker = ({ speaker }) => {
   )
 }
 
-export default Speaker
+export default SpeakerHeadshot
