@@ -1,23 +1,24 @@
 {
+  "talks": [
+    {
+      "year": "2019",
+      "title": "A Crash Course in Off-the-Cuff Speaking",
+      "desc": "Whether delivering a status report to a manager or engaging with questions at the end of a presentation, we all face moments when we need to deliver thoughtful, strategic messages on the fly. As with any public-speaking skill, extemporaneous speaking becomes easier with practice--but there are also specific tactics that can help speakers appear (and become) more confident when they need to leave their notes behind."
+    }
+  ],
+  "bio": "Eileen Whitener is a technical writer, writing instructor, and speaker. Before entering the world of software, Eileen earned degrees in writing and education. For the past seven years, she has worked at iCIMS, a recruitment software provider. She also teaches adult classes at Project Write Now, a community non-profit offering writing programs for all ages. As a member of Toastmasters International, Eileen recently competed at the highest level in her district's impromptu speaking contest. Some of Eileen’s other interests include crafting, cats, karaoke, and the hiring process on both sides of the application.",
   "name": "Eileen Whitener",
   "pronouns": "she/her",
   "role": "Technical Writer",
-  "company": "iCIMS",
+  "years": [
+    "2019"
+  ],
   "links": [
     {
       "type": "twitter",
       "url": "eileenwhitener"
     }
   ],
-  "layout": "speaker",
-  "bio": "Eileen is a technical writer, writing instructor, and public speaker.",
-  "years": ["2019"],
-  "talks": [
-    {
-      "title": "A Crash Course in Off-the-Cuff Speaking",
-      "desc": "Whether delivering a status report to a manager or engaging with questions at the end of a presentation, we all face moments when we need to deliver thoughtful, strategic messages on the fly. As with any public-speaking skill, extemporaneous speaking becomes easier with practice--but there are also specific tactics that can help speakers appear (and become) more confident when they need to leave their notes behind.",
-      "year": "2019",
-      "type": "talk"
-    }
-  ]
+  "headshot": "/images/eileen-whitener.jpg",
+  "company": "iCIMS"
 }
