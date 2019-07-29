@@ -1,0 +1,32 @@
+{
+  "name": "T Sripunvoraskul",
+  "pronouns": "they/them",
+  "role": "Product Designer",
+  "company": "Rally Health",
+  "headshot": "/images/t-sripunvoraskul.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "tsripunv"
+    },
+    {
+      "type": "linkedin",
+      "url": "tsripunv"
+    },
+    {
+      "type": "website",
+      "url": "https://www.tsripunv.com"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "T Sripunvoraskul is a Product Designer at Rally Health, a digital health technology company focusing on helping people navigate their health care journey. Their passionate is to make products more accessible, approachable, and authentic by championing for equality and user-centered design. In the past, T previously worked at 500 Startups, Microsoft, and early stage startups. They leveraged their experience in design, branding, and digital media strategy to help over a hundred events and early digital products succeed. They live in San Francisco, CA where they love to mentor queer and trans folks getting into tech and work on initiatives like QTPOC Tech Mentorship nights and the API TransMasculine Anthology.",
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Revealed: Tricks To Making Better Decks ",
+      "desc": "Ever wish you could make a deck appear like a magician? After writing your talk, the next step is making a presentation slide deck, which may feel like the most difficult trick to pull off. If you’ve felt stuck staring at a blank screen not knowing where to start, you’re not the only one. This talk will reveal resources and tips to help you get unstuck (hopefully!) and prepare you with the knowledge to improve your efficiency in crafting decks when you need them. Learn simple guidelines, design principles, and tools to elevate the user experience for all your audience viewers offline and online and help build confidence in preparing them for send off from a conference A/V guru's perspective.",
+      "type": "talk"
+    }
+  ]
+}

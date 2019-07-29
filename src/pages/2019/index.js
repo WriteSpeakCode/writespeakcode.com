@@ -86,22 +86,6 @@ const Conference2019 = ({ data }) => {
         </a>
       </div>
 
-      <div
-        className={styles.notification}
-        style={{ backgroundColor: 'var(--blush)' }}
-      >
-        <FontAwesomeIcon icon={faStar} aria-hidden className={styles.icon} />
-        <a
-          className="link"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="http://bit.ly/2019wscscholarship"
-        >
-          Apply for a scholarship
-        </a>{' '}
-        to #WSC2019conf! Applications due Sunday, July 28th
-      </div>
-
       <section
         className={styles.schedule}
         style={{ backgroundColor: '#181c3c', color: 'white' }}

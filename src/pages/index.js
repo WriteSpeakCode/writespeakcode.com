@@ -108,14 +108,13 @@ const IndexPage = ({ data }) => (
             accessible location, nursing rooms and childcare services, CART/ASL
             services, and other accessibility needs as requested.
           </p>
-          <p>Upcoming OYE Events:</p>
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.meetup.com/Write-Speak-Code-Austin/events/262246569/"
+            href="https://www.meetup.com/pro/writespeakcode/"
             className="link"
           >
-            June 22 - Austin, TX
+            Find events on Meetup
           </a>
         </div>
       </div>
