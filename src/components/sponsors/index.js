@@ -132,15 +132,15 @@ const Sponsors = ({ sponsors, isConference }) => {
           <section className={[styles['other'], styles.levelSection].join(' ')}>
             <h3 className={styles.heading}>Other</h3>
             <div className={styles.grid}>
-              <Sponsor company={sentry} level="Local Meetup - SF" />
-              <Sponsor company={seatgeek} level="Local Meetup - NYC" />
-              <Sponsor company={vts} level="Local Meetup - NYC" />
-              <Sponsor company={glympse} level="Local Meetup - SEA" />{' '}
-              <Sponsor company={climatecorp} level="Local Meetup - SEA + SF" />
-              <Sponsor company={clever} level="Local Meetup - SF" />
+              <Sponsor company={sentry} level="SF Meetup" />
+              <Sponsor company={seatgeek} level="NYC Meetup" />
+              <Sponsor company={vts} level="NYC Meetup" />
+              <Sponsor company={glympse} level="SEA Meetup" />
+              <Sponsor company={climatecorp} level="SEA + SF Meetup" />
+              <Sponsor company={clever} level="SF Meetup" />
               <Sponsor company={indeed} level="Own Your Expertise" />
-              <Sponsor company={lob} level="Local Meetup - SF" />
-              <Sponsor company={nowsta} level="Local Meetup - NYC" />
+              <Sponsor company={lob} level="SF Meetup" />
+              <Sponsor company={nowsta} level="NYC Meetup" />
               <Sponsor company={microsoft} level="Conference Dinner" />
               <Sponsor company={attune} level="Conference Dinner" />
             </div>
@@ -150,8 +150,8 @@ const Sponsors = ({ sponsors, isConference }) => {
           <section className={[styles['other'], styles.levelSection].join(' ')}>
             <h3 className={styles.heading}>Other</h3>
             <div className={styles.grid}>
-              <Sponsor company={microsoft} />
-              <Sponsor company={attune} />
+              <Sponsor company={microsoft} level="Conference Dinner" />
+              <Sponsor company={attune} level="Conference Dinner" />
             </div>
           </section>
         )}
