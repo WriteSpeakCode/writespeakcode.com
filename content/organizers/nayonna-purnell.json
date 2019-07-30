@@ -2,10 +2,7 @@
   "name": "Nayonna Purnell",
   "headshot": "/images/untitled.jpg",
   "pronouns": "she/her",
-  "role": [
-    "Website Contributor",
-    "Conference Organizer"
-  ],
+  "role": ["Website Contributor", "Conference Organizer"],
   "links": [
     {
       "type": "linkedin",

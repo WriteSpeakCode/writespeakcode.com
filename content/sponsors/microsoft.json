@@ -2,5 +2,7 @@
   "name": "Microsoft",
   "url": "https://www.microsoft.com",
   "logo": "/images/microsoft.jpg",
-  "sponsorships": [{ "year": "2019", "level": "Conference Topic Dinner", "conf_sponsor": true }]
+  "sponsorships": [
+    { "year": "2019", "level": "Conference Topic Dinner", "conf_sponsor": true }
+  ]
 }
