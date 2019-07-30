@@ -1,0 +1,8 @@
+{
+  "name": "Attune Insurance",
+  "url": "https://www.attuneinsurance.com",
+  "logo": "/images/attune-insurance.jpg",
+  "sponsorships": [
+    { "year": "2019", "level": "Conference Topic Dinner", "conf_sponsor": true }
+  ]
+}

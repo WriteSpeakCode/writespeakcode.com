@@ -1,0 +1,9 @@
+{
+  "name": "Google Women Techmakers",
+  "url": "https://www.womentechmakers.com/",
+  "logo": "/images/google-women-techmakers.jpg",
+  "sponsorships": [
+    { "year": "2019", "level": "Conference - Lanyard", "conf_sponsor": true },
+    { "year": "2019", "level": "Conference - Childcare", "conf_sponsor": true }
+  ]
+}

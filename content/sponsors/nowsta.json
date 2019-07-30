@@ -1,0 +1,8 @@
+{
+  "name": "Nowsta",
+  "url": "https://www.nowsta.com/",
+  "logo": "/images/nowsta.jpg",
+  "sponsorships": [
+    { "year": "2019", "level": "Local Meetup - NYC", "conf_sponsor": false }
+  ]
+}
