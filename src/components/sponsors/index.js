@@ -94,11 +94,11 @@ const Sponsors = ({ sponsors, isConference }) => {
             <Sponsor company={mailchimp} />
             <Sponsor company={splunk} />
             <Sponsor company={zipline} />
-            <Sponsor company={onramp} />
-            <Sponsor company={google} />
             {!isConference && (
               <Sponsor company={atlassian} level="Private Workshops" />
             )}
+            <Sponsor company={google} />
+            <Sponsor company={onramp} />
           </div>
         </section>
         <section className={[styles['silver'], styles.levelSection].join(' ')}>
@@ -107,10 +107,7 @@ const Sponsors = ({ sponsors, isConference }) => {
             <Sponsor company={sentry} />
             <Sponsor company={newsela} />
             <Sponsor company={oreilly} />
-            <Sponsor
-              company={googlewomentechmakers}
-              level="Conference Childcare & Lanyard"
-            />
+            <Sponsor company={googlewomentechmakers} />
             <div />
           </div>
         </section>
@@ -141,8 +138,8 @@ const Sponsors = ({ sponsors, isConference }) => {
               <Sponsor company={indeed} level="Own Your Expertise" />
               <Sponsor company={lob} level="Local Meetup - SF" />
               <Sponsor company={nowsta} level="Local Meetup - NYC" />
-              <Sponsor company={microsoft} level="Conference Topic Dinner" />
-              <Sponsor company={attune} level="Conference Topic Dinner" />
+              <Sponsor company={microsoft} level="Conference Dinner" />
+              <Sponsor company={attune} level="Conference Dinner" />
             </div>
           </section>
         )}
@@ -150,8 +147,8 @@ const Sponsors = ({ sponsors, isConference }) => {
           <section className={[styles['other'], styles.levelSection].join(' ')}>
             <h3 className={styles.heading}>Other</h3>
             <div className={styles.grid}>
-              <Sponsor company={microsoft} level="Conference Topic Dinner" />
-              <Sponsor company={attune} level="Conference Topic Dinner" />
+              <Sponsor company={microsoft} />
+              <Sponsor company={attune} />
             </div>
           </section>
         )}
