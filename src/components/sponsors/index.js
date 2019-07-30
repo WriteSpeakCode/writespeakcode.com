@@ -33,6 +33,7 @@ import newsela from '../../../content/sponsors/newsela.json'
 import nowsta from '../../../content/sponsors/nowsta.json'
 import oreilly from '../../../content/sponsors/oreilly-media.json'
 import pivotal from '../../../content/sponsors/pivotal.json'
+import refactorco from '../../../content/sponsors/re-factor-co.json'
 
 // Community Partners
 import girlgeekx from '../../../content/sponsors/girlgeekx.json'
@@ -95,6 +96,9 @@ const Sponsors = ({ sponsors, isConference }) => {
             <Sponsor company={zipline} />
             <Sponsor company={onramp} />
             <Sponsor company={google} />
+            {!isConference && (
+              <Sponsor company={atlassian} level="Private Workshops" />
+            )}
           </div>
         </section>
         <section className={[styles['silver'], styles.levelSection].join(' ')}>
@@ -103,6 +107,10 @@ const Sponsors = ({ sponsors, isConference }) => {
             <Sponsor company={sentry} />
             <Sponsor company={newsela} />
             <Sponsor company={oreilly} />
+            <Sponsor
+              company={googlewomentechmakers}
+              level="Conference Childcare & Lanyard"
+            />
             <div />
           </div>
         </section>
@@ -117,27 +125,23 @@ const Sponsors = ({ sponsors, isConference }) => {
             <Sponsor company={heroku} />
             <Sponsor company={kaporcenter} />
             <Sponsor company={pivotal} />
+            <Sponsor company={refactorco} />
           </div>
         </section>
         {!isConference && (
           <section className={[styles['other'], styles.levelSection].join(' ')}>
             <h3 className={styles.heading}>Other</h3>
             <div className={styles.grid}>
-              <Sponsor company={atlassian} level="Private Workshops" />
               <Sponsor company={sentry} level="Local Meetup - SF" />
               <Sponsor company={seatgeek} level="Local Meetup - NYC" />
               <Sponsor company={vts} level="Local Meetup - NYC" />
               <Sponsor company={glympse} level="Local Meetup - SEA" />{' '}
               <Sponsor company={climatecorp} level="Local Meetup - SEA + SF" />
-              <Sponsor company={microsoft} level="Conference Topic Dinner" />
               <Sponsor company={clever} level="Local Meetup - SF" />
               <Sponsor company={indeed} level="Own Your Expertise" />
               <Sponsor company={lob} level="Local Meetup - SF" />
-              <Sponsor
-                company={googlewomentechmakers}
-                level="Conference Childcare & Lanyard"
-              />
               <Sponsor company={nowsta} level="Local Meetup - NYC" />
+              <Sponsor company={microsoft} level="Conference Topic Dinner" />
               <Sponsor company={attune} level="Conference Topic Dinner" />
             </div>
           </section>
@@ -147,10 +151,6 @@ const Sponsors = ({ sponsors, isConference }) => {
             <h3 className={styles.heading}>Other</h3>
             <div className={styles.grid}>
               <Sponsor company={microsoft} level="Conference Topic Dinner" />
-              <Sponsor
-                company={googlewomentechmakers}
-                level="Conference Childcare & Lanyard"
-              />
               <Sponsor company={attune} level="Conference Topic Dinner" />
             </div>
           </section>
