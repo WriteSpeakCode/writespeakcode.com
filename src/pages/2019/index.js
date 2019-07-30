@@ -4,7 +4,7 @@ import Img from 'gatsby-image'
 import { TwitterTweetEmbed } from 'react-twitter-embed'
 import { CarouselProvider, Slider, Slide, DotGroup } from 'pure-react-carousel'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBullhorn, faStar } from '@fortawesome/free-solid-svg-icons'
+import { faBullhorn } from '@fortawesome/free-solid-svg-icons'
 
 import ConfLayout from '../../layouts/conference'
 import Sponsors from '../../components/sponsors'
