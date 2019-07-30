@@ -107,7 +107,7 @@ const Sponsors = ({ sponsors, isConference }) => {
             <Sponsor company={sentry} />
             <Sponsor company={newsela} />
             <Sponsor company={oreilly} />
-            <Sponsor company={googlewomentechmakers} />
+            <Sponsor company={googlewomentechmakers} level="Childcare + Lanyards" />
             <div />
           </div>
         </section>
