@@ -1,0 +1,8 @@
+{
+  "name": "Out In Tech",
+  "url": "https://outintech.com/",
+  "logo": "/images/out-in-tech.jpg",
+  "sponsorships": [
+    { "year": "2019", "level": "Community Partner", "conf_sponsor": true }
+  ]
+}

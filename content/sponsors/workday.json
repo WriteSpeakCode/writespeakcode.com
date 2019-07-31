@@ -1,0 +1,12 @@
+{
+  "name": "Workday",
+  "url": "https://www.workday.com",
+  "logo": "/images/workday.jpg",
+  "sponsorships": [
+    {
+      "year": "2019",
+      "level": "Conference Speaker/Organizer Dinner",
+      "conf_sponsor": true
+    }
+  ]
+}
