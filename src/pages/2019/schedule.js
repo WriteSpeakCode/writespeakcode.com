@@ -58,7 +58,7 @@ const Schedule = ({ data }) => {
           <TabList className={styles.tablist}>
             {schedule.map(day => (
               <Tab className={styles.tab} key={`tab-${parameterize(day.date)}`}>
-                <h1 className={styles.tabTitle}>{day.title}</h1>
+                <h1 className={styles.tabTitle}>{day.date}</h1>
               </Tab>
             ))}
           </TabList>
@@ -66,10 +66,6 @@ const Schedule = ({ data }) => {
           <TabPanels className={styles.tabPanels}>
             {schedule.map(day => (
               <TabPanel key={`panel-${parameterize(day.date)}`}>
-                <div className={styles.day}>
-                  <h2 className="subtitle">{day.date}</h2>
-                </div>
-
                 {day.events.map((event, index) =>
                   event.tracks ? (
                     <Tracks
