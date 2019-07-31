@@ -3,7 +3,8 @@
     {
       "year": "2019",
       "title": "Presenting on the Fly",
-      "desc": "Have you ever been in a meeting and you have been asked to present something spontaneously? In this talk we will go over the 3 point-pyramid system to help you stay focused, succinct and informed when presenting \"unprepared\"."
+      "desc": "Have you ever been in a meeting and you have been asked to present something spontaneously? In this talk we will go over the 3 point-pyramid system to help you stay focused, succinct and informed when presenting \"unprepared\".",
+      "type": "keynote"
     }
   ],
   "bio": "Dana Lawson has 20 years of experience as an engineer and engineering leader. She has worn many hats to complement a product’s lifecycle through her leadership roles at Heptio, Invision, New Relic and GitHub where she currently serves as VP of Engineering. With a background in fine arts, she brings her creative vision to chart new waters and lead the engineering teams of the future.",
