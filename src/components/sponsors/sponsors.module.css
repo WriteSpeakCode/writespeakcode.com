@@ -67,6 +67,26 @@
   }
 }
 
+@media screen and (min-width: 30em) {
+  .community {
+    .grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+  .bronze,
+  .gold,
+  .silver,
+  .other {
+    img {
+      max-width: 10em;
+    }
+    .grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}
+
 @media screen and (min-width: 65em) {
   .row {
     display: flex;
@@ -131,16 +151,16 @@
 
   .other {
     img {
-      max-width: 7em;
+      max-width: 8em;
     }
   }
 
   .community {
     img {
-      max-width: 7em;
+      max-width: 6em;
     }
     .grid {
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
   }
 }

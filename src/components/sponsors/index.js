@@ -34,6 +34,7 @@ import nowsta from '../../../content/sponsors/nowsta.json'
 import oreilly from '../../../content/sponsors/oreilly-media.json'
 import pivotal from '../../../content/sponsors/pivotal.json'
 import refactorco from '../../../content/sponsors/re-factor-co.json'
+import workday from '../../../content/sponsors/workday.json'
 
 // Community Partners
 import girlgeekx from '../../../content/sponsors/girlgeekx.json'
@@ -44,6 +45,7 @@ import diversifytech from '../../../content/sponsors/diversifytech.json'
 import mothercoders from '../../../content/sponsors/mothercoders.json'
 import techbychoice from '../../../content/sponsors/techbychoice.json'
 import brooklynjs from '../../../content/sponsors/brooklynjs.json'
+import outintech from '../../../content/sponsors/out-in-tech.json'
 
 const Sponsors = ({ sponsors, isConference }) => {
   return (
@@ -143,6 +145,7 @@ const Sponsors = ({ sponsors, isConference }) => {
               <Sponsor company={nowsta} level="NYC Meetup" />
               <Sponsor company={microsoft} level="Conference Dinner" />
               <Sponsor company={attune} level="Conference Dinner" />
+              <Sponsor company={workday} level="Conference Dinner" />
             </div>
           </section>
         )}
@@ -152,6 +155,7 @@ const Sponsors = ({ sponsors, isConference }) => {
             <div className={styles.grid}>
               <Sponsor company={microsoft} level="Conference Dinner" />
               <Sponsor company={attune} level="Conference Dinner" />
+              <Sponsor company={workday} level="Conference Dinner" />
             </div>
           </section>
         )}
@@ -169,6 +173,7 @@ const Sponsors = ({ sponsors, isConference }) => {
             <Sponsor company={mothercoders} />
             <Sponsor company={diversifytech} />
             <Sponsor company={brooklynjs} />
+            <Sponsor company={outintech} />
           </div>
         </section>
       </div>

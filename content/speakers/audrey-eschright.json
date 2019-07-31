@@ -4,13 +4,14 @@
   "role": "",
   "company": "",
   "layout": "speaker",
-  "bio": "",
+  "headshot": "/images/audrey-eschright.jpg",
+  "bio": "Audrey is a software developer, writer, and community organizer based in Portland, OR. Her work spans the technical and social practices of open source software, inclusion of diverse perspectives, and collective action. She likes cats.",
   "years": ["2019"],
   "talks": [
     {
       "year": "2019",
-      "title": "Organizing your way to a healthy career",
-      "desc": "",
+      "title": "Organizing your way to a long and healthy career",
+      "desc": "What does it take to have a 10- or 20-year career in tech — or even longer? We could talk about the hard work and technical skills, mentoring and collaboration, and privilege that can be involved. There’s one big way we can increase the odds for all of us, though, and that’s to organize. From #talkpay to unionization, you’ll learn about the skills and tactics that will give us the opportunity to continue our tech work in the healthiest way over time.",
       "type": "talk"
     }
   ]

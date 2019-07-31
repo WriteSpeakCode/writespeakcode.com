@@ -1,11 +1,16 @@
 {
   "name": "Cindy Alvarez",
+  "role": "Principal PM Lead",
+  "company": "Microsoft",
+  "headshot": "/images/cindy-alvarez.jpg",
+  "bio": "Cindy Alvarez is the author of Lean Customer Development: Build Products Your Customer Will Buy, and a Principal PM Lead at Microsoft working with internal teams to build stronger product engineering practices and a more inclusive culture. Prior to Microsoft, Cindy spent over a decade in UX and product leadership positions in built products and led research and design teams at venture-backed startups. She’s a first-generation college graduate, distance runner, and mother of two.",
   "layout": "speaker",
   "years": ["2019"],
   "talks": [
     {
       "year": "2019",
-      "title": "Closing Keynote",
+      "title": "Convince Me",
+      "desc": "Casually raising an idea among your peers. Disagreeing with your manager in a high-stakes meeting. Sending an email to get your whole team on the same page.  What do all of these scenarios have in common?  Your knowledge and expertise are only a fraction of what determines whether you'll convince your audience.  We'll walk through a few core building blocks of effective communication and convincing that will get you the rest of the way there.  You'll leave this talk with tactics you can put to use immediately.",
       "type": "keynote"
     }
   ]
