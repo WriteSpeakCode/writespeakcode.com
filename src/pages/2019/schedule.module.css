@@ -44,13 +44,6 @@
   composes: tabPanels;
 }
 
-.day {
-  background-color: var(--mint);
-  padding: 1em;
-  text-align: right;
-  border-bottom: 1px solid var(--navy);
-}
-
 /* Event */
 
 @media screen and (min-width: 30em) {

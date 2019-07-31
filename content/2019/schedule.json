@@ -1,6 +1,5 @@
 [
   {
-    "title": "Write / Visibility Day",
     "date": "Friday Aug 16, 2019",
     "events": [
       {
@@ -90,7 +89,7 @@
             ]
           },
           {
-            "title": "Self Track",
+            "title": "Growth Track",
             "events": [
               {
                 "time": "11:10 AM",
@@ -163,7 +162,7 @@
             ]
           },
           {
-            "title": "Self Track",
+            "title": "Growth Track",
             "events": [
               {
                 "time": "2:00 PM",
@@ -210,7 +209,7 @@
             ]
           },
           {
-            "title": "Self Track",
+            "title": "Growth Track",
             "events": [
               {
                 "time": "4:30 PM",
@@ -244,7 +243,6 @@
   },
 
   {
-    "title": "Speak / Leadership Day",
     "date": "Saturday Aug 17, 2019",
     "events": [
       {
@@ -327,7 +325,7 @@
             ]
           },
           {
-            "title": "Self Track",
+            "title": "Growth Track",
             "events": [
               {
                 "time": "11:10am",
@@ -388,7 +386,7 @@
             ]
           },
           {
-            "title": "Self Track",
+            "title": "Growth Track",
             "events": [
               {
                 "time": "2:00 PM",
@@ -442,7 +440,7 @@
             ]
           },
           {
-            "title": "Self Track",
+            "title": "Growth Track",
             "events": [
               {
                 "time": "4:30 PM",
@@ -472,7 +470,6 @@
   },
 
   {
-    "title": "Code / Project Day",
     "date": "Sunday Aug 18, 2019",
     "events": [
       {
@@ -540,7 +537,7 @@
             ]
           },
           {
-            "title": "Self Track",
+            "title": "Growth Track",
             "events": [
               {
                 "time": "11:10am",
@@ -610,7 +607,7 @@
             ]
           },
           {
-            "title": "Self Track",
+            "title": "Growth Track",
             "events": [
               {
                 "time": "2:00 PM",
