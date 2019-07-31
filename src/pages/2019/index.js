@@ -101,7 +101,7 @@ const Conference2019 = ({ data }) => {
             <h3 className="title">Tracks & Schedule</h3>
             <div className={styles.tracks}>
               <div>
-                <h4 className="subtitle">Friday</h4>
+                <h4 className="subtitle">Friday 8/16</h4>
                 <ul>
                   <li>Track 1: Core Write curriculum</li>
                   <li>Track 2: Speak</li>
@@ -110,7 +110,7 @@ const Conference2019 = ({ data }) => {
                 </ul>
               </div>
               <div>
-                <h4 className="subtitle">Saturday</h4>
+                <h4 className="subtitle">Saturday 8/17</h4>
                 <ul>
                   <li>Track 1: Write</li>
                   <li>Track 2: Core Speak curriculum</li>
@@ -119,7 +119,7 @@ const Conference2019 = ({ data }) => {
                 </ul>
               </div>
               <div>
-                <h4 className="subtitle">Sunday</h4>
+                <h4 className="subtitle">Sunday 8/18</h4>
                 <ul>
                   <li>Track 1: Write</li>
                   <li>Track 2: Speak</li>
