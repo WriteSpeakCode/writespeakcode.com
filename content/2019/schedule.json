@@ -80,11 +80,7 @@
               },
               {
                 "time": "12:10 PM",
-                "name": "Patricia Realini"
-              },
-              {
-                "time": "12:40 PM",
-                "name": "Karina Kotval"
+                "name": "Reshama Shaikh"
               }
             ]
           },
@@ -150,6 +146,10 @@
               {
                 "time": "2:00 PM",
                 "name": "Eva PenzeyMoog"
+              },
+              {
+                "time": "2:30 PM",
+                "name": "Karina Kotval"
               },
               {
                 "time": "3:00 PM",
@@ -280,19 +280,19 @@
             "title": "Write Track",
             "events": [
               {
-                "time": "11:10am",
+                "time": "11:10 AM",
                 "name": "Adrienne Tacke"
               },
               {
-                "time": "11:40am",
+                "time": "11:40 AM",
                 "name": "Brittney Braxton"
               },
               {
-                "time": "12:10pm",
+                "time": "12:10 PM",
                 "name": "Amruta Ranade"
               },
               {
-                "time": "12:40pm",
+                "time": "12:40 PM",
                 "name": "Asia Hoe"
               }
             ]
@@ -301,7 +301,7 @@
             "title": "Speak Track",
             "events": [
               {
-                "time": "11:10am",
+                "time": "11:10 AM",
                 "type": "curriculum",
                 "name": "Alex Millatmal"
               }
@@ -311,15 +311,15 @@
             "title": "Code Track",
             "events": [
               {
-                "time": "11:10am",
-                "name": "Reshama Shaikh"
+                "time": "11:10 AM",
+                "name": "Patricia Realini"
               },
               {
-                "time": "12:10pm",
+                "time": "12:10 PM",
                 "name": "Galen Corey"
               },
               {
-                "time": "12:40pm",
+                "time": "12:40 PM",
                 "name": "Elle Meredith"
               }
             ]
@@ -328,19 +328,19 @@
             "title": "Growth Track",
             "events": [
               {
-                "time": "11:10am",
+                "time": "11:10 AM",
                 "name": "Tatiana Mac"
               },
               {
-                "time": "11:40am",
+                "time": "11:40 AM",
                 "name": "Kiko Lam"
               },
               {
-                "time": "12:10pm",
+                "time": "12:10 PM",
                 "name": "Miriam Aguirre"
               },
               {
-                "time": "12:40pm",
+                "time": "12:40 PM",
                 "name": "Mica Alaniz"
               }
             ]
@@ -511,7 +511,7 @@
             "title": "Write Track",
             "events": [
               {
-                "time": "11:10am",
+                "time": "11:10 AM",
                 "name": "Kara Carrell"
               }
             ]
@@ -520,7 +520,7 @@
             "title": "Speak Track",
             "events": [
               {
-                "time": "11:10am",
+                "time": "11:10 AM",
                 "name": "Aisha Blake"
               }
             ]
@@ -529,7 +529,7 @@
             "title": "Code Track",
             "events": [
               {
-                "time": "11:10am",
+                "time": "11:10 AM",
                 "type": "curriculum",
                 "title": "Code Day curriculum",
                 "additionalNames": ["Courteney Ervin"]
@@ -540,19 +540,19 @@
             "title": "Growth Track",
             "events": [
               {
-                "time": "11:10am",
+                "time": "11:10 AM",
                 "name": "Audrey Eschright"
               },
               {
-                "time": "11:40am",
+                "time": "11:40 AM",
                 "name": "Alex Qin"
               },
               {
-                "time": "12:10pm",
+                "time": "12:10 PM",
                 "name": "Tilde Ann Thurium"
               },
               {
-                "time": "12:40pm",
+                "time": "12:40 PM",
                 "name": "Wendy Gwo"
               }
             ]
