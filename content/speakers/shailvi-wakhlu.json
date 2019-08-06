@@ -1,24 +1,24 @@
 {
+  "talks": [
+    {
+      "year": "2019",
+      "title": "How to #HumbleBrag Effectively",
+      "desc": "Many people are shy of accepting praise, and highlighting their professional achievements to the detriment of their own career success. The reasons why they are uncomfortable advocating for themselves could be gendered, cultural or societal. In this talk, I hope to highlight the specific ways to phrase your wins, and position your thinking to not get left behind due to a lack of perceived value."
+    }
+  ],
+  "bio": "Shailvi is an entrepreneur, who currently runs her own online business promoting and selling Indian handcraft products. In the past she has worked at Salesforce, Fitbit, Prezi & Monster.com and also ran her own company building software for startups. She is a passionate coder and analyst and believes in furthering STEM education for women and minorities. In addition to multiple inspiring talks in professional and casual settings, she tutors 7th graders in an inner city school in San Francisco with their math homework. Her goal is help create strong communities, that support and champion the cause of women and minorities.",
   "name": "Shailvi Wakhlu",
   "pronouns": "she/her",
-  "role": "Sr. Manager, Data Intelligence",
-  "company": "Salesforce",
-  "headshot": "/images/shailvi-wakhlu.jpg",
+  "role": "Founder",
+  "years": [
+    "2019"
+  ],
   "links": [
     {
       "type": "linkedin",
       "url": "shailviw"
     }
   ],
-  "layout": "speaker",
-  "bio": "Shailvi is a Sr Manager, Data Intelligence at Salesforce. In the past she has worked at Fitbit, Prezi, Monster.com and also run her own company. She is a passionate coder and analyst and believes in furthering STEM education for women and minorities. In addition to multiple inspiring talks in professional and casual settings, she tutors 7th graders in an inner city school in San Francisco with their math homework. Her goal is to help build communities by women, that help other women be successful. ",
-  "years": ["2019"],
-  "talks": [
-    {
-      "year": "2019",
-      "title": "How to #HumbleBrag Effectively",
-      "desc": "Many people are shy of accepting praise, and highlighting their professional achievements to the detriment of their own career success. The reasons why they are uncomfortable advocating for themselves could be gendered, cultural or societal. In this talk, I hope to highlight the specific ways to phrase your wins, and position your thinking to not get left behind due to a lack of perceived value.",
-      "type": "talk"
-    }
-  ]
+  "headshot": "/images/shailvi-wakhlu.jpg",
+  "company": "WrapMeCozy.com"
 }
