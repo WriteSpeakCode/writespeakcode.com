@@ -1,0 +1,26 @@
+{
+  "name": "Lisa van Gelder",
+  "pronouns": "she/her",
+  "role": "VP, Engineering",
+  "company": "Meetup",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "lisa_van_gelder"
+    },
+    {
+      "type": "linkedin",
+      "url": "lisa-van-gelder"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "",
+  "years": ["2019"],
+  "talks": [
+    {
+      "year": "2019",
+      "title": "4 Components of High Performing Teams",
+      "type": "talk"
+    }
+  ]
+}
