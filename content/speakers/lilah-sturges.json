@@ -16,13 +16,5 @@
   ],
   "layout": "speaker",
   "bio": "Lilah Sturges is a comic book writer and web developer whose writing has been nominated for the Eisner, Ignatz, Prism, and GLAAD Media Awards",
-  "years": ["2019"],
-  "talks": [
-    {
-      "year": "2019",
-      "title": "How To Give Talks: A Talk",
-      "desc": "You've always wanted to speak on a particular topic, but how do you go about doing it? What will you say and how will you say it? How will you keep your audience engaged and yourself focused? And most importantly (as it turns out), how do you bring yourself--your background, your personality, and your identity--into your talk in a way that makes what you say both authentic and relevant? Join comic book writer, developer (and raconteur) Lilah Sturges as she explains not just how to make your talks engaging, but how to engage yourself in your talk.",
-      "type": "talk"
-    }
-  ]
+  "years": []
 }
