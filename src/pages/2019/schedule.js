@@ -43,6 +43,7 @@ const Tracks = ({ tracks, speakers, day }) => {
 
 const Schedule = ({ data }) => {
   const speakers = data.allSpeakersJson.nodes
+  const sponsors = data.allSponsorsJson.nodes
 
   return (
     <ConfLayout subpage={true}>
@@ -78,6 +79,7 @@ const Schedule = ({ data }) => {
                     <Event
                       {...event}
                       speakers={speakers}
+                      sponsors={sponsors}
                       day={day}
                       key={`event-${parameterize(day.date)}-${parameterize(
                         event.time
@@ -117,6 +119,14 @@ export const scheduleQuery = graphql`
           type
           year
         }
+      }
+    }
+    allSponsorsJson {
+      nodes {
+        id
+        name
+        url
+        logo
       }
     }
   }

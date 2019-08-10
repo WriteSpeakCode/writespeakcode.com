@@ -20,13 +20,29 @@ function renderEventInfo(title, desc) {
 }
 
 // When the talk information is in the schedule.json
-const ConfEvent = ({ title, desc, type, additionalNames, speakers }) => {
+const ConfEvent = ({
+  title,
+  desc,
+  type,
+  additionalNames,
+  speakers,
+  sponsors,
+  eventSponsors,
+}) => {
   const allSpeakers = []
   if (additionalNames) {
     additionalNames.map(name =>
       allSpeakers.push(speakers.find(s => s.name === name))
     )
   }
+
+  const allSponsors = []
+  if (eventSponsors) {
+    eventSponsors.map(sponsorName =>
+      allSponsors.push(sponsors.find(s => s.name === sponsorName))
+    )
+  }
+
   return (
     <>
       {type && <TalkType type={type} secondary />}
@@ -40,6 +56,21 @@ const ConfEvent = ({ title, desc, type, additionalNames, speakers }) => {
                 speakers={speakers}
                 key={`speaker-${speaker.name}-${index}`}
               />
+            ))}
+          {eventSponsors &&
+            allSponsors.map(company => (
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={company.url}
+                key={company.id}
+              >
+                <img
+                  src={company.logo}
+                  alt={`${company.name} logo`}
+                  className={styles.sponsorLogo}
+                />
+              </a>
             ))}
         </div>
       </div>
@@ -77,6 +108,8 @@ const Event = ({
   name,
   time,
   speakers,
+  sponsors,
+  eventSponsors,
   title,
   desc,
   type,
@@ -93,6 +126,8 @@ const Event = ({
             type={type}
             additionalNames={additionalNames}
             speakers={speakers}
+            sponsors={sponsors}
+            eventSponsors={eventSponsors}
           />
         ) : (
           <TalkEvent
