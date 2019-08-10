@@ -302,7 +302,13 @@
               {
                 "time": "11:10 AM",
                 "type": "curriculum",
-                "name": "Alex Millatmal"
+                "title": "Hacking the CFP Process",
+                "additionalNames": ["Alex Millatmal"]
+              },
+              {
+                "time": "12:10 PM",
+                "type": "curriculum",
+                "title": "Conference Organizers Panel"
               }
             ]
           },
@@ -366,12 +372,15 @@
             "events": [
               {
                 "time": "2:00 PM",
-                "title": "Conference Organizers Panel"
+                "type": "curriculum",
+                "title": "Build a Proposal",
+                "additionalNames": ["Alex Millatmal"]
               },
               {
-                "time": "3:00 PM",
+                "time": "2:50 PM",
                 "type": "curriculum",
-                "name": "Alex Millatmal"
+                "title": "Write and Practice Your Talk",
+                "additionalNames": ["Alex Millatmal"]
               }
             ]
           },
@@ -425,6 +434,7 @@
               {
                 "time": "4:30 PM",
                 "type": "curriculum",
+                "title": "Wrap-up",
                 "name": "Alex Millatmal"
               }
             ]
