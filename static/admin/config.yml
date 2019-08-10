@@ -102,6 +102,10 @@ collections:
           - label: 'Description'
             name: 'desc'
             widget: 'string'
+          - label: 'Type'
+            name: 'type'
+            widget: 'select'
+            options: ['talk', 'workshop', 'curriculum', 'keynote']
 
   - name: 'sponsors'
     label: 'Sponsors'
