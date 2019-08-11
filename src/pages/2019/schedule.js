@@ -11,7 +11,7 @@ import styles from './schedule.module.css'
 import schedule from '../../../content/2019/schedule.json'
 
 // TODO: Add unique key for tab
-const Tracks = ({ tracks, speakers, day }) => {
+const Tracks = ({ tracks, speakers, day, sponsors }) => {
   return (
     <Tabs className={styles.subTabs}>
       <TabList className={styles.subTabList}>
@@ -29,6 +29,7 @@ const Tracks = ({ tracks, speakers, day }) => {
               <Event
                 {...event}
                 speakers={speakers}
+                sponsors={sponsors}
                 key={`event-${parameterize(day.date)}-${parameterize(
                   event.time
                 )}`}
@@ -72,6 +73,7 @@ const Schedule = ({ data }) => {
                     <Tracks
                       tracks={event.tracks}
                       speakers={speakers}
+                      sponsors={sponsors}
                       day={day}
                       key={`track-${parameterize(day.date)}-${index}`}
                     />
