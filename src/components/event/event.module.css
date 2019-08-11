@@ -28,10 +28,6 @@
   margin-right: 0.5em;
 }
 
-.type {
-  font-weight: var(--light);
-}
-
 .grid {
   margin-top: 1em;
 }
@@ -46,4 +42,8 @@
 
 .sponsorLogo {
   max-width: 150px;
+}
+
+.food {
+  background-color: #eaf7ee;
 }
