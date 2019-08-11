@@ -28,6 +28,7 @@ const ConfEvent = ({
   speakers,
   sponsors,
   eventSponsors,
+  menu,
 }) => {
   const allSpeakers = []
   if (additionalNames) {
@@ -45,7 +46,7 @@ const ConfEvent = ({
 
   return (
     <>
-      {type && <TalkType type={type} secondary />}
+      {type && type !== 'food' && <TalkType type={type} secondary />}
       <div className={styles.grid}>
         {renderEventInfo(title, desc)}
         <div>
@@ -72,6 +73,16 @@ const ConfEvent = ({
                 />
               </a>
             ))}
+          {menu && (
+            <a
+              href={menu}
+              className="link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View menu (pdf)
+            </a>
+          )}
         </div>
       </div>
     </>
@@ -114,9 +125,10 @@ const Event = ({
   desc,
   type,
   additionalNames,
+  menu,
 }) => {
   return (
-    <section className={styles.event}>
+    <section className={`${styles.event} ${styles[type]}`}>
       <div>
         <span className={styles.time}>{time}</span>
         {title ? (
@@ -128,6 +140,7 @@ const Event = ({
             speakers={speakers}
             sponsors={sponsors}
             eventSponsors={eventSponsors}
+            menu={menu}
           />
         ) : (
           <TalkEvent

@@ -4,7 +4,9 @@
     "events": [
       {
         "time": "8:00 AM",
-        "title": "Breakfast & Registration"
+        "title": "Breakfast & Registration",
+        "type": "food",
+        "menu": "/files/2019_08_16_friday_breakfast_menu.pdf"
       },
       {
         "time": "9:00 AM",
@@ -25,7 +27,8 @@
       },
       {
         "time": "10:40 AM",
-        "title": "Networking & Sponsor Mingle"
+        "title": "Networking & Sponsor Mingle",
+        "desc": "Snacks, fruit, and coffee will be provided."
       },
       {
         "tracks": [
@@ -110,7 +113,9 @@
       },
       {
         "time": "1:00 PM",
-        "title": "Lunch"
+        "title": "Lunch",
+        "type": "food",
+        "menu": "/files/2019_08_16_friday_lunch_menu.pdf"
       },
       {
         "tracks": [
@@ -173,7 +178,8 @@
       },
       {
         "time": "4:00 PM",
-        "title": "Snacks & Sponsor Mingling"
+        "title": "Snacks & Sponsor Mingling",
+        "desc": "Snacks, fruit, and coffee will be provided."
       },
       {
         "tracks": [
@@ -248,7 +254,9 @@
     "events": [
       {
         "time": "8:00 AM",
-        "title": "Breakfast"
+        "title": "Breakfast",
+        "type": "food",
+        "desc": "Bagels (cream cheese, vegan cream cheese, jam, butter), croissants, muffins, yogurt, and granola (including gluten-free and vegan)."
       },
       {
         "time": "9:00 AM",
@@ -273,7 +281,8 @@
       },
       {
         "time": "10:20 AM",
-        "title": "Networking & Sponsor Mingle"
+        "title": "Networking & Sponsor Mingle",
+        "desc": "Snacks, fruit, and coffee will be provided."
       },
       {
         "tracks": [
@@ -356,7 +365,9 @@
       },
       {
         "time": "1:00 PM",
-        "title": "Lunch"
+        "title": "Lunch",
+        "type": "food",
+        "menu": "/files/2019_08_17_saturday_lunch_menu.pdf"
       },
       {
         "tracks": [
@@ -417,7 +428,8 @@
       },
       {
         "time": "4:00 PM",
-        "title": "Snacks & Sponsor Mingling"
+        "title": "Snacks & Sponsor Mingling",
+        "desc": "Snacks, fruit, and coffee will be provided."
       },
       {
         "tracks": [
@@ -485,7 +497,9 @@
     "events": [
       {
         "time": "8:00 AM",
-        "title": "Breakfast"
+        "title": "Breakfast",
+        "type": "food",
+        "desc": "Bagels (cream cheese, vegan cream cheese, jam, butter), croissants, muffins, yogurt, and granola (including gluten-free and vegan)."
       },
       {
         "time": "9:00 AM",
@@ -514,7 +528,8 @@
       },
       {
         "time": "10:40 AM",
-        "title": "Networking & Sponsor Mingle"
+        "title": "Networking & Sponsor Mingle",
+        "desc": "Snacks, fruit, and coffee will be provided."
       },
       {
         "tracks": [
@@ -572,7 +587,9 @@
       },
       {
         "time": "1:00 PM",
-        "title": "Lunch"
+        "title": "Lunch",
+        "type": "food",
+        "menu": "/files/2019_08_18_sunday_lunch_menu.pdf"
       },
       {
         "tracks": [
@@ -642,7 +659,8 @@
       },
       {
         "time": "4:00 PM",
-        "title": "Snacks & Sponsor Mingling"
+        "title": "Snacks & Sponsor Mingling",
+        "desc": "Snacks, fruit, and coffee will be provided."
       },
       {
         "time": "4:30 PM",
