@@ -226,7 +226,8 @@
       },
       {
         "time": "5:00 PM",
-        "title": "Sponsor Talk"
+        "title": "Sponsor Talk",
+        "eventSponsors": ["Google"]
       },
       {
         "time": "5:10 PM",
@@ -269,7 +270,8 @@
       },
       {
         "time": "9:40 AM",
-        "title": "Sponsor Talk"
+        "title": "Sponsor Talk",
+        "eventSponsors": ["Splunk"]
       },
       {
         "time": "9:50 AM",
@@ -598,7 +600,9 @@
             "events": [
               {
                 "time": "2:00 PM",
-                "title": "Github Sponsored Workshop"
+                "title": "Sponsored Workshop",
+                "type": "workshop",
+                "eventSponsors": ["Github"]
               }
             ]
           },
@@ -668,7 +672,8 @@
       },
       {
         "time": "4:50 PM",
-        "title": "Sponsor Talk"
+        "title": "Sponsor Talk",
+        "eventSponsors": ["Github"]
       },
       {
         "time": "5:00 PM",
