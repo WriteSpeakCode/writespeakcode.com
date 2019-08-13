@@ -31,6 +31,12 @@
 .grid {
   margin-top: 1em;
 }
+
+.sponsorLogo {
+  max-width: 125px;
+  margin-top: 1em;
+}
+
 @media screen and (min-width: 50em) {
   .grid {
     display: grid;
@@ -38,10 +44,9 @@
     grid-column-gap: 1em;
     margin-top: 0;
   }
-}
-
-.sponsorLogo {
-  max-width: 125px;
+  .sponsorLogo {
+    margin-top: 0;
+  }
 }
 
 .food {
