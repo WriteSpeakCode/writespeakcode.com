@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLaptopCode,
@@ -7,7 +7,7 @@ import {
   faStar,
   faBookOpen,
 } from '@fortawesome/free-solid-svg-icons'
-import { SpeakerDialog } from '../speaker'
+import { SpeakerButton } from '../speaker'
 import { parameterize } from '../../utils/helpers'
 
 import styles from './talk.module.css'
@@ -30,28 +30,18 @@ export const TalkType = ({ type, secondary }) => {
 }
 
 const Talk = ({ speaker }) => {
-  const [dialogIsOpen, setDialogIsOpen] = useState(false)
   const talk = speaker.talks[0]
   if (talk.year && talk.title && talk.desc && talk.desc && talk.type) {
     return (
       <section className={styles.section} id={parameterize(talk.title)}>
         <div>
           <h2 className="title">{talk.title}</h2>
-          <TalkType type={talk.type} />
-          <button
-            onClick={() => setDialogIsOpen(true)}
-            className={styles.dialogButton}
-          >
-            {speaker.name}
-          </button>
+          <div>
+            <TalkType type={talk.type} />
+          </div>
+          <SpeakerButton speaker={speaker} />
         </div>
         <p>{talk.desc}</p>
-        <SpeakerDialog
-          dialogIsOpen={dialogIsOpen}
-          setDialogIsOpen={setDialogIsOpen}
-          speaker={speaker}
-          showLinkToTalk={false}
-        />
       </section>
     )
   }
