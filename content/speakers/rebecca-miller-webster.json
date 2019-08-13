@@ -1,0 +1,19 @@
+{
+  "name": "Rebecca Miller-Webster",
+  "pronouns": "she/her",
+  "role": "Director of Engineering",
+  "company": "Mastery Logistics Systems",
+  "headshot": "/images/rebecca-miller-webster.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "rmillerwebster"
+    },
+    {
+      "type": "linkedin",
+      "url": "rjmillerwebster"
+    }
+  ],
+  "layout": "speaker",
+  "years": ["2019"]
+}
