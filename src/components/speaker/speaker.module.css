@@ -1,11 +1,13 @@
 /* Speaker Regular Button Styles */
 .dialogButton {
-  display: block;
+  display: flex;
+  align-items: center;
+  margin: 1em 0;
+  padding: 0;
+  padding-right: 0.5em;
   color: var(--navy);
   background: transparent;
   font-weight: var(--semi-bold);
-  padding-top: 0.25em;
-  padding-bottom: 0.25em;
   border-color: inherit;
   border-style: solid;
   font-size: 0.9em;
@@ -14,14 +16,10 @@
     cursor: pointer;
     color: var(--tan);
   }
-}
-
-.speakerBtn {
-  display: inline-flex;
-  padding-right: 1em;
-  margin-top: 1em;
   img {
     max-width: 30px;
+    border-right: 2px solid currentcolor;
+    margin-right: 0.5em;
   }
 }
 

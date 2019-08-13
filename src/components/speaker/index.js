@@ -120,18 +120,17 @@ const randomPlaceholder = () => {
 export const SpeakerButton = ({ speaker }) => {
   const [dialogIsOpen, setDialogIsOpen] = useState(false)
   return (
-    <span className={styles.speakerBtn}>
-      {speaker.headshot && (
-        <img
-          src={speaker.headshot}
-          alt={`${speaker.name} headshot thumbnail`}
-        />
-      )}
-
+    <>
       <button
         onClick={() => setDialogIsOpen(true)}
         className={styles.dialogButton}
       >
+        {speaker.headshot && (
+          <img
+            src={speaker.headshot}
+            alt={`${speaker.name} headshot thumbnail`}
+          />
+        )}
         {speaker.name}
       </button>
       <SpeakerDialog
@@ -140,7 +139,7 @@ export const SpeakerButton = ({ speaker }) => {
         speaker={speaker}
         showLinkToTalk={false}
       />
-    </span>
+    </>
   )
 }
 
