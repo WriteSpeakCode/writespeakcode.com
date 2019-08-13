@@ -1,0 +1,8 @@
+{
+  "name": "Soma Streat Food Park",
+  "url": "http://www.somastreatfoodpark.com",
+  "logo": "/images/soma.jpg",
+  "sponsorships": [
+    { "year": "2019", "level": "Opening Night Party", "conf_sponsor": true }
+  ]
+}
