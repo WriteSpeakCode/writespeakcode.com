@@ -4,6 +4,7 @@
   "role": "Director of Engineering",
   "company": "Mastery Logistics Systems",
   "headshot": "/images/rebecca-miller-webster.jpg",
+  "bio": "Rebecca Miller-Webster is a software engineer, educator, and engineering manager. She is the founder of Write/Speak/Code and Director of Engineering at Mastery Logistics Systems.",
   "links": [
     {
       "type": "twitter",
@@ -15,5 +16,8 @@
     }
   ],
   "layout": "speaker",
-  "years": ["2019"]
+  "years": ["2019"],
+  "talks": [
+    { "year": "2019", "title": "Write/Speak/Code in 3 Acts", "type": "talk" }
+  ]
 }
