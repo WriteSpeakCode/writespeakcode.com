@@ -17,16 +17,11 @@
 }
 
 .speakerBtn {
+  display: inline-flex;
+  padding-right: 1em;
   margin-top: 1em;
   img {
     max-width: 30px;
-  }
-}
-
-@media screen and (min-width: 30em) {
-  .speakerBtn {
-    display: inline-flex;
-    padding-right: 1em;
   }
 }
 
