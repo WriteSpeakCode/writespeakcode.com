@@ -22,11 +22,11 @@ export const TALK_ICONS = {
   panel: faComments,
 }
 
-export const TalkType = ({ type, secondary }) => {
+export const TalkType = ({ type }) => {
   return (
-    <span className={secondary ? styles.secondary : null}>
+    <span className={styles.type}>
       <FontAwesomeIcon icon={TALK_ICONS[type]} className={styles.icon} />
-      <span className={styles.type}>{type}</span>
+      {type}
     </span>
   )
 }
