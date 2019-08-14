@@ -18,7 +18,6 @@ import github from '../../../content/sponsors/github.json'
 import adhoc from '../../../content/sponsors/adhoc.json'
 import climatecorp from '../../../content/sponsors/climate-corporation.json'
 import onramp from '../../../content/sponsors/onramp.json'
-import microsoft from '../../../content/sponsors/microsoft.json'
 import attune from '../../../content/sponsors/attune-insurance.json'
 import carbonfive from '../../../content/sponsors/carbon-five.json'
 import clever from '../../../content/sponsors/clever.json'
@@ -33,7 +32,6 @@ import newsela from '../../../content/sponsors/newsela.json'
 import nowsta from '../../../content/sponsors/nowsta.json'
 import oreilly from '../../../content/sponsors/oreilly-media.json'
 import pivotal from '../../../content/sponsors/pivotal.json'
-import refactorco from '../../../content/sponsors/re-factor-co.json'
 import workday from '../../../content/sponsors/workday.json'
 
 // Community Partners
@@ -127,7 +125,6 @@ const Sponsors = ({ sponsors, isConference }) => {
             <Sponsor company={heroku} />
             <Sponsor company={kaporcenter} />
             <Sponsor company={pivotal} />
-            <Sponsor company={refactorco} />
           </div>
         </section>
         {!isConference && (
@@ -143,7 +140,6 @@ const Sponsors = ({ sponsors, isConference }) => {
               <Sponsor company={indeed} level="Own Your Expertise" />
               <Sponsor company={lob} level="SF Meetup" />
               <Sponsor company={nowsta} level="NYC Meetup" />
-              <Sponsor company={microsoft} level="Conference Dinner" />
               <Sponsor company={attune} level="Conference Dinner" />
               <Sponsor company={workday} level="Conference Dinner" />
             </div>
@@ -153,7 +149,6 @@ const Sponsors = ({ sponsors, isConference }) => {
           <section className={[styles['other'], styles.levelSection].join(' ')}>
             <h3 className={styles.heading}>Other</h3>
             <div className={styles.grid}>
-              <Sponsor company={microsoft} level="Conference Dinner" />
               <Sponsor company={attune} level="Conference Dinner" />
               <Sponsor company={workday} level="Conference Dinner" />
             </div>
