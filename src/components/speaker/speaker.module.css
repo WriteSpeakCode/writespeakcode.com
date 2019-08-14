@@ -1,8 +1,8 @@
 /* Speaker Regular Button Styles */
 .dialogButton {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  margin: 1em 0;
+  margin: 0.5em 1em 0.5em 0;
   padding: 0;
   padding-right: 0.5em;
   color: var(--navy);

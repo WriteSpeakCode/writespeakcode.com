@@ -1,0 +1,24 @@
+{
+  "name": "Jessica Parsons",
+  "role": "Documentation Engineer",
+  "company": "Netlify",
+  "headshot": "/images/jessica-parsons.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "verythorough"
+    },
+    {
+      "type": "linkedin",
+      "url": "verythorough"
+    },
+    {
+      "type": "github",
+      "url": "verythorough"
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Jessica Parsons has spent half her life teaching, and a quarter of it developing for the web. She now combines those passions as a documentation engineer at Netlify and a workshop instructor for Girl Develop It. Away from a computer screen, she enjoys sewing, fixing things, and enjoying the outdoors with her shiba inus.",
+  "years": ["2019"],
+  "talks": []
+}

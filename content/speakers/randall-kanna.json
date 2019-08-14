@@ -1,0 +1,19 @@
+{
+  "name": "Randall Kanna",
+  "role": "Senior Software Engineer",
+  "headshot": "/images/randall-kanna.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "RandallKanna"
+    },
+    {
+      "type": "linkedin",
+      "url": "randallkanna."
+    }
+  ],
+  "layout": "speaker",
+  "bio": "Randall is a Senior Software Engineer, speaker and soon to be an O’Reilly published author of Hands-on Smart Contract Development. Randall started coding at the age of 12 selling websites online at Neopets.com. She‘s worked at Ticketfly, Pandora and Eventbrite.",
+  "years": ["2019"],
+  "talks": []
+}

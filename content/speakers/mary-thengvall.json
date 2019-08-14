@@ -1,0 +1,15 @@
+{
+  "name": "Mary Thengvall",
+  "role": "Founder & DevRel Consultant",
+  "company": "Persea Consulting",
+  "headshot": "/images/mary-thengvall.jpg",
+  "links": [
+    { "type": "twitter", "url": "mary_grace" },
+    { "type": "github", "url": "mary_grace" },
+    { "type": "linkedin", "url": "marythengvall" }
+  ],
+  "layout": "speaker",
+  "bio": "Mary Thengvall is a connector of people at heart, both personally and professionally. She loves digging into the strategy of how to build and foster developer communities and has been doing so for over 10 years. In addition to her work, she's known for being 'the one with the dog,' thanks to her ever-present medical alert service dog Ember. She's the author of the first book on Developer Relations: The Business Value of Developer Relations (© 2018, Apress).",
+  "years": ["2019"],
+  "talks": []
+}

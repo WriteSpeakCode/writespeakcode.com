@@ -6,6 +6,7 @@ import {
   faFire,
   faStar,
   faBookOpen,
+  faComments,
 } from '@fortawesome/free-solid-svg-icons'
 import { SpeakerButton } from '../speaker'
 import { parameterize } from '../../utils/helpers'
@@ -18,6 +19,7 @@ export const TALK_ICONS = {
   'fireside chat': faFire,
   keynote: faStar,
   curriculum: faBookOpen,
+  panel: faComments,
 }
 
 export const TalkType = ({ type, secondary }) => {

@@ -20,7 +20,9 @@
 .secondary {
   font-size: 0.8em;
   margin: 0 0.5em;
-  color: var(--tan);
+  padding: 0.25em;
+  background-color: var(--blush);
+  color: var(--navy);
 }
 
 .dialogButton {
