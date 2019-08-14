@@ -125,12 +125,10 @@ export const SpeakerButton = ({ speaker }) => {
         onClick={() => setDialogIsOpen(true)}
         className={styles.dialogButton}
       >
-        {speaker.headshot && (
-          <img
-            src={speaker.headshot}
-            alt={`${speaker.name} headshot thumbnail`}
-          />
-        )}
+        <img
+          src={speaker.headshot ? speaker.headshot : randomPlaceholder()}
+          alt={`${speaker.name} headshot thumbnail`}
+        />
         {speaker.name}
       </button>
       <SpeakerDialog

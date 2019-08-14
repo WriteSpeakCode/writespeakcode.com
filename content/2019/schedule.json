@@ -124,7 +124,15 @@
             "events": [
               {
                 "time": "2:00 PM",
-                "title": "Publishers Panel"
+                "title": "Publishers Panel",
+                "type": "panel",
+                "additionalNames": [
+                  "Adrienne Tacke",
+                  "Eileen Whitener",
+                  "Jessica Parsons",
+                  "Randall Kanna",
+                  "Mary Thengvall"
+                ]
               },
               {
                 "time": "3:00 PM",
@@ -320,8 +328,15 @@
               },
               {
                 "time": "12:10 PM",
-                "type": "curriculum",
-                "title": "Conference Organizers Panel"
+                "type": "panel",
+                "title": "Conference Organizers Panel",
+                "additionalNames": [
+                  "Tilde Ann Thurium",
+                  "Aisha Blake",
+                  "Zoe Gagnon",
+                  "Marlena Compton",
+                  "Jessica Fleuri"
+                ]
               }
             ]
           },
@@ -622,7 +637,7 @@
                 "name": "Abby Greenbloom"
               },
               {
-                "time": "3:00 PM",
+                "time": "3:30 PM",
                 "name": "T Sripunvoraskul"
               }
             ]
