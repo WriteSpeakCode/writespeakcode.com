@@ -234,19 +234,15 @@
       },
       {
         "time": "5:00 PM",
-        "title": "Sponsor Talk",
+        "title": "Sponsor Talk by Anne Stern",
         "eventSponsors": ["Google"]
       },
       {
         "time": "5:10 PM",
-        "title": "Sponsor Talk"
-      },
-      {
-        "time": "5:20 PM",
         "name": "Aubrey Blanche"
       },
       {
-        "time": "5:40 PM",
+        "time": "5:30 PM",
         "title": "Announcements & Feedback"
       },
       {
@@ -278,19 +274,25 @@
       },
       {
         "time": "9:40 AM",
-        "title": "Sponsor Talk",
+        "title": "Sponsor Talk by Nikki Nair",
         "eventSponsors": ["Splunk"]
       },
       {
         "time": "9:50 AM",
-        "title": "Sponsor Talk"
-      },
-      {
-        "time": "10:10 AM",
         "name": "Ana Medina"
       },
       {
+        "time": "10:10 AM",
+        "title": "Sponsor Talk by Jo Balme",
+        "eventSponsors": ["Zipline"]
+      },
+      {
         "time": "10:20 AM",
+        "title": "Sponsor Talk by Lateesha Thomas & Marie Casabonne",
+        "eventSponsors": ["Onramp"]
+      },
+      {
+        "time": "10:30 AM",
         "title": "Networking & Sponsor Mingle",
         "desc": "Snacks, fruit, and coffee will be provided."
       },
@@ -492,18 +494,10 @@
       },
       {
         "time": "5:00 PM",
-        "title": "Sponsor Talk"
-      },
-      {
-        "time": "5:10 PM",
-        "title": "Sponsor Talk"
-      },
-      {
-        "time": "5:20 PM",
         "name": "Tae'lur Alexis"
       },
       {
-        "time": "5:40 PM",
+        "time": "5:20 PM",
         "title": "Announcements & Feedback"
       }
     ]
@@ -687,19 +681,15 @@
       },
       {
         "time": "4:50 PM",
-        "title": "Sponsor Talk",
+        "title": "Sponsor Talk by Katie Delfin",
         "eventSponsors": ["Github"]
       },
       {
         "time": "5:00 PM",
-        "title": "Sponsor Talk"
-      },
-      {
-        "time": "5:10 PM",
         "name": "Cindy Alvarez"
       },
       {
-        "time": "5:30 PM",
+        "time": "5:20 PM",
         "title": "Announcements & Feedback"
       }
     ]
