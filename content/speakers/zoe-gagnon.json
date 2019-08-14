@@ -5,5 +5,10 @@
   "company": "Meetup",
   "headshot": "/images/zoe-gagnon.jpg",
   "layout": "speaker",
+  "bio": "Zoe graduated from a generic university in the late 2000s and immediately began working at a series of companies nobody has ever heard of. This helped her learn all the ways to not develop software, knowledge which she'll happily inflict on anyone who asks.",
+  "links": [
+    { "type": "twitter", "url": "unusedpotential" },
+    { "type": "github", "url": "zgagnon" }
+  ],
   "years": ["2019"]
 }

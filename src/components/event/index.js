@@ -46,7 +46,7 @@ const ConfEvent = ({
 
   return (
     <>
-      {type && type !== 'food' && <TalkType type={type} secondary />}
+      {type && type !== 'food' && <TalkType type={type} />}
       <div className={styles.grid}>
         {renderEventInfo(title, desc)}
         <div>
@@ -102,7 +102,7 @@ const TalkEvent = ({ name, additionalNames, speakers }) => {
 
   return (
     <>
-      {talk.type && <TalkType type={talk.type} secondary />}
+      {talk.type && <TalkType type={talk.type} />}
       <div className={styles.grid}>
         {renderEventInfo(talk.title, talk.desc)}
         <div>
