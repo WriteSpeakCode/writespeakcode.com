@@ -3,7 +3,6 @@
   "layout": "speaker",
   "name": "Patricia Realini",
   "pronouns": "she/they",
-  "role": "Infrastructure Product Manager",
   "years": ["2019"],
   "links": [
     {
@@ -20,7 +19,6 @@
     }
   ],
   "headshot": "/images/patricia-realini.jpg",
-  "company": "Github",
   "talks": [
     {
       "year": "2019",

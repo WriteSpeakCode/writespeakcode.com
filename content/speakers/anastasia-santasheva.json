@@ -1,6 +1,7 @@
 {
   "name": "Anastasia Santasheva",
   "pronouns": "she/her",
+  "headshot": "/images/anastasia-santasheva.jpg",
   "role": "Software Engineer",
   "company": "Coinbase",
   "links": [
@@ -15,9 +16,9 @@
   "talks": [
     {
       "year": "2019",
-      "title": "Mind the gap (between technology and morality)",
+      "title": "Mind the gap (on being an ethical technologist)",
       "type": "talk",
-      "desc": "Results of ethical plights make international headlines overnight — from Boeing 737 Max crashes, to Facebook privacy scandals, to 23andMe genetic data sharing, and more. Ethical dilemmas with technology force us to confront difficult a questions: who gets the last word when it comes to making money or doing what’s right? And: whose job is it to decide? In this talk, we’ll examine why ethics in technology is uniquely challenging to address, and explore how to equip ourselves for an active role in making sure everybody does good."
+      "desc": "Results of ethical plights make international headlines overnight — from Boeing 737 Max crashes, to 23andMe genetic data sharing, and more. Ethical dilemmas with technology force us to confront difficult a questions: who gets the last word when it comes to making money or doing what’s right? In this talk, we’ll examine why ethics in technology is uniquely challenging to address, how key contributors think about it, and explore how to equip ourselves for an active role in making sure everybody does good."
     }
   ]
 }
