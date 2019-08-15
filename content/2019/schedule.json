@@ -104,7 +104,7 @@
                 "name": "Nancy Hawa"
               },
               {
-                "time": "12:20 PM",
+                "time": "12:40 PM",
                 "name": "Nicole Leffel"
               }
             ]
@@ -350,6 +350,10 @@
                 "name": "Patricia Realini"
               },
               {
+                "time": "11:40 AM",
+                "name": "Yuraima Estevez"
+              },
+              {
                 "time": "12:10 PM",
                 "name": "Galen Corey"
               },
@@ -434,7 +438,8 @@
               },
               {
                 "time": "3:00 PM",
-                "name": "Yuraima Estevez"
+                "title": "Write/Speak/Code Start a Chapter AMA",
+                "additionalNames": ["Lisa van Gelder"]
               },
               {
                 "time": "3:30 PM",
@@ -518,27 +523,15 @@
         "additionalNames": ["Lateesha Thomas", "Courteney Ervin"]
       },
       {
-        "time": "9:20 AM",
-        "title": "Sponsor Talk"
-      },
-      {
         "time": "9:30 AM",
         "name": "Kim Crayton"
       },
       {
         "time": "9:50 AM",
-        "title": "Sponsor Talk"
-      },
-      {
-        "time": "10:00 AM",
         "name": "Brianna Wu"
       },
       {
-        "time": "10:30 AM",
-        "title": "Sponsor Talk"
-      },
-      {
-        "time": "10:40 AM",
+        "time": "10:20 AM",
         "title": "Networking & Sponsor Mingle",
         "desc": "Snacks, fruit, and coffee will be provided."
       },
@@ -578,19 +571,19 @@
             "events": [
               {
                 "time": "11:10 AM",
-                "name": "Audrey Eschright"
-              },
-              {
-                "time": "11:40 AM",
                 "name": "Alex Qin"
               },
               {
-                "time": "12:10 PM",
+                "time": "11:40 AM",
                 "name": "Tilde Ann Thurium"
               },
               {
+                "time": "12:10 PM",
+                "name": "Nitya Narasimhan"
+              },
+              {
                 "time": "12:40 PM",
-                "name": "Wendy Gwo"
+                "name": "Audrey Eschright"
               }
             ]
           }
@@ -609,7 +602,8 @@
             "events": [
               {
                 "time": "2:00 PM",
-                "title": "Sponsored Workshop",
+                "title": "Building Courses on GitHub Learning Lab",
+                "desc": "GitHub Learning Lab (https://lab.github.com/) helps people build real-world skills by completing fun, realistic projects in their own GitHub repositories. Instead of a traditional tutorial or webcast, GitHub Learning Lab is an app that provides a learning experience you can actively participate in. You’ll learn by completing issues that are opened by a bot in a GitHub repository. After you finish tasks, the friendly Learning Lab bot will give you advice and helpful feedback. This presentation and hands-on workshop will introduce you to existing Learning Lab courses and gives you the tools you need to build courses that will help others learn too.",
                 "type": "workshop",
                 "eventSponsors": ["Github"]
               }
@@ -652,7 +646,7 @@
             "events": [
               {
                 "time": "2:00 PM",
-                "name": "Hilary Stohs-Krause"
+                "name": "Wendy Gwo"
               },
               {
                 "time": "2:30 PM",
@@ -660,7 +654,7 @@
               },
               {
                 "time": "3:00 PM",
-                "name": "Nitya Narasimhan"
+                "name": "Hilary Stohs-Krause"
               },
               {
                 "time": "3:30 PM",
