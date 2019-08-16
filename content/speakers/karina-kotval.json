@@ -1,9 +1,19 @@
 {
+  "talks": [
+    {
+      "year": "2019",
+      "title": "Gender Neutral Design & How to Achieve It",
+      "desc": "Stereotypes are ever present in our lives. Design stereotypes are no different. Designers sometimes unknowingly design for what we believe is “feminine” or “masculine” in the colors, layouts, and typographic treatments we choose to apply to our work. I want to embrace the concept of gender-neutral design; where we are not designing for gender specifically, but for people all together.",
+      "type": "talk"
+    }
+  ],
+  "bio": "Hey there! My name is Karina. I’m a queer, woman-of-colour working as a product designer in SF. Originally, I’m from India; where opportunities for women (queer women, especially) are extremely limited. My family moved to the US when I was 10 years old, and I’ve been working since then to make this country my home and understand my identity in the tech world. My experience has been vast. I’m a fine artist by nature and went to college for design on the East coast. I worked as a front-end engineer after college but went back to my design roots once I moved to California. I’ve worked in higher education, fitness and now am helping design and shape products for the viewer experience at Twitch. I’m looking to get more involved in the design community to share my experiences, stories and knowledge for any person looking to transition into design, people struggling with their sexual identities, or anyone who’s finding it difficult to assimilate in American culture (been there, done that). Design is a common language shared amongst many cultures & countries, and I’d love to help expand that.",
   "name": "Karina Kotval",
   "pronouns": "she/her",
   "role": "Product Design",
-  "headshot": "/images/karina-kotval.jpg",
-  "company": "Twitch",
+  "years": [
+    "2019"
+  ],
   "links": [
     {
       "type": "linkedin",
@@ -12,17 +22,12 @@
     {
       "type": "website",
       "url": "http://karinakotval.com"
+    },
+    {
+      "type": "twitter",
+      "url": "https://www.twitter.com/kzkotval"
     }
   ],
-  "layout": "speaker",
-  "bio": "Hey there! My name is Karina. I’m a queer, woman-of-colour working as a product designer in SF. Originally, I’m from India; where opportunities for women (queer women, especially) are extremely limited. My family moved to the US when I was 10 years old, and I’ve been working since then to make this country my home and understand my identity in the tech world. My experience has been vast. I’m a fine artist by nature and went to college for design on the East coast. I worked as a front-end engineer after college but went back to my design roots once I moved to California. I’ve worked in higher education, fitness and now am helping design and shape products for the viewer experience at Twitch. I’m looking to get more involved in the design community to share my experiences, stories and knowledge for any person looking to transition into design, people struggling with their sexual identities, or anyone who’s finding it difficult to assimilate in American culture (been there, done that). Design is a common language shared amongst many cultures & countries, and I’d love to help expand that.",
-  "years": ["2019"],
-  "talks": [
-    {
-      "year": "2019",
-      "title": "Gender Neutral Design & How to Achieve It",
-      "type": "talk",
-      "desc": "Stereotypes are ever present in our lives. Design stereotypes are no different. Designers sometimes unknowingly design for what we believe is “feminine” or “masculine” in the colors, layouts, and typographic treatments we choose to apply to our work. I want to embrace the concept of gender-neutral design; where we are not designing for gender specifically, but for people all together."
-    }
-  ]
+  "headshot": "/images/karina-kotval.jpg",
+  "company": "Twitch"
 }
