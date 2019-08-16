@@ -20,12 +20,12 @@
       "url": "karinakotval"
     },
     {
-      "type": "website",
-      "url": "http://karinakotval.com"
-    },
-    {
       "type": "twitter",
       "url": "https://www.twitter.com/kzkotval"
+    },
+    {
+      "type": "website",
+      "url": "http://karinakotval.com"
     }
   ],
   "headshot": "/images/karina-kotval.jpg",
