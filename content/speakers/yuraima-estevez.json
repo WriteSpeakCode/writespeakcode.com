@@ -28,7 +28,8 @@
     {
       "year": "2019",
       "title": "To all the Code I've Loved Before",
-      "type": "talk"
+      "type": "talk",
+      "desc": "Whether this is your first year as an engineer or your tenth, our origin stories are more similar than we realize.  From writing your first “Hello, World!” program, to maintaining your an unruly legacy system, and everything in between, the code we write shapes us.  This is a love letter to all the code I’ve written, read, reviewed and (sometimes) loathed. The laughs and frustrations in this talk are shared by anyone that’s ever had to debug a missing semicolon or thought they weren't good enough to do the job they were already doing.  The lessons learned are ones I’ve taken with me everywhere I go."
     }
   ]
 }
