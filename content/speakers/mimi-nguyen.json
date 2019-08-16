@@ -1,0 +1,15 @@
+{
+  "name": "Mimi Nguyen",
+  "pronouns": "she/her",
+  "role": "Technical Writer",
+  "company": "Sentry.io",
+  "bio": "Mimi can order from a restaurant menu in under fifteen seconds and have zero regrets. She is a Technical Writer at Sentry.io, a chapter organizer for Write/Speak/Code San Francisco, and a proud coding bootcamp grad. Before starting her career in tech, Mimi wrote creative nonfiction and received a Master of Fine Arts in Creative Writing from Northwestern University.",
+  "headshot": "/images/mimi-nguyen.jpg",
+  "layout": "speaker",
+  "years": ["2019"],
+  "links": [
+    { "type": "twitter", "url": "Mimi_Dumpling" },
+    { "type": "linkedin", "url": "tien-mimi-nguyen" },
+    { "type": "github", "url": "MimiDumpling" }
+  ]
+}
