@@ -3,16 +3,6 @@ name: Epic template
 about: A major change to architecture or a larger multi-step project
 ---
 
-<!--
-
-Do you want to report something that is broken? File a bug report.
-
-Do you want to suggest a smaller change request that can be added in one PR? File an enhancement issue.
-
--->
-
-# Title
-
 ## Summary
 
 <!-- Explain the proposed change or project.
