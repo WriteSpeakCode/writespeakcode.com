@@ -5,6 +5,8 @@ import Img from 'gatsby-image'
 import HomeLayout from '../layouts/home'
 import SEO from '../components/seo'
 import Sponsors from '../components/sponsors'
+import Organizers from '../components/organizers'
+
 import styles from './index.module.css'
 
 const IndexPage = ({ data }) => (
@@ -201,6 +203,7 @@ const IndexPage = ({ data }) => (
     </section>
 
     <Sponsors />
+    <Organizers />
   </HomeLayout>
 )
 

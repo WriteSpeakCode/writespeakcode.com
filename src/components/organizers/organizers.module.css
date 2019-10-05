@@ -1,0 +1,23 @@
+.aboutUs {
+  color: var(--white);
+}
+
+.background {
+  background-color: var(--navy);
+}
+
+.row {
+  padding: 1em 0;
+}
+  
+.info {
+  padding: 2em;
+}
+  
+.wrap {
+  margin: 0 3em;
+}
+
+.heading {
+  border-bottom: 1px solid var(--tan);
+}
