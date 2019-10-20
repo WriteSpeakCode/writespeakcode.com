@@ -17,38 +17,38 @@ const IndexPage = ({ data }) => (
     <SkipNavLink />
     <Header />
     <SkipNavContent>
-        <section
-      id="about-us"
-      className={[styles.photoSection, styles.oye].join(' ')}
-    >
-      <div className={styles.row}>
-        <Img
-          alt="A smiling speaker talks on stage at the 2018 conference with a microphone."
-          fluid={data.organizers.childImageSharp.fluid}
-          imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
-          className={styles.image}
-        />
-        <div className={styles.content}>
-          {' '}
-          <h1 className="title">About Us</h1>
-          <h2 className="subtitle">
-            Meet the hard-working board, chapter leaders, and conference organizers behind Write/Speak/Code.
-          </h2>
-          <p>
-            Email us at info@writespeakcode.com to learn about different ways to get involved in our community.
-          </p>
-          {/* <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.meetup.com/pro/writespeakcode/"
-            className="link"
-          >
-            Find events on Meetup
-          </a> */}
+      <section
+        id="about-us"
+        className={[styles.photoSection, styles.aboutUs].join(' ')}
+      >
+        <div className={styles.row}>
+          <Img
+            alt="A smiling speaker talks on stage at the 2018 conference with a microphone."
+            fluid={data.organizers.childImageSharp.fluid}
+            imgStyle={{ objectFit: 'contain', objectPosition: 'center center' }}
+            className={styles.image}
+          />
+          <div className={styles.content}>
+            {' '}
+            <h1 className="title">About Us</h1>
+            <h2 className="subtitle">
+              Meet the hard-working board, chapter leaders, and conference organizers behind Write/Speak/Code.
+            </h2>
+            <p>
+              Email us at info@writespeakcode.com to learn about different ways to get involved in our community.
+            </p>
+            {/* <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.meetup.com/pro/writespeakcode/"
+              className="link"
+            >
+              Find events on Meetup
+            </a> */}
+          </div>
         </div>
-      </div>
-    </section>
-    <Organizers/>
+      </section>
+      <Organizers/>
     </SkipNavContent>
     <Footer />
     </>    

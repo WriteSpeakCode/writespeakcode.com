@@ -1,20 +1,10 @@
-#about-us {
+.aboutUs {
   background-color: var(--mint);
 }
 
-.section {
-  padding: 3em 0;
-  .content {
-    padding: 0 2em;
-  }
-  @media screen and (min-width: 50em) {
-    .content {
-      padding: 2em;
-    }
-  }
-  @media screen and (min-width: 80em) {
-    max-width: var(--container);
-    margin: 0 auto;
+.content {
+  p {
+    font-weight: bold;
   }
 }
   
@@ -22,43 +12,27 @@
   .row {
     display: flex;
     flex-direction: column;
-    padding: 3em 1em;
-    .content {
-      padding: 0 2em;
-    }
     .image {
-      margin: 2em;
+      margin: 0;
     }
   }
   @media screen and (min-width: 50em) {
     .row {
       flex-direction: row;
-      justify-content: space-around;
       .content {
-        align-self: center;
         width: 50%;
-        max-width: 30em;
-        padding: 2em;
+        padding: 0 2em;
+        align-self: center;
       }
       .image {
         width: 50%;
         max-height: none;
-        margin-left: 2em;
       }
     }
     &:nth-of-type(2n) {
       .row {
         flex-direction: row-reverse;
-        .image {
-          margin-right: 2em;
-        }
       }
-    }
-  }
-  @media screen and (min-width: 80em) {
-    .row {
-      max-width: var(--container);
-      margin: 0 auto;
     }
   }
 }
