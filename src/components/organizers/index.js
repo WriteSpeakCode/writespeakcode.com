@@ -12,18 +12,6 @@ const Organizers = ({data}) => {
 
   return (
     <section id="about" className={styles.aboutUs}>
-      <div className={styles.background}>
-        <div className={styles.row}>
-          <div className={styles.info}>
-            <h1 className="title">About Us</h1>
-            <h2 className="subtitle">
-              Meet the hard-working organizers behind Write/Speak/Code.
-            </h2>
-            <p>
-              Contact us at info@writespeakcode.com to learn how you can join our organizing team.
-            </p>
-          </div>
-        </div>
         <div className={styles.wrap}>
           <section>
             <h3 className={styles.heading}>Board Members</h3>
@@ -58,7 +46,6 @@ const Organizers = ({data}) => {
             </div>
           </section>
         </div>
-      </div>
     </section>
   )
 };
