@@ -47,9 +47,16 @@ const IndexPage = ({ data }) => (
             identifying, expanding, and sharing their expertise with the support
             of an engaged peer network.
           </p>
-          <Link to="/code-of-conduct/" className="link">
-            Read the code of conduct
-          </Link>
+          <p>
+            <Link to="/about-us/" className="link">
+              Meet the organizers
+            </Link>
+          </p>
+          <p>
+            <Link to="/code-of-conduct/" className="link">
+              Read the code of conduct
+            </Link>
+          </p>
         </div>
       </div>
     </section>
