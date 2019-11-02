@@ -1,0 +1,27 @@
+{
+    "name": "Kara Carrell",
+    "headshot": "",
+    "pronouns": "she/they",
+    "city": "Chicago",
+    "bio": "Queer blaxican communitechie committed to caring for & growing codebases that challenge the 'Way Things Are'. Developer at TableXI.",
+    "role": ["Chapter Organizer", "Website Contributor"],
+    "links": [
+      {
+        "type": "twitter",
+        "url": "karaAJC"
+      },
+      {
+        "type": "linkedin",
+        "url": ""
+      },
+      {
+        "type": "github",
+        "url": ""
+      },
+      {
+        "type": "website",
+        "url": ""
+      }
+    ]
+  }
+  

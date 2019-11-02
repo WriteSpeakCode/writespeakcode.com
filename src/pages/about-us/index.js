@@ -12,7 +12,10 @@ import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
 
 import styles from './index.module.css'
 
-const IndexPage = ({ data }) => (
+const IndexPage = ({ data }) => {
+  const organizers = data.allOrganizersJson.nodes
+
+  return (
     <>
     <SkipNavLink />
     <Header />
@@ -48,22 +51,38 @@ const IndexPage = ({ data }) => (
           </div>
         </div>
       </section>
-      <Organizers/>
+      <Organizers organizers={organizers}/>
     </SkipNavContent>
     <Footer />
     </>    
-)
+  )
+}
 
 export default IndexPage
 
 export const pageQuery = graphql`
   query {
     organizers: file(relativePath: { eq: "photos/WSC-NY-577.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 3600) {
-          ...GatsbyImageSharpFluid_tracedSVG
+        childImageSharp {
+          fluid(maxWidth: 3600) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+    },
+      allOrganizersJson(
+        sort: { fields: name, order: ASC }
+      ) {
+        nodes {
+          name
+          role
+          headshot
+          pronouns
+          city
+          links {
+            type
+            url
+          }
         }
       }
-    }
   }
 `
