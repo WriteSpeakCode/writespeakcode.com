@@ -17,3 +17,20 @@
 .heading {
   border-bottom: 1px solid var(--tan);
 }
+
+.grid {
+  display: grid;
+  grid-gap: 1em 2em;
+  @media screen and (min-width: 30em) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media screen and (min-width: 50em) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  @media screen and (min-width: 70em) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  @media screen and (min-width: 100em) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
