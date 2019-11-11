@@ -5,7 +5,6 @@ import Img from 'gatsby-image'
 import HomeLayout from '../layouts/home'
 import SEO from '../components/seo'
 import Sponsors from '../components/sponsors'
-
 import styles from './index.module.css'
 
 const IndexPage = ({ data }) => (
@@ -68,15 +67,16 @@ const IndexPage = ({ data }) => (
         <div className={styles.content}>
           <h1 className="title">Annual Conference</h1>
           <h2 className="subtitle">
-            August 16&ndash;18, 2019 <br />
-            Palace of Fine Arts &mdash; San Francisco, CA
+            Next conference: 2020
+            <br />
+            Dates and location: TBD
           </h2>
           <p>
-            Join us for three days designed to fully own your expertise through
-            writing, speaking, and open source.
+            Join us for a conference designed to fully own your expertise
+            through writing, speaking, and open source.
           </p>
           <Link to="/2019/" className="link">
-            2019 Conference Page
+            View 2019 conference site
           </Link>
         </div>
       </div>
