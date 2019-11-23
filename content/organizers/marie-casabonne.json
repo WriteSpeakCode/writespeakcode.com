@@ -1,0 +1,19 @@
+{
+    "name": "Marie Casabonne",
+    "headshot": "/images/marie-casabonne.jpeg",
+    "pronouns": "she/her",
+    "city": "San Francisco",
+    "bio": "Marie's been riding the Venn diagram of the tech, education, and nonprofit spaces for close to a decade and she firmly believes that the path to improving our world rests where all three meet. She's been involved with Write/Speak/Code since 2017, starting as a volunteer organizer for our annual conference. When she's not organizing conferences or responding to pings on Slack, she can be found hiking and running in the mountains, mastering a macrame project, or cooking with friends. ",
+    "role": ["Board Member", "Conference Organizer"],
+    "links": [
+      {
+        "type": "twitter",
+        "url": "goodcasa"
+      },
+      {
+        "type": "linkedin",
+        "url": "mariecasabonne"
+      }
+    ]
+  }
+  

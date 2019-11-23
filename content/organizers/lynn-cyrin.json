@@ -1,0 +1,19 @@
+{
+    "name": "Lynn Cyrin",
+    "headshot": "/images/lynn-cyrin.jpg",
+    "pronouns": "they/them",
+    "city": "Seattle",
+    "bio": "",
+    "role": ["Chapter Organizer"],
+    "links": [
+      {
+        "type": "twitter",
+        "url": "lynncyrin"
+      },
+      {
+        "type": "github",
+        "url": "lynncyrin"
+      }
+    ]
+  }
+  

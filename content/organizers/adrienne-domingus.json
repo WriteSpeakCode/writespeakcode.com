@@ -1,0 +1,19 @@
+{
+    "name": "Adrienne Domingus",
+    "headshot": "/images/adrienne-domingus.jpg",
+    "pronouns": "she/her",
+    "city": "Seattle",
+    "bio": "",
+    "role": ["Chapter Organizer"],
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://twitter.com/a_domingus"
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/adriennedomingus/"
+      }
+    ]
+  }
+  

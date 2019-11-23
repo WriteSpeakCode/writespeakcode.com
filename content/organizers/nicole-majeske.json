@@ -1,0 +1,19 @@
+{
+    "name": "Nicole Majeske",
+    "headshot": "/images/nicole-majeske.jpg",
+    "pronouns": "she/her",
+    "city": "Austin",
+    "bio": "Nicole is an Experience Designer in Austin, Texas. She pushes to advance more inclusive, accessible, and thoughtful design decisions in her work and in her local tech community. Outside of work you can find traveling, doodling, or cooking up new recipes in her kitchen.",
+    "role": ["Chapter Organizer"],
+    "links": [
+      {
+        "type": "twitter",
+        "url": "nicole_majeske"
+      },
+      {
+        "type": "linkedin",
+        "url": "nicole_majeske"
+      }
+    ]
+  }
+  

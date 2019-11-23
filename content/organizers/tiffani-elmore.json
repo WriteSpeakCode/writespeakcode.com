@@ -1,0 +1,19 @@
+{
+    "name": "Tiffani Elmore",
+    "headshot": "/images/tiffani-elmore.png",
+    "pronouns": "she/her",
+    "city": "Chicago",
+    "bio": "Tiffani is a Chicago chapter organizer. She's been developing software for two years and is currently a Software Crafter at 8th Light. She is especially excited about the intersection of code, art, and social justice. She tries her best when caring for house plants.",
+    "role": ["Chapter Organizer"],
+    "links": [
+      {
+        "type": "twitter",
+        "url": "tiffani_elmore"
+      },
+      {
+        "type": "linkedin",
+        "url": "tiffani-elmore/"
+      }
+    ]
+  }
+  
