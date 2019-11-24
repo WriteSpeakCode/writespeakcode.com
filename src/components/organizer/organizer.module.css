@@ -129,8 +129,9 @@
   }
   
   .links {
+    text-align:center;
     margin: 1em 0;
-    a {
+    a:not(:last-child) {
       margin-right: 1em;
     }
     .icon {
@@ -140,7 +141,7 @@
       color: var(--tan);
     }
     @media screen and (min-width: 50em) {
-      margin: 1em 2em;
+      margin: 1em;
     }
   }
   

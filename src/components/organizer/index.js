@@ -4,9 +4,9 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons'
 import {
   faTwitter,
   faLinkedinIn,
-  faGithub,
-  faLaptopCode
+  faGithub
 } from '@fortawesome/free-brands-svg-icons'
+import { faMousePointer } from '@fortawesome/free-solid-svg-icons'
 import styles from './organizer.module.css'
 
 
@@ -15,7 +15,7 @@ const SocialLink = ({ type, url }) => {
     twitter: faTwitter,
     linkedin: faLinkedinIn,
     github: faGithub,
-    website: faLaptopCode
+    website: faMousePointer
   }
   const urls = {
     twitter: `https://twitter.com/${url}`,

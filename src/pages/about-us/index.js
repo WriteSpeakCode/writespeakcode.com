@@ -62,7 +62,7 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query {
-    organizers: file(relativePath: { eq: "photos/WSC-NY-577.jpg" }) {
+    organizers: file(relativePath: { eq: "photos/WSC-SF.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 3600) {
             ...GatsbyImageSharpFluid_tracedSVG
