@@ -1,0 +1,27 @@
+{
+    "name": "",
+    "headshot": "",
+    "pronouns": "",
+    "city": "",
+    "bio": "",
+    "role": [],
+    "links": [
+      {
+        "type": "twitter",
+        "url": ""
+      },
+      {
+        "type": "linkedin",
+        "url": ""
+      },
+      {
+        "type": "github",
+        "url": ""
+      },
+      {
+        "type": "website",
+        "url": ""
+      }
+    ]
+  }
+  

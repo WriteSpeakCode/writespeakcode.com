@@ -1,0 +1,21 @@
+{
+  "name": "Lateesha Thomas",
+  "pronouns": "she/her",
+  "city": "Oakland",
+  "role": ["Board Member"],
+  "headshot": "/images/lateesha-thomas.jpg",
+  "links": [
+    {
+      "type": "twitter",
+      "url": "lateeshathomas"
+    },
+    {
+      "type": "linkedin",
+      "url": "lateeshathomas"
+    },
+    {
+      "type": "github",
+      "url": "lateesha"
+    }
+  ]
+}

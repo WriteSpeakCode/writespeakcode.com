@@ -1,0 +1,15 @@
+{
+    "name": "Sophia Li",
+    "headshot": "/images/sophia-li.jpg",
+    "pronouns": "she/her",
+    "city": "San Francisco",
+    "bio": "",
+    "role": ["Chapter Organizer"],
+    "links": [
+      {
+        "type": "twitter",
+        "url": "sophia_wyl"
+      }
+    ]
+  }
+  

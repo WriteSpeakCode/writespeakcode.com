@@ -5,6 +5,7 @@ import Img from 'gatsby-image'
 import HomeLayout from '../layouts/home'
 import SEO from '../components/seo'
 import Sponsors from '../components/sponsors'
+
 import styles from './index.module.css'
 
 const IndexPage = ({ data }) => (
@@ -46,9 +47,16 @@ const IndexPage = ({ data }) => (
             identifying, expanding, and sharing their expertise with the support
             of an engaged peer network.
           </p>
-          <Link to="/code-of-conduct/" className="link">
-            Read the code of conduct
-          </Link>
+          <p>
+            <Link to="/about-us/" className="link">
+              Meet the organizers
+            </Link>
+          </p>
+          <p>
+            <Link to="/code-of-conduct/" className="link">
+              Read the code of conduct
+            </Link>
+          </p>
         </div>
       </div>
     </section>

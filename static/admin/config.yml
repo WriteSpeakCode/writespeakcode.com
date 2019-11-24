@@ -209,6 +209,14 @@ collections:
         name: 'pronouns'
         widget: 'string'
         required: false
+      - label: 'City'
+        name: 'city'
+        widget: 'string'
+        required: false
+      - label: 'Bio'
+        name: 'bio'
+        widget: 'text'
+        required: false
       - label: 'Role'
         name: 'role'
         widget: 'select'

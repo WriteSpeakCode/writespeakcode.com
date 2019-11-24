@@ -1,0 +1,147 @@
+/* Speaker Regular Button Styles */
+.dialogButton {
+    display: inline-flex;
+    align-items: center;
+    margin: 0.5em 1em 0.5em 0;
+    padding: 0;
+    padding-right: 0.5em;
+    color: var(--navy);
+    background: transparent;
+    font-weight: var(--semi-bold);
+    border-color: inherit;
+    border-style: solid;
+    font-size: 0.9em;
+    border-width: 2px;
+    &:hover {
+      cursor: pointer;
+      color: var(--tan);
+    }
+    img {
+      max-width: 30px;
+      margin-right: 0.5em;
+    }
+  }
+  
+  /* Speaker Headshot Button Styles*/
+  .organizer {
+    border: 2px var(--navy) solid;
+    padding: 1em;
+
+    @media screen and (max-width: 30em) {
+      display: flex;
+      align-items: flex-start;
+    }
+    margin: 1em 0;
+    figcaption {
+      h3 {
+        margin: 1em 0 0 0;
+        font-family: 'PT Sans Caption';
+        font-weight: var(--bold);
+        font-size: 1.2em;
+      }
+      h4 {
+        margin: 0;
+        font-weight: var(--semi-bold);
+      }
+      h5 {
+        margin: 0;
+        font-size: 0.9em;
+        font-weight: var(--regular);
+      }
+    }
+  }
+  .headshot {
+    @media screen and (max-width: 30em) {
+      width: 100px;
+      height: 100px;
+      margin-right: 2em;
+    }
+    width: 100%;
+  }
+  
+  /* Speaker Dialog Styles */
+  
+  .dialog {
+    width: 70vw;
+    background: linear-gradient(to bottom right, var(--white) 50%, #ebf7ef 50%);
+    color: var(--navy);
+    position: relative;
+    img {
+      display: none;
+    }
+    h1 span {
+      font-size: 0.6em;
+      font-weight: var(--regular);
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+      margin: 0;
+    }
+    p {
+      margin: 0;
+      line-height: 1.8;
+    }
+    figure {
+      margin: 2em 0 1em 0;
+    }
+    @media screen and (min-width: 50em) {
+      width: 50vw;
+      figure {
+        display: flex;
+        align-items: center;
+        margin: 1em 2em;
+      }
+      p {
+        max-width: 35em;
+        margin: 1em 2em;
+      }
+      img {
+        display: block;
+        max-width: 150px;
+        margin-right: 1em;
+      }
+    }
+  }
+  
+  .close {
+    position: absolute;
+    right: 1em;
+    font-size: 1.5em;
+    background: transparent;
+    display: block;
+    color: var(--navy);
+    border: 0;
+    &:focus {
+      background-color: var(--tan);
+      outline: none;
+      border: none;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  
+  .name {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .links {
+    text-align:center;
+    margin: 1em 0;
+    a:not(:last-child) {
+      margin-right: 1em;
+    }
+    .icon {
+      font-size: 1.1em;
+    }
+    .icon:hover {
+      color: var(--tan);
+    }
+    @media screen and (min-width: 50em) {
+      margin: 1em;
+    }
+  }
+  

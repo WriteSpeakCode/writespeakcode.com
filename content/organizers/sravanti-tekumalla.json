@@ -1,0 +1,15 @@
+{
+    "name": "Sravanti Tekumalla",
+    "headshot": "/images/sravanti-tekumalla.jpg",
+    "pronouns": "she/her",
+    "city": "San Francisco",
+    "bio": "Sravanti is a software engineer who's all about civic tech and creating more vibrant cities. She also believes in the power of strong communication and community to grow (both in tech and in life). Sravanti enjoys exercising her creative side through photography and baking.",
+    "role": ["Chapter Organizer"],
+    "links": [
+      {
+        "type": "twitter",
+        "url": "sravanti__"
+      }
+    ]
+  }
+  

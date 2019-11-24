@@ -1,0 +1,38 @@
+.aboutUs {
+  background-color: var(--mint);
+}
+
+.content {
+  p {
+    font-weight: bold;
+  }
+}
+  
+.photoSection {
+  .row {
+    display: flex;
+    flex-direction: column;
+    .image {
+      margin: 0;
+    }
+  }
+  @media screen and (min-width: 50em) {
+    .row {
+      flex-direction: row;
+      .content {
+        width: 50%;
+        padding: 0 2em;
+        align-self: center;
+      }
+      .image {
+        width: 50%;
+        max-height: none;
+      }
+    }
+    &:nth-of-type(2n) {
+      .row {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+}
