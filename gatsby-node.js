@@ -6,6 +6,25 @@
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 
+// Add slug field based on filepath to content nodes
+// We use this slug to create the path for the automatically generated pages
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions
+
+  if (
+    node.internal.type === `MarkdownRemark` ||
+    node.internal.type === `ChaptersJson`
+  ) {
+    const value = createFilePath({ node, getNode })
+    createNodeField({
+      name: `slug`,
+      node,
+      value,
+    })
+  }
+}
+
+// Create subpages from markdown and chapter pages from json
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
@@ -24,6 +43,17 @@ exports.createPages = ({ actions, graphql }) => {
           }
         }
       }
+      allChaptersJson {
+        edges {
+          node {
+            id
+            city
+            fields {
+              slug
+            }
+          }
+        }
+      }
     }
   `).then(result => {
     if (result.errors) {
@@ -31,9 +61,10 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(result.errors)
     }
 
-    const pages = result.data.allMarkdownRemark.edges
+    const subPages = result.data.allMarkdownRemark.edges
+    const chapterPages = result.data.allChaptersJson.edges
 
-    pages.forEach(edge => {
+    subPages.forEach(edge => {
       const id = edge.node.id
       createPage({
         path: edge.node.fields.slug,
@@ -41,24 +72,21 @@ exports.createPages = ({ actions, graphql }) => {
         component: path.resolve(
           `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
         ),
-        // additional data can be passed via context
+        context: {
+          id,
+        },
+      })
+    })
+
+    chapterPages.forEach(edge => {
+      const id = edge.node.id
+      createPage({
+        path: edge.node.fields.slug,
+        component: path.resolve(`src/templates/chapter.js`),
         context: {
           id,
         },
       })
     })
   })
-}
-
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
-
-  if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
-    createNodeField({
-      name: `slug`,
-      node,
-      value,
-    })
-  }
 }
