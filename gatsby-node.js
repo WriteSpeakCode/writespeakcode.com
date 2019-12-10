@@ -80,11 +80,13 @@ exports.createPages = ({ actions, graphql }) => {
 
     chapterPages.forEach(edge => {
       const id = edge.node.id
+      const city = edge.node.city
       createPage({
         path: edge.node.fields.slug,
         component: path.resolve(`src/templates/chapter.js`),
         context: {
           id,
+          city,
         },
       })
     })
