@@ -1,4 +1,4 @@
-name: NPM Audit Fix
+name: npm-audit-fix
 
 on: 
   push:
