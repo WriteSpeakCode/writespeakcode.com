@@ -9,7 +9,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ad665e3b-60e0-491c-9126-7f5002058f16/deploy-status)](https://app.netlify.com/sites/writespeakcode/deploys)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![Build Status](https://travis-ci.org/WriteSpeakCode/writespeakcode.com.svg?branch=production)](https://travis-ci.org/WriteSpeakCode/writespeakcode.com)
+![Npm Audit Fix](https://github.com/WriteSpeakCode/writespeakcode.com/workflows/npm-audit-fix/badge.svg)
 
 <!-- TOC -->
 
