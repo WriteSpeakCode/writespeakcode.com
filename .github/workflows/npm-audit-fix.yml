@@ -1,20 +1,14 @@
-name: CI
+name: npm-audit-fix
 
-on: [push]
+on: 
+  push:
+    branches: production
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
     - name: npm audit action
       uses: oke-py/npm-audit-action@v1.1.0
       with:
