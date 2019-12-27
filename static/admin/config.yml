@@ -15,13 +15,26 @@ show_preview_links: false
 collections:
   - name: 'chapters'
     label: 'Chapters'
+    identifier_field: name
+    label_singular: 'Chapter'
     folder: 'content/chapters'
+    extension: 'json'
+    create: true
+    description: 'Add or edit chapters here. Information here is used to generate the chapter pages.'
     delete: false
     fields:
       - label: 'City'
         name: 'city'
         widget: 'string'
         required: true
+      - label: 'Headline'
+        name: 'headline'
+        widget: 'string'
+        required: false
+      - label: 'Notification'
+        name: 'notification'
+        widget: 'string'
+        required: false
 
   - name: 'pages'
     label: 'Pages'
