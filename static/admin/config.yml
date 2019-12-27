@@ -13,6 +13,16 @@ publish_mode: editorial_workflow
 show_preview_links: false
 
 collections:
+  - name: 'chapters'
+    label: 'Chapters'
+    folder: 'content/chapters'
+    delete: false
+    fields:
+      - label: 'City'
+        name: 'city'
+        widget: 'string'
+        required: true
+
   - name: 'pages'
     label: 'Pages'
     description: 'Edit the copy of standalone pages on our site.'
@@ -209,18 +219,25 @@ collections:
         name: 'pronouns'
         widget: 'string'
         required: false
-      - label: 'Role'
-        name: 'role'
+      - label: 'Roles'
+        name: 'roles'
         widget: 'select'
         multiple: true
         options:
           [
             'Board Member',
-            'Chapter Organizer',
             'Conference Organizer',
             'Website Contributor',
+            'Chapter Lead',
           ]
         required: true
+      - label: 'Chapter'
+        name: 'chapter'
+        widget: 'relation'
+        collection: 'chapters'
+        required: false
+        searchFields: ['city']
+        valueField: 'city'
       - label: 'Social Links'
         name: 'links'
         widget: 'list'
