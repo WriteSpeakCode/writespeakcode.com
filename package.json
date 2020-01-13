@@ -19,7 +19,7 @@
     "gatsby-background-image": "^0.4.3",
     "gatsby-cli": "^2.8.22",
     "gatsby-image": "^2.2.37",
-    "gatsby-plugin-flow": "^1.1.17",
+    "gatsby-plugin-flow": "^1.1.18",
     "gatsby-plugin-manifest": "^2.2.34",
     "gatsby-plugin-netlify-cms": "^4.1.33",
     "gatsby-plugin-offline": "^3.0.30",
