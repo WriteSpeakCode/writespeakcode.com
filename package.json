@@ -15,7 +15,7 @@
     "@reach/visually-hidden": "^0.7.0",
     "flow": "^0.2.3",
     "flow-bin": "^0.114.0",
-    "gatsby": "^2.18.17",
+    "gatsby": "^2.18.21",
     "gatsby-background-image": "^0.4.3",
     "gatsby-cli": "^2.8.22",
     "gatsby-image": "^2.2.37",
