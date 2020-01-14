@@ -33,6 +33,7 @@ import nowsta from '../../../content/sponsors/nowsta.json'
 import oreilly from '../../../content/sponsors/oreilly-media.json'
 import pivotal from '../../../content/sponsors/pivotal.json'
 import workday from '../../../content/sponsors/workday.json'
+import duo from '../../../content/sponsors/duo.json'
 
 // Community Partners
 import girlgeekx from '../../../content/sponsors/girlgeekx.json'
@@ -142,6 +143,7 @@ const Sponsors = ({ sponsors, isConference }) => {
               <Sponsor company={nowsta} level="NYC Meetup" />
               <Sponsor company={attune} level="Conference Dinner" />
               <Sponsor company={workday} level="Conference Dinner" />
+              <Sponsor company={duo} level="AUS Meetup" />
             </div>
           </section>
         )}
