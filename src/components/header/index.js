@@ -30,7 +30,6 @@ const Header = () => {
           <Img
             fixed={data.file.childImageSharp.fixed}
             alt="Write/Speak/Code logo in full color"
-            className={styles.logo}
           />
         </Link>
         <Menu />

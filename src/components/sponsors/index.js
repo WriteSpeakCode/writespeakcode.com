@@ -46,6 +46,19 @@ import techbychoice from '../../../content/sponsors/techbychoice.json'
 import brooklynjs from '../../../content/sponsors/brooklynjs.json'
 import outintech from '../../../content/sponsors/out-in-tech.json'
 
+// Basic grid component for chapter pages
+export const SponsorsGrid = ({ sponsors }) => (
+  <section className={[styles['other'], styles.levelSection].join(' ')}>
+    <h3 className={styles.heading}>Chapter Sponsors</h3>
+    <div className={styles.grid}>
+      {sponsors.map(sponsor => (
+        <Sponsor company={sponsor.node} key={sponsor.id} />
+      ))}
+    </div>
+  </section>
+)
+
+// Custom grid for homepage and conference page
 const Sponsors = ({ sponsors, isConference }) => {
   return (
     <section id="sponsorship">
