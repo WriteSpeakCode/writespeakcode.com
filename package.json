@@ -11,7 +11,7 @@
     "@fortawesome/react-fontawesome": "^0.1.8",
     "@reach/dialog": "^0.7.0",
     "@reach/skip-nav": "^0.7.0",
-    "@reach/tabs": "^0.1.6",
+    "@reach/tabs": "^0.7.2",
     "@reach/visually-hidden": "^0.7.0",
     "flow": "^0.2.3",
     "flow-bin": "^0.115.0",
