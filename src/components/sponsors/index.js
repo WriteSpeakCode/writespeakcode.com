@@ -143,7 +143,7 @@ const Sponsors = ({ sponsors, isConference }) => {
               <Sponsor company={nowsta} level="NYC Meetup" />
               <Sponsor company={attune} level="Conference Dinner" />
               <Sponsor company={workday} level="Conference Dinner" />
-              <Sponsor company={duo} level="AUS Meetup" />
+              <Sponsor company={duo} level="ATX Meetup" />
             </div>
           </section>
         )}
