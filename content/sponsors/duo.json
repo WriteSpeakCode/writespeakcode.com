@@ -1,0 +1,8 @@
+{
+  "name": "Duo",
+  "url": "https://duo.com/",
+  "logo": "/images/duo.jpg",
+  "sponsorships": [
+    { "year": "2020", "level": "Local Meetup ATX", "conf_sponsor": false }
+  ]
+}
