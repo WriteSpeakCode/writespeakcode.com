@@ -1,8 +1,16 @@
 import React from 'react'
 import BackgroundImage from 'gatsby-background-image'
-import ExternalLink from '../external-link'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
 import styles from './hero.module.css'
+
+const ExternalLink = ({ href, text }) => (
+  <a href={href} className="link" target="_blank" rel="noopener noreferrer">
+    {text}&nbsp;
+    <FontAwesomeIcon icon={faExternalLinkAlt} aria-hidden />
+  </a>
+)
 
 const Hero = ({ title, link, photo }) => (
   <div className={styles.container}>

@@ -3,12 +3,17 @@ import { graphql } from 'gatsby'
 import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
 import Header from '../components/header'
 import Footer from '../components/footer'
-import { SponsorsGrid } from '../components/sponsors'
+import { ChapterSponsors } from '../components/sponsors'
+import Organizers from '../components/organizers'
 
 import Hero from '../components/hero'
 
 const ChapterTemplate = ({ data }) => {
-  const { chaptersJson: chapter, allSponsorsJson: sponsors } = data
+  const {
+    chaptersJson: chapter,
+    allSponsorsJson: sponsors,
+    allOrganizersJson: organizers,
+  } = data
   return (
     <>
       <SkipNavLink />
@@ -20,10 +25,8 @@ const ChapterTemplate = ({ data }) => {
             link={chapter.meetup}
             photo={data.file.childImageSharp.fluid}
           />
-
-          <section className="container">
-            <SponsorsGrid sponsors={sponsors.edges} />
-          </section>
+          <Organizers organizers={organizers.edges} />
+          <ChapterSponsors sponsors={sponsors.edges} />
         </main>
       </SkipNavContent>
       <Footer />
@@ -49,6 +52,16 @@ export const chapterQuery = graphql`
           name
           logo
           url
+        }
+      }
+    }
+    allOrganizersJson(filter: { chapter: { eq: $city } }) {
+      edges {
+        node {
+          id
+          name
+          pronouns
+          headshot
         }
       }
     }

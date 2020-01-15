@@ -72,6 +72,13 @@ a {
   }
 }
 
+.padding {
+  padding: 1em 0;
+  @media screen and (min-width: 80em) {
+    padding: 3em 0;
+  }
+}
+
 .link {
   display: inline;
   border-bottom: 4px solid;

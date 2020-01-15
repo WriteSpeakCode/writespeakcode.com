@@ -46,14 +46,50 @@ import techbychoice from '../../../content/sponsors/techbychoice.json'
 import brooklynjs from '../../../content/sponsors/brooklynjs.json'
 import outintech from '../../../content/sponsors/out-in-tech.json'
 
+const SponsorshipCTA = () => (
+  <div className={styles.background}>
+    <div className={styles.row}>
+      <div className={styles.info}>
+        <h1 className="title">Sponsorship</h1>
+        <h2 className="subtitle">Recruit talented, driven technologists.</h2>
+        <p>
+          Sponsorship is the most effective way to demonstrate your commitment
+          to the professional development of people with marginalized genders at
+          your organization.
+        </p>
+      </div>
+      <div className={styles.cta}>
+        <p>
+          Write/Speak/Code is a 501c3 nonprofit. Contact{' '}
+          <span className="italic">sponsor@writespeakcode.com</span> to learn
+          more.
+        </p>
+        <a
+          className="link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://drive.google.com/file/d/1X-nDSHYiPiPT79Rc1xUAZCNxvr67ei6J/view?usp=sharing"
+        >
+          2019 Sponsorship Prospectus
+        </a>
+      </div>
+    </div>
+  </div>
+)
+
 // Basic grid component for chapter pages
-export const SponsorsGrid = ({ sponsors }) => (
-  <section className={[styles['other'], styles.levelSection].join(' ')}>
-    <h3 className={styles.heading}>Chapter Sponsors</h3>
-    <div className={styles.grid}>
-      {sponsors.map(sponsor => (
-        <Sponsor company={sponsor.node} key={sponsor.id} />
-      ))}
+export const ChapterSponsors = ({ sponsors }) => (
+  <section>
+    <SponsorshipCTA />
+    <div className={styles.wrap}>
+      <section className={[styles['other'], styles.levelSection].join(' ')}>
+        <h3 className={styles.heading}>Chapter Sponsors</h3>
+        <div className={styles.grid}>
+          {sponsors.map(sponsor => (
+            <Sponsor company={sponsor.node} key={sponsor.id} />
+          ))}
+        </div>
+      </section>
     </div>
   </section>
 )
@@ -62,36 +98,7 @@ export const SponsorsGrid = ({ sponsors }) => (
 const Sponsors = ({ sponsors, isConference }) => {
   return (
     <section id="sponsorship">
-      <div className={styles.background}>
-        <div className={styles.row}>
-          <div className={styles.info}>
-            <h1 className="title">Sponsorship</h1>
-            <h2 className="subtitle">
-              Recruit talented, driven technologists.
-            </h2>
-            <p>
-              Sponsorship is the most effective way to demonstrate your
-              commitment to the professional development of people with
-              marginalized genders at your organization.
-            </p>
-          </div>
-          <div className={styles.cta}>
-            <p>
-              Write/Speak/Code is a 501c3 nonprofit. Contact{' '}
-              <span className="italic">sponsor@writespeakcode.com</span> to
-              learn more.
-            </p>
-            <a
-              className="link"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1X-nDSHYiPiPT79Rc1xUAZCNxvr67ei6J/view?usp=sharing"
-            >
-              2019 Sponsorship Prospectus
-            </a>
-          </div>
-        </div>
-      </div>
+      <SponsorshipCTA />
 
       <div className={styles.wrap}>
         <section
