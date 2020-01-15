@@ -67,17 +67,52 @@ const IndexPage = ({ data }) => (
         <div className={styles.content}>
           <h1 className="title">Annual Conference</h1>
           <h2 className="subtitle">
-            Next conference: 2020
-            <br />
-            Dates and location: TBD
+            Designed to help you fully own your expertise through writing,
+            speaking, and open source.
           </h2>
-          <p>
-            Join us for a conference designed to fully own your expertise
-            through writing, speaking, and open source.
-          </p>
-          <Link to="/2019/" className="link">
-            View 2019 conference site
-          </Link>
+          <p>Past years:</p>
+          <div className={styles.citygrid}>
+            <Link to="/2019/" className="link">
+              SF 2019
+            </Link>
+            <a
+              href="https://writespeakcode.github.io/2018"
+              title="2018 W/S/C conference page"
+              target="_blank"
+              className="link"
+              rel="noopener noreferrer"
+            >
+              NYC 2018
+            </a>
+            <a
+              href="https://2017.writespeakcode.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="2017 W/S/C conference page"
+              className="link"
+            >
+              PDX 2017
+            </a>
+            <a
+              href="http://2016.writespeakcode.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="2016 W/S/C conference page"
+              className="link"
+            >
+              CHI 2016
+            </a>
+            <a
+              href="http://2015.writespeakcode.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="2015 W/S/C conference page"
+              className="link"
+            >
+              NYC 2015
+            </a>
+            <span>NYC 2013</span>
+          </div>
         </div>
       </div>
     </section>
@@ -114,7 +149,7 @@ const IndexPage = ({ data }) => (
             href="https://www.meetup.com/pro/writespeakcode/"
             className="link"
           >
-            Find events on Meetup
+            Find local events on Meetup
           </a>
         </div>
       </div>
@@ -133,9 +168,10 @@ const IndexPage = ({ data }) => (
         />
         <div className={styles.content}>
           <h1 className="title">Local Chapters</h1>
-          <h2 className="subtitle">We host events and full-day workshops.</h2>
-          <p>
-            We have communities in cities across the U.S., including{' '}
+          <h2 className="subtitle">
+            We have communities in cities across the U.S.
+          </h2>
+          <div className={styles.citygrid}>
             <a
               className="link"
               target="_blank"
@@ -144,7 +180,7 @@ const IndexPage = ({ data }) => (
             >
               Austin
             </a>
-            ,{' '}
+
             <a
               className="link"
               target="_blank"
@@ -153,7 +189,7 @@ const IndexPage = ({ data }) => (
             >
               Chicago
             </a>
-            ,{' '}
+
             <a
               className="link"
               target="_blank"
@@ -162,7 +198,7 @@ const IndexPage = ({ data }) => (
             >
               Los Angeles
             </a>
-            ,{' '}
+
             <a
               className="link"
               target="_blank"
@@ -171,7 +207,7 @@ const IndexPage = ({ data }) => (
             >
               New York City
             </a>
-            ,{' '}
+
             <a
               className="link"
               target="_blank"
@@ -180,7 +216,7 @@ const IndexPage = ({ data }) => (
             >
               San Francisco
             </a>
-            , and{' '}
+
             <a
               className="link"
               target="_blank"
@@ -189,8 +225,7 @@ const IndexPage = ({ data }) => (
             >
               Seattle
             </a>
-            .
-          </p>
+          </div>
           <p>
             Don't see your city? Contact{' '}
             <span className="italic">info@writespeakcode.com</span> to learn how
