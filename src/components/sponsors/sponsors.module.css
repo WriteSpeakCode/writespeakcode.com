@@ -7,7 +7,7 @@
 }
 
 .info {
-  padding: 2em;
+  padding: 2em 2em 0 2em;
 }
 
 .wrap {
@@ -39,7 +39,7 @@
 }
 
 .cta {
-  padding: 2em;
+  padding: 0 2em 2em 2em;
   a {
     margin-top: 1em;
     display: inline;
@@ -101,10 +101,12 @@
   .cta {
     max-width: 35%;
     margin: 2em;
+    padding: 2em;
   }
 
   .info {
     max-width: 50%;
+    padding: 2em;
   }
 
   .grid {
