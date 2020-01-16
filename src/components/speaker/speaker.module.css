@@ -63,6 +63,21 @@
   }
 }
 
+.speakerHeadshotButton {
+  -webkit-appearance: unset;
+  line-height: unset;
+  background: none;
+  border: none;
+  text-align: unset;
+  &:focus {
+    outline: none;
+    .headshot {
+      box-shadow: 8px 8px var(--tan);
+      cursor: pointer;
+    }
+  }
+}
+
 /* Speaker Dialog Styles */
 
 .dialog {
