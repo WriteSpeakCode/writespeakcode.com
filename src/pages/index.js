@@ -6,6 +6,7 @@ import HomeLayout from '../layouts/home'
 import SEO from '../components/seo'
 import Sponsors from '../components/sponsors'
 import styles from './index.module.css'
+import { ExternalLink } from '../components/link'
 
 const IndexPage = ({ data }) => (
   <HomeLayout>
@@ -143,14 +144,11 @@ const IndexPage = ({ data }) => (
             accessible location, nursing rooms and childcare services, CART/ASL
             services, and other accessibility needs as requested.
           </p>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
+          <ExternalLink
             href="https://www.meetup.com/pro/writespeakcode/"
-            className="link"
-          >
-            Find local events on Meetup
-          </a>
+            text="Find local events"
+            icon="meetup"
+          />
         </div>
       </div>
     </section>
@@ -172,59 +170,36 @@ const IndexPage = ({ data }) => (
             We have communities in cities across the U.S.
           </h2>
           <div className={styles.citygrid}>
-            <a
-              className="link"
-              target="_blank"
-              rel="noopener noreferrer"
+            <ExternalLink
               href="https://www.meetup.com/Write-Speak-Code-Austin/"
-            >
-              Austin
-            </a>
-
-            <a
-              className="link"
-              target="_blank"
-              rel="noopener noreferrer"
+              text="Austin"
+              icon="meetup"
+            />
+            <ExternalLink
               href="https://www.meetup.com/WriteSpeakCode-Chicago"
-            >
-              Chicago
-            </a>
-
-            <a
-              className="link"
-              target="_blank"
-              rel="noopener noreferrer"
+              text="Chicago"
+              icon="meetup"
+            />
+            <ExternalLink
               href="https://www.meetup.com/Write-Speak-Code-Los-Angeles"
-            >
-              Los Angeles
-            </a>
-
-            <a
-              className="link"
-              target="_blank"
-              rel="noopener noreferrer"
+              text="Los Angeles"
+              icon="meetup"
+            />
+            <ExternalLink
               href="https://www.meetup.com/Write-Speak-Code-NYC/"
-            >
-              New York City
-            </a>
-
-            <a
-              className="link"
-              target="_blank"
-              rel="noopener noreferrer"
+              text="New York City"
+              icon="meetup"
+            />
+            <ExternalLink
               href="https://www.meetup.com/WriteSpeakCode-SFBay/"
-            >
-              San Francisco
-            </a>
-
-            <a
-              className="link"
-              target="_blank"
-              rel="noopener noreferrer"
+              text="San Francisco"
+              icon="meetup"
+            />
+            <ExternalLink
               href="https://www.meetup.com/WSC-Seattle"
-            >
-              Seattle
-            </a>
+              text="Seattle"
+              icon="meetup"
+            />
           </div>
           <p>
             Don't see your city? Contact{' '}
