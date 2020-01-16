@@ -76,42 +76,19 @@ const IndexPage = ({ data }) => (
             <Link to="/2019/" className="link">
               SF 2019
             </Link>
-            <a
+            <ExternalLink
               href="https://writespeakcode.github.io/2018"
-              title="2018 W/S/C conference page"
-              target="_blank"
-              className="link"
-              rel="noopener noreferrer"
-            >
-              NYC 2018
-            </a>
-            <a
+              text="NYC 2018"
+            />
+            <ExternalLink
               href="https://2017.writespeakcode.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="2017 W/S/C conference page"
-              className="link"
-            >
-              PDX 2017
-            </a>
-            <a
-              href="http://2016.writespeakcode.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="2016 W/S/C conference page"
-              className="link"
-            >
-              CHI 2016
-            </a>
-            <a
+              text="PDX 2017"
+            />
+            <span>CHI 2016</span>
+            <ExternalLink
               href="http://2015.writespeakcode.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="2015 W/S/C conference page"
-              className="link"
-            >
-              NYC 2015
-            </a>
+              text="NYC 2015"
+            />
             <span>NYC 2013</span>
           </div>
         </div>
@@ -228,7 +205,7 @@ export const fluidImage = graphql`
 
 export const pageQuery = graphql`
   query {
-    conf: file(relativePath: { eq: "photos/WSC-NY-211.jpg" }) {
+    conf: file(relativePath: { eq: "photos/WSC2019-88.jpg" }) {
       ...fluidImage
     }
     oye: file(relativePath: { eq: "photos/WSC-NY-577.jpg" }) {
