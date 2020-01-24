@@ -7,10 +7,10 @@ import VisuallyHidden from '@reach/visually-hidden'
 
 import Header from '../../components/header'
 import Footer from '../../components/footer'
-import Notification from '../../components/notification'
 
 import '../base.css'
 import styles from './home.module.css'
+import { ExternalLink } from '../../components/link'
 
 const HomeLayout = ({ children }) => {
   const data = useStaticQuery(
@@ -51,7 +51,10 @@ const HomeLayout = ({ children }) => {
               annual conference and meetup events designed to help you fully own
               your expertise through writing, speaking, and open source.
             </h3>
-            <Notification />
+            <ExternalLink
+              text="Subscribe to our mailing list"
+              href="https://writespeakcode.us4.list-manage.com/subscribe/post?u=5659d87448185ddd72045cf1a&amp;id=f195dc3634"
+            />
           </section>
         </div>
       </BackgroundImage>

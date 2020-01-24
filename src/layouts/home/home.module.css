@@ -26,6 +26,9 @@
     max-width: var(--container);
     margin: 8em auto;
   }
+  a {
+    border-color: var(--orange);
+  }
 }
 
 .mission {

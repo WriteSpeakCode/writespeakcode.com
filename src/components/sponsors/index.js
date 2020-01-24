@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Sponsor from '../sponsor'
+import { ExternalLink } from '../link'
 
 import styles from './sponsors.module.css'
 
@@ -68,14 +69,11 @@ const Sponsors = ({ sponsors, isConference }) => {
               <span className="italic">sponsor@writespeakcode.com</span> to
               learn more.
             </p>
-            <a
-              className="link"
-              target="_blank"
-              rel="noopener noreferrer"
+            <ExternalLink
               href="https://drive.google.com/file/d/1X-nDSHYiPiPT79Rc1xUAZCNxvr67ei6J/view?usp=sharing"
-            >
-              2019 Sponsorship Prospectus
-            </a>
+              text="2019 Sponsorship Prospectus"
+              icon="pdf"
+            />
           </div>
         </div>
       </div>

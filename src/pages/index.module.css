@@ -122,3 +122,15 @@
     border-color: var(--blush);
   }
 }
+
+.citygrid {
+  margin: 1em 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: left;
+  grid-column-gap: 1.5em;
+  grid-row-gap: 1em;
+  @media screen and (min-width: 80em) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

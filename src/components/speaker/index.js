@@ -145,8 +145,12 @@ export const SpeakerButton = ({ speaker }) => {
 const SpeakerHeadshot = ({ speaker }) => {
   const [dialogIsOpen, setDialogIsOpen] = useState(false)
   return (
-    <>
-      <figure className={styles.speaker} onClick={() => setDialogIsOpen(true)}>
+    <button
+      className={styles.speakerHeadshotButton}
+      onClick={() => setDialogIsOpen(true)}
+      onKeyDown={() => setDialogIsOpen(true)}
+    >
+      <figure className={styles.speaker}>
         <img
           src={speaker.headshot ? speaker.headshot : randomPlaceholder()}
           alt={`${speaker.name} headshot`}
@@ -164,7 +168,7 @@ const SpeakerHeadshot = ({ speaker }) => {
         speaker={speaker}
         showLinkToTalk={true}
       />
-    </>
+    </button>
   )
 }
 

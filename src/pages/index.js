@@ -6,6 +6,7 @@ import HomeLayout from '../layouts/home'
 import SEO from '../components/seo'
 import Sponsors from '../components/sponsors'
 import styles from './index.module.css'
+import { ExternalLink } from '../components/link'
 
 const IndexPage = ({ data }) => (
   <HomeLayout>
@@ -65,19 +66,31 @@ const IndexPage = ({ data }) => (
           className={styles.image}
         />
         <div className={styles.content}>
-          <h1 className="title">Annual Conference</h1>
+          <h1 className="title">W/S/C Conference</h1>
           <h2 className="subtitle">
-            Next conference: 2020
-            <br />
-            Dates and location: TBD
+            Designed to help you fully own your expertise through writing,
+            speaking, and open source.
           </h2>
-          <p>
-            Join us for a conference designed to fully own your expertise
-            through writing, speaking, and open source.
-          </p>
-          <Link to="/2019/" className="link">
-            View 2019 conference site
-          </Link>
+          <p>Past years:</p>
+          <div className={styles.citygrid}>
+            <Link to="/2019/" className="link">
+              SF 2019
+            </Link>
+            <ExternalLink
+              href="https://writespeakcode.github.io/2018"
+              text="NYC 2018"
+            />
+            <ExternalLink
+              href="https://2017.writespeakcode.com"
+              text="PDX 2017"
+            />
+            <span>CHI 2016</span>
+            <ExternalLink
+              href="http://2015.writespeakcode.com/"
+              text="NYC 2015"
+            />
+            <span>NYC 2013</span>
+          </div>
         </div>
       </div>
     </section>
@@ -108,14 +121,11 @@ const IndexPage = ({ data }) => (
             accessible location, nursing rooms and childcare services, CART/ASL
             services, and other accessibility needs as requested.
           </p>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
+          <ExternalLink
             href="https://www.meetup.com/pro/writespeakcode/"
-            className="link"
-          >
-            Find events on Meetup
-          </a>
+            text="Find local events"
+            icon="meetup"
+          />
         </div>
       </div>
     </section>
@@ -133,64 +143,41 @@ const IndexPage = ({ data }) => (
         />
         <div className={styles.content}>
           <h1 className="title">Local Chapters</h1>
-          <h2 className="subtitle">We host events and full-day workshops.</h2>
-          <p>
-            We have communities in cities across the U.S., including{' '}
-            <a
-              className="link"
-              target="_blank"
-              rel="noopener noreferrer"
+          <h2 className="subtitle">
+            We have communities in cities across the U.S.
+          </h2>
+          <div className={styles.citygrid}>
+            <ExternalLink
               href="https://www.meetup.com/Write-Speak-Code-Austin/"
-            >
-              Austin
-            </a>
-            ,{' '}
-            <a
-              className="link"
-              target="_blank"
-              rel="noopener noreferrer"
+              text="Austin"
+              icon="meetup"
+            />
+            <ExternalLink
               href="https://www.meetup.com/WriteSpeakCode-Chicago"
-            >
-              Chicago
-            </a>
-            ,{' '}
-            <a
-              className="link"
-              target="_blank"
-              rel="noopener noreferrer"
+              text="Chicago"
+              icon="meetup"
+            />
+            <ExternalLink
               href="https://www.meetup.com/Write-Speak-Code-Los-Angeles"
-            >
-              Los Angeles
-            </a>
-            ,{' '}
-            <a
-              className="link"
-              target="_blank"
-              rel="noopener noreferrer"
+              text="Los Angeles"
+              icon="meetup"
+            />
+            <ExternalLink
               href="https://www.meetup.com/Write-Speak-Code-NYC/"
-            >
-              New York City
-            </a>
-            ,{' '}
-            <a
-              className="link"
-              target="_blank"
-              rel="noopener noreferrer"
+              text="New York City"
+              icon="meetup"
+            />
+            <ExternalLink
               href="https://www.meetup.com/WriteSpeakCode-SFBay/"
-            >
-              San Francisco
-            </a>
-            , and{' '}
-            <a
-              className="link"
-              target="_blank"
-              rel="noopener noreferrer"
+              text="San Francisco"
+              icon="meetup"
+            />
+            <ExternalLink
               href="https://www.meetup.com/WSC-Seattle"
-            >
-              Seattle
-            </a>
-            .
-          </p>
+              text="Seattle"
+              icon="meetup"
+            />
+          </div>
           <p>
             Don't see your city? Contact{' '}
             <span className="italic">info@writespeakcode.com</span> to learn how
@@ -218,7 +205,7 @@ export const fluidImage = graphql`
 
 export const pageQuery = graphql`
   query {
-    conf: file(relativePath: { eq: "photos/WSC-NY-211.jpg" }) {
+    conf: file(relativePath: { eq: "photos/WSC2019-88.jpg" }) {
       ...fluidImage
     }
     oye: file(relativePath: { eq: "photos/WSC-NY-577.jpg" }) {
