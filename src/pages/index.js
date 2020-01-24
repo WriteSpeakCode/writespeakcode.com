@@ -66,7 +66,7 @@ const IndexPage = ({ data }) => (
           className={styles.image}
         />
         <div className={styles.content}>
-          <h1 className="title">Annual Conference</h1>
+          <h1 className="title">W/S/C Conference</h1>
           <h2 className="subtitle">
             Designed to help you fully own your expertise through writing,
             speaking, and open source.
