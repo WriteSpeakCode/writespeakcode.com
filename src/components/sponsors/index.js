@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Sponsor from '../sponsor'
+import { ExternalLink } from '../link'
 
 import styles from './sponsors.module.css'
 
@@ -99,7 +100,6 @@ const Sponsors = ({ sponsors, isConference }) => {
   return (
     <section id="sponsorship">
       <SponsorshipCTA />
-
       <div className={styles.wrap}>
         <section
           className={[styles['platinum'], styles.levelSection].join(' ')}

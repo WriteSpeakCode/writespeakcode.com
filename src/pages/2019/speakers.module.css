@@ -5,6 +5,7 @@
 .grid {
   display: grid;
   grid-gap: 1em 2em;
+  align-items: flex-start;
   @media screen and (min-width: 30em) {
     grid-template-columns: 1fr 1fr;
   }
