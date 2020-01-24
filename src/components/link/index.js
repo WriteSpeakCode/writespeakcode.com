@@ -1,4 +1,5 @@
 import React from 'react'
+import '@fortawesome/fontawesome-svg-core/styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt, faFilePdf } from '@fortawesome/free-solid-svg-icons'
 import { faMeetup } from '@fortawesome/free-brands-svg-icons'
@@ -18,11 +19,7 @@ export const ExternalLink = ({ href, text, icon }) => {
   return (
     <a href={href} className="link" target="_blank" rel="noopener noreferrer">
       {text}&nbsp;
-      <FontAwesomeIcon
-        icon={setIcon()}
-        aria-hidden
-        style={{ 'font-size': '1em' }}
-      />
+      <FontAwesomeIcon icon={setIcon()} aria-hidden />
     </a>
   )
 }
