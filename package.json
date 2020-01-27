@@ -29,7 +29,7 @@
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-json": "^2.2.25",
     "gatsby-transformer-remark": "^2.6.48",
-    "gatsby-transformer-sharp": "^2.3.12",
+    "gatsby-transformer-sharp": "^2.3.13",
     "intersection-observer": "^0.6.0",
     "netlify-cms": "^2.10.11",
     "normalize.css": "^8.0.1",
