@@ -31,7 +31,7 @@
     "gatsby-transformer-remark": "^2.6.48",
     "gatsby-transformer-sharp": "^2.3.12",
     "intersection-observer": "^0.6.0",
-    "netlify-cms": "^2.10.11",
+    "netlify-cms": "^2.10.13",
     "normalize.css": "^8.0.1",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.1",
