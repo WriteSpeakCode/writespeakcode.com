@@ -16,7 +16,7 @@
     "flow": "^0.2.3",
     "flow-bin": "^0.115.0",
     "gatsby": "^2.18.22",
-    "gatsby-background-image": "^0.4.3",
+    "gatsby-background-image": "^0.9.13",
     "gatsby-cli": "^2.8.27",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-flow": "^1.1.18",
