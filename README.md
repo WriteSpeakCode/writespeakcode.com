@@ -13,14 +13,14 @@
 
 <!-- TOC -->
 
-- [✨ Goals](#-goals)
-- [💻 How to contribute](#-how-to-contribute)
-- [💖 Quick start](#-quick-start)
+- [✨ &nbsp;&nbsp; Goals](#-goals)
+- [💻 &nbsp;&nbsp; How to contribute](#-how-to-contribute)
+- [💖 &nbsp;&nbsp; Quick start](#-quick-start)
   - [Dependencies](#dependencies)
   - [Developing](#developing)
-- [🎭 Staging](#-staging)
-- [🚀 Deployment](#-deployment)
-- [🎓 Learn More](#-learn-more)
+- [🎭 &nbsp;&nbsp; Staging](#-staging)
+- [🚀 &nbsp;&nbsp; Deployment](#-deployment)
+- [🎓 &nbsp;&nbsp; Learn More](#-learn-more)
   - [Code of Conduct](#code-of-conduct)
   - [Contribute](#contribute)
   - [Technologies](#technologies)
@@ -28,7 +28,7 @@
 
 <!-- /TOC -->
 
-## ✨ Goals
+## ✨ &nbsp;&nbsp;  Goals
 
 The goals of this website are as follows:
 
@@ -43,7 +43,7 @@ We aim to write code that is:
 - Performant
 - Ethical
 
-## 💻 How to contribute
+## 💻 &nbsp;&nbsp;  How to contribute
 
 - Review the website goals above
 - Read the [contributing doc](docs/CONTRIBUTE.md)
@@ -52,7 +52,7 @@ We aim to write code that is:
 
 **Have a question?** _Make an issue using the question issue template._
 
-## 💖 Quick start
+## 💖 &nbsp;&nbsp;  Quick start
 
 ### Dependencies
 
@@ -82,15 +82,15 @@ We aim to write code that is:
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-## 🎭 Staging
+## 🎭 &nbsp;&nbsp;  Staging
 
 Each time we make a pull request either on github or via the CMS, Netlify will deploy a preview of our changes to a custom URL.
 
-## 🚀 Deployment
+## 🚀  &nbsp;&nbsp;  Deployment
 
 When any PR is merged into the `production` branch, Netlify automatically deploys that branch live.
 
-## 🎓 Learn More
+## 🎓  &nbsp;&nbsp;  Learn More
 
 More information about this site and further resources are located in the `/docs` folder.
 
