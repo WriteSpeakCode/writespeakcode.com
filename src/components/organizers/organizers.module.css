@@ -1,0 +1,30 @@
+.grid {
+  padding: 1em 0;
+  @media screen and (min-width: 20em) {
+    display: grid;
+    grid-column-gap: 2em;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @media screen and (min-width: 50em) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+.person {
+  margin: 0;
+  img {
+    width: 100%;
+    max-width: ;
+  }
+  figcaption {
+    font-weight: var(--bold);
+  }
+  h3 {
+    margin: 0;
+  }
+  h4 {
+    font-weight: var(--semi-bold);
+    margin-top: 0.25em;
+    font-size: 0.9em;
+  }
+}

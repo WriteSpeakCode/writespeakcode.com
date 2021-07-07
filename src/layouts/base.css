@@ -64,6 +64,21 @@ a {
   color: inherit;
 }
 
+.container {
+  margin: 2em;
+  @media screen and (min-width: 90em) {
+    max-width: var(--container);
+    margin: 0 auto;
+  }
+}
+
+.padding {
+  padding: 1em 0;
+  @media screen and (min-width: 80em) {
+    padding: 3em 0;
+  }
+}
+
 .link {
   display: inline;
   border-bottom: 4px solid;
