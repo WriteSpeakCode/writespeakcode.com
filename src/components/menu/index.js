@@ -46,6 +46,13 @@ const Menu = () => {
       >
         Sponsorship
       </button>
+      <button
+        onClick={() => {
+          navigate('/blog')
+        }}
+      >
+        Blog
+      </button>
     </nav>
   )
 
