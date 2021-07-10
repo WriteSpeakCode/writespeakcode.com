@@ -309,10 +309,6 @@ collections:
         name: 'date'
         widget: 'date'
         required: true
-      - label: 'slug'
-        name: 'Slug'
-        widget: 'string'
-        required: true
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
