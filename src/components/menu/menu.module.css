@@ -25,7 +25,7 @@
 .small {
   display: none;
 
-  @media screen and (max-width: 60em) {
+  @media screen and (max-width: 68em) {
     display: block;
     .links {
       z-index: 1;
@@ -48,7 +48,7 @@
     }
   }
 
-  @media screen and (max-width: 60em) {
+  @media screen and (max-width: 68em) {
     display: none;
   }
 }

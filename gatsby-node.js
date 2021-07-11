@@ -6,12 +6,30 @@
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 
-exports.createPages = ({ actions, graphql }) => {
+exports.createPages = ({ actions, graphql, reporter }) => {
   const { createPage } = actions
-
   return graphql(`
     {
-      allMarkdownRemark(limit: 1000) {
+      subPages: allMarkdownRemark(
+        limit: 1000
+        filter: { frontmatter: { templateKey: { eq: "subpage" } } }
+      ) {
+        edges {
+          node {
+            id
+            frontmatter {
+              templateKey
+            }
+            fields {
+              slug
+            }
+          }
+        }
+      }
+      blogPosts: allMarkdownRemark(
+        limit: 1000
+        filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+      ) {
         edges {
           node {
             id
@@ -22,16 +40,26 @@ exports.createPages = ({ actions, graphql }) => {
               templateKey
             }
           }
+          next {
+            id
+          }
+          previous {
+            id
+          }
         }
       }
     }
   `).then(result => {
     if (result.errors) {
-      result.errors.forEach(e => console.error(e.toString()))
-      return Promise.reject(result.errors)
+      reporter.panicOnBuild(
+        `There was an error loading the pages and blog posts`,
+        result.errors
+      )
+      return
     }
 
-    const pages = result.data.allMarkdownRemark.edges
+    // Create subpages like Code of Conduct
+    const pages = result.data.subPages.edges
 
     pages.forEach(edge => {
       const id = edge.node.id
@@ -41,12 +69,34 @@ exports.createPages = ({ actions, graphql }) => {
         component: path.resolve(
           `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
         ),
-        // additional data can be passed via context
         context: {
           id,
         },
       })
     })
+
+    // Create pages for each blog post
+    const posts = result.data.blogPosts.edges
+    // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
+    // `context` is available in the template as a prop and as a variable in GraphQL
+    if (posts.length > 0) {
+      posts.forEach((post, index) => {
+        const previousPostId = post.previous ? post.previous.id : null
+        const nextPostId = post.next ? post.next.id : null
+
+        createPage({
+          path: post.node.fields.slug,
+          component: path.resolve(
+            `src/templates/${String(post.node.frontmatter.templateKey)}.js`
+          ),
+          context: {
+            id: post.node.id,
+            previousPostId,
+            nextPostId,
+          },
+        })
+      })
+    }
   })
 }
 
