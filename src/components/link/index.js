@@ -18,7 +18,7 @@ export const ExternalLink = ({ href, text, icon }) => {
   return (
     <a href={href} className="link" target="_blank" rel="noopener noreferrer">
       {text}&nbsp;
-      <span style={{ width: '1em' }}>
+      <span style={{ display: 'inlineBlock', maxWidth: '1em' }}>
         <FontAwesomeIcon icon={setIcon()} aria-hidden />
       </span>
     </a>
