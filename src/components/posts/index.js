@@ -1,7 +1,6 @@
 import React from 'react'
 // import styles from './post.module.css'
 import { Link } from 'gatsby'
-// import { parameterize } from '../../utils/helpers'
 
 const Post = ({ post }) => (
   <article itemScope itemType="http://schema.org/Article">
