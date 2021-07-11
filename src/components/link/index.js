@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faExternalLinkAlt, faFilePdf } from '@fortawesome/free-solid-svg-icons'
+import { faFilePdf } from '@fortawesome/free-solid-svg-icons'
 import { faMeetup } from '@fortawesome/free-brands-svg-icons'
 
 export const ExternalLink = ({ href, text, icon }) => {
@@ -11,16 +11,14 @@ export const ExternalLink = ({ href, text, icon }) => {
       case 'meetup':
         return faMeetup
       default:
-        return faExternalLinkAlt
+        return null
     }
   }
 
   return (
     <a href={href} className="link" target="_blank" rel="noopener noreferrer">
       {text}&nbsp;
-      <span style={{ display: 'inlineBlock', maxWidth: '1em' }}>
-        <FontAwesomeIcon icon={setIcon()} aria-hidden />
-      </span>
+      <FontAwesomeIcon icon={setIcon()} aria-hidden />
     </a>
   )
 }
