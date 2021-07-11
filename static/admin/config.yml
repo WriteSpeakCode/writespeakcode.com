@@ -287,29 +287,19 @@ collections:
         widget: 'string'
         required: false
 
-  - name: 'posts'
-    identifier_field: slug
-    label: 'Blog Posts'
-    label_singular: 'Blog Post'
-    description: 'Add, edit, or delete blog posts here.'
-    delete: true
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/blog'
     create: true
-    folder: 'content/posts'
-    extension: 'json'
+    delete: true
+    slug: 'index'
+    media_folder: ''
+    public_folder: ''
+    path: '{{title}}/index'
+    editor:
+      preview: false
     fields:
-      - label: 'Title'
-        name: 'title'
-        widget: 'string'
-        required: true
-      - label: 'Subtitle'
-        name: 'subtitle'
-        widget: 'string'
-        required: true
-      - label: 'Date'
-        name: 'date'
-        widget: 'date'
-        required: true
-      - label: 'Body'
-        name: 'body'
-        widget: 'markdown'
-        required: true
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
