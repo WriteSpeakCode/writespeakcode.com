@@ -5,14 +5,14 @@
   "version": "0.1.0",
   "author": "Nicola Beuscher <nbeuscher@gmail.com>",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.12.0",
     "@fortawesome/free-solid-svg-icons": "^5.12.0",
     "@fortawesome/react-fontawesome": "^0.1.8",
     "@reach/dialog": "^0.7.0",
     "@reach/skip-nav": "^0.7.3",
     "@reach/tabs": "^0.1.6",
-    "@reach/visually-hidden": "^0.7.3",
+    "@reach/visually-hidden": "^0.15.2",
     "flow": "^0.2.3",
     "flow-bin": "^0.115.0",
     "gatsby": "^2.18.22",
@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
-    "@storybook/react": "^5.2.8",
+    "@storybook/react": "^6.3.4",
     "babel-loader": "^8.0.5",
     "prettier": "^1.19.1"
   },
