@@ -51,7 +51,7 @@
     "@babel/core": "^7.7.7",
     "@storybook/react": "^6.3.4",
     "babel-loader": "^8.0.5",
-    "prettier": "^1.19.1"
+    "prettier": "^2.3.2"
   },
   "keywords": [
     "gatsby"
