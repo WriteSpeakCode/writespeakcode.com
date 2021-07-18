@@ -1,3 +1,5 @@
 {
-  "city": "Seattle"
+  "city": "Seattle",
+  "photo": "chapters/seattle.jpg",
+  "meetup": "https://www.meetup.com/WSC-Seattle"
 }

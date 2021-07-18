@@ -210,6 +210,10 @@ collections:
             widget: 'boolean'
             default: false
             required: false
+          - label: 'City'
+            name: 'city'
+            widget: 'string'
+            required: false
 
   - name: 'organizers'
     label: 'Organizers'

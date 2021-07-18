@@ -1,0 +1,35 @@
+.overlay {
+  background: linear-gradient(
+    to right,
+    RGBA(255, 255, 255, 0.5),
+    RGBA(255, 255, 255, 0.5)
+  );
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.hero {
+  margin: 4em 2em;
+  @media screen and (min-width: 50em) {
+    margin: 8em 2em;
+  }
+  @media screen and (min-width: 95em) {
+    max-width: var(--container);
+    margin: 8em auto;
+  }
+
+  h1,
+  a {
+    display: inline;
+    background: var(--white);
+    padding: 0.25em 0.5em;
+  }
+  a {
+    background-color: var(--mint);
+  }
+}
+
+.cta {
+  margin-top: 1em;
+}
